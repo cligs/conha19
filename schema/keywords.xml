@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Keyword taxonomy accompanying accompanying the "Corpus de novelas
+               hispanoamericanas del siglo XIX (conha19)"</title>
+            <principal xml:id="uhk">Ulrike Henny-Krahmer</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+            </publisher>
+            <availability status="free">
+               <p>The file is provided here with the <ref
+                     target="https://creativecommons.org/publicdomain/mark/1.0/deed.de">Public
+                     Domain Mark Declaration</ref> and can be re-used without restrictions.</p>
+            </availability>
+            <date>2020</date>
+            <idno type="url">https://github.com/cligs/conha19/blob/master/schema/keywords.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="keywords">
+               <!-- ### author ### -->
+               <category xml:id="author">
+                  <catDesc>author</catDesc>
+                  <catDesc>Metadata concerning the author of the work</catDesc>
+                  <category xml:id="author.continent">
+                     <catDesc>author.continent</catDesc>
+                     <catDesc>To which continent does the author belong by birth and/or
+                        residence?</catDesc>
+                     <category xml:id="author.continent_1">
+                        <catDesc>America</catDesc>
+                     </category>
+                     <category xml:id="author.continent_2">
+                        <catDesc>Europe</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.country">
+                     <catDesc>author.country</catDesc>
+                     <catDesc>To which country does the author belong by birth and/or
+                        residence?</catDesc>
+                     <category xml:id="author.country_1">
+                        <catDesc>Argentina</catDesc>
+                     </category>
+                     <category xml:id="author.country_2">
+                        <catDesc>Cuba</catDesc>
+                     </category>
+                     <category xml:id="author.country_3">
+                        <catDesc>Mexico</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.country.birth">
+                     <catDesc>author.country</catDesc>
+                     <catDesc>To which country does the author belong by birth?</catDesc>
+                     <category xml:id="author.birth_1">
+                        <catDesc>Argentina</catDesc>
+                     </category>
+                     <category xml:id="author.birth_2">
+                        <catDesc>Chile</catDesc>
+                     </category>
+                     <category xml:id="author.birth_3">
+                        <catDesc>Cuba</catDesc>
+                     </category>
+                     <category xml:id="author.birth_4">
+                        <catDesc>Dominican Republic</catDesc>
+                     </category>
+                     <category xml:id="author.birth_5">
+                        <catDesc>France</catDesc>
+                     </category>
+                     <category xml:id="author.birth_6">
+                        <catDesc>Mexico</catDesc>
+                     </category>
+                     <category xml:id="author.birth_7">
+                        <catDesc>Spain</catDesc>
+                     </category>
+                     <category xml:id="author.birth_8">
+                        <catDesc>Uruguay</catDesc>
+                     </category>
+                     <category xml:id="author.birth_9">
+                        <catDesc>unknown</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.country.death">
+                     <catDesc>author.country</catDesc>
+                     <catDesc>To which country does the author belong by death?</catDesc>
+                     <category xml:id="author.death_1">
+                        <catDesc>Argentina</catDesc>
+                     </category>
+                     <category xml:id="author.death_2">
+                        <catDesc>Bolivia</catDesc>
+                     </category>
+                     <category xml:id="author.death_3">
+                        <catDesc>Cuba</catDesc>
+                     </category>
+                     <category xml:id="author.death_4">
+                        <catDesc>France</catDesc>
+                     </category>
+                     <category xml:id="author.death_5">
+                        <catDesc>Italy</catDesc>
+                     </category>
+                     <category xml:id="author.death_6">
+                        <catDesc>Mexico</catDesc>
+                     </category>
+                     <category xml:id="author.death_7">
+                        <catDesc>Spain</catDesc>
+                     </category>
+                     <category xml:id="author.death_8">
+                        <catDesc>Uruguay</catDesc>
+                     </category>
+                     <category xml:id="author.death_9">
+                        <catDesc>USA</catDesc>
+                     </category>
+                     <category xml:id="author.death_10">
+                        <catDesc>unknown</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.country.nationality">
+                     <catDesc>author.country</catDesc>
+                     <catDesc>To which country does the author belong by nationality?</catDesc>
+                     <category xml:id="author.nationality_1">
+                        <catDesc>Argentina</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_2">
+                        <catDesc>Chile</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_3">
+                        <catDesc>Cuba</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_4">
+                        <catDesc>Dominican Republic</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_5">
+                        <catDesc>France</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_6">
+                        <catDesc>Mexico</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_7">
+                        <catDesc>Spain</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_8">
+                        <catDesc>Uruguay</catDesc>
+                     </category>
+                     <category xml:id="author.nationality_9">
+                        <catDesc>unknown</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.gender">
+                     <catDesc>author.gender</catDesc>
+                     <category xml:id="author.gender_1">
+                        <catDesc>female</catDesc>
+                     </category>
+                     <category xml:id="author.gender_2">
+                        <catDesc>male</catDesc>
+                     </category>
+                     <category xml:id="author.gender_3">
+                        <catDesc>unknown</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### text ### -->
+               <category xml:id="text">
+                  <catDesc>text</catDesc>
+                  <catDesc>Metadata concerning the text / work</catDesc>
+                  <!-- ### source ### -->
+                  <category xml:id="text.source">
+                     <catDesc>text.source</catDesc>
+                     <category xml:id="text.source.medium">
+                        <catDesc>text.source.medium</catDesc>
+                        <category xml:id="text.source.medium_1">
+                           <catDesc>digital</catDesc>
+                        </category>
+                        <category xml:id="text.source.medium_2">
+                           <catDesc>print</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="text.source.filetype">
+                        <catDesc>text.source.filetype</catDesc>
+                        <category xml:id="text.source.filetype_1">
+                           <catDesc>image</catDesc>
+                           <catDesc>e.g. png, jpeg, tiff files or a PDF with images or text that
+                              cannot be extracted easily</catDesc>
+                        </category>
+                        <category xml:id="text.source.filetype_2">
+                           <catDesc>text</catDesc>
+                           <catDesc>e.g. fulltext, html, epub</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="text.source.institution">
+                        <catDesc>text.source.institution</catDesc>
+                        <catDesc>Institution or platform by/on which the source was
+                           published.</catDesc>
+                        <category xml:id="source.institution_1">
+                           <catDesc>Biblioteca Digital Argentina</catDesc>
+                        </category>
+                        <category xml:id="source.institution_2">
+                           <catDesc>Biblioteca Digital Hispánica</catDesc>
+                        </category>
+                        <category xml:id="source.institution_3">
+                           <catDesc>Biblioteca Digital del ILCE</catDesc>
+                        </category>
+                        <category xml:id="source.institution_4">
+                           <catDesc>Biblioteca Virtual Miguel de Cervantes</catDesc>
+                        </category>
+                        <category xml:id="source.institution_5">
+                           <catDesc>Biblioteca Virtual Antorcha</catDesc>
+                        </category>
+                        <category xml:id="source.institution_6">
+                           <catDesc>Colección Digital UANL</catDesc>
+                        </category>
+                        <category xml:id="source.institution_7">
+                           <catDesc>El Libro Total</catDesc>
+                        </category>
+                        <category xml:id="source.institution_8">
+                           <catDesc>EnCaribe</catDesc>
+                        </category>
+                        <category xml:id="source.institution_9">
+                           <catDesc>Fondo antiguo</catDesc>
+                        </category>
+                        <category xml:id="source.institution_10">
+                           <catDesc>Google Books</catDesc>
+                        </category>
+                        <category xml:id="source.institution_11">
+                           <catDesc>HathiTrust Digital Library</catDesc>
+                        </category>
+                        <category xml:id="source.institution_12">
+                           <catDesc>Ibero-Amerikanisches Institut</catDesc>
+                        </category>
+                        <category xml:id="source.institution_13">
+                           <catDesc>Internet Archive</catDesc>
+                        </category>
+                        <category xml:id="source.institution_14">
+                           <catDesc>Project Gutenberg</catDesc>
+                        </category>
+                        <category xml:id="source.institution_15">
+                           <catDesc>University library</catDesc>
+                        </category>
+                        <category xml:id="source.institution_16">
+                           <catDesc>Wikimedia Commons</catDesc>
+                        </category>
+                        <category xml:id="source.institution_17">
+                           <catDesc>Wikisource</catDesc>
+                        </category>
+                        <category xml:id="source.institution_18">
+                           <catDesc>Biblioteca Digital de Castilla y León</catDesc>
+                        </category>
+                        <category xml:id="source.institution_19">
+                           <catDesc>iBooks Store</catDesc>
+                        </category>
+                        <category xml:id="source.institution_20">
+                           <catDesc>Conaculta</catDesc>
+                        </category>
+                        <category xml:id="source.institution_21">
+                           <catDesc>La novela corta: una biblioteca virtual</catDesc>
+                        </category>
+                        <category xml:id="source.institution_22">
+                           <catDesc>Biblioteca Digital Mexicana del Bicentenario</catDesc>
+                        </category>
+                        <category xml:id="source.institution_23">
+                           <catDesc>La prosa modernista</catDesc>
+                        </category>
+                        <category xml:id="source.institution_24">
+                           <catDesc>Biblioteca Digital de la Biblioteca Nacional de Cuba José
+                              Martí</catDesc>
+                        </category>
+                        <category xml:id="source.institution_25">
+                           <catDesc>Autores de Concordia</catDesc>
+                        </category>
+                        <category xml:id="source.institution_26">
+                           <catDesc>Individual website</catDesc>
+                        </category>
+                        <category xml:id="source.institution_27">
+                           <catDesc>Fondo de Cultura Económica</catDesc>
+                        </category>
+                        <category xml:id="source.institution_28">
+                           <catDesc>Digital Library of the Caribbean</catDesc>
+                        </category>
+                        <category xml:id="source.institution_29">
+                           <catDesc>Bayerische Staatsbibliothek digital</catDesc>
+                        </category>
+                        <category xml:id="source.institution_30">
+                           <catDesc>Libros México</catDesc>
+                        </category>
+                        <category xml:id="source.institution_31">
+                           <catDesc>Biblioteca Digital Trapalanda</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="text.source.edition">
+                        <catDesc>text.source.edition</catDesc>
+                        <catDesc>The kind of edition of the source.</catDesc>
+                        <category xml:id="text.source.edition_1">
+                           <catDesc>first</catDesc>
+                        </category>
+                        <category xml:id="text.source.edition_2">
+                           <catDesc>historical</catDesc>
+                           <catDesc>The source edition is classified as "historical" if it belongs
+                              to the same historical period as the corpus (1830-1910).</catDesc>
+                        </category>
+                        <category xml:id="text.source.edition_3">
+                           <catDesc>modern</catDesc>
+                           <catDesc>The source edition is classified as "modern" if it has been
+                              published after the historical period of the corpus (after
+                              1910).</catDesc>
+                        </category>
+                        <category xml:id="text.source.edition_4">
+                           <catDesc>unknown</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### publication ### -->
+                  <category xml:id="text.publication">
+                     <catDesc>text.publication</catDesc>
+                     <catDesc>Metadata concerning the publication of the work</catDesc>
+                     <category xml:id="text.publication.first">
+                        <catDesc>text.publication.first</catDesc>
+                        <catDesc>Metadata concerning the first publication of the work</catDesc>
+                        <category xml:id="text.publication.first.country">
+                           <catDesc>text.publication.first.country</catDesc>
+                           <catDesc>In which country has the work been published first?</catDesc>
+                           <category xml:id="text.publication.first.country_1">
+                              <catDesc>Argentina</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_2">
+                              <catDesc>Austria</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_3">
+                              <catDesc>Bolivia</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_4">
+                              <catDesc>Chile</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_5">
+                              <catDesc>Cuba</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_6">
+                              <catDesc>France</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_7">
+                              <catDesc>Guatemala</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_8">
+                              <catDesc>Mexico</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_9">
+                              <catDesc>Spain</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.country_10">
+                              <catDesc>USA</catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="text.publication.first.medium">
+                           <catDesc>text.publication.first.medium</catDesc>
+                           <catDesc>In which kind of medium has the work been published
+                              first?</catDesc>
+                           <category xml:id="text.publication.first.medium_1">
+                              <catDesc>book</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.medium_2">
+                              <catDesc>journal</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.medium_3">
+                              <catDesc>magazine</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.medium_4">
+                              <catDesc>unknown</catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="text.publication.first.type">
+                           <catDesc>text.publication.first.type</catDesc>
+                           <catDesc>In what form has the work been published first: as an
+                              independent publication, a dependent publication, or as part of a
+                              collection of works of the same author?</catDesc>
+                           <category xml:id="text.publication.first.type_1">
+                              <catDesc>independent</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.type_2">
+                              <catDesc>dependent</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.type_3">
+                              <catDesc>collection</catDesc>
+                           </category>
+                           <category xml:id="text.publication.first.type_4">
+                              <catDesc>unknown</catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="text.publication.type">
+                           <category xml:id="text.publication.type.independent">
+                              <catDesc>Has the work ever been published independently (in book
+                                 form)?</catDesc>
+                              <category xml:id="text.publication.type.independent_1">
+                                 <catDesc>yes</catDesc>
+                              </category>
+                              <category xml:id="text.publication.type.independent_2">
+                                 <catDesc>no</catDesc>
+                              </category>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### language ### -->
+                  <category xml:id="text.language">
+                     <catDesc>text.language</catDesc>
+                     <catDesc>What is the main language the text is written in?</catDesc>
+                     <category xml:id="text.language_1">
+                        <catDesc>Spanish</catDesc>
+                     </category>
+                  </category>
+                  <!-- ### form ### -->
+                  <category xml:id="text.form">
+                     <catDesc>text.form</catDesc>
+                     <catDesc>What is the main form of the text (prose, verse)?</catDesc>
+                     <category xml:id="text.form_1">
+                        <catDesc>prose</catDesc>
+                     </category>
+                  </category>
+                  <!-- ### title ### -->
+                  <category xml:id="text.title">
+                     <catDesc>text.title</catDesc>
+                     <catDesc>open category</catDesc>
+                  </category>
+                  <!-- ### genre ### -->
+                  <category xml:id="text.genre">
+                     <catDesc>text.genre</catDesc>
+                     <catDesc>Metadata concerning the genre of the work</catDesc>
+                     <category xml:id="text.genre_1">
+                        <catDesc>novel</catDesc>
+                     </category>
+                     <category xml:id="text.genre_2">
+                        <catDesc>short novel</catDesc>
+                     </category>
+                     <category xml:id="text.genre.supergenre">
+                        <catDesc>text.genre.supergenre</catDesc>
+                        <category xml:id="text.genre.supergenre_1">
+                           <catDesc>narrative</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="text.genre.subgenre">
+                        <catDesc>text.genre.subgenre</catDesc>
+                        <category xml:id="text.genre.subgenre.title">
+                           <catDesc>text.genre.subgenre.title</catDesc>
+                           <catDesc>The subgenre as indicated in the main title, subtitle or series
+                              title.</catDesc>
+                           <category xml:id="text.genre.subgenre.title.explicit">
+                              <catDesc>text.genre.subgenre.title.explicit</catDesc>
+                              <catDesc>The subgenre as indicated explicitly and literally in the
+                                 title. This is an open category.</catDesc>
+                              <category xml:id="text.genre.subgenre.title.explicit_1">
+                                 <catDesc>-</catDesc>
+                                 <catDesc>When there is no explicit genre signal in the
+                                    title.</catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.title.implicit">
+                              <catDesc>text.genre.subgenre.title.implicit</catDesc>
+                              <catDesc>The subgenre as indicated by implicit genre signals in the
+                                 title. This is an open category.</catDesc>
+                              <category xml:id="text.genre.subgenre.title.implicit_1">
+                                 <catDesc>-</catDesc>
+                                 <catDesc>When there is no implicit genre signal in the
+                                    title.</catDesc>
+                              </category>
+                           </category>
+                        </category>
+                        <category xml:id="text.genre.subgenre.paratext">
+                           <catDesc>text.genre.subgenre.paratext</catDesc>
+                           <catDesc>The subgenre as given (explicitly and literally) in the paratext
+                              of the work (beyond the title). This may include further information
+                              on title pages (e.g. quotes), in dedications, prefaces, headings,
+                              table of contents. etc. This is an open category.</catDesc>
+                           <category xml:id="text.genre.subgenre.paratext.explicit">
+                              <catDesc>text.genre.subgenre.paratext.explicit</catDesc>
+                              <catDesc>The subgenre as given explicitly and literally in the
+                                 paratext.</catDesc>
+                              <category xml:id="text.genre.subgenre.paratext.explicit_1">
+                                 <catDesc>not available</catDesc>
+                                 <catDesc>When the paratext is not available because no historical
+                                    edition could be consulted.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.paratext.explicit_2">
+                                 <catDesc>-</catDesc>
+                                 <catDesc>When the subgenre is not mentioned explicitly in the
+                                    paratext.</catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.paratext.implicit">
+                              <catDesc>text.genre.subgenre.paratext.implicit</catDesc>
+                              <catDesc>The subgenre as indicated by implicit genre signals in the
+                                 paratext. This is an open category.</catDesc>
+                              <category xml:id="text.genre.subgenre.paratext.implicit_1">
+                                 <catDesc>not available</catDesc>
+                                 <catDesc>When the paratext is not available because no historical
+                                    edition could be consulted.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.paratext.implicit_2">
+                                 <catDesc>-</catDesc>
+                                 <catDesc>When there is no implicit genre signal in the
+                                    paratext.</catDesc>
+                              </category>
+                           </category>
+                        </category>
+                        <category xml:id="text.genre.subgenre.contemp">
+                           <catDesc>text.genre.subgenre.contemp</catDesc>
+                           <catDesc>The subgenre as given in statements made by contemporaries. This
+                              is an open category.</catDesc>
+                           <category xml:id="text.genre.subgenre.contemp.explicit">
+                              <catDesc>text.genre.subgenre.contemp.explicit</catDesc>
+                              <catDesc>The subgenre as given explicitly and literally in statements
+                                 made by contemporaries. This is an open category.</catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="text.genre.subgenre.opening">
+                           <catDesc>text.genre.subgenre.opening</catDesc>
+                           <catDesc>The subgenre as derived from genre signals in the opening of the
+                              text (e.g. in the first chapter). This is an open category.</catDesc>
+                           <category xml:id="text.genre.subgenre.opening.interp">
+                              <catDesc>text.genre.subgenre.opening.interp</catDesc>
+                              <catDesc>The subgenre as interpreted from genre signals in the opening
+                                 of the text. This is an open category.</catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="text.genre.subgenre.historical">
+                           <catDesc>text.genre.subgenre.historical</catDesc>
+                           <catDesc>A summary of text.genre.subgenre.title,
+                              text.genre.subgenre.paratext, text.genre.subgenre.contemp, and
+                              text.genre.subgenre.opening.</catDesc>
+                           <category xml:id="text.genre.subgenre.historical.explicit">
+                              <catDesc>text.genre.subgenre.historical.explicit</catDesc>
+                              <catDesc>A summary of text.genre.subgenre.title.explicit,
+                                 text.genre.subgenre.paratext.explicit, and
+                                 text.genre.subgenre.contemp.explicit.</catDesc>
+                              <category xml:id="text.genre.subgenre.historical.explicit_1">
+                                 <catDesc>-</catDesc>
+                                 <catDesc>If the subgenre is not mentioned explicity in either the
+                                    title, the paratext, or by contemporaries.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.explicit.norm">
+                                 <catDesc>text.genre.subgenre.historical.explicit.norm</catDesc>
+                                 <catDesc>A normalized version of the historical subgenre label.
+                                    This is an open category, but a list of values occurring in the
+                                    corpus and the bibliography is curated here to ensure
+                                    consistency.</catDesc>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_0">
+                                    <catDesc>-</catDesc>
+                                    <catDesc>If the subgenre is not mentioned explicity in either
+                                       the title, the paratext, or by contemporaries.</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_1">
+                                    <catDesc>apuntamientos</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_2">
+                                    <catDesc>apuntes</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_3">
+                                    <catDesc>auto-novela</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_4">
+                                    <catDesc>boceto</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_5">
+                                    <catDesc>bosquejo</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_6">
+                                    <catDesc>capricho</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_7">
+                                    <catDesc>cinematógrafo</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_8">
+                                    <catDesc>comedia de carácter</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_9">
+                                    <catDesc>confesiones</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_10">
+                                    <catDesc>contornos</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_11">
+                                    <catDesc>croquis</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_12">
+                                    <catDesc>crónica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_13">
+                                    <catDesc>cuadros</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_14">
+                                    <catDesc>cuento</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_15">
+                                    <catDesc>drama</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_16">
+                                    <catDesc>elegía</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_17">
+                                    <catDesc>ensayo</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_18">
+                                    <catDesc>entretenimientos</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_19">
+                                    <catDesc>episodios</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_20">
+                                    <catDesc>epopeya</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_21">
+                                    <catDesc>esbozos</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_22">
+                                    <catDesc>escenas</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_23">
+                                    <catDesc>estudio</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_24">
+                                    <catDesc>fragmentos</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_25">
+                                    <catDesc>historia</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_26">
+                                    <catDesc>impresiones</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_27">
+                                    <catDesc>juguete</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_28">
+                                    <catDesc>lecturas</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_29">
+                                    <catDesc>leyenda</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_30">
+                                    <catDesc>medallones</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_31">
+                                    <catDesc>memorias</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_32">
+                                    <catDesc>narración</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_33">
+                                    <catDesc>notas</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_34">
+                                    <catDesc>novela</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_35">
+                                    <catDesc>novela abolicionista</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_36">
+                                    <catDesc>novela americana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_37">
+                                    <catDesc>novela analítica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_38">
+                                    <catDesc>novela andaluza</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_39">
+                                    <catDesc>novela anecdótica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_40">
+                                    <catDesc>novela argentina</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_41">
+                                    <catDesc>novela azteca</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_42">
+                                    <catDesc>novela bonaerense</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_43">
+                                    <catDesc>novela camagüeyana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_44">
+                                    <catDesc>novela científica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_45">
+                                    <catDesc>novela cómica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_46">
+                                    <catDesc>novela contemporánea</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_47">
+                                    <catDesc>novela corta</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_48">
+                                    <catDesc>novela criminal</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_49">
+                                    <catDesc>novela criolla</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_50">
+                                    <catDesc>novela cubana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_51">
+                                    <catDesc>novela curiosa</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_52">
+                                    <catDesc>novela de actualidad</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_53">
+                                    <catDesc>novela de aventuras</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_54">
+                                    <catDesc>novela de costumbres</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_55">
+                                    <catDesc>novela de crímenes</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_56">
+                                    <catDesc>novela habanera</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_57">
+                                    <catDesc>novela de horrores</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_58">
+                                    <catDesc>novela de propaganda</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_59">
+                                    <catDesc>novela de Tabasco</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_60">
+                                    <catDesc>novela de viajes</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_61">
+                                    <catDesc>novela didáctica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_62">
+                                    <catDesc>novela doméstica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_63">
+                                    <catDesc>novela en acción</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_64">
+                                    <catDesc>novela enciclopédica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_65">
+                                    <catDesc>novela epistolar</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_66">
+                                    <catDesc>novela espiritista</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_67">
+                                    <catDesc>novela fantástica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_68">
+                                    <catDesc>novela festiva</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_69">
+                                    <catDesc>novela filosófica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_70">
+                                    <catDesc>novela franco-argentina</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_71">
+                                    <catDesc>novela histórica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_72">
+                                    <catDesc>novela humorística</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_73">
+                                    <catDesc>novela india</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_74">
+                                    <catDesc>novela jurídica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_75">
+                                    <catDesc>novela kantabro-americana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_76">
+                                    <catDesc>novela mexicana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_77">
+                                    <catDesc>novela militar</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_78">
+                                    <catDesc>novela mixteca</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_79">
+                                    <catDesc>novela nacional</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_80">
+                                    <catDesc>novela naturalista</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_81">
+                                    <catDesc>novela original</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_82">
+                                    <catDesc>novela patriótica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_83">
+                                    <catDesc>novela policial</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_84">
+                                    <catDesc>novela política</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_85">
+                                    <catDesc>novela popular</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_86">
+                                    <catDesc>novela porteña</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_87">
+                                    <catDesc>novela realista</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_88">
+                                    <catDesc>novela regional</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_89">
+                                    <catDesc>novela romana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_90">
+                                    <catDesc>novela satírica</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_91">
+                                    <catDesc>novela sentimental</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_92">
+                                    <catDesc>novela siciliana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_93">
+                                    <catDesc>novela social</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_94">
+                                    <catDesc>novela suriana</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_95">
+                                    <catDesc>novela tapatía</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_96">
+                                    <catDesc>novela yucateca</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_97">
+                                    <catDesc>panorama</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_98">
+                                    <catDesc>perfiles</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_99">
+                                    <catDesc>páginas</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_100">
+                                    <catDesc>recuerdos</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_101">
+                                    <catDesc>reflexiones</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_102">
+                                    <catDesc>relación</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_103">
+                                    <catDesc>relato</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_104">
+                                    <catDesc>reseña</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_105">
+                                    <catDesc>romance</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_106">
+                                    <catDesc>silueta</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_107">
+                                    <catDesc>tradición</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.historical.explicit.norm_108">
+                                    <catDesc>tragedia</catDesc>
+                                 </category>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.historical.implicit">
+                              <catDesc>text.genre.subgenre.historical.implicit</catDesc>
+                              <catDesc>A summary of text.genre.subgenre.title.implicit,
+                                 text.genre.subgenre.paratext.implicit, and
+                                 text.genre.subgenre.opening.interp. This is an open category, but a list
+                                 of values occurring in the corpus and the bibliography is curated
+                                 here to ensure consistency.</catDesc>
+                              <category xml:id="text.genre.subgenre.historical.implicit_0">
+                                 <catDesc>-</catDesc>
+                                 <catDesc>If there are no implicit genre signals in either the
+                                    title, the paratext or in the text opening.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_1">
+                                 <catDesc>Künstlerroman</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_2">
+                                 <catDesc>novela abolicionista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_3">
+                                 <catDesc>novela biográfica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_4">
+                                 <catDesc>novela científica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_5">
+                                 <catDesc>novela contemporánea</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_6">
+                                 <catDesc>novela criminal</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_7">
+                                 <catDesc>novela de aventuras</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_8">
+                                 <catDesc>novela de costumbres</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_9">
+                                 <catDesc>novela de familia</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_10">
+                                 <catDesc>novela de la ciudad</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_11">
+                                 <catDesc>novela de misterio</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_12">
+                                 <catDesc>novela de viajes</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_13">
+                                 <catDesc>novela didáctica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_14">
+                                 <catDesc>novela doméstica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_15">
+                                 <catDesc>novela filosófica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_16">
+                                 <catDesc>novela gauchesca</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_17">
+                                 <catDesc>novela histórica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_18">
+                                 <catDesc>novela humorística</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_19">
+                                 <catDesc>novela indigenista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_20">
+                                 <catDesc>novela militar</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_21">
+                                 <catDesc>novela moralista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_22">
+                                 <catDesc>novela naturalista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_23">
+                                 <catDesc>novela picaresca</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_24">
+                                 <catDesc>novela política</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_25">
+                                 <catDesc>novela psicológica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_26">
+                                 <catDesc>novela realista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_27">
+                                 <catDesc>novela regional</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_28">
+                                 <catDesc>novela romántica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_29">
+                                 <catDesc>novela sentimental</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.historical.implicit_30">
+                                 <catDesc>novela social</catDesc>
+                              </category>
+                           </category>
+                        </category>
+                        <category xml:id="text.genre.subgenre.litHist">
+                           <catDesc>text.genre.subgenre.lithist</catDesc>
+                           <catDesc>The subgenre as given (explicitly and literally) in a literary
+                              history or critical research literature. This is an open
+                              category.</catDesc>
+                           <category xml:id="text.genre.subgenre.litHist.interp">
+                              <catDesc>text.genre.subgenre.lithist.interp</catDesc>
+                              <catDesc>The subgenre as interpreted from statements in literary
+                                 histories or critical research literature. This is an open
+                                 category, but a list of values occurring in the corpus and the
+                                 bibliography is curated here to ensure consistency.</catDesc>
+                              <category xml:id="text.genre.subgenre.litHist.interp_1">
+                                 <catDesc>Bildungsroman</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_2">
+                                 <catDesc>crónica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_3">
+                                 <catDesc>Künstlerroman</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_4">
+                                 <catDesc>memorias</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_5">
+                                 <catDesc>novela abolicionista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_6">
+                                 <catDesc>novela científica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_7">
+                                 <catDesc>novela clasicista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_8">
+                                 <catDesc>novela criminal</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_9">
+                                 <catDesc>novela de aventuras</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_10">
+                                 <catDesc>novela de costumbres</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_11">
+                                 <catDesc>novela de familia</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_12">
+                                 <catDesc>novela de la ciudad</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_13">
+                                 <catDesc>novela didáctica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_14">
+                                 <catDesc>novela documentaria</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_15">
+                                 <catDesc>novela de misterio</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_16">
+                                 <catDesc>novela de viajes</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_34">
+                                 <catDesc>novela epistolar</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_17">
+                                 <catDesc>novela fantástica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_18">
+                                 <catDesc>novela gauchesca</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_19">
+                                 <catDesc>novela histórica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_20">
+                                 <catDesc>novela indigenista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_21">
+                                 <catDesc>novela modernista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_22">
+                                 <catDesc>novela moralista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_23">
+                                 <catDesc>novela naturalista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_24">
+                                 <catDesc>novela picaresca</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_25">
+                                 <catDesc>novela política</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_26">
+                                 <catDesc>novela psicológica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_27">
+                                 <catDesc>novela realista</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_28">
+                                 <catDesc>novela regional</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_29">
+                                 <catDesc>novela romántica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_30">
+                                 <catDesc>novela satírica</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_31">
+                                 <catDesc>novela sentimental</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_32">
+                                 <catDesc>novela social</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.litHist.interp_33">
+                                 <catDesc>novela verista</catDesc>
+                              </category>
+                           </category>
+                        </category>
+                        <category xml:id="text.genre.subgenre.summary">
+                           <catDesc>text.genre.subgenre.summary</catDesc>
+                           <catDesc>A summary of the historical and literary historical subgenre
+                              assignments.</catDesc>
+                           <category xml:id="text.genre.subgenre.summary.signal">
+                              <catDesc>text.genre.subgenre.summary.signal</catDesc>
+                              <catDesc>A summary of the historical subgenre labels that are given
+                                 explicitly or signalled implicitly in titles are other paratextual
+                                 elements.</catDesc>
+                              <category xml:id="text.genre.subgenre.summary.signal.explicit">
+                                 <catDesc>text.genre.subgenre.summary.signal.explicit</catDesc>
+                                 <catDesc>Subgenre labels that are given explicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.signal.implicit">
+                                 <catDesc>text.genre.subgenre.summary.signal.implicit</catDesc>
+                                 <catDesc>Subgenre labels that are signalled implicitly.</catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.summary.theme">
+                              <catDesc>text.genre.subgenre.summary.theme</catDesc>
+                              <catDesc>A summary of the thematic historical or literary historical
+                                 subgenre labels.</catDesc>
+                              <category xml:id="text.genre.subgenre.summary.theme.explicit">
+                                 <catDesc>text.genre.subgenre.summary.signal.explicit</catDesc>
+                                 <catDesc>Thematic subgenre labels that are given
+                                    explicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.theme.implicit">
+                                 <catDesc>text.genre.subgenre.summary.signal.implicit</catDesc>
+                                 <catDesc>Thematic subgenre labels that are signalled
+                                    implicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.theme.litHist">
+                                 <catDesc>text.genre.subgenre.summary.signal.litHist</catDesc>
+                                 <catDesc>Thematic subgenre labels that are assigned by literary
+                                    historians.</catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.summary.current">
+                              <catDesc>text.genre.subgenre.summary.current</catDesc>
+                              <catDesc>A summary of the historical or literary historical subgenre
+                                 labels referring to literary currents.</catDesc>
+                              <category xml:id="text.genre.subgenre.summary.current.explicit">
+                                 <catDesc>text.genre.subgenre.summary.current.explicit</catDesc>
+                                 <catDesc>Subgenre labels referring to literary currents that are
+                                    given explicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.current.implicit">
+                                 <catDesc>text.genre.subgenre.summary.current.implicit</catDesc>
+                                 <catDesc>Subgenre labels referring to literary currents that are
+                                    signalled implicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.current.litHist">
+                                 <catDesc>text.genre.subgenre.summary.current.litHist</catDesc>
+                                 <catDesc>Subgenre labels referring to literary currents that are
+                                    assigned by literary historians.</catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.summary.identity">
+                              <catDesc>text.genre.subgenre.summary.identity</catDesc>
+                              <catDesc>A summary of the historical or literary historical subgenre
+                                 labels referring to the cultural, geographical or national
+                                 identity.</catDesc>
+                              <category xml:id="text.genre.subgenre.summary.identity.explicit">
+                                 <catDesc>text.genre.subgenre.summary.identity.explicit</catDesc>
+                                 <catDesc>Subgenre labels referring to identity that are given
+                                    explicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.identity.implicit">
+                                 <catDesc>text.genre.subgenre.summary.current.implicit</catDesc>
+                                 <catDesc>Subgenre labels referring to identity that are signalled
+                                    implicitly.</catDesc>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.identity.litHist">
+                                 <catDesc>text.genre.subgenre.summary.identity.litHist</catDesc>
+                                 <catDesc>Subgenre labels referring to identity that are assigned by
+                                    literary historians.</catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="text.genre.subgenre.summary.mode">
+                              <catDesc>text.genre.subgenre.summary.mode.</catDesc>
+                              <catDesc>A summary of the historical or literary historical subgenre
+                                 labels referring to the mode the text is narrated in (attitude,
+                                 intention, reality, medium, or representation).</catDesc>
+                              <category xml:id="text.genre.subgenre.summary.mode.attitude">
+                                 <catDesc>text.genre.subgenre.summary.mode.attitude</catDesc>
+                                 <catDesc>A summary of the historical or literary historical
+                                    subgenre labels referring to the attitude of the author or
+                                    narrator towards the text.</catDesc>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.attitude.explicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.attitude.explicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the attitude that are
+                                       given explicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.attitude.implicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.attitude.implicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the attitude that are
+                                       signalled implicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.attitude.litHist">
+                                    <catDesc>text.genre.subgenre.summary.mode.attitude.litHist</catDesc>
+                                    <catDesc>Subgenre labels referring to the attitude that are
+                                       assigned by literary historians.</catDesc>
+                                 </category>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.mode.intention">
+                                 <catDesc>text.genre.subgenre.summary.mode.intention</catDesc>
+                                 <catDesc>A summary of the historical or literary historical
+                                    subgenre labels referring to the intention that the author or
+                                    narrator has with the text.</catDesc>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.intention.explicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.intention.explicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the intention that are
+                                       given explicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.intention.implicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.intention.implicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the intention that are
+                                       signalled implicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.intention.litHist">
+                                    <catDesc>text.genre.subgenre.summary.mode.intention.litHist</catDesc>
+                                    <catDesc>Subgenre labels referring to the intention that are
+                                       assigned by literary historians.</catDesc>
+                                 </category>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.mode.reality">
+                                 <catDesc>text.genre.subgenre.summary.mode.reality</catDesc>
+                                 <catDesc>A summary of the historical or literary historical
+                                    subgenre labels referring to the relationship of the text to
+                                    reality.</catDesc>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.reality.explicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.reality.explicit</catDesc>
+                                    <catDesc>Subgenre labels referring to reality that are given
+                                       explicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.reality.implicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.reality.implicit</catDesc>
+                                    <catDesc>Subgenre labels referring to reality that are signalled
+                                       implicitly.</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.summary.mode.reality.litHist">
+                                    <catDesc>text.genre.subgenre.summary.mode.reality.litHist</catDesc>
+                                    <catDesc>Subgenre labels referring to reality that are assigned
+                                       by literary historians.</catDesc>
+                                 </category>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.mode.medium">
+                                 <catDesc>text.genre.subgenre.summary.mode.medium</catDesc>
+                                 <catDesc>A summary of the historical or literary historical
+                                    subgenre labels referring to the medium the text is
+                                    using.</catDesc>
+                                 <category xml:id="text.genre.subgenre.summary.mode.medium.explicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.medium.explicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the medium that are given
+                                       explicitly.</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.summary.mode.medium.implicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.medium.implicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the medium that are
+                                       signalled implicitly.</catDesc>
+                                 </category>
+                                 <category xml:id="text.genre.subgenre.summary.mode.medium.litHist">
+                                    <catDesc>text.genre.subgenre.summary.mode.medium.litHist</catDesc>
+                                    <catDesc>Subgenre labels referring to the medium that are
+                                       assigned by literary historians.</catDesc>
+                                 </category>
+                              </category>
+                              <category xml:id="text.genre.subgenre.summary.mode.representation">
+                                 <catDesc>text.genre.subgenre.summary.mode.representation</catDesc>
+                                 <catDesc>A summary of the historical or literary historical
+                                    subgenre labels referring to how the text is represented
+                                    linguistically.</catDesc>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.representation.explicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.representation.explicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the representation that
+                                       are given explicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.representation.implicit">
+                                    <catDesc>text.genre.subgenre.summary.mode.representation.implicit</catDesc>
+                                    <catDesc>Subgenre labels referring to the representation that
+                                       are signalled implicitly.</catDesc>
+                                 </category>
+                                 <category
+                                    xml:id="text.genre.subgenre.summary.mode.representation.litHist">
+                                    <catDesc>text.genre.subgenre.summary.mode.representation.litHist</catDesc>
+                                    <catDesc>Subgenre labels referring to the representation that
+                                       are assigned by literary historians.</catDesc>
+                                 </category>
+                              </category>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### narration ### -->
+                  <category xml:id="text.narration">
+                     <catDesc>text.narration</catDesc>
+                     <category xml:id="text.narration.narrator">
+                        <catDesc>text.narration.narrator</catDesc>
+                        <category xml:id="text.narration.narrator_1">
+                           <catDesc>autodiegetic</catDesc>
+                        </category>
+                        <category xml:id="text.narration.narrator_2">
+                           <catDesc>homodiegetic</catDesc>
+                        </category>
+                        <category xml:id="text.narration.narrator_3">
+                           <catDesc>heterodiegetic</catDesc>
+                        </category>
+                        <category xml:id="text.narration.narrator.person">
+                           <catDesc>text.narration.narrator.person</catDesc>
+                           <category xml:id="text.narration.narrator.person_1">
+                              <catDesc>first person</catDesc>
+                           </category>
+                           <category xml:id="text.narration.narrator.person_2">
+                              <catDesc>third person</catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### speech ### -->
+                  <category xml:id="text.speech">
+                     <catDesc>text.speech</catDesc>
+                     <category xml:id="text.speech.sign">
+                        <catDesc>text.speech.sign</catDesc>
+                        <catDesc>The primary sign used in the novel to indicate direct speech or
+                           thought. (There may be other, secondary signs.)</catDesc>
+                        <category xml:id="text.speech.sign_1">
+                           <catDesc>—</catDesc>
+                        </category>
+                        <category xml:id="text.speech.sign_2">
+                           <catDesc>«</catDesc>
+                        </category>
+                        <category xml:id="text.speech.sign.type">
+                           <catDesc>text.speech.sign.type</catDesc>
+                           <catDesc>The type of the primary speech sign used in the novel (single or
+                              double).</catDesc>
+                           <category xml:id="text.speech.sign.type_1">
+                              <catDesc>single</catDesc>
+                           </category>
+                           <category xml:id="text.speech.sign.type_2">
+                              <catDesc>double</catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### setting ### -->
+                  <category xml:id="text.setting">
+                     <catDesc>text.setting</catDesc>
+                     <category xml:id="text.setting.continent">
+                        <catDesc>text.setting.continent</catDesc>
+                        <catDesc>The primary continent of the setting.</catDesc>
+                        <category xml:id="text.setting.continent_1">
+                           <catDesc>America</catDesc>
+                        </category>
+                        <category xml:id="text.setting.continent_2">
+                           <catDesc>Asia</catDesc>
+                        </category>
+                        <category xml:id="text.setting.continent_3">
+                           <catDesc>Europe</catDesc>
+                        </category>
+                        <category xml:id="text.setting.continent_4">
+                           <catDesc>other</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="text.setting.country">
+                        <catDesc>text.setting.country</catDesc>
+                        <catDesc>The primary country of the setting.</catDesc>
+                        <category xml:id="text.setting.country_1">
+                           <catDesc>Argentina</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_2">
+                           <catDesc>Bolivia</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_3">
+                           <catDesc>Brazil</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_4">
+                           <catDesc>Chile</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_5">
+                           <catDesc>Cuba</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_6">
+                           <catDesc>France</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_7">
+                           <catDesc>Greece</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_8">
+                           <catDesc>Italy</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_9">
+                           <catDesc>Japan</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_10">
+                           <catDesc>Mexico</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_11">
+                           <catDesc>Peru</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_12">
+                           <catDesc>Spain</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_13">
+                           <catDesc>Switzerland</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_14">
+                           <catDesc>Uruguay</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_15">
+                           <catDesc>USA</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_16">
+                           <catDesc>other</catDesc>
+                        </category>
+                        <category xml:id="text.setting.country_17">
+                           <catDesc>unknown</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### time ### -->
+                  <category xml:id="text.time">
+                     <catDesc>text.time</catDesc>
+                     <category xml:id="text.time.period">
+                        <catDesc>text.time.period</catDesc>
+                        <category xml:id="text.time.period.author">
+                           <catDesc>text.time.period.author</catDesc>
+                           <category xml:id="text.time.period.author_1">
+                              <catDesc>contemporary</catDesc>
+                              <catDesc>If the narrated time is contemporary to the author (during
+                                 the author's lifetime) or if it is not marked at all.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.author_2">
+                              <catDesc>recent past</catDesc>
+                              <catDesc>If the narrated time is within 30 years before the author's
+                                 birth date.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.author_3">
+                              <catDesc>past</catDesc>
+                              <catDesc>If the narrated time is more than 30 years before the
+                                 author's birth date.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.author_4">
+                              <catDesc>future</catDesc>
+                              <catDesc>If the narrated time is more than 100 years after the
+                                 author's birth date.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.author_5">
+                              <catDesc>unknown</catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="text.time.period.publication">
+                           <catDesc>text.time.period.publication</catDesc>
+                           <category xml:id="text.time.period.publication_1">
+                              <catDesc>contemporary</catDesc>
+                              <catDesc>If the narrated time is contemporary to the publication date
+                                 (within 30 years before and after) or if it is not marked at
+                                 all.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.publication_2">
+                              <catDesc>recent past</catDesc>
+                              <catDesc>If the narrated time is between 30 and 60 years before the
+                                 publication date.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.publication_3">
+                              <catDesc>past</catDesc>
+                              <catDesc>If the narrated time is more than 60 years before the
+                                 publication date.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.publication_4">
+                              <catDesc>future</catDesc>
+                              <catDesc>If the narrated time is more than 30 years after the
+                                 publication date.</catDesc>
+                           </category>
+                           <category xml:id="text.time.period.publication_5">
+                              <catDesc>unknown</catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <!-- ### prestige ### -->
+                  <category xml:id="text.prestige">
+                     <catDesc>text.prestige</catDesc>
+                     <catDesc>With this category, the prestige of the text is described as high or
+                        low. Prestige is understood here as how the text has been valued in the 20th
+                        and 21st centuries. To determine the prestige, each novel was looked up in
+                        the WorldCat and whereever there is a new edition of the work published
+                        between 1960 and 2020, it is classified as high prestige, otherwise as low.
+                        The entries in the WorldCat were checked on 4-5 June, 2020.</catDesc>
+                     <category xml:id="text.prestige_1">
+                        <catDesc>high</catDesc>
+                     </category>
+                     <category xml:id="text.prestige_2">
+                        <catDesc>low</catDesc>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

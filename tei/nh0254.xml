@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Neurosis sentimental</title>
+                <title type="sub">Novela</title>
+                <title type="short">Neurosis</title>
+                <title type="idno">
+                    <idno type="viaf">-</idno>
+                    <idno type="bibacme">W380</idno>
+                </title>
+                <author>
+                    <name type="full">García Velloso, Enrique</name>
+                    <name type="short">GarciaVellosoE</name>
+                    <idno type="viaf">54182356</idno>
+                    <idno type="bibacme">A155</idno>
+                </author>
+                <principal xml:id="uhk">Ulrike Henny-Krahmer</principal>
+            </titleStmt>
+            <extent>
+                <measure unit="words">15849</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+                </publisher>
+                <availability status="free">
+                    <p>This work is in the public domain. It is provided here with the <ref
+                            target="https://creativecommons.org/publicdomain/mark/1.0/deed.de"
+                            >Public Domain Mark Declaration</ref> and can be re-used without
+                        restrictions. The XML-TEI markup is also considered to be free of any
+                        copyright and is provided with the same declaration.</p>
+                </availability>
+                <date>2020</date>
+                <idno type="cligs">nh0254</idno>
+                <idno type="url">https://github.com/cligs/conha19/blob/master/tei/nh0254.xml</idno>
+            </publicationStmt>
+            <sourceDesc
+                xml:base="https://raw.githubusercontent.com/cligs/bibacme/master/app/data/editions.xml">
+                <bibl type="digital-source" xml:id="DS"> García Velloso, Enrique. "Neurosis
+                    sentimental. Novela." <seg rend="italic">Wikimedia Commons</seg>, <date
+                        when="2016">2016</date>, <ref
+                        target="https://commons.wikimedia.org/wiki/File:Neurosis_sentimental_-_Enrique_Garcia_Velloso.pdf"
+                        >https://commons.wikimedia.org/wiki/File:Neurosis_sentimental_-_Enrique_Garcia_Velloso.pdf</ref>. </bibl>
+                <bibl type="print-source" xml:id="PS" corresp="#E512"> García Velloso, Enrique. <seg
+                        rend="italic">Neurosis sentimental. Novela.</seg> Buenos Aires: El Tiempo,
+                        <date when="1900">1900</date>. </bibl>
+                <bibl type="edition-first" xml:id="E1" corresp="#E512"> García Velloso, Enrique.
+                        <seg rend="italic">Neurosis sentimental. Novela.</seg> Buenos Aires: El
+                    Tiempo, <date when="1900">1900</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>The source PDF file was processed with OCR. The software used was ABBYY Finereader 12
+                Professional, with Spanish as recognition language. The result of the OCR process
+                was checked, but due to temporal restrictions, corrections were only made in a rough
+                manner and remaining errors cannot be excluded.</p>
+            <p>The spelling was checked and corrected where appropriate.</p>
+            <p>The following phenomena were marked up: front matter (where available, e.g. title
+                page, dedication, preface, introduction), part and chapter divisions, headings,
+                paragraphs, inserted texts (e.g. letters or newspaper articles), verse lines,
+                dramatic text, quotations (e.g. epigraphs), notes by the author, and gaps.</p>
+        </encodingDesc>
+        <profileDesc>
+            <abstract source="#Schlickers_2003">
+                <p>
+                    <quote>
+                        <p>Lo que llama primero la atención es el título, que indica por la
+                            conjunción de un sustantivo proveniente del campo psicopatológico y de
+                            un adjetivo del campo romántico una síntesis de poéticas incompatibles
+                            que caracteriza asimismo el texto que sigue. A la vez, ilude a tres
+                            hipotextos, asimismo diametralmente opuestos: <seg rend="italic"
+                                >L'éducation sentimentale</seg> (1857) de Flaubert, <seg
+                                rend="italic">Música sentimental</seg> (1884) de Cambaceres y <seg
+                                rend="italic">Bohemia sentimental</seg> (1899) de Gómez Carrillo.
+                            Por encima de las diferencias estéticas y poetológicas, el <seg
+                                rend="italic">tertium comparationis</seg> se encuentra en la tensión
+                            sexualidad vs. amor/sentimiento que caracteriza el mundo novelesco de
+                            los cuatro textos; en cada caso, la novela de García Velloso mantiene
+                            otra relación intertextual con el hipotexto: <seg rend="italic">Neurosis
+                                sentimental</seg> podría ser leída como subversión de la "pasión
+                            inactiva" de Frédéric Moreau con respecto a Madama Arnoux, su gran amor
+                            (subversión meramente diegética, para evitar cualquier malentendido): el
+                            protagonista Ricardo, un pobre autor de piezas teatrales, aprende a
+                            través de la relación sexual con la puta-actriz Leonor -quien se enamora
+                            de él y le propone costear sus necesidades-, que ama de veras a su novia
+                            Encarnación y se reconcilia con ella. [...] Sin embargo, cuando Leonor
+                            se da cuenta de los espejismos, de su soledad inmensa y de su búsqueda
+                            de un "cariño verdadero", Ricardo descalifica su ataque impasiblemente:
+                            "-Eso es romanticismo que se le ha subido a la cabeza; eso es un rapto
+                            de neurosis sentimental exagerada" (44). Después de su propio
+                            aprendizaje, por el contrario, le dice que sueña con un amor ideal,
+                            libre de deseos "animalescos" (91 s.). [...] Resulta, sin embargo, que
+                                <seg rend="italic">Neurosis sentimental</seg> es tan poco
+                            naturalista como <seg rend="italic">Música sentimental</seg> de
+                            Cambaceres: en ambos textos las marcas naturalista son una mera
+                            añadidura con la cual se moderniza la vieja historia romántica de <seg
+                                rend="italic">La Dame aux Camélias</seg> [...] El ropaje naturalista
+                            sustituye la romántica visión de mundo de Dumas: Loulu y Leonor no
+                            mueren santificadas o absueltas, no se mueren ni siquiera, sino que
+                            vuelven, por el contrario, a sus actividades supuestamente abyectas.
+                            Ricardo, por el contrario, "logra finalmente recobrar su ingénito
+                            sentido de lo recto" (Pagés Larraya 1994: 242), final moralizador de una
+                            novela sentimental.</p>
+                        <p>Mas la intención de sentido no es tan unívoca, porque lo sentimental es
+                            una puesta en escena de un sentimiento: justo antes de su "conversión",
+                            Ricardo se siente de nuevo atraído sexualmente por una comediante.
+                            Lanzándose sobre ella, la "voz de la conciencia" le susurra de repente
+                            el nombre de su novia, e <seg rend="italic">ipso facto</seg> se dirige a
+                            su casa, dándole un beso casto en la frente. Teniendo en cuenta que los
+                            "instintos bestiales" de Ricardo -su neurosis o neurastenia- fueron
+                            considerados en la época como incurables (cfr. 3.2.2), el final
+                            edificante resulta, pues, ambiguo.</p>
+                    </quote>
+                    <bibl>Schlickers, Sabine. <seg rend="italic">El lado oscuro de la modernización:
+                            estudios sobre la novela naturalista hispanoamericana.</seg>
+                        Madrid/Frankfurt: Iberoamericana/Vervuert, 2003, p. 269f.</bibl>
+                </p>
+            </abstract>
+            <textClass>
+                <keywords scheme="../schema/keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.country.birth">Argentina</term>
+                    <term type="author.country.death">Argentina</term>
+                    <term type="author.country.nationality">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.source.medium">digital</term>
+                    <term type="text.source.filetype">image</term>
+                    <term type="text.source.institution">Wikimedia Commons</term>
+                    <term type="text.source.edition">first</term>
+                    <term type="text.publication.first.country">Argentina</term>
+                    <term type="text.publication.first.medium" cert="medium">book</term>
+                    <term type="text.publication.first.type" cert="medium">independent</term>
+                    <term type="text.publication.type.independent">yes</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.title" n="1900">Neurosis sentimental. Novela</term>
+                    <term type="text.genre.subgenre.title.explicit">novela</term>
+                    <term type="text.genre.subgenre.title.implicit" resp="#uhk">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.title.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.paratext.explicit">-</term>
+                    <term type="text.genre.subgenre.paratext.implicit" resp="#uhk">-</term>
+                    <term type="text.genre.subgenre.historical.explicit">novela</term>
+                    <term type="text.genre.subgenre.historical.explicit.norm" resp="#uhk"
+                        >novela</term>
+                    <term type="text.genre.subgenre.historical.implicit" resp="#uhk">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.historical.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.litHist" resp="#Schlickers_2003">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.litHist.interp" resp="#uhk">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.litHist.interp" resp="#uhk">novela
+                        realista</term>
+                    <term type="text.genre.subgenre.summary.signal.explicit" resp="#uhk"
+                        >novela</term>
+                    <term type="text.genre.subgenre.summary.signal.implicit" resp="#uhk">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.summary.signal.implicit" resp="#uhk">novela
+                        realista</term>
+                    <term type="text.genre.subgenre.summary.signal.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.summary.theme.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.summary.current.implicit" resp="#uhk"
+                        cligs:importance="2">novela naturalista</term>
+                    <term type="text.genre.subgenre.summary.current.implicit" resp="#uhk">novela
+                        realista</term>
+                    <term type="text.genre.subgenre.summary.current.litHist" resp="#uhk">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.summary.current.litHist" resp="#uhk">novela
+                        realista</term>
+                    <term type="text.genre.subgenre.summary.mode.representation.explicit"
+                        resp="#uhk">novela</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.narration.narrator.person">third person</term>
+                    <term type="text.speech.sign">—</term>
+                    <term type="text.speech.sign.type">single</term>
+                    <term type="text.setting.continent">America</term>
+                    <term type="text.setting.country">Argentina</term>
+                    <term type="text.time.period">unknown</term>
+                    <term type="text.time.period.author">contemporary</term>
+                    <term type="text.time.period.publication">contemporary</term>
+                    <term type="text.prestige">low</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-09" who="#uhk">Initial TEI version.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div source="#E1" n="1900">
+                <div type="titlepage">
+                    <ab>Enrique García Velloso</ab>
+                    <ab>Neurosis sentimental</ab>
+                    <ab>Novela</ab>
+                    <ab>Buenos Aires</ab>
+                    <ab>Tipografía de El Tiempo</ab>
+                    <ab>1900</ab>
+                </div>
+                <div type="dedication">
+                    <p>A Leopoldo Alas</p>
+                    <p>E. G. V.</p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>I</head>
+                <p>En uno de los botes de vaselina, metió la punta de la toalla y se restregó con
+                    ella los carrillos, la barbilla y las ojeras. La pasta grasosa, al mezclarse con
+                    el carmín y los polvos, le volvió la cara del color de tierra cocida. A los
+                    pocos refregones su cutis quedó al natural.</p>
+                <p>Al irse a refrescar con la brocha de los polvos de arroz, se miró orgullosa en el
+                    espejo. El cristal reluciente, retrató un busto a medio cubrir por una camisa de
+                    fina batista adornada de puntillas y lazos de cinta celeste. La manga de la
+                    camisa quería escaparse de uno de los hombros y dejaba al descubierto un pedazo
+                    de carne blanca que iba poco a poco tomando relieve, hasta terminar en dos
+                    puntitos a modo de rubíes.</p>
+                <p>En el espejo, se reproducía una cara fresca, juvenil. Los ojos eran negros; la
+                    boca grande, como hecha de exprofeso para enseñar un sartal de pedacitos
+                    marfileños metidos en unas encías rojas; la frente ancha, no de nacimiento, sino
+                    convertida así a fuerza de quemarse el flequillo con las tenacillas de enrizar;
+                    el pelo de color indefinido: según cayera la luz en su cabeza parecía negro o
+                    castaño.</p>
+                <p>Después de mirarse un breve rato, el suficiente para que se le escapase por los
+                    ojos un humillo de vanidad, sujetó fuertemente los cordones de su corsé, se puso
+                    luego una chambra, luego una capita de pieles y descorrió las cortinas de la
+                    puerta del camarín.</p>
+                <p>El escenario del teatro estaba solitario. Aquel domingo, la función de la tarde
+                    había terminado antes de la hora de costumbre.</p>
+                <p>En la calle, hacía un frío de mil demonios. El sol, desde por la mañana, se había
+                    acurrucado entre las nubes cenicientas del cielo; uno que otro rayo aterido de
+                    frío, asomábase por entre su palacio de vapor, pero enroscaba al instante su
+                    hilo de oro y volvía medroso al escondite.</p>
+                <p>El frío arreciaba por instantes a medida que la noche unía sus negruras a las
+                    negruras de un cielo de tormenta.</p>
+                <p>Leonor descorrió los visillos del balcón y se quedó luego como abstraída mirando
+                    a través de los cristales. En la acera de enfrente, había un café húmedo y sucio
+                    que se llamaba <q>«Bar Buenos Aires»</q>. Las paredes del café, que en un tiempo
+                    fueron blancas, negreaban a trechos; las lamparillas eléctricas, cual pecas de
+                    fuego, daban luz a los parroquianos, gente de baja estofa encanallada y herida
+                    por el punzante estileto del vicio.</p>
+                <p>Junto a una mesa, un hombre de facciones angulosas, sombreadas a trechos por una
+                    barba incipiente, escribía una carta.</p>
+                <p>Era Ricardo Rosales, un autor dramático que por aquellos días había estrenado con
+                    aplauso una obra en el teatro donde trabajaba Leonor. Su melena selvática, sus
+                    ojos profundamente azules y cierta mueca de hastío que se le dibujaba en los
+                    labios, le hacían simpático a esa clase de mujeres, que prefieren más que venas
+                    y músculos, nervios; como esos estómagos que gustan más de manjares exóticos que
+                    de carnazas chorreando sangre.</p>
+                <p>Leonor, seguía mirando, con la frente pegada a los cristales, al hombre del
+                    café.</p>
+                <p>Una mujer con un chiquillo mamón entre los brazos, iba de mesa en mesa pidiendo
+                    limosna. Ricardo le alargó una moneda después de haberse escarbado todos los
+                    bolsillos.</p>
+                <p>Al ver a la limosnera, se dijo Leonor: «Con lo que gasten cuatro imbéciles esta
+                    noche en canastillas de orquídeas para obsequiarme, esa mujer sería feliz
+                    durante un año».</p>
+                <p>Ricardo llenó la última cuartilla y se puso a leer entre dientes la carta que
+                    dirigía a su hermano. En ella, decía lo siguiente:</p>
+                <writing type="letter">
+                    <floatingText>
+                        <body>
+                            <div>
+                                <p>«Queridísimo hermano: traes a colación en tu sabrosísima
+                                    epístola, inolvidable Leopoldo, los párrafos tan hermosos que en
+                                    la soledad de nuestro pueblo de provincia solíamos recitar en
+                                    presencia del libro que cuenta la historia de aquel hidalgo
+                                    manchego, <q>«seco de carnes y en juto de rostro»</q>. Créeme,
+                                    Leopoldo, que el sublime loco no se equivocó al decir que el
+                                    amor en los jóvenes no es sino apetito. Y agregas, parodiándole,
+                                        <q>«que el apetito tiene como último fin el deleite»</q>.
+                                    ¡El deleite! Si yo no anhelo otra cosa.</p>
+                                <p>¿Que cuando la conocí? El pasado domingo de carnaval. La
+                                    mascarada se revolvía en la sala del teatro al son de un furioso
+                                    vals. Una mascarita trajeada de negro, no hizo asco a mis
+                                    miradas, a pesar de que tan poco desdeñó las carantoñas babosas
+                                    de un viejo gordote enfundado en un frac.</p>
+                                <p>Entre el brillo sensual de mis ojos y el brillar irisado de los
+                                    gemelos de la pechera del viejo, la elección era dudosa. De un
+                                    lado, una juventud pujante, pobre en metales y rica en caricias;
+                                    del otro, un remedo de caricias acompañadas de buena paga.</p>
+                                <p>Urgía rendirse al crujir de billetes de banco o al sonar de besos
+                                    juveniles. El dios del dinero venció, como vence casi siempre, y
+                                    la flecha divina en vano quiso hacer blanco en el corazón de
+                                    Leonor. Porque se llama Leonor, como aquella <seg rend="italic"
+                                        >gala del suelo andaluz</seg> heroína del drama fatalista
+                                    del Duque de Rivas.</p>
+                                <p>Desde esa noche, mi vida no es vida. Tengo horrible necesidad de
+                                    que Leonor sea mía.</p>
+                                <p>En vano he pretendido conformarme con verla solamente. Esto, como
+                                    comprenderás, en vez de ataharre me resultó espolique que excitó
+                                    más y más mis ansias de amor. Con lo que te pruebo palpablemente
+                                    que el platonismo ha pasado a la categoría de cosa cursi. La
+                                    humanidad cada vez es más positiva. Un beso y un abrazo son
+                                    preferibles a una mirada y una sonrisa. Todos nuestros actos
+                                    tienden a animalizar la existencia. Hoy Romeo y Julieta, no se
+                                    conformarían con besarse al despuntar la aurora.</p>
+                                <p>Dices que las pasiones más imperiosas, pueden ser vencidas, o al
+                                    menos modificadas por la razón y la voluntad. Y yo te respondo
+                                    que mi voluntad desfallece a medida que crece la pasión.</p>
+                                <p>¿Que para qué soy inteligente? La inteligencia, cuando está
+                                    enferma, sirve para todo menos para educar la voluntad.</p>
+                                <p>Mi deseo hacia Leonor es un apetito orgánico... algo que yo no me
+                                    lo explico.</p>
+                                <p>Todas mis facultades afectivas, se hallan excitadas por el
+                                    sentimiento de ver a Leonor en mis brazos.</p>
+                                <p>¿Y sabes con qué consigo olvidarla? Bebiendo ajenjos. Ahora
+                                    mismo, se besan delante de mi, las moléculas del licor verde
+                                    esmeralda con las del agua clara que casi llena el vaso que
+                                    tengo junto a estas cuartillas. Cuando las ramas de lluvia
+                                    fantástica que serpean dentro el cristal, se conviertan en
+                                    substancia lechosa, me echaré al coleto el contenido y quizá él
+                                    impida que te hable de Leonor.</p>
+                                <p>Esta noche hace mucho frío. ;Cómo me calentaría en los brazos de
+                                    Leonor! Primero con un beso suave, suavísimo... luego con uno
+                                    más fuerte...; luego le contaría mis sufrimientos, mis sueños de
+                                    neurosis... Y ella, con sus ósculos de fuego, aventaría la
+                                    tristeza que me roe las entrañas...</p>
+                                <p>¡Si yo tuviera dinero! Porque aquí, la madre del cordero es ese
+                                    señorito poderoso que no vio <seg rend="italic">damas
+                                        ingratas,</seg> como dice la aguda letrilla del poeta.</p>
+                                <p>Sí, querido Leopoldo; Leonor se entrega por dinero. En algunos
+                                    momentos, creo que puedo hacerla mía tan solo por amor.
+                                    Entonces, me enfermo de narcisismo y no hay cristal en donde yo
+                                    no retrate mi cara. Y al resultarme feo, el alcázar de mis
+                                    ilusiones se viene abajo...</p>
+                                <p>Otras veces, me finjo seducirla, usando gala de ingenio; otras...
+                                    En fin, que me hago unos líos que son para volverme loco.</p>
+                                <p>Sufro amargamente al verla, y, sin embargo, mis ojos van detrás
+                                    suya. ¿Que por qué transijo con esa tortura? También sufría
+                                    cuando iba los domingos a la tumba de mi padre, y, a todo
+                                    trance, ¡iba!</p>
+                                <p>En esos instantes de pesar, no me acuerdo, no me acuerdo que
+                                    Leonor es una perdida. Ya sabes, el amor es medio ciego: ve lo
+                                    que le encanta y deja de ver lo que puede desencantarle.</p>
+                                <p>Hay noches que sueño que se retuerce febriciente de placer al
+                                    susurro de mis caricias. Y al despertar, ¡si vieras qué amarga
+                                    resulta la satisfacción interrumpida! Una congoja de histérico
+                                    me sube por la garganta, y del manantial casi agotado de mi
+                                    llanto saltan unas pocas lágrimas.</p>
+                                <p>Me preguntas si aún vivo con Encarnación. Si, aún vivo con ella.
+                                    ¡Pobre Encarnación! Anoche, mientras la mariposa de mis
+                                    recuerdos quemaba sus alas en la llama roja de la silueta de
+                                    Leonor, la infeliz dormía. Su hermosa cabeza rubia, que parece
+                                    una sonrisa del sol trocada en seda, se hundía en la almohada;
+                                    una alegría de primavera se le desparramaba por la cara; el tajo
+                                    de su boquita, que semeja una herida finísima, acabada de abrir,
+                                    sonreía... Las manos entrelazadas, que son del color del marfil
+                                    viejo y el serpear de sus venas que toma visos de tatuaje,
+                                    parecían decirme: «así quiero que me entierres, Ricardo de mi
+                                    alma». ¡Pobre Encarnación! Sueña con mis triunfos.</p>
+                                <p>¡Mis triunfos! Si tú supieras cómo se ha apagado aquel fuego que
+                                    caldeaba mi inspiración de poeta! Ahora siento frío, ese frío
+                                    que se radica en la médula espinal y se ramifica por el
+                                    cerebro.</p>
+                                <p>Me riñes porque escribo piezas insignificantes para los teatros
+                                    por lloras. Hago esas obrillas, porque sin gran trabajo gano
+                                    para comer.</p>
+                                <p>Procura engañar a nuestra madre. Dile que continúo estudiando.
+                                    ¡Pobre madre mía! Dile que ya le escribiré, y que entre tanto
+                                    reciba el beso más puro que haya salido de mis labios.</p>
+                                <p>Adiós. No sé de qué hablarte. El mundo de mi conciencia es un
+                                    laberinto... Adiós. Escribe; escribe. Tuyo,</p>
+                                <p>
+                                    <seg rend="italic">Ricardo</seg>.»</p>
+                            </div>
+                        </body>
+                    </floatingText>
+                </writing>
+                <p>Metió la carta en un sobre y le puso la dirección. Echando fuertes bocanadas de
+                    humo y con el cuello del gabán subido hasta el cogote, salió del café. En el
+                    cuarto de Leonor vio luz. Sin darse cuenta se metió al escenario.</p>
+                <p>Al subir las escalinatas de mármol, temblaba de emoción. Por fin tuvo un arranque
+                    de valor y se acercó a la puerta del camarín.</p>
+                <p>—¿Qué tal está Vd., Leonor? preguntó con tranquilidad fingida. </p>
+                <p>—¡Ola, Ricardo! </p>
+                <p>—¿Cómo no se ha marchado Vd. a su casa después de la función? Es extraño ver a
+                    Vd. tan solita. </p>
+                <p>—Créame Vd. que bien necesito estar sola. </p>
+                <p>—Eso quiere decir que estorbo. </p>
+                <p>—No... no ha sido indirecta... tome Vd. asiento... Vd. no me fastidia como esa
+                    legión de adoradores que no me dejan ni a sol ni a sombra... Pero hombre,
+                    siéntese Vd... ¡Siempre oyendo la misma cantinela! Que tengo unos ojos más
+                    negros que la pena, un pie pequeño como la dicha, que me falta bondad de alma...
+                    que por mi se van a matar... Tonteras, Ricardo, tonteras. </p>
+                <p>¿Y Vd. se atreve a quejarse del elogio cuando me consta positivamente que la
+                    vanidad de Vd. necesita del incienso como las flores del agua?</p>
+                <p>—¿Ha venido Vd. hoy con ganas de burla? </p>
+                <p>—¿Burlarme yo? Y tan luego de Vd... ¿Qué libro es ése? </p>
+                <p>—<q>«Belleza Inútil»</q>, de Guy de Maupassant. </p>
+                <p>—¡Cuánta belleza inútil hay en el mundo! </p>
+                <p>—Efectivamente. </p>
+                <p>—No se dé Vd. por aludida. </p>
+                <p>—En primer lugar, vo no soy belleza; en cuanto a lo de inútil... </p>
+                <p>—Usted, es belleza y belleza muy útil. </p>
+                <p>—¿A quién? </p>
+                <p>—A alguien que la . quiera a Vd. de verdad. </p>
+                <p>—No sea Vd. ingenuo. A mí no me quiere nadie, y menos de verdad. </p>
+                <p>—Sé de alguno... </p>
+                <p>—¿Regúlez acaso? No hace más que echar millones por la boca y ponerme los ojos en
+                    blanco. Desea llevarme a su quinta; dice que allí me entregará su alma... Ja,
+                    ja!... ¡Su alma! Como si él tuviera esa célula. ¿Ernesto? Otro ricacho de dinero
+                    y de imbecilidades. Gaspar y Ramón, con sus fraques y sus <seg rend="italic"
+                        >smokings</seg>, parecen dos potentados y no tienen un centavo partido por
+                    la mitad. En fin, que... </p>
+                <p>—En fin, que Vd. con todos coquetea y a todos les muestra buena cara. </p>
+                <p>—Hijo mío, la educación... </p>
+                <p>—Madre mía ¿y la sinceridad? </p>
+                <p>—¿Para qué voy a gastarla? ¿Y usted, tiene muchas novias? </p>
+                <p>—Para eso se necesita ser buen mozo como Leopoldo, adinerado como Regúlez e
+                    imbécil como Ernesto. </p>
+                <p>—Según con qué clase de mujeres. </p>
+                <p>—Con todas. </p>
+                <p>—A Vd. le han debido dar la mar de calabazas. </p>
+                <p>—Mire Vd., Leonorcita, yo comparo al amor con las localidades de un teatro.
+                    Pagando, unos consiguen mujeres regias, que son los palcos; otros más medianas,
+                    que son las butacas, y otros, los más infelices, consiguen entrada general. Casi
+                    siempre los entendidos van a esa localidad. Se entra de chaqueta, se gasta menos
+                    y se goza igual. No digo yo que no haya algún suertudo que consiga entrada de
+                    favor... pero es raro. </p>
+                <p>—¿Para Vd., el corazón de la mujer es una mercancía que se cotiza en plaza? </p>
+                <p>—Ni más ni menos. Y las mujeres hacen bien en preocuparse del alza y la baja de
+                    sus valores. Porque, claro, el amor que apetece la mayoría de los hombres, es el
+                    brutal de los sentidos. Halagar a éstos es un goce; los goces deben pagarse;
+                    cuanto más perfecta sea la máquina que ha de producir el placer, mayor es su
+                    precio. </p>
+                <p>—Qué teoría más original. </p>
+                <p>—¡Qué realidad más amarga! </p>
+                <p>Al llegar a este punto de la conversación, ya le pesaba a Ricardo haber entrado
+                    al camarín de Leonor. Estaba violento. Quería marcharse y quería quedarse. Hubo
+                    un momento de silencio. Leonor y Ricardo se miraban mutuamente con fijeza. Los
+                    ojos de la tiple vencieron a los de Ricardo, que apartó sus miradas, como si la
+                    cara de Leonor se hubiera convertido de pronto en un foco de luz.</p>
+                <p>Un coro de carcajadas resonó en la soledad del escenario.</p>
+                <p>—¿Quiénes se ríen de ese modo? preguntó Ricardo. </p>
+                <p>—No sé; he oído ruido de platos y taponazos de botellas de champagne. Deben
+                    haberse quedado a comer en el teatro la bella Rosaura, su hermana y alguno de
+                    sus amigos. Yo también he mandado que me traigan un tentempié. </p>
+                <p>En esto pasó el avisador del escenario con una cesta llena de botellas y de
+                    frutas. Era un hombre altísimo, flaco y huesudo, echado de hombros, de cara
+                    roja, con bigotes amarillentos a causa de la nicotina del cigarro. Entre las
+                    tiples y coristas, tenia mucho partido, pues les servía de intermediario en
+                    todas sus alcahueterías. Era el perfecto zurcidor de voluntades.</p>
+                <p>—Oye, Zaragata, le dijo Ricardo, ¿a dónde llevas todo eso? </p>
+                <p>—Al cuarto de la bailarina. </p>
+                <p>—¿Quiénes están con ella? </p>
+                <p>—La hermana, el empresario y don Manuel, ese jovencito amigo de usted. </p>
+                <p>—Diles que voy a ir luego a beber una copa con ellos. </p>
+                <p>Cuando la camarera de Leonor, seguida de un criado, entraba trayendo la vianda,
+                    Ricardo salió del camarín de la tiple y se fue al de la bailarina.</p>
+                <p>El camarín de la bailarina, era un cuarto pequeñito, de paredes floreadas, y
+                    alfombrado con bayeta roja. En un ángulo, estaba el lavabo, cuyo espejo
+                    reproducía los vestidos que colgaban de las perchas.</p>
+                <p>En la mesa improvisada, había un búcaro lleno de orquídeas y violetas; en el
+                    mantel, tornasolaban a trechos los lamparones del vino vertido. Muy apretaditos
+                    y pegadas las rodillas unas con otras, rodeaban la mesa Rosaura, Consuelo,
+                    Manuel y el empresario. En el mármol del lavabo, se entremezclaban la jabonera
+                    con las conchas de ostras y las rajas de limón; las polveras con los platos y
+                    fuentes, donde se veían huesecillos de ave y espinazos de pescado; el peine, que
+                    aprisionaba entre sus púas un manojo de pelo, parecía un ciempiés colosal
+                    arrastrándose hasta llegar a la taza de la crema <seg rend="italic"
+                        >chantilly,</seg> que se confundía con la capa de jabón espumosa que nadaba
+                    en la ajofaina.</p>
+                <p>Los comensales, congestionados por los preliminares de la digestión y por los
+                    vahos del vino, apenas hablaban. Cualquier cosa les causaba risa.</p>
+                <p>La bella Rosaura, era una chicuela de pocos años; mujer antes de tiempo, flor
+                    hollada al abrir sus pétalos al sol, ángel de alas recortadas a quien el mundo
+                    quería disfrazar a todo trance de demonio.</p>
+                <p>Su hermana Consuelo, casi le doblaba la edad: hacia veinte años que rodaba suelta
+                    por el manicomio de la vida. Como hembra, interesaba al macho mucho más que la
+                    chicuela. Las dos tenían el pelo y los ojos negros, los dientes blancos, el pie
+                    diminuto, la cintura cimbreadora. Alta como la vanidad la una; baja como la
+                    modestia la otra; flacucha como el deseo satisfecho la menor; pictórica como el
+                    ansia de goces la más vieja. Esta, tenía mucho talento; aquélla, la vivacidad
+                    del ratón que cree burlarse del gato precisamente cuando la zarpa felina le ha
+                    hecho prisionero.</p>
+                <p>—Alégrate un poco, le decía Manuel a Rosaura acercándole una copa de <seg
+                        rend="italic">champagne.</seg> Tú siempre más fría que un acero damasquino. </p>
+                <p>—No quiero más ... se me sale el ácido del <seg rend="italic">champagne</seg> por
+                    las narices y se me ponen pitarrosos los ojos. </p>
+                <p>«Y a todo esto, interrumpió el empresario, ¿dónde te vas a vestir tú esta
+                    noche?</p>
+                <p>En el cuarto del actor Benavides, que hoy no trabaja, dijo Zaragata al propio
+                    tiempo que ponía sobre la mesa una botella barriguda de licor.</p>
+                <p>—¡Horror! ... En el cuarto de Benavides, no . . . Ese hombre huele muy mal . . .
+                    Era lo único que me faltaba para hacer la digestión. . . </p>
+                <p>—No se alarme, señorita, pues ya he abierto las puertas y he sacado los pares de
+                    zapatos al pasillo. </p>
+                <p>Entró Ricardo. Su presencia fue saludada con un coro de risas alegres.</p>
+                <p>—Parecemos sardinas en cubo, Ricardito, decía Consuelo; no hay silla, pero
+                    siéntate en mis faldas . . . Ven, Ricardo . . . toma, toma vino . . . ¡Recontra
+                    ... y cómo pesas . . ! </p>
+                <p>—Bebe tú primero. </p>
+                <p>—Espera a que me desabroche el corsé; he comido como una loba . . . </p>
+                <p>Al poco rato, empezaron a llegar los demás artistas de la compañía. Pasaron
+                    primeramente el actor cómico con su mujer, una arpia más fea que un susto; luego
+                    pasó el barítono, un hombrecillo bonito de cara, cuyo cutis parecía amasado con
+                    nata y jugo de fresas. El segundo actor, borrachín consuetudinario, entró al
+                    cuarto pidiendo de beber.</p>
+                <p>El traspunte, que era tartamudo, gritaba por los pasillos: ¡que se va a . . . a .
+                    . . empe . . . pe . . . zar . . . que se va a empezar!</p>
+                <p>—Oye, tú, chiquilla, dijo el empresario, que bailas en la segunda sección. </p>
+                <p>—Me vestiré aquí. </p>
+                <p>— Bueno. Yo me marcho a contaduría. A ver si nos haces esperar. </p>
+                <p>Rosaura comenzó a arreglarse. Mientras se untaba el colorete, Consuelo le
+                    maquillaba el cabello con horquillas invisibles. Perezosamente fue sacándose el
+                    corsé, la chambra de nansú y luego todas las ropas hasta quedarse en camisa. A
+                    través de la tela, se dibujaban unas formas en gestación. Era un conjunto de
+                    carne joven. Los globos de su pecho, duros, temblequeaban como la jalea de fruta
+                    que había quedado en una fuente.</p>
+                <p>Ricardo y Manuel, impávidos, miraban a la chiquilla. Ni la más mínima impresión
+                    de sensualismo les conmovía.</p>
+                <p>Al poco rato, Rosaura vestía un traje color oro bordado de flores que semejaban
+                    violetas; el ruedo de la saya lleno de madroños; una chaquetilla parecida a la
+                    de Rossina en el <seg rend="italic">Barbero</seg>, cubierta de alamares; y
+                    encima de su cabellera, peinada de <seg rend="italic">bandeaux,</seg> una
+                    montera de terciopelo negro sostenida por un alfiler de piedras preciosas. Las
+                    manos agitaban un par de castañuelas, y los pies asomaban entre las borlas de la
+                    falda su envoltura diminuta recamada de lentejuelas.</p>
+                <p>—¿Qué te parece a ti, autor? le decía Consuelo a Ricardo, ¿estás satisfecho del
+                    traje que se ha hecho la niña para tu obra? </p>
+                <p>—Ya lo creo. </p>
+                <p>—Pero hijo ¿qué te pasa? Hablas como con tristeza. A ti la tiple te tiene
+                    trastornado. </p>
+                <p>—¿La tiple? </p>
+                <p>—Di que si. . . </p>
+                <p>—¿La tiple? . . . ¡ja ja! . . </p>
+                <p>—Vamos, que bien flirteas con ella. . . No seas hipócrita. . . Si Leonor es una
+                    hembra que da la hora. </p>
+                <p>—Calla, mujer . . . calla . . . </p>
+                <p>Rosaura abrió la puerta del camarín y se fué al escenario. Al verla salir exclamó
+                    Manuel: «ahí va el éxito de tu obra, Ricardito».</p>
+                <p>—Es verdad. . . ¡ Es una verdad amarga! pero ¿qué quieres? Al público le producen
+                    mayor goce las piruetas y los saltos de Rosaura, que las escenas que me han
+                    costado muchas noches de insomnio. </p>
+                <p>—¡Oh, el baile!... Razón tuvieron aquellos derviches que se enfadaron con Mahoma
+                    porque no lo incluyó en el Corán, entre la lista de los placeres del paraíso
+                    prometido. </p>
+                <p>—A buen seguro que los musulmanes descontentos, interrumpió Ricardo, hubieran
+                    preferido admirar más que problemáticas huríes de ojos negros, a una Pecourt
+                    funambulesca, a una Camargo retorciéndose entre tules color de cielo, a una
+                    Taglione, a una Essler balanceándose con el gigantesco miriñaque.... </p>
+                <p>—Pero a pesar de todo, querido Ricardo, adquiere tintes de belleza el cuadro
+                    segundo de tu obra. Hace recordar a aquellos juegos <seg rend="italic"
+                        >cómicos</seg> de la patria Elena. </p>
+                <p>—Y a todo esto, ¿qué dices tú, Consuelito? </p>
+                <p>—¿Qué quieres que diga, Ricardo? Que tu obra es muy bonita, pero que Leonor te
+                    gusta a ti, más que tu obra al público. Vamos a ver, sé franco.... ¿qué dieras
+                    por dormir con Leonor? </p>
+                <p>—¿Por dormir con Leonor? Nada. ¿Me crees a mi tan imbécil para que me duerma
+                    teniendo entre mis brazos a un girón de belleza excepcional? </p>
+                <p>—¡Así me gusta! Arráncate, hijo.... arráncate.... ¿Pero me oyes, si o no? </p>
+                <p>—Claro que te oigo. </p>
+                <p>—¡Como entornas los ojos y bajas la cabeza! ¿Han dado ya la tercera campanada?
+                    Anda, vamos a ver tu obra desde un bastidor. </p>
+                <p>—Os acompaño, dijo Ricardo. </p>
+                <p>—¿Cierro la puerta, Consuelo? </p>
+                <p>—Si, y dame la llave. </p>
+                <p>El público esperaba a que se alzase el telón, no tanto por gozar de los arranques
+                    nerviosos, de los gritos desesperados y del apasionamiento de los personajes
+                    fingidos, cuanto por ver las pantorrillas A las coristas.</p>
+                <p>¡Ya se alza el telón! Las primeras escenas se suceden con rapidez pasmosa. Parece
+                    que los actores se han dado cuenta de que el público no quiere oirles recitar.
+                    Si los corazones bailan una polca dentro del pecho en esos instantes, es por que
+                    ansian el momento de que salga el coro. ¡Ya está en escena!</p>
+                <p>El mar encrespado de la platea, sufre bruscas sacudidas; las gentes de los palcos
+                    disimulan su regocijo; los del paraíso, ¡están tan altos!</p>
+                <p>Aquellas veinte mujeres, son veinte hembras de rompe y rasga. Al bailar, unas
+                    ponen la cara seria y otras se timan con los de las primeras filas. Veinte bocas
+                    que parecen granadas pequeñitas donde han derramado gotas de leche, se ríen del
+                    público....</p>
+                <p>Al poco rato sale la Tridente, otra bailarina, vestida de púdica Gioconda, con
+                    sus ojos de lujuria contenida y su cara morena como un trigal que empieza a
+                    requemarse. Los pies breves, a los que de seguro vendrían bien los zapatitos de
+                    la Cenicienta del cuento, parece que fueran de goma. Al son de una música
+                    jaleosa, sale la bella Rosaura. Al principio, en su cuerpo, hay ondulaciones
+                    pausadas de mar en día de calma; luego se entusiasma, y aquel mar se subleva, y
+                    las olas, al chocar con la roca del público, se deshacen en lluvia de
+                    aplausos... Las lentejuelas parecen rayos de sol: el oro del traje, opalinos
+                    cambiantes de jerezano licor; el mirar de sus ojos toma matices de celajes de
+                    crepúsculo; y las castañuelas, que siguen vibrando, parecen golondrinas
+                    mensajeras del amor, que se escapan de un nido blanco como la nieve Luego entran
+                    en el cuadro Luisa, la Julia la Chata, el Punto Gótico, la Borracha, y entonces
+                    el público no ve más que piernas que serpean con zigzaguees de relámpagos,
+                    brazos que se agitan, cabezas que se yerguen, cabelleras que se despeinan, al
+                    propio tiempo que un tropel de notas desenfrenadas suenan en la orquesta
+                    salvajemente....</p>
+                <p>Después del <seg rend="italic">bis</seg>, sale Leonor, esponjada de orgullo y
+                    vestida de rojo. Con una de sus manos liliales menea un abanico lleno de
+                    cintajos y baratijas: sus hermosos hemisferios de alabastro, asoman el comienzo
+                    de sus convexidades. Parecen idos copos de nieve derritiéndose en el rojo fuego
+                    del escote de la bata.</p>
+                <p>Todo el conjunto de su persona es atrayente y estimula a que se desarrollen
+                    apetitos pecaminosos en la mente de cualquier hombre.</p>
+                <p>Desde que ha salido a escena, Ricardo la mira con fijeza. Cuanto más la mira, más
+                    crece en su ser un vago delirio de sensualismo apacible. Sentía deseos de
+                    arrimar sus labios a aquella boca y desperezados con un beso largo,
+                    interminable.</p>
+                <p>Estaba profundamente abstraído, contemplando a Leonor, cuando Carlota</p>
+                <p>Mena, otra primera tiple de la compañía, le dijo: «Buena entrada; no hay una sola
+                    localidad vacía. Es usted el hombre de la dicha y la salvación de nuestra
+                    empresa».</p>
+                <p>—Yo no; los intérpretes de mi pobre obra, contestó Ricardo. </p>
+                <p>—Cállese V.. hombre, si están para que los maten. Y no lo digo porque yo no
+                    trabaje . . . pero la verdad ante todo. </p>
+                <p>Un aplauso grandísimo, alborotó la sala, y Carlota, llena de envidia, exclamó:
+                    «Vamos, hoy los <seg rend="italic">morenos</seg> están de <seg rend="italic"
+                        >queda</seg>.»</p>
+                <p>Carlota Mena, era una de esas artistas que vienen a América a elegir como
+                    escaparate el escenario de un teatro. En París había sido <seg rend="italic"
+                        >cantaora</seg> flamenca y en Buenos Aires figuraba como primera tiple,
+                    gracias a su palmito, como decía el empresario. El público soportaba a la mujer
+                    hermosa y transigía con la pésima actriz, que era, por contera, la <seg
+                        rend="italic">asaura</seg> personificada, según murmuraban sus
+                    compañeros.</p>
+                <p>Había recorrido medio mundo, dejando un jirón de dignidad en cada país y
+                    emborrachando de amor a cuantos hombres se le acercaron. En Chile, un chiquillo
+                    de quince años, se mató de un pistoletazo porque no pudo hacerla suya. Ella le
+                    llama el <q>«sublime tonto.»</q> Guarda el retrato de ese chiquillo en un
+                    medallón que le cuelga de la garganta. Suele contar a sus amigos, que por las
+                    noches, cree ver entre los doseles de la cama, una cabecita de pelos
+                    ensortijados que chorrea sangre.</p>
+                <p>El cuadro es horrible y no se cansa de evocarlo: Un camarín de teatro, un
+                    chiquillo que balbucea pasiones locas y ofrece un corazón. Ella pisoteándolo y
+                    desbaratando un mundo de ilusiones. A la mañana siguiente, el estampido de un
+                    pistoletazo, un cuerpo que cae ... la policía ... el entierro . . .</p>
+                <p>Cuando piensa en esto, le parece que la cadena del medallón le aprieta la
+                    garganta y le ahoga.</p>
+                <p>Ricardo se abrió paso por entre la muralla de carne que se habla formado en los
+                    bastidores. Al verle salir, tan excitado, le preguntó Manuel; «¿Qué te
+                    pasa?»</p>
+                <p>—Que me voy al vestíbulo...¡me ahogo! </p>
+                <p>—Si hace un frío atroz.... </p>
+                <p>—Déjame: yo me abraso.... </p>
+                <p>—¿Pero qué tienes? </p>
+                <p>—Nada.... En viendo a esa mujer no servirla para juez. Absolvía a todos los
+                    ladrones. </p>
+                <p>—Estás loco. </p>
+                <p>—Si.... loco.... loco! </p>
+                <p>Terminó la obra de Ricardo. El público, de pie, al propio tiempo que caía el
+                    telón, gritaba: «¡El autor... el autor!!...»</p>
+                <p>—Que te llama el público; entremos al escenario. </p>
+                <p>—¡El autor... el autor!... </p>
+                <p>—Entremos... </p>
+                <p>—¡El autor!... </p>
+                <p>—Que se vaya al diablo el público. </p>
+                <p>Salieron del teatro A la calle. Una llovizna finísima les acarició el rostro.</p>
+                <p>—¿A dónde vas? Le preguntó Manuel A Ricardo. </p>
+                <p>—A la redacción del diario. </p>
+                <p>—¿No vienes A cenar con nosotros esta noche? </p>
+                <p>—No. Adiós. Hoy me toca quedarme de guardia hasta que la edición ruede por la
+                    calle. Adiós. </p>
+                <p>Ricardo caminaba A paso lento, con la cabeza baja. La llovizna le entraba por el
+                    cuello y le caía por la espina dorsal produciéndole una caricia helada.</p>
+                <p>Llegó A la redacción de <seg rend="italic">La Aurora. </seg>Cogió la pluma y se
+                    puso a escribir. No se le ocurrían más que vulgaridades. El director le devolvió
+                    dos sueltos para que los modificase.</p>
+                <p>Cuando hubo terminado la tarea, sentía un frío horrible. Se acercó a uno de los
+                    caloríferos. En la butaca adoptaba posturas diferentes y todas se le antojaban
+                    incómodas. Las galeradas para corregir no venían. La campana de un reloj sonó
+                    tres veces. Los empleados empezaron a ponerse los gabanes y pian pianito, fueron
+                    haciendo mutis al propio tiempo que con voz somnolienta murmuraban: «Buenas
+                    noches:» «adiós»; «buenas noches»...</p>
+                <p>Solamente quedaron en las oficinas Ricardo y el encargado de traducir los últimos
+                    telegramas de Europa.</p>
+                <p>Por fin un chiquillo de las cajas, le entregó a Ricardo una tira de papel húmedo
+                    que leyó rápidamente.</p>
+                <p>—¿Falta mucho para que empiecen a imprimir? </p>
+                <p>—En cuanto llegue el servicio telegráfico de última hora funcionará la máquina. </p>
+                <p>Con sus dedos flacuchos, Ricardo tocaba suave redoble en la carpeta del pupitre.
+                    Poco a poco, fue apagándose el encandilado de sus ojos: entornarónsele los
+                    párpados; una sonrisa dulzona se le dibujó en la comisura de los labios y medio
+                    empezó a adormecerse.</p>
+                <p>El silbato estridente del motor anunció la salida del diario, y Ricardo,
+                    despabilando su modorra como por encanto, bajó a los talleres metido en el cubo
+                    del ascensor.</p>
+                <p>Los encargados de vender las latas a los chiquillos que habían luego de vocear la
+                    edición, recibían el dinero casi sin contarlo; las ruedas de las máquinas
+                    aullaban; las suelas sin fin corrían presurosas; del cuarto donde se
+                    estereotipaba salía calor de fragua y un olorcillo a plomo derretido; los
+                    ascensores bajaban y subían llevando y trayendo gente; los tambores de papel
+                    blanco, al desenrollarse velozmente, parecían copular con la máquina que con
+                    rapidez pasmosa, engendraba y paria periódicos casi a un mismo tiempo.</p>
+                <p>Ricardo agarró un ejemplar de <seg rend="italic">La Aurora</seg> y salió a la
+                    calle. El viento que soplaba de firme le abofeteó la cara y le arrebató el
+                    sombrero.</p>
+                <p>Amanecía. La luz del alba y unas miajas de negruras de noche que aún vagaban por
+                    el cielo azul violáceo, al entremezclarse, vestían a los objetos de ese tinte
+                    característico de la luz crepuscular. Un pedazo de sol pestañeaba en el
+                    horizonte, abrillantando el espejo de las aguas del Plata, que reverberaban con
+                    visos metálicos.</p>
+                <p>Llegó a su cuarto y se desnudó sin hacer ruido para no despertar a Encarnación.
+                    Estaba ya arrebujado entre las cobijas calientes, cuando delicadamente le dio un
+                    beso a su querida.</p>
+            </div>
+            <div type="chapter">
+                <head>II</head>
+                <p>—Despéjate bebiendo esa taza de café, le decía Manuel a Ricardo, y luego contesta
+                    a mis preguntas, con claridad, sin extravagancias cursis que no vienen a cuento. </p>
+                <p>—No tengo ganas de discurrir y menos de discurrir extravagancias. Siento por todo
+                    mi cuerpo un embrutecimiento extraño; los objetos bailan ante mi vista. Debe ser
+                    fatiga cerebral. He soñado cosas espantosas mezcladas a un erotismo poético que
+                    está en pugna con el origen orgánico de mi pasión. ¿Qué quieres, Manuel? No hago
+                    más que pensar en Leonor. Yo necesito poner dique a este amor que, alimentado
+                    por el fuego de mi fantasía, adquiere caracteres horribles. </p>
+                <p>—Lo que tú debes hacer, es declararte abiertamente. Cualquiera que sea su
+                    contestación, te conviene escucharla: ¡nada de cobardías! Favorable o adversa la
+                    respuesta, hará que vuelva la tranquilidad a tu espíritu. Además, para trocar el
+                    amor en odio, no hay nada como un desprecio a tiempo. </p>
+                <p>—Es que cuando pienso en mi declaración, me entra una especie de estupor las
+                    palabras se me antojan pálidas para pintar lo que yo siento, lo que yo quiero. .
+                    . </p>
+                <p>—Todo es empezar. Quien no lucha, ni triunfa ni es derrotado. El amor tiene
+                    fuerza poderosísima; no seas tonto y entra en acción: el no lo llevas contigo:
+                    vete a buscar el si. </p>
+                <p>—No sé cómo abordar la situación.. . </p>
+                <p>—Cualquiera diría que es la primera vez que vas a pintar amores. . . </p>
+                <p>—Ya me estoy viendo tartamudear, explicar obscuramente mis pensamientos. </p>
+                <p>—¡Mejor que mejor! La obscuridad engendra misterio. Para ver las estrellas, hacen
+                    falta las sombras de la noche: para que ella vea brillar la hoguera de tu
+                    pasión, viene que ni de perlas un poco de obscuridad en tu discurso. ¡Animo </p>
+                <p>Ricardo! A las ocho vas al teatro, y en media hora resuelves el asunto.</p>
+                <p>—No me atrevo hoy; mañana, si: mañana, yo te juro que . . . </p>
+                <p>—Me haces acordar a esos enfermos de las muelas que no se deciden a ir A casa del
+                    dentista hasta que, locos del dolor, se les abre inconscientemente la boca ante
+                    las pinzas de metal. </p>
+                <p>Hubo un momento de silencio. Al poco rato dijo Manuel:</p>
+                <p>—Prométeme que esta noche cantas la polinodia. </p>
+                <p>—¡Te lo prometo! A ti ¿qué te dice el, corazón? ¿Me contestará que si? </p>
+                <p>—A mi no me ha dicho nunca nada el corazón. Además, se trata de Leonor, que es
+                    una mujer incomprensible, pero de una incomprensibilidad poco interesante. No me
+                    he devanado nunca los sesos en hacer psicología con ella. Agrada exteriormente;
+                    sus maneras amables son epidérmicas. Raspando un poquito se ve a la mujer
+                    vulgar, pero bonita, que no sirve más que para el placer brutal de los sentidos.
+                    Dando de barato que sea tuya, te aburrirá bien pronto. No hay nada más
+                    insoportable para los hombres de cultura intelectual como una mujer ignorante. </p>
+                <p>—Volviendo la oración por pasiva, resulta que no hay nada más insoportable para
+                    una mujer ignorante, que el trato íntimo con un hombre de talento. </p>
+                <p>—¿Y a ti qué puede importarte eso? Mientras dure la ilusión, gózala. Siempre
+                    saldrás ganancioso tú, pues es más fácil encerrar el pensamiento en la cárcel de
+                    la ignorancia que dejarlo libre en el laberinto del saber. Es más difícil
+                    aparentar ser rico, no teniendo un cuarto, que fingirse pobre poseyendo
+                    millones. ¡Bueno, Ricardito! te dejo. En el teatro nos veremos luego. Despójate
+                    de timideces dignas de un parvulillo inocentón, y... ¡firme en la brecha! ¡Mozo!
+                    ¿Cuánto se debe? Toma. Hasta después, Ricardo. </p>
+                <p>—Adiós. </p>
+                <p>Empezaba a caer la tarde. Ricardo se puso a pasear por las calles como un
+                    idiota.</p>
+                <p>Una porción de nubes se apiñaban en el horizonte. Aquellas masas informes y
+                    blanquísimas, tomaban poco a poco la forma de una concha colosal. Los ojos de
+                    Ricardo se emborrachaban ante aquella orgia de colores nacarados. En lontananza,
+                    la fragua empezó a extinguirse; el cielo, de azul turquí, tornóse negro, y una
+                    porción de chispas volaron del hogar del crepúsculo a los espacios.</p>
+                <p>Por asociación de ideas, Ricardo pensaba en la noche que pinta Ovidio, con sus
+                    minutos eternos, sostenedores de disgustos y penas; y pensaba también en aquella
+                    otra noche que extiende sus alas y pone un huevo en el seno del Erebo, de donde
+                    sale el Amor agitando sus alas doradas.</p>
+                <p>A las ocho de la noche se dirigió al teatro. Con gran sorpresa, vio el arco de
+                    luz apagado, las puertas cerradas, los tableros del programa cubiertos de papel
+                    blanco. Carlota Mena, había fallecido por la tarde, víctima de una angina al
+                    pecho.</p>
+                <p>Corriendo, se fue a la casa de Carlota. Vivía con lujo, con ese lujo excesivo que
+                    no cuesta ganarlo honradamente.</p>
+                <p>Dos lacayos negros estaban en la puerta.</p>
+                <p>En la salar, habían levantado la capilla ardiente. Los bronces y los espejos,
+                    cubiertos de crespones, contrastaban siniestramente con la alfombra color crema,
+                    las coronas blancas, el Cristo de marfil y las luces de los cirios que lloraban
+                    gruesas lágrimas de cera. En el centro estaba la caja funeraria, y dentro,
+                    Carlota, como dormida, con un gesto de amargura cristalizado en todo el rostro
+                    Su cara pálida, parecía bañada de cera; los dedos de sus manos eran diez lirios
+                    trenzados fuertemente. A través del crespón de los espejos, se reflejaba el
+                    temblequeo de los blandones.</p>
+                <p>A los pocos momentos de circular la triste noticia, el palacete de Carlota se vio
+                    invadido por una enorme cantidad de cómicos.</p>
+                <p>Formaba un conjunto original aquella concurrencia abigarrada.</p>
+                <p>Se distribuyeron los unos en la sala y en el patio, entre las macetas de
+                    helechos; los otros en el comedor; unas cuantas mujeres se entretenían en abrir
+                    los cajones de los secreteros, en sacar trajes de los armarios; lo fisgoneaban
+                    todo y salpicaban sus actos de indiscreción irrespetuosa, con sabrosos
+                    comentarios.</p>
+                <p>Ricardo se paró largo rato delante del cadáver de Carlota. Una congoja de lástima
+                    o de asco, le subía a la garganta, al ver los hilos de sangre que manchaban la
+                    boca y las narices de la muerta. La hermosa cabellera de Carlota, cala como
+                    llovizna de azabache sobre el almohadón de la caja; las cejas y las pestañas,
+                    semejaban patas de araña que querían agujerear la carne de aquellos párpados
+                    fríos.</p>
+                <p>Tembloroso cruzó las habitaciones. Un criado encendía las cocinillas. El humo de
+                    los tueros que chisporroteaban, logró arrancar algunas lágrimas, que en aquellos
+                    momentos vinieron a pelo.</p>
+                <p>A todo esto el querido oficial de Carlota, el pagano- de sus lujos, no aparecía
+                    Dicen que era un alto personaje político y por contera casado. Y es claro, su
+                    dignidad de hombre público y de marido <seg rend="italic">modelo</seg> no le
+                    permitían ir a ver aquel hermoso pulpo que, una vez muerto, no servía más que
+                    para ser enterrado.</p>
+                <p>Muy enlutada, fingiendo honda pena, entró Leonor a la sala. Mientras tartamudeaba
+                    una oración, le dio un desmayo. Lo teatral iba siempre con ella. Los frasquitos
+                    de sales, el agua Colonia y unas gotas de azahar, le volvieron en si.</p>
+                <p>En el tocador tuvo un arranque admirable. Varias mujeres se entretenían en
+                    desatar montoncitos de cartas para enterarse de su contenido.</p>
+                <p>Leonor les arrebató aquellos papeles y los arrojó al fuego.</p>
+                <p>Las horas se deslizaban monótonamente. A eso de las doce de la noche, todos los
+                    concurrentes, que fueron aumentando así que terminaban las funciones de los
+                    teatros, se aposentaron en el comedor.</p>
+                <p>Un mazo de barajas salió a relucir. Jugar al monte se imponía. Inmediatamente
+                    hicieron corro alrededor de la mesa. Los billetes corrían de mano en mano; un
+                    criado empezó a descorchar varias botellas de vino y otro a servir tazas de te y
+                    café con pastas y dulces. Y por aquello de que los duelos con pan son menos,
+                    todos disfrutaron de los restos de la despensa de Carlota.</p>
+                <p>Con aires de dueña de casa, Leonor andaba de un lado para otro. En la sala vio a
+                    Ricardo, Rosaura y Consuelo, cabeceando de sueño.</p>
+                <p>Se sentó en una butaca, junto a Ricardo y le declamó las vulgaridades de estilo
+                    que a uno se le ocurren al contemplar un cadáver.</p>
+                <p>Había, sin embargo, sinceridad en las palabras de Leonor. Su voz temblorosa el
+                    brillo de sus ojos, la aristocrática palidez de las mejillas, decían bien a las
+                    claras que aquella era tristeza verdadera.</p>
+                <p>Y es que veía a la Carlota admirada, agasajada, aplaudida por una enorme legión
+                    de adoradores, que se iban al mundo de la muerte en medio de la mayor
+                    indiferencia. ¿Dónde estaban los amantes desesperados que rondaban por su
+                    camarín y caían a sus pies mendigando amor? ¿Dónde estaban sus protestas de
+                    pasión? Convertidas en ceniza desde hace un rato en el hornillo de la
+                    cocinilla.</p>
+                <p>Una ola espumante de rabia que se revolvía en el cerebro de Leonor, se deshizo en
+                    gotas de llanto. En aquel momento, brilló bañada de luz blanca de virtud, la
+                    silueta de su madre, iluminando el hogar, aquel hogar que ella abandonó una
+                    noche desesperadamente, para deshacer, en casa de una celestina, un chiquillo
+                    que se le revolvía en las entrañas. Entre las sombras de sus recuerdos, veía el
+                    horrible cinematógrafo de su vida: su viaje a América, su entrada al teatro, las
+                    bacanales sacrificadas en honor de su belleza, su belleza que nacía en los
+                    labios, urna de besos convulsivos y moría en esa entraña por donde le sacaron a
+                    pedazos al hijo que se dejó hacer inconscientemente.</p>
+                <p>Con la cabeza entre las manos, sollozaba. Muy bajito le dijo a Ricardo:</p>
+                <p>—Nadie, absolutamente nadie, llora de verdad a la muerta. </p>
+                <p>—Es claro. Ahora la pobre no puede servirles de nada. ¿A qué se van a molestar en
+                    derramar una lágrima? Están mejor en el comedor que han convertido en timba.
+                    Aquí hace mucho frió. Habrá gente en la casa hasta que dure el vino y en la
+                    estufa ardan el coke y la leña. </p>
+                <p>—No sé, Ricardo, qué me causa más tristeza: si este horroroso presente o el
+                    porvenir que me aguarda. También cuando yo muera, nadie llorará en mí féretro. </p>
+                <p>—¿Llora usted? </p>
+                <p>—Me lloro A mi misma muerta. Me veo allí, como Carlota, sin el calor de ese
+                    llanto que anuda la garganta. Yo también vivo sola, completamente sola... He
+                    buscado basta ahora la felicidad de oropel... Juro que de hoy en adelante
+                    buscaré cariño verdadero... </p>
+                <p>—Eso es romanticismo que se le ha subido a la cabeza; eso es un rapto de neurosis
+                    sentimental exagerada. Mañana el hervor de la vida le hará ser como hasta aquí. </p>
+                <p>—Si una no oye más que mentiras: si una no vive más que entre farsantes. </p>
+                <p>—Dichosos los farsantes. Les ayuda su audacia. </p>
+                <p>¿Dónde hay nada más valiente que la verdad?</p>
+                <p>—Según con quien se emplea. </p>
+                <p>—Yo no la he oído nunca. </p>
+                <p>—Porque Vd. se reiría de ella. Desparramar su semilla en ciertos temperamentos,
+                    es como pretender que sea fértil una roca. </p>
+                <p>—¿Y Vd. qué sabe cómo es mi temperamento? </p>
+                <p>—Yo no me be referido a usted. ¡Ah, Leonorcita! ¿Vd. cree que no habrá quien
+                    llore en silencio a Carlota? La protesta muda de esta muerte en el corazón de
+                    alguien que quizá fue pisoteado por ese pedazo de carne que mañana empezará a
+                    podrirse. ¡qué bella protesta! </p>
+                <p>Ricardo se calló; sus ojos miraban fijamente una corona de violetas.</p>
+                <p>Al cabo de un rato preguntó Leonor:</p>
+                <p>—¿En qué piensa usted? </p>
+                <p>—En Vd. pensaba, dijo Ricardo. </p>
+                <p>—¿En mi, y me tiene Vd. delante? </p>
+                <p>—¿Qué extraño es eso, cuando mi pensamiento siempre está junto al suyo? ¿Se
+                    sonríe Vd.? Y luego anhela encontrar quien le hable con el corazón en la mano. </p>
+                <p>—Todos Vds. dicen lo mismo. </p>
+                <p>—¿No se le ocurre contestar a usted, otra cosa menos vulgar? </p>
+                <p>—A una vulgaridad, se contesta con vulgaridad y media. </p>
+                <p>—¡Ah, Leonorcita! ha de saber Vd. que yo sería uno de los que le llorasen a usted
+                    de verdad, con llanto caliente de cariño.</p>
+                <p>—Muchas gracias. </p>
+                <p>—Otra más torpe que Vd., respondería mejor a mis palabras. </p>
+                <p>—¿Por qué? </p>
+                <p>—Preguntarme y contestarme a mi misino, es una cosa que aborrezco. </p>
+                <p>—Habrá Vd. experimentado los efectos de algunas preguntas y respuestas. </p>
+                <p>—Cierto. Oiga, Leonorcita: desde hace muchos meses no hago otra cosa que engañar
+                    un deseo. </p>
+                <p>—¿Y cuál es ese deseo? </p>
+                <p>—Que Vd. me quiera, como yo la quiero a Vd. con ansia juvenil... </p>
+                <p>—¿Que yo le quiera? </p>
+                <p>—Si, a mi. Sé que no lo merezco. Hay quien anhela fortuna, gloria, aplausos: yo
+                    sólo persigo un ideal, uno sólo, que es para mí, gloria, aplausos, tesoros, todo
+                    reunido en Vd, Leonor. Y me atormento despiadadamente discurriendo qué es lo que
+                    hace falta para que usted me quiera así, brutalmente, con amor total, que no
+                    dure un día, un año, no; que se prolongue hasta que ya causados, viejos de
+                    cuerpo, pasemos el crepúsculo de nuestra vida regando las flores que sembramos
+                    en nuestra primer noche de pasión. ¡Oh, Leonor!... </p>
+                <p>—Cállase Vd., Ricardo. </p>
+                <p>—No, ya no me callo; ya que he empezado, tiene Vd. que escucharme para que me
+                    diga si o no. De cualquier modo caeré a sus pies, o para pedir perdón por mi
+                    audacia, o para dar gracias a su bondad. </p>
+                <p>—Y sepamos, ¿desde cuándo me quiere? </p>
+                <p>—No sé... desde hace mucho, mucho... no sé... ¿Qué responde usted? </p>
+                <p>—Nada. </p>
+                <p>—Eso es muy vago. ¿Si o no? Yo no pido esperanzas... </p>
+                <p>—Basta, Ricardo, que estamos profanando este túmulo. Me voy. </p>
+                <p>—No... no se marche, Leonorcita, se lo pido por lo que más quiera en el mundo... </p>
+                <p>—Me quedo si cambia Vd. de conversación. </p>
+                <p>—Sea más buena, escúcheme. Quizá sea la última vez que. me escuche. Es algo
+                    inexplicable lo que a mi me pasa con Vd... No... no se marche... </p>
+                <p>Leonor se levantó y se fue a la salita contigua. Ricardo la siguió
+                    exclamando:</p>
+                <p>—Escúcheme Vd., Leonor... </p>
+                <p>—Pero si no es verdad nada de lo que está Vd. diciendo. </p>
+                <p>—Yo no creo más que en mi madre y en la memoria de mi padre. A ellos pongo por
+                    testigos de lo que acabo de hablar. </p>
+                <p>—¿Y qué quiere Vd. que le conteste? </p>
+                <p>—Lo que merece un hombre que apetece un amor desesperado como el mío. </p>
+                <p>—Yo también necesito querer a alguien, quererle de verdad. Soy joven, no me falta
+                    corazón... Pero ¿cree usted, Ricardo, que es Vd. el primero que se me presenta
+                    haciendo tal derroche de pasión? Ya he perdido la cuenta. Usted es un guarismo
+                    más agregado a la suma de farsantes. </p>
+                <p>—¡No, Leonor, no... no... eso no!... </p>
+                <p>Y Ricardo le cogió fuertemente las manos. Le relampagueaban los ojos y le ardíala
+                    frente. Leonor le dijo:</p>
+                <p>—Pero, ¿es posible que sea verdad? </p>
+                <p>—No tengo otro modo de exteriorizar en este instante mis sentimientos que la
+                    palabra. </p>
+                <p>—Palabra llena de fantasías y de arrebatos líricos. No puede Vd. negar que es
+                    escritor. </p>
+                <p>Estaban juntos, muy juntos, con las manos fuertemente apretadas.</p>
+                <p>—Sepárese Vd., que pueden vernos, decía Leonor. </p>
+                <p>—Diga Vd que me quiere. </p>
+                <p>—Le mentiría. Hace muy poco rato que ha logrado Vd. interesarme. Espere. El
+                    tiempo me ayudará a quererle y, sobre todo, a creerle. Sepárate Ricardo... sal
+                    tú primero... </p>
+                <p>Aquel apeamiento repentino del usted, le llenó a Ricardo de una alegría nerviosa.
+                    Dejóle libre las manos a Leonor, al propio tiempo que le dio un beso.</p>
+                <p>Los jugadores levantaron la sesión. Somnolientos, cariacontecidos, bebían las
+                    últimas botellas de vino. La atmósfera brumosa del comedor, fue despejándose a
+                    medida que se descorrían los cortinones de terciopelo. Al poco rato, quedó la
+                    casa solitaria. Dos viejas, modistas de teatro, roncaban en la sala, con un
+                    rosario cada una entre las manos.</p>
+                <p>Leonor se cubrió con un abrigo de astracán y se dispuso a marcharse. Ricardo se
+                    ofreció para acompañarle</p>
+                <p>—Sí, ven. Ahí fuera tengo mi coche. </p>
+                <p>Un aire frío y seco corría por la calle. Se metieron Ricardo y Leonor en el cupé,
+                    que partió velozmente. Iban los dos tiritando: Leonor de frío y Ricardo de
+                    emoción. Estuvieron largo rato sin hablar palabra. Por fin, por decir algo, dijo
+                    Ricardo:</p>
+                <p>—¡Vaya un frío! </p>
+                <p>—Hoy es noche de castañeteo de dientes; noche de dormir apretados, muy
+                    apretados... Acércate más, hombre, así... ¿ves? Mete las manos en mi manguito,
+                    ¿Tú sabes dónde vivo yo? </p>
+                <p>—Me he consolado muchas veces viendo tu casa. Vives bien. </p>
+                <p>—Esta noche estoy por lo humilde. Las galerías de mi hotelito, con sus jarrones
+                    de plantas; las salas con sus estatuas que parecen fantasmas van a causarme
+                    dentro de un rato muchísimo miedo. Ordenaré que enciendan todas las luces... ¿Y
+                    tú, vives solo? </p>
+                <p>—Solo. </p>
+                <p>—¿Lejos del centro de la ciudad? </p>
+                <p>—No: cerca de la redacción. Es un cuchitril infame mi casa. Casa de hombre pobre. </p>
+                <p>—Me tienes que llevar un día a tu habitación. </p>
+                <p>—¿A qué? </p>
+                <p>—A verla. Estoy por decirte que quiero ir ahora mismo. . . Anda, llévame. . . Si
+                    me gusta me quedo a vivir contigo. Es decir, contigo precisamente no. No me
+                    hagas caso. Esta noche me carga el lujo, el boato. . . Anda, dame un beso.
+                    Queman tus labios y están secos. . . ¿Y qué haces en tu casa? Oye, y ¿quién te
+                    arregla el cuarto? ¿Tienes algún criado? ¡También estoy aburrida de los criados!
+                    Ea, llévame a tu casa. Ahora si que hablo en serio. Llévame, llévame Ricardo. </p>
+                <p>—No, Leonor. Mi cuarto es muy pobre y muy asqueroso. Hay una cama de hierro, cuya
+                    almohada es tumba de mis pensamientos; un armatoste cargado de libros y una mesa
+                    que soporta con resignación muchos papelotes manchados de versos y comedias. No,
+                    Leonor. . . mi casa no es digna de ti. Tus piececitos acostumbrados a la caricia
+                    muelle de las alfombras, se helarían en los baldosines rojos, de un rojo que
+                    resulta pálido si se compara con la vergüenza que encendería mi rostro al verte
+                    allí. </p>
+                <p>—Me gustas por lo franco. </p>
+                <p>—¿A qué pintar grandezas que no poseo? Además, le ofrezco a tu amor mi persona,
+                    no mi habitación. </p>
+                <p>—Por eso quiero ir a tu casa; y quiero más, quiero revolearme contigo allí, en la
+                    cama de hierro, hacer crujir el colchón de elástico, oler tu almohada que tendrá
+                    el olor de tu cabeza. Estoy ahita de aromas de budoar, de perfumes que embriagan
+                    dulcemente, pero que no enervan. . . ¡Qué ingenua soy! ¡Te hago mi profesión de
+                    fe, sin saber si tú me quieres de verdad! </p>
+                <p>—Demasiado sabes que si. </p>
+                <p>—¡Y no me concedes ese gustazo! Ya hemos entrado en calor. ¡Qué deliciosa tibieza
+                    la del manguito. . . Oye, voy a serte franca. Ayer, mientras estabas en el café
+                    de en frente al teatro, yo te vi a través de los cristales y te besé con el
+                    pensamiento. Hubiera querido tenerte a mi lado para morder tus labios. Cuando
+                    entraste más tarde a mi camarín, ya se me había pasado tal idea. . . Entonces me
+                    causaste repugnancia. Ahora quiero cobrarme el mordisco que me debes. Procura
+                    arrimar cuanto antes tu boca porque puede que me vuelvas a dar asco. ¡Cómo me
+                    gusta morder! Tienes poco bigote; es lástima que no puedas pinchar... Ya
+                    llegamos. ¿Te decides a que vayamos a tu cuarto? Mira, tú te bajas en la otra
+                    esquina: yo hago como que entro a casa porque este cochero es un soplón y se lo
+                    cuenta todo al tonto que le paga la mesada. Luego, cogiditos del brazo, muy
+                    arrebujados, nos vamos a tu casa. ¿Te acuerdas del primer acto de <seg
+                        rend="italic">Boheme?</seg> Bueno, representémoslo. Tú eres Rodolfo, yo
+                    Mimi. </p>
+                <p>—Hoy no puedo satisfacer tu deseo... </p>
+                <p>—¡Ah, vamos, ya caigo! Seguramente vives con alguna mujerzuela, y es claro!
+                    ¡Sepárate de mi! ¡Infame! Sepárate de mi, te he dicho . . no me abraces. . no. .
+                    . eres un infame. . . </p>
+                <p>—Infamias, queridas, todo te lo forjas. </p>
+                <p>—Te perdono. Vamos a mi casa. Conste que desmereces un poco ante mis ojos.
+                    Prefiero a Rodolfo durmiendo en dura yaciga con Mimi, que a Armando arreltenado
+                    entre edredones de seda que siempre calientan menos que los brazos de una
+                    Margarita. Conste que para mí Armando es un idiota. Va hemos llegado. Vuelve en
+                    seguida a pie. </p>
+                <p>—¿Dónde vas a estar tú? </p>
+                <p>—Dejaré la puerta entreabierta. </p>
+                <p>Bajó Leonor del cupé y le dijo al cochero: «Al señor le lleva V. a donde él le
+                    diga.» Y para disimular agregó: «Hasta mañana Ricardo. Antes del entierro nos
+                    veremos.»</p>
+                <p>Los caballos arrancaron a escape.</p>
+                <p>A los cinco minutos llegaba Ricardo nuevamente a la puerta de la casa de Leonor.
+                    Ella le aguardaba en el zaguán. «¿Tienes fósforos?», le preguntó. —Si.</p>
+                <p>—Alúmbrame un poco. </p>
+                <p>—¿Qué vas a hacer? </p>
+                <p>—Voy a cortar el alambre del timbre eléctrico. </p>
+                <p>Lo partió de un tirón. «El que venga, puede estar apretando el botón hasta que
+                    guste. Corre el peligro, si espera a que le oigamos, de convertirse en sorbete.
+                    ¡Vaya una nochecita!»</p>
+                <p>A Ricardo le parecía todo aquello un sueño. Cruzaron una porción de saloncitos y
+                    llegaron por fin a la habitación de Leonor.</p>
+                <p>Dio luz a la bomba eléctrica. Frente mismo a la cama, había dos figuras de bronce
+                    que representaban a Dafnes y Cloe. Leonor recitó las palabras de Longo, que
+                    estaban escritas en el pilar: <writing type="document">«Para amor, no hay
+                        filtros, ni ensalmos, ni manjar con hechizo: no hay más que beso, abrazo y
+                        acostarse juntos desnudos.»</writing></p>
+            </div>
+            <div type="chapter">
+                <head>III</head>
+                <p>Empezaba a clarear el día cuando Ricardo se marchó de la casa de Leonor. El aire
+                    de la mañana le despejó un poco. Una actividad nerviosa bullía en su cerebro.
+                    Las escenas de la noche anterior se le antojaban un sueño delicioso. Un olor
+                    acre a perfumada carne de hembra, permanecía pegado a sus mucosas.</p>
+                <p>Anduvo largo rato sin rumbo, fumando cigarrillos y paladeando esencias de
+                    Leonor.</p>
+                <p>En el espejo del escaparate de una joyería se miró. Su cara sin sangre, sin
+                    expresión, parecía una mascarilla de yeso.</p>
+                <p>Muchos pendientes, muchas pulseras y muchos amuletos brillaban através del
+                    cristal. Junto a las joyas verdaderas se veían montones de baratijas falsas que
+                    casi lucían más que las de ley. Ricardo pensó entonces en la verdad y en la
+                    falsedad del amor. Encarnación y Leonor eran las joyas que tenia ante su vista.
+                    ¿Cuál de las dos era la verdadera? El tiempo, que es piedra de toque, se
+                    encargaría de probárselo.</p>
+                <p>Sin darse cuenta, se encontró en el portal de su casa. Su querida había ido al
+                    mercado a hacer la compra.</p>
+                <p>Se sentó Ricardo en la cama, que aún conservaba calor, y se puso a discurrir de
+                    dónde sacaría dinero para pagarle Lacena aquella noche a Leonor.</p>
+                <p>Continuaba, sentado en el camastro, con una colilla de cigarro pegada en el labio
+                    inferior, con el sombrero abollado y las manos metidas en los bolsillos de los
+                    pantalones, cuando se apareció Encarnación. Tristemente le dio los buenos días a
+                    Ricardo.</p>
+                <p>Encarnación era marsellesa: frisaba en los veinticinco anos y vino a Buenos Aires
+                    a ser institutriz de unos chiquillos de gente copetuda de la avenida Alvear.</p>
+                <p>El hijo mayor de la casa donde daba lecciones, empezó a perseguirla y a ir detrás
+                    de ella como va el chacal en pos de la carne.</p>
+                <p>Una noche, entró el muchacho ,en la alcoba de Encarnación: juntó sus labios a los
+                    labios vírgenes de la marsellesa y mendigó entre sollozos fingidos y espasmos de
+                    lujuria, un poco de amor. Encarnación fue, poco a poco, bajando el diapasón de
+                    las protestas y se apenó de ver llorar al muchacho.</p>
+                <p>La herida causada en su doncellez, se curó con ungüento de besos y masaje de
+                    caricias.</p>
+                <p>Aún recuerda con horror la noche que le sorprendió el ama de llaves en los brazos
+                    del muchacho. Este en vano se acurrucó entre las cobijas de la cama: en vano los
+                    dos, a dúo. pidieron perdón a la endemoniada vieja.</p>
+                <p>A la mañana siguiente despidieron de la casa a Encarnación.</p>
+                <p>Desde aquel día, rodó por las calles, llevando vida airada, acudiendo a las casas
+                    de cita, durmiendo hoy con uno, mañana con otro. Herida por las abejas del
+                    jardín de Venus, fue primero al hospital, y una vez curada, se metió de camarera
+                    en un café cantante.</p>
+                <p>Allí conoció a Ricardo. Un buen día salieron juntos, y desde entonces no han
+                    vuelto a separarse.</p>
+                <p>Encarnación se desvivía por complacer a Ricardo; le amaba con la fiereza de quien
+                    ama por primera vez en la vida. Las caricias sensuales regaladas por el
+                    chiquillo de la avenida Alvear, habíanle servido de aperitivo para el banquete
+                    de pasión que le ofrecía la juventud de Ricardo.</p>
+                <p>Hablaba admirablemente el francés, el inglés y el castellano. Tenia la virtud de
+                    amoldarse a todas las situaciones. Con el sueldo del periódico, que intacto le
+                    entregaba Ricardo, ella hacia la mar de habilidades.</p>
+                <p>Ricardo, miraba a su querida, cómo sacaba de la cesta los pedazos de carne cruda,
+                    varías patatas, una botella de leche, un montón de panecillos y un manojo de
+                    lechugas. Al poco rato encendió el infiernillo de aceite mineral y se quiso a
+                    preparar el desayuno.</p>
+                <p>—¿Quieres tomar leche sola o con café? le preguntó a Ricardo. </p>
+                <p>—Lo que quiero es que me saques de ahí esas chuletas que huelen a sebo que es un
+                    asco. </p>
+                <p>—Vienes muy delicado de olfato. Debes haber aspirado perfumes muy exquisitos
+                    durante toda la noche. </p>
+                <p>—¡Y tan exquisitos! Como que he estado velando a una muerta. </p>
+                <p>—¿A quién? </p>
+                <p>—A Carlota Mena. </p>
+                <p>—¿Qué, se ha muerto? </p>
+                <p>—Ayer por la tarde. </p>
+                <p>—¡Pobrecilla! El domingo la vi en misa. ¡Quién había de decir! ¿Y cuándo la
+                    entierran? </p>
+                <p>—Hoy a las diez de la mañana. </p>
+                <p>—¿Tú irás, por supuesto, al camposanto? </p>
+                <p>—Sí. </p>
+                <p>—¿Será muy lujoso el cortejo? </p>
+                <p>—No lo sé. </p>
+                <p>—¿Deja familia? </p>
+                <p>—Tampoco lo sé. </p>
+                <p>—Pues estás enterado. Si no hablas más fuera de casa, debe ser interesante el
+                    estar contigo. Te has vuelto insoportable de un tiempo a esta parte. Y total, la
+                    que lo paga soy yo. </p>
+                <p>—¿Tú? </p>
+                <p>—¡Yo! Aperreada continuamente, sin ver el mundo por un agujero, y como si esto no
+                    fuera bastante, sin tener quien me brinde afectos. </p>
+                <p>—No digas estupideces, mujer. </p>
+                <p>—Me parece que soy digna de que me trates un poco mejor; como me tratabas antes. </p>
+                <p>—¿Mejor, en qué sentido? </p>
+                <p>—¿En qué sentido? </p>
+                <p>—Mira: ya sabes el trato que hicimos la primera noche de nuestro amor. Si estás
+                    aburrida de mi, o has encontrado quien te proporcione caricias más delicadas que
+                    las mías... </p>
+                <p>—¿Pero tú crees que yo puedo amar a otro hombre que no seas tú? </p>
+                <p>—¿Yo qué sé? </p>
+                <p>—Tú qué sabes... qué sabes... </p>
+                <p>—Mira, es preferible que no hablemos. </p>
+                <p>—Cierto. Así como así, acabaré por darte la razón. ¿Vas a desayunar? </p>
+                <p>—Bueno. </p>
+                <p>—Lo que debes hacer en seguida es acostarte. </p>
+                <p>—No, porque voy a ir al entierro. Además, necesito buscar un poco de dinero. </p>
+                <p>—Pídeselo al empresario. </p>
+                <p>—No me lo dará. </p>
+                <p>—Hay una obra tuya en el cartel. </p>
+                <p>—¿Te has olvidado que ya nos hemos comido el producto de esta obra y de la que se
+                    está ensayando? </p>
+                <p>—Entonces pídele un adelanto al administrador del periódico. </p>
+                <p>—Tú no me tienes que dar instrucciones. </p>
+                <p>—¡Bueno, hombre, bueno! De todos modos no debes estar mal humorado por eso. No ha
+                    de ser una cantidad del otro jueves... Lo dicho, hijo, estás insoportable. </p>
+                <p>Mientras sorbían el café, Encarnación se miraba en el espejo verdoso de su
+                    tocador, y decía para sus adentros: «No me he vuelto fea, no... yo debía ser más
+                    coqueta, arreglarme mejor... Este peinado liso y llano, sienta mal a mi cara
+                    redonda. Con un poco de polvo en las mejillas, luciría más el negro de mis ojos
+                    y parecerían más rojos mis labios... Estoy poco excitante. Juro que desde hoy en
+                    adelante, me ajustaré el corsé para que se modele mi cintura, para que mi pecho
+                    esté levantado... Entonces Ricardo volverá a apasionarse de mi»</p>
+                <p>—Esto de tener que salir a buscar dinero... exclamó de pronto Ricardo. </p>
+                <p>Encarnación, aun se estaba mirando en el espejo. De sus orejitas, colgaban como
+                    dos gotas de agua, unos pendientes de brillantes que se los había regalado
+                    Ricardo la noche que salieron juntos del café. Se quitó los pendientes y dijo
+                    con delicada coquetería: «Mira, lo mejor que podemos hacer, es empeñar esto.
+                    ¡Para la falta que a mi me hacen! Cuando tengas dinero los desempeñas y en
+                    paz».</p>
+                <p>—¿Qué haces, mujer? </p>
+                <p>—Evitar que sigas malhumorado. Compras de paso unas violetas y se las echas en mi
+                    nombre al féretro de Carlota. </p>
+                <p>Una ola de sangre, subió a la cara de Ricardo. Estaba avergonzado. Iba a confesar
+                    su traición, a pedir perdón a aquella compañera excepcional, pero la silueta de
+                    Leonor cruzó rápidamente ante su vista. Pensó en las horas de placer que le
+                    aguardaban y se limitó tan sólo a dar las gracias.</p>
+                <p>El entierro de Carlota, tuvo lugar a las diez. Los del duelo, como si no hubiera
+                    pasado nada, se fueron del cementerio al ensayo.</p>
+                <p>A las cuatro muy dadas, salió 'Ricardo de la redacción de <seg rend="italic">La
+                        Aurora</seg> y se fue al hotelito de Leonor.</p>
+                <p>El portero, que ya estaba avisado, le hizo pasar A la salita.</p>
+                <p>Una cabeza despeinada, asomó por entre las borlas de uno de los cortinones y
+                    habló:</p>
+                <p>—Oye, Ricardo; estoy sin afeites, al natural... acabo de bailarme. ¿A dónde me
+                    vas a llevar? </p>
+                <p>—A donde tú quieras. </p>
+                <p>—Mientras me visto, discurre una parte rara. ¿Has pensado mucho en mi? </p>
+                <p>—Mucho. </p>
+                <p>—¡Eh! señor don Ricardo; ¡quietecito en ese sofá! Pues no faltaba más que
+                    sorprendiese Vd., en camisa, a la señorita Leonor. </p>
+                <p>Ricardo desobedeció el. mandato, descorrió la cortina y estrechó entre sus brazos
+                    A Leonor.</p>
+                <p>—¿Quieres ver cómo me visto? Entra, entra. </p>
+                <p>Iba a ponerse el sombrero, cuando el criado le alcanzó una tarjeta. Al leerla
+                    dijo: «¡Malditos importunos! ¡Regúlez» No me deja a sol ni a sombra. Verás en
+                    qué momento le despido. Dígale usted que pase... que ya voy.»</p>
+                <p>Era Regúlez un solterón millonario, bastante buen mozo y muy espléndido con sus
+                    queridas, a quienes pagaba con cheques de banco y brillantes. Llevaba fama de
+                    haber sido amante de las mujeres más lindas de Buenos Aires.</p>
+                <p>Leonor entró a la salita con sonrisa fingida, diciendo: «Amigo Regúlez, viene
+                    usted en momento bien inoportuno.»</p>
+                <p>—Por lo visto iba Vd. a salir. </p>
+                <p>—Si, pero podemos charlar un ratito, nada más que un ratito. </p>
+                <p>—Seré breve. Vengo a invitar a Vd. a una fiesta que celebro esta noche en mi
+                    quinta Las Violetas. Quiero que nos reunamos un grupo de amigos, con el objeto
+                    de pasar unas horas alegres, y sobre todo, con el objeto principalísimo de tener
+                    a Vd. al lado mío. </p>
+                <p>—Pero, simpático amigo, ¿a quién se le ocurre dar en invierno y por la noche, una
+                    fiesta en una estancia de campo? </p>
+                <p>—Es que allí podremos estar con más libertad. Luego, la originalidad del viaje...
+                    Nos iremos después de la función en tren expreso. </p>
+                <p>—Antes de aceptar, dígame Vd. quiénes son los invitados. </p>
+                <p>—Pues verá Vd. Aquí tengo la lista. </p>
+                <p>—Léame Vd. los nombres principales. </p>
+                <p>—Del teatro de la Opera he invitado a la Scalpini, a la Esmeralda, al tenor
+                    Ferri, al barítono Massetti y al director de orquesta. De la Zarzuela y la
+                    Comedia, lo mejorcito; del circo San Martin al prestidigitador Nofre y al
+                    pierrot Neleto; del Politeama, a la primera actriz. Esto en cuanto agente de
+                    teatro. Agregue usted todos los amigos que frecuentamos su camarín, algunos
+                    periodistas... </p>
+                <p>—Por lo visto va a ser aquello una <seg rend="italic">juerga</seg> por todo lo
+                    alto. </p>
+                <p>—La quinta parecerá un castillo encantado. La reina de la fiesta será usted. </p>
+                <p>—Gracias. Cuente Vd. con mi presencia. </p>
+                <p>—No esperaba menos de usted. </p>
+                <p>—Entonces, hasta luego, mi querido Regúlez. Usted dispense que le despida... Ya
+                    hablaremos esta noche más despacio. </p>
+                <p>—Leonorcita evitando siempre mi compañía. Hasta después. </p>
+                <p>—Adiós. </p>
+                <p>—Ha sido una visita instantánea. </p>
+                <p>—En su quinta será con exposición. </p>
+                <p>Cruzaba el vestíbulo Regúlez, cuando Leonor gritó: «Ricardo, Ricardo,
+                    vámonos.»</p>
+                <p>—¿Y vas a asistir a esa fiesta? </p>
+                <p>—Parece que has estado oyendo. </p>
+                <p>—Claro que si. </p>
+                <p>—Si tú no quieres... </p>
+                <p>—No; por mi no te prives... </p>
+                <p>—Estoy a tus órdenes. Tomaremos coche de alquilón para pasear por donde se nos
+                    antoje. Por la esquina pasan muy a menudo. </p>
+                <milestone unit="section" rend="line"/>
+                <p>Al subir al cupé, le dijo Ricardo al auriga: «Toma la calle que gustes.»</p>
+                <p>—¿Y a dónde me llevas, Ricardo? </p>
+                <p>—Ahora lo pensaremos. </p>
+                <p>—Oye, ¿sabes dónde tengo pipia de ir? A esos cafés que hay en el puerto. Desde
+                    que desembarqué no he vuelto a pasar por ahí. </p>
+                <p>—Me parece muy buena idea, respon-dió Ricardo, y asomándose por la ventanilla,
+                    gritó: «¡Cochero, a la Dársena!» </p>
+                <p>El coche cruzaba a todo escape la calle Florida, dobló entonces por la avenida de
+                    Mayo y se metió en la plaza de la Victoria.</p>
+                <p>Al llegar al paseo Colón, empezaba a anochecer. Los arcos voltaicos chorreaban su
+                    luz de plata; los tranvías eléctricos se deslizaban como una exhalación y en la
+                    lejura, los farolillos de los mástiles de las embarcaciones se confundían con
+                    las estrellas del cielo.</p>
+                <p>—Ya hemos llegado. </p>
+                <p>—Te prevengo, Ricardo, que quiero comer en uno de esos fondines. </p>
+                <p>—No, mujer. </p>
+                <p>—Sí, si, sí. Estoy hastiada de mesas lujosas y de criados de frac. Verás con qué
+                    gusto vamos a engullirnos algún guisote ordinario y a beber vino en vasos de
+                    vidrio gordo. </p>
+                <p>—Nos meteremos en el café más decente. </p>
+                <p>—En cualquiera. Di al cochero que pare. </p>
+                <p>Bajaron del carruaje y echaron a andar por una de las aceras.</p>
+                <p>—Oye, Ricardo, ¿qué dice allí? No distingo... <writing type="document">«A la
+                        u...va apeti...tosa»</writing>. ¿Y allí que dice? <writing type="document"
+                        >«Al tonel de Baco»</writing>. </p>
+                <p>A cada momento Leonor leía: <writing type="document">«El león de
+                        Caprera»</writing>, <writing type="document">«Wirthaus»</writing>, <writing
+                        type="document">«Taberna del general Prim»</writing>, <writing
+                        type="document">«Debit de Boissons»</writing>, <writing type="document"
+                        >«Auberge Carnot»</writing>, <writing type="document">«¡Olé, mi niña! y
+                        pescao frito»</writing>, <writing type="document">«Public House»</writing>,
+                        <writing type="document">«Inn»</writing>, <writing type="document"
+                        >«Trattoria»</writing>, <writing type="document">«¡Ay, que no!»</writing>.
+                        <writing type="document">«Café cantante y posada de la
+                    marsellesa»</writing>.</p>
+                <p>—Aquí, Ricardo; entremos aquí... </p>
+                <p>Al oír marsellesa, Ricardo palideció.</p>
+                <p>—Dame el brazo, hombre. </p>
+                <p>En el pequeño foyer se leía en tamaños caracteres rojos y azules: <writing
+                        type="document">«Café cantante»</writing>.</p>
+                <p>Al entrar se veían retratos, guirnaldas de hojas secas, gallardetes, programas
+                    escritos a mano, farolillos de colores y dos pizarrones donde estaban escritas
+                    las novedades de la función:</p>
+                <writing type="document">
+                    <floatingText>
+                        <body>
+                            <div>
+                                <p>
+                                    <seg rend="italic">Pierrot traisionero y Colomina</seg>
+                                </p>
+                                <p>
+                                    <seg rend="italic">bengativa</seg>
+                                </p>
+                                <p>
+                                    <seg rend="italic">Decorado y tragues nuevos.</seg>
+                                </p>
+                                <p>
+                                    <seg rend="italic">Nuebos</seg>
+                                </p>
+                                <p>
+                                    <seg rend="italic">Artistas</seg>, <seg rend="italic">cuatro
+                                        músicos maz</seg>
+                                </p>
+                                <p>
+                                    <seg rend="italic">y un violín y coro adentro</seg>
+                                </p>
+                                <p>
+                                    <seg rend="italic">Oy estreno oy.</seg>
+                                </p>
+                            </div>
+                        </body>
+                    </floatingText>
+                </writing>
+                <p>El salón era largo y angosto. Al fondo se levantaba el escenario; una porción de
+                    mesas, llegaban en hilera hasta la tarima de la orquesta.</p>
+                <p>Junto al mostrador, un hombrecillo de barba canosa y enorme jiba en la espalda,
+                    servía de comer a las camareras.</p>
+                <p>Ricardo y Leonor se sentaron. Al verles, acudió corriendo el hombre de la
+                    jiba.</p>
+                <p>—¿Qué va a ser? </p>
+                <p>Ricardo dijo: «Quisiéramos comer alguna cosa. Múdenos Vd., ante todo, el
+                    mantel.»</p>
+                <p>—No hace falta, interrumpió Leonor; con tal que las servilletas estén limpias,
+                    nos basta. Tráiganos Vd. de lo que comen aquellas muchachas. </p>
+                <p>—¿Qué vino van a tomar? Tengo un Malvasia exquisito y un Chianti capaz de
+                    resucitar a un muerto. </p>
+                <p>—Pues Chianti y Malvasia, gritó Leonor. </p>
+                <p>El dueño del café, fue corriendo a los estantes y comenzó a bajar varias
+                    botellas.</p>
+                <p>—Mira que ha sido ocurrencia la tuya... Por mi no me importa.. Estoy acostumbrado
+                    a cosas peores. </p>
+                <p>—¿Te parece poca fortuna habernos metido en la casa de un jorobado? Esto trae
+                    suerte. </p>
+                <p>—Aquí están las botellas. ¿Quieren ustedes que les abra alguna lata de conserva? </p>
+                <p>—Bueno. </p>
+                <p>—¿Y un poco de jamón, les apetece? </p>
+                <p>—Sírvanos Vd. de lo que guste. Entregamos nuestro apetito, a la voluntad de
+                    usted. ¿No es cierto, Ricardo? ¿Pero, qué te pasa? </p>
+                <p>—Nada... </p>
+                <p>—¡Bebe... bebe!... El vinillo te entonará. ¡A tu salud! </p>
+                <p>Mientras comían, Ricardo se acordaba de la época en que conoció a Encarnación en
+                    un café como aquél.</p>
+                <p>Leonor, con tartamudeces de borracha, le decía a Ricardo que llamase al dueño del
+                    café para tocarle la joroba. «Eso da suerte... da suerte...»</p>
+                <p>Poco a poco fueron llenándose las mesas de parroquianos. Entraban marineros de
+                    todas las nacionalidades, trabajadores de los barcos, ladrones, mujeres
+                    perdidas</p>
+                <p>—Me parece que ya es hora de que nos retiremos. ¿No es cierto, Leonor? </p>
+                <p>—Hasta la última tanda no trabajo. Quedémonos a ver la función. </p>
+                <p>—No, de ninguna manera... vámonos... Hazme caso; lo digo por tu bien Mira qué
+                    gente hay a nuestro alrededor. </p>
+                <p>—Pues yo estoy muy a gusto aquí. De buena gana subiría a ese escenario a cantar,
+                    a divertir a estos infelices... </p>
+                <p>Después de un tira y afloja, Ricardo pudo sacar de allí a Leonor.</p>
+                <p>En el coche iban abrazados; de rato en rato juntaban sus bocas y permanecían
+                    mordiéndose los labios hasta que se les concluía el aliento.</p>
+                <p>Leonor, con la cabeza recostada en el hombro de Ricardo, decía: «Seremos los
+                    enamorados más dichosos de este mundo. Pero para eso hace falta que me obedezcas
+                    en todo: que no seas celoso...»</p>
+                <p>—Si no quieres a nadie más que a mi, ¿de quién voy a tener celos? </p>
+                <p>—Ya sabes que luego vamos a ir a la fiesta de Regúlez. Allí te niego que
+                    disimules nuestro amor. Me parece que Regúlez cae. Será nuestro primo carnal. </p>
+                <p>—No te entiendo. </p>
+                <p>—Que le sacaremos abundante parné. Regúlez es cosa mía esta noche. Mira, desde
+                    mañana, no te preocupes de nada. Tú serás mi amante de corazón. Los otros...
+                    ¡ah... los otros...! </p>
+                <p>—¿Qué otros? </p>
+                <p>—Los que tienen que pagar mis coches, mis criados mi cocinero, mis lujos... </p>
+                <p>—No te entiendo. Entonces, ¿qué soy yo para ti? </p>
+                <p>—Ya te lo he dicho: mi amante de corazón. </p>
+                <p>—Tú comprendes que un hombre como yo, no puede aceptar situaciones de esa
+                    naturaleza. </p>
+                <p>—¿Por qué? </p>
+                <p>—Porque yo quiero que tu cuerpo y tu alma sean sólo de mi pertenencia, ¿lo
+                    entiendes?; ¿lo entiendes? </p>
+                <p>—Voy a probarte que eso no puede ser. </p>
+                <p>—¿Por qué? </p>
+                <p>—¿Tú tienes cómo mantenerme? </p>
+                <p>—No y si. </p>
+                <p>—Explícate mejor. </p>
+                <p>—Si sigues arrastrando este boato, claro que no. </p>
+                <p>—Más modestamente viviría. </p>
+                <p>—¿Cuál es el limite de tu modestia? </p>
+                <p>—El que es digno de mi. </p>
+                <p>—Los medios de fortuna de que dispongo, son pobrísimos; no tengo dinero, pero
+                    puedo ganarlo, y entonces todo será para ti. </p>
+                <p>—Hablemos francamente. Entre dos que han dormido juntos, porque se quieren, sin
+                    esperar el uno del otro más recompensa que caricias, bien se puede hacer uso de
+                    sinceridad. Yo, Ricardo, te quiero y te querré. Tu dices que me amas. Pues bien,
+                    todo placer trae consigo una desdicha. </p>
+                <p>— Sé más breve. </p>
+                <p>—No te pongas nervioso y escucha. ¿Dices que me amas? </p>
+                <p>—¡Si! ¡si!... </p>
+                <p>—Entonces estarás dispuesto a hacer por mi... </p>
+                <p>—Toda clase de sacrificios... </p>
+                <p>—Incluso el de consentir que yo siga arrastrando ese boato de que has hablado
+                    anteriormente. </p>
+                <p>—Te he dicho que soy pobre. </p>
+                <p>—Eso no es inconveniente. Escucha: te juro por... ¡no sé por quién!... que no he
+                    querido a nadie como a ti. Tuyo es mi corazón, mi alma... todo, Ricardo, todo...
+                    Pero yo necesito dinero... mucho dinero, para gastar, para darme buena vida.... </p>
+                <p>—Yo no puedo proporcionártelo. </p>
+                <p>—Yo puedo ganarlo para ti y para mi. ¿Callas?... ¡Ay, qué chiquillo!.... ¡Te será
+                    fiel lo espiritual de mi persona; ¿qué importa que mi cuerpo te traicione? </p>
+                <p>—Leonor.... Si no me pareciera un sueño todo lo que me ha pasado y me pasa de
+                    ayer a hoy, ahora mismo, en menos tiempo que tardan tus párpados en juntarse y
+                    volverse abrir, te echaría las manos al cuello y te ahogaría. Debo haberte
+                    pintado muy mal mi pasión, cuando quieres hacer conmigo ese pacto odioso... </p>
+                <p>—¡Qué infantil! ¡Qué poco humano! ¡Cuántos quisieran estar en tu pellejo! </p>
+                <p>—Pero yo, sin duda, debo haberte parecido un infelizote. </p>
+                <p>—No; el infelizote me resultas ahora. Te creí hombre de talento; veo que eres uno
+                    de esos tantos seres cursis que al enamorarse no anhelan otra cosa que el
+                    sacrificio del ser que les quiere. </p>
+                <p>—¿Y qué sacrificio reclamo yo de tu persona? </p>
+                <p>—El de descender a una pobreza que no se aviene con mi carácter. </p>
+                <p>—Si me amases de verdad, descenderías de un brinco hasta el pozo de mi
+                    indigencia. </p>
+                <p>—Es que para amar de verdad, necesito de todo esto que hace que la existencia sea
+                    medio soportable. ¡Pero bajar a los antros de la pobreza! ¿A qué? A amar; digo
+                    mal, ¡a amar, no! a sufrir, a pasar las noches en un mal catre y A vivir en una
+                    jaula mal oliente de casa de vecindad. </p>
+                <p>—Anoche sonabas con eso. </p>
+                <p>—Es cierto, soñaba; ahora que estoy despierta, anhelo todo lo contrario.
+                    Supongamos por un momento que cometo la tontera de dar ese brinco. ¿Caería en
+                    tus brazos, verdad? Pero supongamos también que te aburres de mi. </p>
+                <p>—Yo... </p>
+                <p>—O que yo me aburra de ti; todo puede suceder. Y te pregunto: ¿cómo vuelvo a
+                    subir hasta esta altura? Sé que de un brinco se baja; mas también sé que se
+                    llega a donde yo estoy, cansada de bregar, con el alma herida y el corazón
+                    encallecido. Déjame gozar de la altura aun cuando sienta la impresión del
+                    vértigo. Volé con alas hechas de plumas de vilipendio y de vicio. No pretendas
+                    que trueque mis gustos de princesa por los de una fregona. Acepta, Ricardo, y
+                    seremos los enamorados más felices. </p>
+                <p>—Para eso seria necesario que se me cristalizase el sentido moral. Consiente en
+                    descender. Luego subiremos juntos, tu apoyada en mí. </p>
+                <p>—Es que para eso, seria necesario que se me cristalizase mi vanidad de mujer. </p>
+                <p>—No podemos entendernos. </p>
+                <p>—El que no quiere entender eres tú. </p>
+                <p>—¡Tú! </p>
+                <p>—Los dos. </p>
+                <p>—Es cosa de perder la razón. De modo que prefieres a un hombre sin decoro, a un
+                    hombre que viva del dinero que ganas metiéndote en la cama con otro hombre. ..
+                    Si aceptase eso, seria el más grande de los sinvergüenzas. </p>
+                <p>—El amor no tiene vergüenza. Conste que si te hablo así, tan descaradamente, es
+                    porque estoy enamorada de ti. </p>
+                <p>—Pocas pruebas das. </p>
+                <p>—Empiezo por ser franca. </p>
+                <p>—Si eso es la franqueza, maldita sea la franqueza; y si ése es el modo que tienes
+                    de corresponder a mi cariño, ¡maldita seas, Leonor! Porque yo si que te quiero
+                    como no te lia querido nadie en este mundo. Y me pagas, proponiéndome una
+                    indignidad, clasificando mi proceder de ingenuo y de tonto. ¡Tonto . . . tonto!
+                    ¡Oh, diera todo lo que me resta de vida por ser rico! ¿Y sabes para qué? Para
+                    que pudieras decirme francamente cuánto vale la noche que he pasado contigo . .
+                    . </p>
+                <p>—No sabes lo que hablas. </p>
+                <p>—Yo mismo me doy asco. . . me das asco y ¡adiós! . . . </p>
+                <p>Abrió la portezuela y se bajó bruscamente del cupé.</p>
+                <p>Leonor aún le gritó: «¡Ricardo, Ricardo!» Su voz se perdió en el silencio de la
+                    noche.</p>
+                <p>El cochero detuvo los caballos y preguntó: «¿Qué pasa?»</p>
+                <p>—Nada. Siga Vd. a escape hasta el teatro Variedades. </p>
+                <p>Iba recostada en el fondo del cupé. El remordimiento del error cometido, empezaba
+                    a palpitar en el seno de sus emociones. Su actitud, parecía, sin embargo,
+                    tranquila.</p>
+                <p>Fue un compás de espera para adquirir mayores bríos; la energía emocional se
+                    desbordó de pronto y comenzó a llorar nerviosamente.</p>
+                <p>Una porción de ideas a cual más disparatadas, acudían en tropel a su cerebro.
+                    Hubiera querido desdoblarse, ser otra ella, para pegarse y castigarse.</p>
+                <p>Con voz ronca decía: «Ese hombre volverá a ser mío . . . mío. . . Oh si. . . yo
+                    me vengaré, yo haré que se arrastre a mis plantas para tener el gusto de
+                    vejarle; para que su amor hacia mí, venza a su dignidad. Entonces ¡oh!
+                    entonces...» Y se cubría la cabeza con las manos, se mesaba el cabello, lloraba,
+                    maldecía. ..</p>
+                <p>En un estado horrible de depresión nerviosa, llegó al teatro. El bullicio y las
+                    luces le sorprendieron bruscamente. Con los puños apretados, pegó en los
+                    cristales del coche: «No, aquí no. . . por la puerta del escenario». La piedra
+                    de uno de sus anillos rajó el cristal de la portezuela.</p>
+                <p>Subió al cuarto desesperada. A la camarera casi le dio un grito porque le
+                    contradijo en una cosa insignificante; y al portero del escenario le dijo cuatro
+                    frescas porque le mandó avisar que el cochero quería que le pagasen.</p>
+                <p>—Alcánzame ese frasco de esencias. No. . . violeta no. . . </p>
+                <p>—¿Cuál, entonces? </p>
+                <p>—Ninguno: vete. . . déjame sola. . . </p>
+                <p>—Pero ¿qué es lo que le pasa a usted? </p>
+                <p>—Nada. ¡Ay, Dios mío, qué mareos! </p>
+                <p>—Será que se ha enfriado. </p>
+                <p>—¿No me ves que estoy acalorada? </p>
+                <p>—Entonces . . . </p>
+                <p>—Déjame sola. </p>
+                <p>—Me iré. </p>
+                <p>—No. . . no te marches. </p>
+                <p>—¿Llamo a un médico? </p>
+                <p>—¡Ni que me estuviera muriendo! </p>
+                <p>Es que . . .</p>
+                <p>—Alcánzame el frasco de la violeta. Oliendo se me pasará. ¡Qué mala estoy!
+                    ¡Claro! ¡no me haces caso, me abandonas, no te preocupas de mi... claro. . .
+                    claro! </p>
+                <p>—Señorita, yo. . . </p>
+                <p>—¡Si todavía pretenderás tener razón! Tápame bien. ¡Qué frío!. . . ¡Uy. . . Uy!
+                    Cómo arde mi cabeza. . . Entre todos me vais a matar. Averigua dónde vive el
+                    señor Ricardo. </p>
+                <p>—¿Qué Ricardo? </p>
+                <p>—El autor de esa fantochada que va en cuarta sección. </p>
+                <p>Cuando salió la camarera, Leonor se miró en el espejo, se arregló los cabellos y
+                    se pasó por la cara rápidamente el cisne de los polvos.</p>
+                <p>—Vive cerca de aquí; calle Venezuela 913. </p>
+                <p>—Vas a ir a llevar una carta. Saca un pliego del estuche; alcánzame el lápiz. </p>
+                <p>Con letras que parecían patas demoscas escribió: <writing type="letter">«No falte
+                        Vd. esta noche al baile de Regúlez. Se lo pido
+                        encarecidamente.—Leonor.»</writing></p>
+                <p>—Dame un sobre. Haz bien el encargo ¿eh? Preguntas por este señor, y si no está.
+                    . . pero no. . . yo misma iré a llevarla. Vamos, mujer: no te quedes abriendo la
+                    boca. Ponte la toquilla. De cualquier modo, mujer: de cualquier modo. . . </p>
+                <p>Era una casa de vecindad, de aspecto sombrío. Desde la cancela vio Leonor un
+                    patio largo y estrecho, cuyo fondo terminaba en un muro, altísimo, bordado por
+                    una enredadera de hojas secas. La luz de la luna, pintaba de blanco las paredes
+                    y el suelo: un silencio sepulcral, envolvía con manto de tristeza a toda la
+                    casa.</p>
+                <p>A Leonor le parecía aquello el escenario de un teatro, representando un
+                    cementerio. Telón de follaje mustio a todo foro; muchas puertas laterales que
+                    eran los nichos; bambalinas de nubes acariciadas por rayos de luna....</p>
+                <p>El reloj de la iglesia vecina, sonó las once: una nube negra que majestuosamente
+                    se paseaba por el cielo, mató por breves instantes la claridad lunar. Pasó la
+                    nube, y al surgir nuevamente la luz, se volvió a formar en el muro una tela
+                    blanca de blondas primorosas.</p>
+                <p>—Marcela, acércate. </p>
+                <p>—¡Jesús y cómo tiembla Vd., señorita! </p>
+                <p>—Es frío... dame el brazo. Llamemos en la portería. </p>
+                <p>Con los nudillos, pegó nerviosamente en los cristales. Al poco rato, salió un
+                    hombre viejo.</p>
+                <p>—¿Sabría Vd. decirnos qué número tiene el cuarto del señor Ricardo Rosales? </p>
+                <p>—Vive en el 39. Pero no debe estar... Se recoge casi de día. Su mujer quizá esté
+                    levantada. </p>
+                <p>—¿Su mujer? </p>
+                <p>—Si, señora; su mujer. Sigan Vds. hacia adelante, una... dos... la décima puerta. </p>
+                <p>—Gracias. Adiós. </p>
+                <p>—Adiós. </p>
+                <p>Desfalleciente, temblorosa, llegó Leonor al cuarto de Ricardo. A través de los
+                    cristales velados por unos visillos color celeste, vio una cama de hierro, un
+                    armatoste lleno de libros, una mesa, y junto a la mesa, a Encarnación, con la
+                    cabeza apoyada en sus brazos.</p>
+                <p>Leonor sintió que su cuerpo se le desplomaba, que la mecha del quinqué daba una
+                    luz muy roja, y creyó que aquella divina rubia, venía hacia ella, para
+                    abofetearle, para quitarle a Ricardo, para decirle, «Es mío, porque soy suya en
+                    su pobreza; uno, porque le quiero más que tú; mío, porque el fuego de su amor
+                    purificó mi alma; mío, porque sufro con sus sufrimientos y gozo con sus
+                    alegrías; mío, porque mis labios no besan más que sus labios; porque le soy fiel
+                    en cuerpo y alma...»</p>
+                <p>Y aturdida, vencida, sin fuerzas, cruzó el patio y se metió en el cupé.</p>
+            </div>
+            <div type="chapter">
+                <head>IV</head>
+                <p>Efectivamente, parecía un castillo encantado la mansión de Regúlez. Entre las
+                    plantas del jardín, huérfanas de follaje, brillaban cual luciérnagas enormes las
+                    bujías de luz incandescente. Las ventanas del frente, se incendiaban en una luz
+                    opacada por el rocío. Desde la estación, aquéllos cristales heridos de fuego
+                    semejaban los ojos de monstruos extraños.</p>
+                <p>En el portón de hierro, una alfombra blanca, marcaba a la concurrencia la senda
+                    que conducía a los salones.</p>
+                <p>La orquesta, colocada en el <seg rend="italic">hall,</seg> recibió a los
+                    invitados con un torrente de notas alegres. Y aquella legión de enfracados y de
+                    mujeres escotadas convirtió los salones de Regúlez en un poema de luz.</p>
+                <p>Los labios ritmaban las risas más sonoras; las retinas se herían mutuamente; por
+                    todas partes palpitaba el principio del placer y eran triunfadores efímeros los
+                    ojos negros y azules; las cabelleras negras y rubias, que en ondas voluptuosas
+                    caían sobre los hombros desnudos; ios brazos redondos y blancos como pétalos de
+                    rosas tejías curvas gráciles; las amplias caderas; las bocas frescas y rojas;
+                    los dientes relampagueantes....</p>
+                <p>Comenzó el baile. Giraban las parejas al son de un vals lujurioso. Del suelo
+                    surgían haces luminosos, azules, negros, rosa y oro, que tomaban la forma de
+                    hombres y mujeres.</p>
+                <p>Jadeantes, excitados después de aquel abrazo de un cuarto de hora, los bailarines
+                    se desparramaron por sillones y divanes. Los mozos del ambigú, astillaban el
+                    aire del comedor con los taponazos de las botellas de <seg rend="italic"
+                        >champagne.</seg>
+                </p>
+                <milestone unit="section" rend="line"/>
+                <p>Mientras las copas oblongas se pintaban de oro, la orquesta preludió unas
+                    sevillanas. Regúlez arrancó de la pared un mantón de Manila y se lo puso en los
+                    hombros a la bella Rosaura. Alguien trajo entonces del guardarropa un sombrero
+                    calañés, que voló desde un extremo de la sala a los pies de la chula
+                    improvisada. Entre palmoteos y <seg rend="italic">oles,</seg> la bella Rosaura
+                    se encasquetó el calañés, terció el mantón y se arrancó por sevillanas.</p>
+                <p>—¡Anda, niña, menea más los brazos! gritaba Consuelo; y Rosaura retorcía su
+                    cuerpo endeble en los flecos del pañolón, y sus piececitos bordaban trenzados
+                    prodigiosos. </p>
+                <p>Los <seg rend="italic">olés</seg> con marcado acento criollo, espoleaban a la
+                    bailarina, quien al poco rato se tiro al suelo, rendida de cansancio. Mojaba el
+                    bozo casi impercetible de su boca, el sudor, como rocío caldo en una flor de
+                    carne roja.</p>
+                <p>Se formaron diversos grupos. Junto al piano, Leonor y Regúlez; más allá, la
+                    Scalpini y Ernesto: el tenor Ferri con Gaspar y Ramón en un sofá; Nofre y el
+                    pierrot Neleto, se hartaban de beber.</p>
+                <p>Entraron al salón Ricardo Rosales y Héctor Viel, los únicos que no vestían
+                    frac.</p>
+                <p>Era Héctor Viel un hombre de figura extraña. En la enorme altura de sus hombros
+                    arqueados, su cabeza se doblaba hacia adelante, cansada de haber subido tanto.
+                    En su cara triangular casi, brillaban dos ojos garzos, cuyas miradas repartían
+                    rayos de tristeza por las pestañas larguísimas. A ratos, invertía las pupilas
+                    como para ver lo que habla dentro de su cerebro. Las cejas, arremolinadas
+                    siempre, más que cejas parecían bigotes. Constituían ellas el adorno
+                    característico de aquella frente pálida surcada de arrugas prematuras y
+                    acariciada constantemente por mechones de pelo negro. La nariz, abultada
+                    levemente en el centro, cabalgaba sobre unos bigotes ralos. Se pasaba tiempo
+                    indefinido sin afeitarse, lo que hacía resaltar más la blancura verdosa de las
+                    mejillas.</p>
+                <p>Héctor Viel, era, para unos, un ser genial; para otros un idiota; escribía
+                    revistas de teatro, con un sentido crítico atrabiliario a veces, siempre
+                    admirable. Para él, más que criticas, significaban esas páginas, desahogos. Cada
+                    artículo era una especie de válvula pon la que salíanlos malos humores del
+                    espíritu.</p>
+                <p>Repartía Viel, su temperamento sensual, en leer obras extraordinarias y en poseer
+                    mujeres hermosas. Una mujer, para él, era un libro de arte: se entre tenia en
+                    rasgar las páginas; leía entre líneas; gozaba totalmente y hacia gozar. Luego
+                    desencuadernaba el libro con desdenes, lo arrojaba lejos y le quedaba sólo el
+                    recuerdo que había de servirle, después, para hacer, comparaciones. Anhelaba
+                    encontrar su ideal, amar a una sola, para odiar a las demás.</p>
+                <p>Ricardo, avergonzado, cohibido, se acercó con Héctor Viel al grupo de
+                    Consuelo.</p>
+                <p>—¿Pero de dónde salís vosotros? preguntó ésta. </p>
+                <p>—No queríamos entrar, contestó Viel: pero,.hija mía, atraes poderosamente, y
+                    hacia ti vengo sin yo quererlo. </p>
+                <p>—Pues siéntate, que pareces un escape de gas. ¡Qué hombre más alto! Tú y Manuel
+                    parecéis la ele y la i. Para besar, te tendrás que encoger; en cambio Manuel
+                    tendrá que empinarse. </p>
+                <p>—A mi. dijo éste, me basta con llegar a la mujer a la altura del corazón. </p>
+                <p>—Pero tú siempre triste. </p>
+                <p>—¿Lo dices por mi, Consuelo? </p>
+                <p>—Por ti, Ricardo; porque me da fatiga el verte así. Déjate de mimeces y alégrate
+                    conmigo. </p>
+                <p>En un sofacito estaban sentadas Trini y Clota, dos mujeres hermosísimas. La una
+                    era rubia, de cara pálida y ojos tirando a verde, de boca pequeñita, de cuerpo
+                    menudo con curvas levemente diseñadas. La otra, por el contrario, era robusta,
+                    de amplias caderas y seno abultado, la nariz respingada y sensual; los labios a
+                    manera de belfos, los ojos, negros, tan negros como su abundosa mata de pelo
+                    rizoso.</p>
+                <p>La morena miraba a la rubia con ojos de gata en celo y la rubia a la morena con
+                    languideces demujer ahita de sensualismo. De rato en rato sus cabezas se
+                    juntaban como un jirón de noche y de sol. Las dos despreciaban la fiesta.
+                    Estaban abstraídas en su mutua contemplación.</p>
+                <p>—¿Esas son las amigas de que me habéis hablado? dijo de pronto Consuelo ¿Pero es
+                    verdad, Manolito? </p>
+                <p>—Yo no concibo cierta clase de placeres, contestó Manuel. </p>
+                <p>—¡Si yo te contase muchas cosas que sé! anadió Héctor Viel. ¿Conoces o
+                    Carmencita, la mujer de Fuensanta? </p>
+                <p>—Ayer la he visto, precisamente con su marido. </p>
+                <p>—Pues me ha contado un médico que visita la casa, que Carmencita es la pasión de
+                    una rubia, casi de su misma edad. Se pasan todo el día besuqueándose, y según
+                    parece, es más marido de Carmen la rubiecita de mi cuento, que el pobre
+                    Fuensanta. </p>
+                <p>—¡Oh, eso es el colmo! gritó Consuelo. Si yo fuera hombre, preferiría mil
+                    millones de veces que mi mujer me banderi-líense con otro hombre. ¡Llevar
+                    cuernos puestos por una mujer! ¡Oh! </p>
+                <p>—Yo protesto, mis queridos amigos, dijo Viel. Dos mujeres bonitas que se aman son
+                    dos bellezas que se juntan. Para mi, no hay nada más admirable que una pasión
+                    como la que se tienen la Trini y la Clota, sin ir más lejos. Imaginaos a ellas
+                    dos, desnudas, revoleándose en una piel de pelos negros, con las piernas
+                    trenzadas, los senos turgentes excitados, los ojos en blanco.... Unos dientes
+                    que muerden y unos labios que besan . </p>
+                <p>—¡Ay, hijo mío! eso es un emparedado que me resulta muy tonto. Pan y pan, y luego
+                    entre medio nada. Dame a mi la piel atigrada y dos seres que se quieran, pero
+                    que sean de sexos distintos. El contraste, hijo, el contraste, repetía Consuelo.
+                    Que se entremezcle el aliento perfumado de la mujer con el olor a tabaco del
+                    hombre; que de un cuerpo robusto, salgan dos brazos de músculos venosos que
+                    aprieten, que aprieten... Que el beso de la mujer sea caricia y la caricia del
+                    hombre sea mordisco... Lo demás es música celestial. ¿Yes ese foco que alumbra
+                    el jardín? Bueno: pues si sus carbones no fueran de polos distintos, no darían
+                    luz. Si me metes en la cama a mi con la Trini, pongo por caso, no saltará entre
+                    mi cuerpo y el de ella la chispa de amor... Cállate y no te metas a defensor de
+                    imbecilidades.</p>
+                <p>—Es que tú ves el amor de Trini y de Clota, a través de un prisma distinto al
+                    mío. Eres poco artista... </p>
+                <p>—Pero soy más humana que tú. Te parecería muy bonito que tú y Manuel... </p>
+                <p>—¡Eso ya es muy distinto! </p>
+                <p>—Para mi es el mismo caso. </p>
+                <p>—Seríamos dos fealdades que se juntaban y aunque fuerzas contrarias de igual
+                    magnitud se destruyen... </p>
+                <p>—Acabas de poner el dedo en la llaga, interrumpió Consuelo. Tú me has dicho, mi
+                    querido Viel, que yo soy bonita. </p>
+                <p>—Ya lo creo. </p>
+                <p>—Pues si me juntase con la fealdad de Manuel... </p>
+                <p>—O con la mía... </p>
+                <p>—¿Verdad que no nos destruiríamos? </p>
+                <p>—Claro está que no. </p>
+                <p>—¡Lo ves... lo ves...! </p>
+                <p>—Ahora cállate, porque la italiana an-ti pática va a cantar el <seg rend="italic"
+                        >raconto </seg>del primer acto de <seg rend="italic">Bohéme.</seg>
+                </p>
+                <p>La Scalpini, se acercó al piano, al propio tiempo que manoteaba el teclado el
+                    director de la Opera.</p>
+                <l>
+                    <seg rend="italic">Mi chiamano Mimi</seg>
+                </l>
+                <p>gorjeó la soprano...</p>
+                <p>—No me condenéis a no hablar. Mira Héctor un poco a Ricardo. Parece que va a
+                    tragarse con los ojos a Leonor. Está en actitud de decirle luego, como el
+                    Rodolfo de Illica y Giacossa: <seg rend="italic">Yo soy el poeta y tú eres la
+                        poesía...</seg>
+                </p>
+                <p>—Buena está Leonor, contestó Yiel Como no le escriban los poemas en letras de
+                    banco. </p>
+                <p>—Son los únicos poemas que no tienen ripios, agregó Consuelo. ¿Vamos a aguantar
+                    la lata lírica hasta el final? Estas juergas aristocráticas me encocoran. El
+                    ambigú nos espera. Oye tú, Manuel, no papes moscas, y tú, <seg rend="italic"
+                        >percalina </seg>pensemos que desde esta sala nos contemplan media docena de
+                    botellas de Jerez con sus correspondientes pechugas de pavo. </p>
+                <p>—Tienes razón, iremos al comedor. </p>
+                <p>—Andando. </p>
+                <p>—Y la Leonor ¿cae, o no cae, Ricardito? Me parece que ésa es una breva que no va
+                    a madurar para ti. Menea el árbol a ver si cae. </p>
+                <p>Luego que cantó la Scalpini, hizo Nofre pruebas de prestidigitación y el pierrot
+                    Neleto dio volteretas y representó una de sus <seg rend="italic">entradas</seg>
+                    cómicas.</p>
+                <p>Ricardo no hacia más que pasar por delante de Leonor. Dos veces fue a dirigirle
+                    la palabra y se volvió lleno de miedo. Héctor le pegó en el hombro y le dijo:
+                    «No seas estúpido. Esa mujer se está apercibiendo de tu corbadía y va a acabar
+                    por burlarse de ti. Huye del ridiculo, pero no del fracaso.»</p>
+                <p>—Si yo no he fracasado. </p>
+                <p>—Entonces.. . . </p>
+                <p>—Déjame. </p>
+                <p>—¿Te hace o no te hace caso Leonor? </p>
+                <p>—Déjame. Vete disimuladamente, que voy a saludarla. </p>
+                <p>Pálido, con la boca seca y el corazón palpitante de emoción, comenzó así su
+                    diálogo:</p>
+                <p>—Hace la mar de rato que rondo junto a usted. </p>
+                <p>—Ya lo he visto. Ni que nos hubiéramos declarado una guerra a muerte.. Qué
+                    miradas incendiarias las de usted, ¡válgame Dios! ¿Es odio o fuego de amor el
+                    que se le escapa por los ojos? </p>
+                <p>—Las dos cosas. </p>
+                <p>—Forman una mezcla antipática ¿O una cosa o la otra? Pero observo que nos
+                    tratamos de Vd. ¿Cuántas horas han pasado desde que nos dimos el último beso? </p>
+                <p>—No sé... cuatro o cinco. A mi me parece un siglo. ¿Y a usted? </p>
+                <p>—La medida del tiempo no existe para mi. Ayer me parecía que nos amábamos de toda
+                    la vida y ahora, que acabo de conocerle. Usted no debía haber nacido en nuestra
+                    época... </p>
+                <p>—Dejémonos de tonterías. Dígame la impresión que le ha causado mi proceder. </p>
+                <p>—A ciencia cierta no sabría contestarle. O es Vd. un soberano tonto, o un gran
+                    hombre. </p>
+                <p>—Ni lo uno ni lo otro. Soy un hombre decente. ¿Quiere Vd. que conversemos como
+                    buenos amigos? </p>
+                <p>—Ahora y siempre. Yo quiero ser amiga de usted. </p>
+                <p>—¿Nada más que amiga? </p>
+                <p>—Nada más, Las cosas hechas de prisa, viven poco: nuestro amor fue improvisado y
+                    se ha disuelto como un puñado de sal arrojado en un estanque. </p>
+                <p>—¿Y no podríamos hacerlo renacer? </p>
+                <p>—Sembraría Vd. la semilla en tierra estéril. </p>
+                <p>—Si aceptase Vd. la situación que yo le ofrezco. </p>
+                <p>—Mire Vd., Ricardo: dicen que el amor verdadero encuentra cama blanda en
+                    cualquier parte. Yo no puedo querer a usted de verdad; yo puedo vivir sin su
+                    cariño pues aún estoy a tiempo de hacerme la cuenta de que todo ha sido un
+                    sueño. ¿Pero Vd. no cree que si nos uniéramos por tiempo indeterminado, alguien
+                    protestaría de nuestra unión? </p>
+                <p>—¿Quién va a protestar? </p>
+                <p>—Una rubia encantadora que comparte con Vd. las estrecheces de la miseria porque
+                    le ama de verdad. Vuelva Vd. a los brazos de su rubia, hágala Vd. muy feliz,
+                    quiérala Vd. mucho. Las mujeres de mi temperamento na han nacido para el amor
+                    sano. Vivimos de mentiras, porque la mentira es el único lenitivo de nues-tros
+                    dolores. Ya ve Vd. a impulsos de qué pasiones palpitará mi corazón, cuando
+                    después de haberle querido tanto, tanto, durante unas cuantas horas, no me causa
+                    celos la rubia a quien hemos traicionado. ¿Cómo se llama? </p>
+                <p>—¿Quién? </p>
+                <p>—Su compañera. </p>
+                <p>—Pero Vd. cómo sabe... </p>
+                <p>— Llena de ira, con ansias de venganza, con ansias de apoderarme totalmente de
+                    usted fui a su casa. La rubia me desarmó, me rendí a su bondad. </p>
+                <p>—¿Usted ha hablado con ella? </p>
+                <p>—No; soy más discreta que todo eso. La vi a través de los cristales. ¡Pobre-cita!
+                    Tengo su imagen grabada aquí... aquí... Quiérala mucho, Ricardo. Ahora,
+                    cambiemos de conversación, divirtámonos... ¡Alegrías, alegrías! Las amarguras
+                    adentro; dejemos que tejan su nido las amarguras en nuestro corazón. </p>
+                <p>—Ha dicho Vd. hace un momento que podíamos ser amigos. Yo voy más allá. Vamos a
+                    ser dos enamorados <seg rend="italic">sui generis </seg>de los que casi no se
+                    estilan. </p>
+                <p>—Veamos. Ya sabe Vd. que yo me muero por las cosas raras. </p>
+                <p>—Un espíritu vulgar, me tildaría de cursi si me oyera lo que voy a decir </p>
+                <p>—¿Qué es ello? </p>
+                <p>—Mi horrible pasión sensual, latigueada por las cosas que fríamente acaba Vd. de
+                    decirme, empieza a trocarse en pasión espiritual. </p>
+                <p>—¿Y Vd. cree en esas paparruchas espirituales? Por lo general es el recurso de
+                    los que no pueden lograr más que ración de vista. </p>
+                <p>—Hagamos un ensayo de amor espiritual. ¿Acepta usted? </p>
+                <p>—Sí, acepto. </p>
+                <p>—Usted mira a los hombres como muñecos. </p>
+                <p>—Ciertamente, no son Vds. otra cosa. </p>
+                <p>—Pues yo ya no soy hombre, ni usted es mujer. </p>
+                <p>—¿Y qué somos? </p>
+                <p>—Algo impalpable, etéreo. Suprimiendo los sexos, se suprime la animalidad. Sin
+                    animalidad no hay sensualismo. </p>
+                <p>—Si suprime Vd. todas esas cosas. ¿Qué soy yo y qué es usted? </p>
+                <p>—Nada y mucho. Entremos los dos en un laboratorio ideal y en una retorta
+                    volquemos todos nuestros besos, todos nuestros abrazos, todas nuestras caricias
+                    para que se conviertan en cenizas. Disolvamos estas cenizas en nuestras lágrimas
+                    y filtremos luego la mezcla. El resultado será el amor que yo apetezco. </p>
+                <p>—Me parece que Vd. ha visitado mucho el ambigú. </p>
+                <p>—¿Por qué? </p>
+                <p>—Porque solamente a un borracho, puede ocurrírsele esta serie de desatinos. Era
+                    lo único que me faltaba: meterme a boticaria o a química, o como se llame quien
+                    se mete en ese laboratorio ideal. Dejémonos de pamplinas; sea usted mi amigo,
+                    que yo seré su amiga. Esta es mi mano. Ahora sepárese usted de mi lado; Regúlez
+                    nos está espiando y rabia de celos. </p>
+                <p>—Estar celoso es considerarse inferior. </p>
+                <p>—¿Y quién le ha dicho a Vd. que Regúlez es superior a Ricardo Rosales? </p>
+                <p>—¡Ah, vamos! Cree Vd. en mi superioridad .. . </p>
+                <p>—Si no lo creyera, ¿piensa Vd. que habrían pasado entre nosotros las cosas que
+                    han pasado? </p>
+                <p>—Gracias. Adiós Leonor. Siento una horrible tristeza. </p>
+                <p>—Basta; no hadamos drama?. Felicidad, Ricardo; y que la prosperidad de sus
+                    teorías espiritualistas no impida que quiera Vd. mucho, mucho, mucho a su rubia,
+                    que se llama... ¿Cómo sé llama? </p>
+                <p>—Encarnación. </p>
+                <p>—Dé Vd., en mi nombre, un beso de paz a Encarnación. </p>
+                <p>Ricardo volvió al comedor, y preguntó a uno de los criados a qué hora pasaba el
+                    primer tren para la ciudad.</p>
+                <p>—Dentro de veinte minutos, le respondieron. </p>
+                <p>—Me marcho, amigos míos. </p>
+                <p>—¿Porqué? dijeron en coro Consuelo, Manuel y Héctor. </p>
+                <p>—Estoy muy cansado; llevo dos noches sin dormir. </p>
+                <p>—Yo también voy a irme contigo, tartamudeó Rosaura. Me caigo de sueño
+                    Disimuladamente saca mi chal del tocador. Toma el número. </p>
+                <p>A los pocos instantes, cruzaban del brazo Rosaura y Ricardo la carretera que
+                    conducía a la estación. Detrás de ellos quedaba la casa de Regúlez, con sus
+                    luces y sus músicas.</p>
+                <p>Iban solos en un compartimento pequeñito. Instintivamente los dos deshicieron con
+                    sus dedos la capa de escarcha que empañaba los cristales de la ventanilla.</p>
+                <p>Las estrellas se diluían en el cielo plomizo y una claridad tristona borraba las
+                    negruras de la noche.</p>
+                <p>Rosaura, envuelta en su chal, se tendió a lo largo del asiento y recostó su
+                    cabeza en los muslos de Ricardo. Y con voz perezosa dijo: «Oye, ¿quieres hacerme
+                    un favor?»</p>
+                <p>—Pide. </p>
+                <p>—Quítame las horquillas y las peinetas del rodete, que me molestan. Dispensa si
+                    me duermo; no puedo más; se me cierran los ojos sin yo quererlo. </p>
+                <p>Y mientras Rosaura apretaba los párpados, Ricardo empezó a sacarle las
+                    horquillas. Al desprender una peineta se abrió en hilos de seda el rosetón de la
+                    coronilla. Ricardo se puso a acariciar aquella madeja deliciosa, tibia y bien
+                    oliente. Formaba redes entre sus dedos, mientras la chiquilla dormía. De pronto,
+                    sintió un goce nuevo para él. Jamás se le había ocurrido contemplar los ojos de
+                    una mujer dormida. Los párpados de</p>
+                <p>Rosaura, parecían amasados con pétalos de violetas claras; la curva de sus
+                    órbitas saltonas hinchaba aquella tenue carne azulada. La red de pelo se hizo
+                    tan compacta que al poco rato semejaba un manguito.</p>
+                <p>Rosaura cambió de postura y quedó de bruces. Un calofrío le corrió por todo el
+                    cuerpo.</p>
+                <p>Una nuca blanca, un poco hundida, mostraba a Ricardo las delicias de la puerta de
+                    honor del gineceo; y lo que no había sentido nunca en presencia de las
+                    desnudeces de la chiquilla, sentía ahora al contemplar unos párpados apretados y
+                    una nuca delicada que le invitaba a que llenase su cuenca de licor de besos.</p>
+                <p>Sin darse cuenta, por misteriosa atracción, metió su mano por la aterciopelada
+                    espalda de Rosaura, y las yemas de los dedos empezaron a recorrer suavemente el
+                    rosario de la espina dorsal.</p>
+                <p>Arrimó los labios a la nuca de Rosaura, y al darle el primer beso, le pareció oír
+                    una voz misteriosa y extraña que murmuraba en su oído: «¡Encarnación ....
+                    Encarnación!»</p>
+                <p>Levantó nerviosamente la cabeza, como si su boca se hubiera posado sobre un
+                    carbón encendido, y dijo él también con amargura: «¡Encarnación... Encarnación!»
+                    Y su cabeza ardiente, pegó en el cristal helado y lloroso de rocío...</p>
+                <p>Era ya completamente de día. Un disco de sol de forma de sable corvo de fuego,
+                    abría hondas heridas en el vientre de una nube.</p>
+                <p>El tren se metió en la cueva de cristales de la estación. En el andén se
+                    despidieron Rosaura y Ricardo.</p>
+                <p>Abrió la chiquilla la portezuela de un carruaje de punto y se acurrucó en los
+                    almohadones.</p>
+                <p>Ricardo llegó a los pocos instantes a su cuarto.</p>
+                <p>Encarnación dormía. Y con mucho amor, con los ojos llenos de lágrimas, apoyó los
+                    labios en la frente de su querida y le dio el beso de paz.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

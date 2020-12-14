@@ -1,0 +1,356 @@
+nh0153.xml: valid with RNG
+nh0216.xml: valid with RNG
+nh0036.xml: valid with RNG
+nh0074.xml: valid with RNG
+nh0058.xml: valid with RNG
+nh0231.xml: valid with RNG
+nh0096.xml: valid with RNG
+nh0088.xml: valid with RNG
+nh0005.xml: valid with RNG
+nh0117.xml: valid with RNG
+nh0173.xml: valid with RNG
+nh0020.xml: valid with RNG
+nh0234.xml: valid with RNG
+nh0255.xml: valid with RNG
+nh0087.xml: valid with RNG
+nh0114.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0114.xml:751:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element milestone there
+/home/ulrike/Git/conha19/tei/nh0114.xml:757:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element floatingText there
+/home/ulrike/Git/conha19/tei/nh0114.xml:766:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0114.xml:290:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: div
+/home/ulrike/Git/conha19/tei/nh0114.xml:205:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0114.xml:191:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0017.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0017.xml:341:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0017.xml:402:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0017.xml:1014:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0017.xml:1011:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: div
+/home/ulrike/Git/conha19/tei/nh0017.xml:402:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element body failed to validate content
+/home/ulrike/Git/conha19/tei/nh0017.xml:341:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0146.xml: valid with RNG
+nh0215.xml: valid with RNG
+nh0243.xml: valid with RNG
+nh0154.xml: valid with RNG
+nh0250.xml: valid with RNG
+nh0045.xml: valid with RNG
+nh0185.xml: valid with RNG
+nh0092.xml: valid with RNG
+nh0037.xml: valid with RNG
+nh0018.xml: valid with RNG
+nh0125.xml: valid with RNG
+nh0070.xml: valid with RNG
+nh0008.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0008.xml:688:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element milestone there
+/home/ulrike/Git/conha19/tei/nh0008.xml:692:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0008.xml:388:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0008.xml:159:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0014.xml: valid with RNG
+nh0136.xml: valid with RNG
+nh0046.xml: valid with RNG
+nh0103.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0103.xml:18049:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element gap there
+/home/ulrike/Git/conha19/tei/nh0103.xml:18053:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0103.xml:8629:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0103.xml:144:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0001.xml: valid with RNG
+nh0132.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0132.xml:134:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0132.xml:664:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0132.xml:661:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0132.xml:134:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0202.xml: valid with RNG
+nh0110.xml: valid with RNG
+nh0043.xml: valid with RNG
+nh0186.xml: valid with RNG
+nh0126.xml: valid with RNG
+nh0159.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0159.xml:192:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0159.xml:5522:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0159.xml:5519:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0159.xml:192:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0222.xml: valid with RNG
+nh0010.xml: valid with RNG
+nh0097.xml: valid with RNG
+nh0080.xml: valid with RNG
+nh0024.xml: valid with RNG
+nh0138.xml: valid with RNG
+nh0107.xml: valid with RNG
+nh0040.xml: valid with RNG
+nh0112.xml: valid with RNG
+nh0235.xml: valid with RNG
+nh0019.xml: valid with RNG
+nh0177.xml: valid with RNG
+nh0026.xml: valid with RNG
+nh0098.xml: valid with RNG
+nh0227.xml: valid with RNG
+nh0229.xml: valid with RNG
+nh0167.xml: valid with RNG
+nh0057.xml: valid with RNG
+nh0162.xml: valid with RNG
+nh0161.xml: valid with RNG
+nh0188.xml: valid with RNG
+nh0220.xml: valid with RNG
+nh0082.xml: valid with RNG
+nh0228.xml: valid with RNG
+nh0142.xml: valid with RNG
+nh0187.xml: valid with RNG
+nh0212.xml: valid with RNG
+nh0241.xml: valid with RNG
+nh0210.xml: valid with RNG
+nh0182.xml: valid with RNG
+nh0168.xml: valid with RNG
+nh0198.xml: valid with RNG
+nh0042.xml: valid with RNG
+nh0102.xml: valid with RNG
+nh0027.xml: valid with RNG
+nh0143.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0143.xml:5666:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element milestone there
+/home/ulrike/Git/conha19/tei/nh0143.xml:5669:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0143.xml:301:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: div
+/home/ulrike/Git/conha19/tei/nh0143.xml:171:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0143.xml:171:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element body failed to validate content
+/home/ulrike/Git/conha19/tei/nh0143.xml:155:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0158.xml: valid with RNG
+nh0135.xml: valid with RNG
+nh0053.xml: valid with RNG
+nh0030.xml: valid with RNG
+nh0244.xml: valid with RNG
+nh0194.xml: valid with RNG
+nh0133.xml: valid with RNG
+nh0200.xml: valid with RNG
+nh0100.xml: valid with RNG
+nh0076.xml: valid with RNG
+nh0003.xml: valid with RNG
+nh0011.xml: valid with RNG
+nh0119.xml: valid with RNG
+nh0141.xml: valid with RNG
+nh0209.xml: valid with RNG
+nh0175.xml: valid with RNG
+nh0247.xml: valid with RNG
+nh0075.xml: valid with RNG
+nh0144.xml: valid with RNG
+nh0145.xml: valid with RNG
+nh0157.xml: valid with RNG
+nh0224.xml: valid with RNG
+nh0221.xml: valid with RNG
+nh0061.xml: valid with RNG
+nh0160.xml: valid with RNG
+nh0240.xml: valid with RNG
+nh0081.xml: valid with RNG
+nh0055.xml: valid with RNG
+nh0012.xml: valid with RNG
+nh0091.xml: valid with RNG
+nh0052.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0052.xml:9035:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element l there
+/home/ulrike/Git/conha19/tei/nh0052.xml:9035:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element lg, got l
+/home/ulrike/Git/conha19/tei/nh0052.xml:411:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0052.xml:244:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0071.xml: valid with RNG
+nh0031.xml: valid with RNG
+nh0219.xml: valid with RNG
+nh0016.xml: valid with RNG
+nh0147.xml: valid with RNG
+nh0238.xml: valid with RNG
+nh0180.xml: valid with RNG
+nh0226.xml: valid with RNG
+nh0032.xml: valid with RNG
+nh0242.xml: valid with RNG
+nh0176.xml: valid with RNG
+nh0204.xml: valid with RNG
+nh0155.xml: valid with RNG
+nh0099.xml: valid with RNG
+nh0086.xml: valid with RNG
+nh0203.xml: valid with RNG
+nh0124.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0124.xml:2015:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element milestone there
+/home/ulrike/Git/conha19/tei/nh0124.xml:2018:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0124.xml:2464:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0124.xml:240:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0021.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0021.xml:1293:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element gap there
+/home/ulrike/Git/conha19/tei/nh0021.xml:1293:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element lg, got gap
+/home/ulrike/Git/conha19/tei/nh0021.xml:413:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0021.xml:157:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0129.xml: valid with RNG
+nh0002.xml: valid with RNG
+nh0004.xml: valid with RNG
+nh0069.xml: valid with RNG
+nh0047.xml: valid with RNG
+nh0035.xml: valid with RNG
+nh0205.xml: valid with RNG
+nh0123.xml: valid with RNG
+nh0085.xml: valid with RNG
+nh0192.xml: valid with RNG
+nh0218.xml: valid with RNG
+nh0169.xml: valid with RNG
+nh0152.xml: valid with RNG
+nh0225.xml: valid with RNG
+nh0230.xml: valid with RNG
+nh0094.xml: valid with RNG
+nh0060.xml: valid with RNG
+nh0256.xml: valid with RNG
+nh0239.xml: valid with RNG
+nh0246.xml: valid with RNG
+nh0223.xml: valid with RNG
+nh0089.xml: valid with RNG
+nh0195.xml: valid with RNG
+nh0190.xml: valid with RNG
+nh0013.xml: valid with RNG
+nh0199.xml: valid with RNG
+nh0191.xml: valid with RNG
+nh0254.xml: valid with RNG
+nh0207.xml: valid with RNG
+nh0015.xml: valid with RNG
+nh0189.xml: valid with RNG
+nh0151.xml: valid with RNG
+nh0193.xml: valid with RNG
+nh0232.xml: valid with RNG
+nh0137.xml: valid with RNG
+nh0164.xml: valid with RNG
+nh0213.xml: valid with RNG
+nh0122.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0122.xml:863:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element milestone there
+/home/ulrike/Git/conha19/tei/nh0122.xml:880:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0122.xml:877:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0122.xml:157:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0062.xml: valid with RNG
+nh0174.xml: valid with RNG
+nh0044.xml: valid with RNG
+nh0033.xml: valid with RNG
+nh0063.xml: valid with RNG
+nh0109.xml: valid with RNG
+nh0236.xml: valid with RNG
+nh0165.xml: valid with RNG
+nh0179.xml: valid with RNG
+nh0007.xml: valid with RNG
+nh0118.xml: valid with RNG
+nh0077.xml: valid with RNG
+nh0120.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0120.xml:209:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0120.xml:264:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0120.xml:6083:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0120.xml:209:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0108.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0108.xml:293:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0108.xml:383:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0108.xml:828:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0108.xml:824:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: div
+/home/ulrike/Git/conha19/tei/nh0108.xml:383:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element body failed to validate content
+/home/ulrike/Git/conha19/tei/nh0108.xml:293:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0211.xml: valid with RNG
+nh0128.xml: valid with RNG
+nh0090.xml: valid with RNG
+nh0111.xml: valid with RNG
+nh0048.xml: valid with RNG
+nh0051.xml: valid with RNG
+nh0184.xml: valid with RNG
+nh0078.xml: valid with RNG
+nh0056.xml: valid with RNG
+nh0113.xml: valid with RNG
+nh0148.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0148.xml:1917:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element seg there
+/home/ulrike/Git/conha19/tei/nh0148.xml:1917:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idno, got seg
+/home/ulrike/Git/conha19/tei/nh0148.xml:808:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0148.xml:184:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0172.xml: valid with RNG
+nh0067.xml: valid with RNG
+nh0041.xml: valid with RNG
+nh0049.xml: valid with RNG
+nh0025.xml: valid with RNG
+nh0006.xml: valid with RNG
+nh0029.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0029.xml:429:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element milestone there
+/home/ulrike/Git/conha19/tei/nh0029.xml:430:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element milestone, got nothing
+/home/ulrike/Git/conha19/tei/nh0029.xml:430:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute prev for element floatingText
+/home/ulrike/Git/conha19/tei/nh0029.xml:316:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: head
+/home/ulrike/Git/conha19/tei/nh0029.xml:314:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0029.xml:174:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0028.xml: valid with RNG
+nh0121.xml: valid with RNG
+nh0206.xml: valid with RNG
+nh0022.xml: valid with RNG
+nh0237.xml: valid with RNG
+nh0131.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0131.xml:178:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0131.xml:580:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0131.xml:577:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0131.xml:178:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0101.xml: valid with RNG
+nh0139.xml: valid with RNG
+nh0050.xml: valid with RNG
+nh0095.xml: valid with RNG
+nh0251.xml: valid with RNG
+nh0214.xml: valid with RNG
+nh0039.xml: valid with RNG
+nh0084.xml: valid with RNG
+nh0149.xml: valid with RNG
+nh0166.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0166.xml:2608:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element seg there
+/home/ulrike/Git/conha19/tei/nh0166.xml:2608:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idno, got seg
+/home/ulrike/Git/conha19/tei/nh0166.xml:2793:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0166.xml:717:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0170.xml: valid with RNG
+nh0064.xml: valid with RNG
+nh0106.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0106.xml:212:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0106.xml:3355:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+nh0038.xml: valid with RNG
+nh0248.xml: valid with RNG
+nh0178.xml: valid with RNG
+nh0249.xml: valid with RNG
+nh0093.xml: valid with RNG
+nh0163.xml: valid with RNG
+nh0252.xml: valid with RNG
+nh0073.xml: valid with RNG
+nh0253.xml: valid with RNG
+nh0150.xml: valid with RNG
+nh0197.xml: valid with RNG
+nh0233.xml: valid with RNG
+nh0009.xml: valid with RNG
+nh0072.xml: valid with RNG
+nh0183.xml: valid with RNG
+nh0134.xml: valid with RNG
+nh0083.xml: valid with RNG
+nh0104.xml: valid with RNG
+nh0054.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0054.xml:3909:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element seg there
+/home/ulrike/Git/conha19/tei/nh0054.xml:3909:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idno, got seg
+/home/ulrike/Git/conha19/tei/nh0054.xml:526:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0054.xml:211:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0079.xml: valid with RNG
+nh0115.xml: valid with RNG
+nh0059.xml: valid with RNG
+nh0116.xml: valid with RNG
+nh0023.xml: valid with RNG
+nh0068.xml: valid with RNG
+nh0065.xml: valid with RNG
+nh0217.xml: valid with RNG
+nh0105.xml: valid with RNG
+nh0156.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0156.xml:159:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0156.xml:321:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/ulrike/Git/conha19/tei/nh0156.xml:318:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: div
+/home/ulrike/Git/conha19/tei/nh0156.xml:184:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0156.xml:184:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element body failed to validate content
+/home/ulrike/Git/conha19/tei/nh0156.xml:159:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0201.xml: valid with RNG
+nh0034.xml: valid with RNG
+nh0127.xml: valid with RNG
+nh0171.xml: valid with RNG
+nh0245.xml: valid with RNG
+nh0130.xml: valid with RNG
+nh0066.xml: valid with RNG
+nh0140.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0140.xml:188:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0140.xml:239:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0140.xml:240:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0140.xml:595:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element div has extra content: div
+/home/ulrike/Git/conha19/tei/nh0140.xml:239:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element body failed to validate content
+/home/ulrike/Git/conha19/tei/nh0140.xml:188:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0208.xml: not valid with RNG
+/home/ulrike/Git/conha19/tei/nh0208.xml:189:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element front there
+/home/ulrike/Git/conha19/tei/nh0208.xml:203:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element div there
+/home/ulrike/Git/conha19/tei/nh0208.xml:395:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element body has extra content: div
+/home/ulrike/Git/conha19/tei/nh0208.xml:189:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element text failed to validate content
+nh0196.xml: valid with RNG
+nh0181.xml: valid with RNG
