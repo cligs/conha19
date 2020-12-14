@@ -1,0 +1,3354 @@
+compañía cargamento mercadería escala 
+            
+lote pueblo hacienda montón tropa muelle pasajero año atado trapo coco hombro zapato herradura pie 
+            
+lechero hornero vuelta tiempo ayuda labor caballero tierra pasaje cría mundo 
+            
+blandujas lengua 
+            
+vida abordo asiento paja mango cambio totalidad 
+            
+cuestión sangre cuestión temperatura 
+            
+tendero español pacotilla 
+            
+albañal détritus 
+            
+particular familia quehacer diversión 
+            
+masa gusano_rey baúl maleta atmósfera entrepuente peste bodega aceite máquina agrio sudor 
+            
+silbato lancha 
+            
+héroe cuento 
+            
+
+            
+globo capital mercado carne 
+            
+hombre padre duro renta suerte alma físico 
+            
+mano noción generosidad nobleza talento año pie lucha vida honradez dignidad adorno equitación esgrima 
+            
+mezcla criollo sangre bretón cruzamiento mestizo belleza forma norte fuego 
+            
+pablo suma argot fondo cabeza tipo toquades 
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+miedo 
+            
+costa río 
+            
+vino vino mesa 
+            
+río pedazo agua 
+            
+tierra fondo 
+            
+trasatlántico milla chaparrón baño lluvia golpe derrota concurrencia puente trou nombre cámara invasión bárbaro 
+            
+compañero ostra botella perfil vehículo altura gente fama biblia 
+            
+señor cristiano tierra cuenta bestia especie chiquero 
+            
+año vez sistema talento 
+            
+silla lona cubierta palmo aire cueva 
+            
+empresa pasajero medio medio 
+            
+gobierno tierra hombre cabeza lujo vanidad agua sed comercio vida problema aritmética expresión quilo prójimo camisa limitación forma manera derecho policía deslinde honradez impulso necesidad corazón alma hogar familia asunto plata negocio renta renta precio porvenir vida ser pacto hijo 
+            
+suma latitud globo cría 
+            
+culpa germen vicio causa corrupción 
+            
+duda 
+            
+fenómeno 
+            
+población exceso progreso dificultad medio existencia lazzarone paria andrajo cáscara vida instinto vida privación miseria hombre 
+            
+imperio egoísmo relajación degradación especie grado civilización 
+            
+pueblo pueblo mundo 
+            
+silencio tragaluz 
+            
+camino entrada puerto aspecto ciudad 
+            
+tarde noche ojo sleeping-car carro uso 
+            
+día visita 
+            
+salida 
+            
+deseo sentimiento egoísmo 
+            
+ruido confusión gente vaivén maremágnum azonzarme rumbo miedo comida 
+            
+palabra bodoque 
+            
+aprieto hombre mano servicio indilgarme infierno 
+            
+contribución conocimiento ramo cicerone_e 
+            
+voluntad función 
+            
+señor figura zapatería sastrería sombrerería cabeza pie 
+            
+camino necesidad forro 
+            
+seña 
+            
+avenida parte cambio ropa vez 
+            
+pena 
+            
+contrario pena 
+            
+mérito artículo nombre casa rigor 
+            
+calle camisero sombrerero zapatería boulevard d chato suela tonelada porte sistema gente tono príncipe 
+            
+compostura encargo resto 
+            
+appartement boulevard altura 
+            
+vez mano joven 
+            
+individuo aire tienda tapicero casa dorado barniz grito plata roce uso arruga costumbre olor 
+            
+verdad pera olmo confesable 
+            
+
+            
+
+            
+pluma 
+            
+
+            
+coupon avant-scène noche 
+            
+p ejemplo 
+            
+vez orquesta paisano 
+            
+cabaret 
+            
+
+            
+
+            
+teatro sueño ambiente vez representación farsa 
+            
+araña cielo pico fuerza faceta vidrio semiluz oro decorado cargazón 
+            
+capa blusa cofia público franco coma cola calle grupo hombre mujer vez asiento platea balcón palco orquesta cara abrutis instrumento compañero miseria ganapán oficio musiquitas canalla índole espectáculo preludio 
+            
+teatro chico artista orden 
+            
+embargo 
+            
+persona 
+            
+
+            
+
+            
+
+            
+manera lugar 
+            
+resuello palo pique vecino régimen 
+            
+zorro fuerza 
+            
+lado cuestión 
+            
+cuadrado cubo número presente vara aire cabeza camareta 
+            
+policía demonio 
+            
+señor policía mundo vous plaît policía higiene salud explotación 
+            
+rasgo carácter t_out 
+            
+parte elenco negro pito cómico talla 
+            
+excepción escena templo arte 
+            
+farsa verdad inteligencia inteligencia personaje comedia obra fantasía hermano botella borrachera beatitud borracho 
+            
+boca encarnación pena nombre dolor muerte amante patria imprecación 
+            
+vera alma fuerza emoción impresión sello verdad 
+            
+casa sombrero teatro gen_re 
+            
+routiers especialista ramo farsante cabotins 
+            
+personal 
+            
+señor arte carrera medio carrera teatro feria proscenio barraca saltimbanquis mostrador mercancía postura dinero contado 
+            
+prestigio escena poudre l'adresse novicio mentecato atmósfera artificio gas pintura hoyo viruela hombre estofa suerte mercado vereda boulevard fondo barro lupanar pieza 
+            
+señor escala salva excepción mujer corazón talento teatro artista pluma 
+            
+telón pieza fraile brasero cama 
+            
+incompatibilidad humor marido mujer reyerta paja pleito separación carga chispa gracia espíritu propósito 
+            
+mujer fuerza fraile marido parte vecindad fraile 
+            
+fraile cama 
+            
+tono calibre turpitud clavo sal cocina pantomima payasada circo empujón sombrero ropa 
+            
+fin paladar público pur santo_g público badaud conocido 
+            
+palmoteo claque maldición teatro repiqueteo matraca 
+            
+
+            
+
+            
+ramollis orquesta risotada público escena cochino repertorio mujer avant-scène derecha 
+            
+
+            
+cabeza cana bucle usanza ropa aspecto aire figura luz fondo palco cosa 
+            
+reliquia raza preocupación sangre 
+            
+anteojo capa magnesia colorete grieta pellejo vicio ojo huevo boca diente fuina labio grosería bestia año orgía 
+            
+tiempo señor 
+            
+madre carta 
+            
+hecho comodín 
+            
+lujo género parentela servicio 
+            
+madre mueble yunta caballo distancia bosque baignoire teatro 
+            
+manera f_aire l'article cachet pose hijo familia truc luis 
+            
+recurso mi_e scène cábulas oficio 
+            
+
+            
+negro nombre hijo azar 
+            
+antojo llama gas entresuelo restaurant instante abandono ojo dicha sombra alcoba 
+            
+instrumento placer títere cuerda muñeca 
+            
+callejón bohardilla pasto adoquín empedrado semilla acero_c flirtation vida surco recuerdo hora locura 
+            
+molde rubia beso boca pellizco estrujón cama aldea bendición cura 
+            
+ganso día diablo tienta sueco hombro lío corral fortuna carrera criado nombre pila mes cocotte d'armagnac medio hospital ejemplar 
+            
+fin historia 
+            
+programa fiesta 
+            
+teatro señor sapin allez vous coucher asiento 
+            
+cochero 
+            
+momento cabinet casa pasadizo 
+            
+alfombra muro techo mueble otomano 
+            
+tiempo mancha vino comida suelo pared asiento negro humo bujía tejido madera cristal espejo sortija fecha insolencia défrachi año servicio palabra interior aspecto coche alquiler recelo faldón 
+            
+cuento hada 
+            
+edad ilusión resplandor mundo fuego 
+            
+fiebre vida hambre mujer 
+            
+lado voz instinto grito vanidad 
+            
+brillo teatro alcoba orgía cabeza año posesión virgen matrona abrazo sombra silencio 
+            
+heroína nombre velo mentira página crónica novela oído promesa mundo delicia 
+            
+misterio vida hora extravío torbellino lista 
+            
+día sueño puñado oro encanto puerta santuario dios avidez sentido 
+            
+copa placer grosería borde labio 
+            
+afán borra embriaguez marasmo alma bacanal carne tiempo fin 
+            
+embargo 
+            
+espíritu corazón cuerpo desencanto reflexión destino vida fuente postración desprecio hastío existencia 
+            
+pablo noche imperio 
+            
+hombre etiqueta través aire punta cinismo atributo empleo d'htel 
+            
+señor puerta 
+            
+espejo bata espalda gesto humor c_ruche costurera manera vuelta mano personaje catálogo plato repertorio 
+            
+énfasis 
+            
+ostra ostra moc-tortue écrevisses pollo camembert fruto vino principio fin 
+            
+cosa 
+            
+t_out 
+            
+embargo postre 
+            
+pólvora calma seguro 
+            
+honor ostra sopa silencio momento mesa silencio bestia choque cuchara plato cuchillo pan diente sorbo ruido sumidero 
+            
+gato escena noche actitud prescindencia 
+            
+regla conducta 
+            
+fecha pour 
+            
+artista salida teatro escalera servicio basura cloaca inmundicia lugar taberna fin noche brazo aliento miasma cuerpo atmósfera corrupción 
+            
+juego experiencia 
+            
+cangrejo turno pollo 
+            
+sorpresa párrafo sentimiento escena afecto ternura 
+            
+plato silla pañuelo ojo llanto 
+            
+
+            
+
+            
+
+            
+
+            
+razón 
+            
+barriga callo ojo grano pimienta mostaza cangrejo nariz 
+            
+pregunta ternero 
+            
+trufa mamá 
+            
+altro trufa champagne cuerpo 
+            
+madre víctima dolor exhalación lamento 
+            
+diablo madre mártir relleno pollo fin 
+            
+embargo pintada gusto papá 
+            
+
+            
+
+            
+padre madre trufa madre empacho sepultura hora 
+            
+puchero 
+            
+marido hombre 
+            
+maldad 
+            
+mamá trufa 
+            
+salop mueca repugnancia vino bofetón cara sensibilidad 
+            
+parte lance 
+            
+boca farsante dolor culto familia sentimiento alma 
+            
+palabra emballée vapor vino vez familia familia familia madre 
+            
+cariño l'adresse bicho 
+            
+ba envoltorio padre madre padre 
+            
+pajero segundo diablo 
+            
+tapón mano boca 
+            
+silencio guardia flanquer au entusiasmo vez 
+            
+revés ruido nariz hombre policía rato cuento enredo justicia caso giro acontecimiento 
+            
+embargo golpe autoridad instante silencio 
+            
+mirada arañazo ch perro señor entrecejo cabeza 
+            
+rato penitencia tiempo rabia fiesta paz 
+            
+cara 
+            
+vez calma tormenta mar pasión horizonte color arco 
+            
+trompa presente 
+            
+tiempo 
+            
+ejemplo señor espíritu chisporroteantes sal palabra honor cosquillas bosse alegría 
+            
+caballo negro naturaleza bolsa jugador rollo 
+            
+revés 
+            
+cosa balivernes grosse din_de estado tímpano 
+            
+don_c sentido 
+            
+parte n_e demandait p_as familia familia 
+            
+tiniebla encéfalo vino carga madre víctima atracón trufa razón desgracia 
+            
+brújula madre rumbo 
+            
+año tono 
+            
+padre dolor corazón muerte compañero exceso olvido pena 
+            
+hambre frío vida taberna bebida juego holgazán lugar 
+            
+vez día casa noche cabeza cena casa diente fierro brazo algodón vergüenza haragán hombre pedazo pan niño juicio fuerza madre 
+            
+passa ahorro fruto año trabajo privación mueble casa pedazo tierra madre dote matrimonio 
+            
+pendiente dinero vicio nupcias dueño molino mujer 
+            
+suerte 
+            
+razón cuerpo castigo vida cadena sufrimiento 
+            
+día cocina leche madrastra 
+            
+asador fogón golpe suelo sangre crueldad mano instrumento suplicio alfiler cabeza mujer país 
+            
+rato sentido fu_la ojo rabia 
+            
+mano cara vergüenza alfiler carne 
+            
+momento memoria idea tenacidad manía 
+            
+casa 
+            
+día pueblo tropa cómico feria provincia 
+            
+azar 
+            
+casa distancia coraje banda 
+            
+risotada burla boca estorbo hombro 
+            
+improperio insulto casa padre policía pueblo 
+            
+rechazo vergüenza confusión ocasión jefe banda cínico cara voz 
+            
+momento barba ojo 
+            
+vista chico 
+            
+diablo 
+            
+
+            
+pantorrilla pierna 
+            
+g_arce falta compañía brazo bombo pierna público muchacho físico empleo amor arte color carne vacante 
+            
+juicio mocoso cárcel détournement negocio justicia chico respecto 
+            
+père 
+            
+lengua miedo justicia 
+            
+andrajo padre 
+            
+padre 
+            
+padre 
+            
+verdad conducta padre maldad madrastra vida martirio 
+            
+obstáculo 
+            
+término mal vida género tortura 
+            
+vergüenza nalga badauds sociedad compañero vida vez gesto pelota chusma 
+            
+ahínco hato obscenidad voluntad juego movimiento visaje delicadeza virgen 
+            
+momento azote madrastra pan agua encierro odio vida crápula 
+            
+vez noche posada hora camino tren saltimbanquis carretón caballo lienzo trapo 
+            
+efecto vino compañero mesa caballeriza rincón montón paja fatiga 
+            
+hombre 
+            
+vano 
+            
+tumulto tumulto voz alcohol enredo carcajada juramento maldición 
+            
+presencia casa fin 
+            
+fiesta 
+            
+tabla caballeriza ruido caballo pesebre golpe 
+            
+ciervo jauría fin desesperación rabia furor turpitud fiebre barba hombre 
+            
+
+            
+caricia tropel cuerpo llanto pedazo pudor 
+            
+curso historia fuerza changador fin genio 
+            
+ç_a est orfandad madrastra sevicia fuga lucha caída llanto desgracia perdición punta fatalidad telón salsa títere mano bonhome 
+            
+
+            
+saltimbanquis punta charlatán parte papel infame 
+            
+palabra acento cargazón traidor melodrama 
+            
+pablo lástima narración 
+            
+mujer acento sello verdad 
+            
+desvergüenza manera cuento uso novicio atajo mentira memoria vez presencia clientela mártir víctima destino pasto herramienta adversidad 
+            
+amigo juego cancha letanía pichón trampa 
+            
+
+            
+cosa farsa falta sinceridad franqueza 
+            
+coraje verdad 
+            
+verdad 
+            
+trabajo 
+            
+terciopelo seda percal hôtel bohardillas sueldo imperial ómnibus pestaña coche caballo boca inclinación 
+            
+c'est prendre o_u lai_ser 
+            
+revuelo casco gineta 
+            
+est 
+            
+efecto cangrejo emoción début grado calor vino olor mujer desnudez carne mezcla seso compañero especie delirium tremens fruto 
+            
+ojo color deseo 
+            
+e_t ave_c ç_a t_out plein palabra honor ojo mirada concupiscencia 
+            
+cabeza mano seno beso frente 
+            
+propósito lugar 
+            
+colación 
+            
+amigo 
+            
+sais cosa 
+            
+conferencia tiempo tiempo rebaño máxima evangelio deber hermano historia historia mundo 
+            
+historia 
+            
+señor costado afilado diente señor comparsa vapor carrera papa buñuelo opinión respecto verdad 
+            
+silencio soledad silencio padre meditación pensamiento cabeza plan horizonte faz orbe aspecto 
+            
+hombre mujer alma agrio corazón desengaño redentor existencia regeneración grey selva comarca 
+            
+
+            
+república 
+            
+efecto tropa mono relación haber_rem familia momento cimiento edificio 
+            
+sorna pelo tonto 
+            
+contrario espíritu cuerpo cosa 
+            
+mono 
+            
+hijo 
+            
+
+            
+
+            
+p_as colmo asombro hombre amor bestia 
+            
+
+            
+lugar 
+            
+mono padre humanidad mono padre humanidad mono bestia humanidad humanidad bestia 
+            
+vuelta 
+            
+boca 
+            
+país mono mono mono trato hombre mujer mono 
+            
+mujer 
+            
+
+            
+cochino 
+            
+figura mulato 
+            
+mulato hijo 
+            
+mulato mono mono 
+            
+barba negro 
+            
+
+            
+barba mono 
+            
+
+            
+
+            
+troglodita criatura género blanco francés compatriota seña 
+            
+francés familia tiempo infamia estado mano 
+            
+hombre francés esposas madre año paz gracia ejemplo vez mujer virtud 
+            
+idea 
+            
+señor vista año mujer nombre g_orilla historia país versión javanés caballero mezcla mono mujer 
+            
+ejemplo experimento ensayo posibilidad encaste influencia práctica sentimiento sistema escala injerto mata savia chorro sangre razón cuerpo 
+            
+objeto 
+            
+negocio 
+            
+éxito esfuerzo 
+            
+noticia 
+            
+tamaño atajo disparate 
+            
+tiempo amigo 
+            
+año 
+            
+año cuenta 
+            
+amén retoño año mes 
+            
+silla seno pie filo mesa cigarrillo boca copa vino mano aire interlocutor arabesco techo nariz cosa madre trufa señor 
+            
+
+            
+mes tiempo 
+            
+gestación mono mes mujer cuidado punto facultad fuerza luz criatura tiempo 
+            
+serrallo 
+            
+cuenta cosa mundo hombre tiempo familia fertilidad señor 
+            
+hombro 
+            
+historia ojo copa copa legua 
+            
+affaire dedo mono día hijo brazo 
+            
+hijo mes c'est rude gaillard t_out même 
+            
+
+            
+cuento 
+            
+
+            
+m_a hombre 
+            
+momento mujer 
+            
+cosa 
+            
+padre madre ojo boca diente cuerpo plan reforma corsé 
+            
+pecho brazo mano pierna pie flanco crítica cambio propietario ventaja hijo 
+            
+macho 
+            
+juego hembra 
+            
+
+            
+camino historia pago historia 
+            
+pie miga matemática 
+            
+ojo sociedad fiesta familia 
+            
+
+            
+pablo vez trabajo cabeza pierna ojo resuello lengua 
+            
+vía distancia punto 
+            
+
+            
+
+            
+
+            
+vuelta 
+            
+
+            
+
+            
+negro 
+            
+
+            
+
+            
+manera 
+            
+
+            
+señor 
+            
+
+            
+
+            
+
+            
+
+            
+figurante hijo comparsa cuestión simetría 
+            
+función vela bulto dedo bolsillo chaleco palma mano 
+            
+señor 
+            
+marchamo fondo mujer puntal 
+            
+pasadizo puerta calle 
+            
+bostezo casa sueño 
+            
+día vino gusto bosque 
+            
+
+            
+noche impresión 
+            
+vanidad fondo silencio car_oso garganta 
+            
+apetito deseo capricho pasión público amigo rincón oído reserva precaución caso ocasión 
+            
+zanco enano hombro cuerno luna 
+            
+cuerno vez luna luna telón 
+            
+vanidad fondo grito fuerza razón estado importe infamia alma ejemplo 
+            
+humanidad 
+            
+avenida bosque 
+            
+boca muchacho conquista 
+            
+gusto noche sueño mujer amigo trato cosa 
+            
+cosa trato 
+            
+dama trato cale fondo situación trato 
+            
+mujer gracia encanto 
+            
+
+            
+tono riqueza casa nada 
+            
+misa cosa mujer fortuna mueble chuchería 
+            
+colchón alfombra mueble agua cuarto género seda tapicería sala 
+            
+objeto arte bronce cuerpo mármol alabastro cuadro demonio 
+            
+fin amigo testa ricacho lujo 
+            
+lacayo calzón carruaje cochera puro caballeriza mes boutique 
+            
+sudor hombro poussée chico grano arena montón gavilán pichón pluma cuidado tiento cosa plumero sanguijuela hereje paciente 
+            
+noto honor ala caso consejo comparación 
+            
+mujer señor coche hombre pie jugo cascote solterón 
+            
+manga agua chorro 
+            
+riego árbol mata picardía yedra nombre hastío descreimiento egoísmo 
+            
+yerba tronco corona copa savia 
+            
+viente hoja ventarrón gajo fin palo yuyos polilla lleno hongo 
+            
+consecuencia mundo hombre mujer 
+            
+mujer mujer coche coche mujer coche plaza movimiento potro digestivo comida rato hora 
+            
+viaje clase vehículo riesgo sombrero barquinazo 
+            
+casa confianza mueble ocasión muerte propietario 
+            
+gato liebre comercio tiempo 
+            
+fin nombre casa garantía vuelco camino pata culpa diablo consuelo 
+            
+amigo camelo pintura pino fierro 
+            
+coche alquiler consejo 
+            
+nene dedo tilingo 
+            
+cosa 
+            
+pólvora experiencia laya mujer rueda carreta 
+            
+argentino porteño plaza 
+            
+diablo porteño color pared fiesta 
+            
+orgullo nacionalidad patrimonio muelle pasajero pie bote pena papel señor 
+            
+hombre trou 
+            
+porteño 
+            
+
+            
+
+            
+cuerpo collage 
+            
+historia 
+            
+patente mozo dedo tirón 
+            
+caso conocido palito memoria diablo fulano desgraciado 
+            
+prurito hijo petateria prurito cosa punta 
+            
+peine razón viento p_as plus 
+            
+hueco idea lueguito oreja tono chacota intención 
+            
+cosa embargo 
+            
+uso abuso accesorio accidente costumbre 
+            
+campaña rato repliegue mano mano voz rasqueta conciencia là-bas maza circunstancia transacción infeliz fondo honradez cosa 
+            
+vez hecho hocico evidencia falta justificación escusa vous pataugez dans suerte fatalidad destino cúmulo circunstancia combinación voluntad vez suceso 
+            
+razón estado secreto mujer ombligo lado casa 
+            
+tirio troyano 
+            
+
+            
+canalla 
+            
+deber caballero 
+            
+cadena parte hora tiempo desprecio censura indiferencia ojo 
+            
+día 
+            
+permiso par par puerta patio corazón 
+            
+hijo bichito sentimiento horizonte obligación responsabilidad 
+            
+espíritu salud fortuna existencia cuestión conciencia 
+            
+criatura cuenta vida 
+            
+sonrisa balbuceo caricia juez conducta 
+            
+coup amarra amigo fondo arena ancla carga agua 
+            
+criollo diablo mozo peine cuarta 
+            
+torio campo bólido luz arranque lazo tirón trote corral lengua púa marca 
+            
+huella picana adiós brío yugo paciencia buey 
+            
+ser ropaje mujer amor amistad 
+            
+amistad vínculo afección virtud caída honradez rito contrato querido vez tiempo casado pasaporte papel regla 
+            
+suerte 
+            
+mantenedor zanguango criador hijo patrón guiso cocinero 
+            
+hombre 
+            
+
+            
+frecuencia 
+            
+amor odio egoísmo miedo costumbre 
+            
+punto mujer 
+            
+categoría ente noción dignidad hombre animal perro zoquete puntapié gente 
+            
+revés mujer objeto repulsión bicho contacto camisa 
+            
+remedio facilidad encargo arretrancas 
+            
+ocasión ladrón miseria ridículo hombro paz 
+            
+tranquilidad reposo fruición 
+            
+música 
+            
+indicio prueba pachorra molestia vuelta verdad luz 
+            
+asunto disgusto sinsabor quebradero cabeza vida chancha meneallo ojo 
+            
+nombre dignidad vergüenza pavada bestia concha perfección 
+            
+codo coraje 
+            
+espada garrote 
+            
+maquinación plan siniestro montón horno cabeza vendetta vendetta coro infiel culpable 
+            
+suerte delincuente ventarrón frasco rabia cosa guitarra león carnero barrote miedo jaula lote miedo miedo fin miedo cobarde 
+            
+plato muerto 
+            
+
+            
+demoledor osamenta costumbre 
+            
+caso caballo rebencazo indiferencia anca cogote 
+            
+hombre caballo curtido 
+            
+vez mandria bellaco 
+            
+mandria bellaco carne hueso vaivén vida 
+            
+cuerpo collage 
+            
+cosa 
+            
+visita amigo vista 
+            
+prójimo consejo servicio plata ley cuerpo derecha divisa izquierda ojo tamaño mueca gusto camino 
+            
+palabra tiesto apuro pretexto reniego cuadra suerte canalla 
+            
+
+            
+consejo ejemplo caso 
+            
+
+            
+invierno cuero frío varón 
+            
+puerta cañón pulmón ráfaga viento sablazo nariz sangre tuétano 
+            
+ogro afán vida hacienda 
+            
+naturaleza foco hielo brasero 
+            
+mundo pasión hombre apetito 
+            
+imán criollo contacto posesión 
+            
+hoguera enjambre calor luz bicho paja_l fogón rancho 
+            
+puerta cañón pulmón ráfaga viento sablazo nariz 
+            
+sur sol 
+            
+lomo pique 
+            
+pala brazo cíclope tajada montaña marzo 
+            
+rincón hombre edén 
+            
+tierra raíz cedro magnolia naranjo araucaria flecha construcción casino arte hombro trabajo 
+            
+hueco piedra nido verdura lugar pedazo país cuadro 
+            
+cresta roca región sol luz sobra rayo 
+            
+primavera curva parque laberinto jardín mosaico villa hotel 
+            
+tren túnel anguila cueva socavón arroyo 
+            
+fin pampa 
+            
+puerto sol brisa abrigo fondo hueso trinquetada 
+            
+juego 
+            
+camino pared refugio vago guarida pillo tonto impresión 
+            
+oro plata señal suerte voz empleado ruido marfil casilla montón hombre mujer voz mesa brouhaha efecto colmena miel zángano príncipe zángano 
+            
+olor metal olor pieza tinte objeto verde_gris cortina aspecto color muerto semblante facción ojo azar avidez lucro vista cuadro mundo sello sombra idea desconfianza miedo alarma visión ruina 
+            
+peligro 
+            
+juego 
+            
+juego 
+            
+revés 
+            
+emoción poder atracción pena pena 
+            
+hora herencia corazón pulpa parasismo mal espasmo sufrimiento placer placer risa sollozo delicia tormento encanto dolor fuerza peso 
+            
+palabra presencia pasión máquina 
+            
+culpa 
+            
+armazón 
+            
+ambición ambición freno mujer noche carpeta juego 
+            
+moral horror vicio 
+            
+melodía 
+            
+orden incidente agarrada diablo cuestión orgullo amor 
+            
+paso luis plein 
+            
+paso mesa ruleta baile suscrición república 
+            
+república simpatía forma gobierno achaque rey libertad igualdad fraternidad hermano 
+            
+
+            
+menudeo jugador morralla paso codo fila mundo pieza cent sous mano t_rain corte criado patrón catins especie viejo 
+            
+gordo rollo oro billete mano fin pozo fondo banca 
+            
+judío papel franco passe luis truc cábula hombre mascotte mano 
+            
+vuelta 
+            
+pieza haz 
+            
+
+            
+
+            
+mesa fortuna 
+            
+
+            
+lado hombre 
+            
+efecto juego rostro vista naipe tallador 
+            
+barba mano movimiento puñado billete 
+            
+color 
+            
+dècidèment p_as chance mañana 
+            
+hotel momento 
+            
+ruego súplica hora paz criatura tutor 
+            
+
+            
+
+            
+medio 
+            
+embargo cosa 
+            
+
+            
+
+            
+hijo vicio 
+            
+guigne servicio 
+            
+propósito mano lado sofá sentimiento diablo 
+            
+azar mitad juego mitad pasado amigo tiempo 
+            
+afán mate disgusto hombre camino noción práctica 
+            
+diablo latín 
+            
+
+            
+pavo 
+            
+
+            
+
+            
+verdad 
+            
+
+            
+pablo talento distinción espíritu hombre embargo 
+            
+calumnia pablo mozo 
+            
+deseo pasión 
+            
+deseo pasión familia 
+            
+
+            
+pablo punto mujer mujer 
+            
+riqueza 
+            
+dinero vida vecino prójimo mano millón ratón nuez dinero horizontal fin 
+            
+
+            
+razón 
+            
+miserable mujer cosa desprecio gente 
+            
+testigo verdad palabra vida arrepentimiento dolor alma monstruo recuerdo memoria vez horror 
+            
+
+            
+mujer atención respetable programa gusto 
+            
+embargo boca operación solución situación 
+            
+brazo fresco 
+            
+vez camino jardín palabra fin banco 
+            
+cabo 
+            
+loco 
+            
+barbaridad mujer 
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+voz corazón pablo entretenimiento capricho lujo querido fastidio vanidad 
+            
+
+            
+
+            
+hombre mujer cariño gratitud lástima 
+            
+cosa pedazo materia porción alimento cerdo resto autómata carne gusto hombre juguete 
+            
+desgracia mujer caudal sentimiento criatura sacrificio alma corazón pasión fin mano abismo culpa desgracia 
+            
+desdén carcajada lágrima arrepentimiento farsa sufrimiento mentira piedra falta falta infame prostituta 
+            
+quejo justicia 
+            
+hijo amor chaveta cabeza ve visión 
+            
+mundo cosa 
+            
+marca frente baldón infamia ignominia literatura retórica palabreo 
+            
+vocabulario gusto curso época fósforo palo candil aceite 
+            
+renglón fabricante folletín dramón capa espada solaz chusma gente tiempo progreso luz 
+            
+
+            
+barbaridad 
+            
+presencia bicho pájaro rapiña paloma cristiano ojo oreja 
+            
+pretensión trigo concepción papel arrepentida cuerda 
+            
+caso guardia pie cruz demonio naranjo antesala recinto aprecio amigo 
+            
+cosa 
+            
+reserva amor techo concepto muchacho apuro 
+            
+
+            
+
+            
+cariño colmo dicha 
+            
+recuerdo gente desierto país choza paja pedazo carne alimento centro recurso clase peligro ardor sol rigor invierno noche lomo caballo resto rebaño furia 
+            
+existencia sueño 
+            
+mundo mujer 
+            
+delirio mente idea ruina deshonra 
+            
+nombre fortuna presidio cadalso remedio fuga 
+            
+
+            
+lado adversidad miseria hora amargura pesar dolor rodilla tesoro afecto beso caricia cuerpo alma vida madre hermano mujer esclavo fin amor cuenta sacrificio 
+            
+libro 
+            
+disparate tiro convento pase vez calentura 
+            
+vuelta majada cuero carnero maceta puchero aujas leña bosta fogón cocina 
+            
+non vois-tu c'est par dróle gravedad asunto momento 
+            
+consejo consejo 
+            
+expreso noche 
+            
+teatro deje carrera flor edad pasión porvenir triunfo laurel corona artista 
+            
+misión zorro pavo 
+            
+campo hazaña deber destino 
+            
+
+            
+
+            
+
+            
+hijo instante situación tiempo 
+            
+pablo verdad cosa 
+            
+comercio vida 
+            
+amor amor amor cosa sentimiento arranque raíz golpe ataque apoplejía consunción 
+            
+mal querido cataplasma paño mano medio serrucho energía miembro gangrena 
+            
+
+            
+rato 
+            
+razón embargo 
+            
+embargo 
+            
+embargo 
+            
+chambonada 
+            
+mañana 
+            
+verdad mujer especie 
+            
+mañana nous trapo yunta orgía noche locura 
+            
+horizonte borracho aguardiente entraña 
+            
+porvenir 
+            
+porvenir 
+            
+posición nombre familia virtuoso criatura mundo 
+            
+porvenir horizontal fin allons don_c 
+            
+porvenir momento 
+            
+noche diablo 
+            
+amigo loco cigarro mano 
+            
+diente hombre siglo 
+            
+risa carcajada llanto sollozo diablo salto 
+            
+figura enamorado 
+            
+gesto perro cristiano mujer 
+            
+vuelta compostura amor 
+            
+hijo cosa 
+            
+amor prodigio 
+            
+
+            
+
+            
+
+            
+lugar 
+            
+amigo voz 
+            
+vuelta suerte tiempo 
+            
+juego pena miseria tiempo 
+            
+cosa 
+            
+cigarro rato 
+            
+diablo vida café 
+            
+humo 
+            
+vergüenza gana tiempo visita proyecto día campamento intención 
+            
+viaje idea momento 
+            
+carta partida 
+            
+
+            
+
+            
+
+            
+servicio correo carta 
+            
+puro vez vista consejo contrario perspectiva hora sociedad delicia efecto trompada boca estómago 
+            
+duda mentor cuenta sermón bulto 
+            
+propósito tiempo señor 
+            
+
+            
+señor 
+            
+señor caso 
+            
+
+            
+gusto 
+            
+
+            
+clavo amigo gancho 
+            
+sanguijuela sanguijuela mujer sovaipé bolsillo corazón paciencia 
+            
+víctima explotación sentimiento fecha 
+            
+
+            
+hijo alma papel amor 
+            
+idilio suma edición 
+            
+nivel personaje 
+            
+badana pi_chicho criado casa dechado virtud modelo perfección 
+            
+reto enojo perdón uña bicoca señoría moral 
+            
+día calle medio joyero par aro 
+            
+forma dinero porquería caja ahorro 
+            
+pobre 
+            
+señor hijo fruto 
+            
+contrario 
+            
+cuenta 
+            
+
+            
+remedio 
+            
+madre 
+            
+madre 
+            
+hijo madre 
+            
+vida porvenir criatura ejemplo loco 
+            
+parte hipoteca alma deber mujer 
+            
+doncella camino pecado penitencia embargo pecador punto mujer monopolio víctima artimaña doblez picardía vuelta 
+            
+momento doncella viudo tuétano 
+            
+amor placer pour argent goce diversión especie don_no 
+            
+vida hogar cuerpo miel himeneo plato familia 
+            
+tierra paisano polla calzón hijo año enjambre criatura cosa vida mujer muchacho club calle baño 
+            
+programa 
+            
+cabeza horizonte pulmón aire paladar estómago manjar puchero asado dulce leche 
+            
+agua boca bisque 
+            
+difunto mujer amor cuerno juego callejón 
+            
+voto 
+            
+ocasión avento infierno yugo 
+            
+asunto 
+            
+
+            
+terno 
+            
+piso condesa vous plaît 
+            
+
+            
+señor 
+            
+condesa vera 
+            
+esperanza 
+            
+nobleza 
+            
+condesa condadura 
+            
+marido 
+            
+relación 
+            
+conde timbirimba medio día peso agradecimiento 
+            
+consecuencia confite señor marido ruleta cocotte interés mujer reemplazo función vice 
+            
+casita condesa conferencia 
+            
+sencillez mundo marido mundo 
+            
+matrimonio sociedad 
+            
+nombre fortuna fondo 
+            
+dinero hombre mujer mujer marido medio 
+            
+amor afección vínculo lado capital caja nombre pedazo dinero resto 
+            
+sociedad bancarrota forma apariencia educación manda 
+            
+
+            
+cabeza caballo freno cosa yunta pesebre 
+            
+conde condesa partida 
+            
+criado respondón 
+            
+pan t_out gente cosquillas 
+            
+conde filou conde pi_changa condesa condesa cartón pavo franqueza 
+            
+
+            
+
+            
+resto cerveza parte verdad 
+            
+presencia intruso coloquio amor 
+            
+cuenta 
+            
+mozo persona compatriota amigo secreto temor 
+            
+fin encargo negocio 
+            
+amigo dueño 
+            
+risa conquista contrario violín bolsa 
+            
+casa calle izquierda 
+            
+
+            
+tiempo 
+            
+hora 
+            
+
+            
+buey 
+            
+palo ce marido reputación pito flauta fin media 
+            
+valor 
+            
+antojo enfant capricho mujer coqueta casa lujo casca_de 
+            
+negro 
+            
+amigo vistazo mesa fiesta velorio fin vez potro paciencia intención 
+            
+momento froufrou mujer zaguán 
+            
+individuo cuestión traje pelo plateado ojo nariz fi_losa boca tez labio párpado diente mano pie manera sangre fin mujer 
+            
+señor pied-à-terre invitación 
+            
+señor amistad marido presencia casa 
+            
+americano parte convento peligro pastel 
+            
+significado palabra modo mujer rol mundo 
+            
+
+            
+señor 
+            
+tierra mujer independencia gana 
+            
+día calle faldón atributo 
+            
+
+            
+
+            
+
+            
+c'est charmant ici asunto casa 
+            
+charmant trasto casucho 
+            
+nido amor bombón vista jardín 
+            
+amigo honor casa señor puro 
+            
+
+            
+memoria 
+            
+señor cicerone 
+            
+
+            
+rato momento casa puerta entrada 
+            
+mujer condesa rincón cuerpo edificio jardín 
+            
+perdón tardanza paciencia 
+            
+balcón 
+            
+estado mar marzo 
+            
+poeta 
+            
+señor carga vida momento 
+            
+propósito reloj 
+            
+apetito 
+            
+movimiento ejercicio aperitivo señor tanto 
+            
+pedazo pan 
+            
+mesa 
+            
+mesa 
+            
+diablo voz tumulto 
+            
+
+            
+
+            
+
+            
+
+            
+ruido cuerpo suelo puerta hombre mujer sopetón 
+            
+marido 
+            
+conde 
+            
+
+            
+momento safacoca farsa tragedia plato botella espejo triza sangre 
+            
+conde señor 
+            
+cadáver fatiga emoción nariz ropa desorden frío sereno coraje 
+            
+dueño perdón caso manera carácter mujer señor 
+            
+instante 
+            
+puerta gesto autoridad 
+            
+protesto 
+            
+señor lugar momento 
+            
+honor 
+            
+condesa ente marido mirada 
+            
+cara risa amigo estatua diferencia 
+            
+oveja trueno canalla salto gato rabia revés 
+            
+degradado canalla cobarde mujer esfuerzo sujeto brazo 
+            
+vez diablo 
+            
+postración violencia crisis 
+            
+sillón 
+            
+razón miserable cobarde colmo indignidad mujer vergüenza vergüenza cabeza mano punto 
+            
+conducta 
+            
+mano sexo c'est raid_e 
+            
+fin lástima diablo momento rabia 
+            
+derecho mujer media borrón alma 
+            
+infame 
+            
+
+            
+lugar conde cuenta riesgo casualidad juicio 
+            
+cosa lugar falda casco amigo temeridad credo experiencia loco cosa broma 
+            
+historia 
+            
+
+            
+mañana nene dedo campeón mujer 
+            
+amor 
+            
+
+            
+muchacho cerco pita árbol durazno fin manga langosta año vez fruto 
+            
+
+            
+mujer manga hombre amor sol agua planta 
+            
+cuento vera vera aparcería media 
+            
+amor palabra monstruo leyenda presa garra 
+            
+mujer extravío pasión miseria mujer infame yerba dignidad hombre tiempo vez deber 
+            
+hijo 
+            
+
+            
+pared pared palabra 
+            
+noto rato brazo 
+            
+pan 
+            
+
+            
+
+            
+sombrero caso friega aguardiente portero zaguán carne porrazo 
+            
+
+            
+pablo cama mañana 
+            
+
+            
+visita caballero 
+            
+conde 
+            
+caballero 
+            
+señor 
+            
+
+            
+cuenta derecho mundo 
+            
+proceder 
+            
+caso padrino 
+            
+
+            
+
+            
+píldora 
+            
+
+            
+amigo parte 
+            
+amigo 
+            
+gracia punta 
+            
+cosa 
+            
+hotel 
+            
+hotel 
+            
+mujer año 
+            
+indignación presencia insulto fuerza hinojo planta 
+            
+
+            
+
+            
+impulso rabia salida modo actitud palabra impresión 
+            
+enormidad culpa mezquino mandria ojo 
+            
+vergüenza hotel rehabilitación puerta cuarto grito pie loco 
+            
+
+            
+
+            
+mujer 
+            
+perro historia 
+            
+
+            
+ceja ceja condesa celo momento aberración extravío conde 
+            
+mujer 
+            
+exclamación lástima 
+            
+cordero carancho 
+            
+infeliz pato 
+            
+
+            
+
+            
+
+            
+
+            
+visita individuo recibí pieza lado voz tiempo ojo llave mujer 
+            
+broma 
+            
+estorbo parte policía intención mundo pan hostia ridículo miedo querido lance 
+            
+duda 
+            
+asunto 
+            
+padrino francés 
+            
+
+            
+
+            
+
+            
+bulto verdad carta 
+            
+poder 
+            
+
+            
+caso 
+            
+arma 
+            
+arma tapón botella vara distancia bala pistola monte_cristo tiro pistola 
+            
+tanto 
+            
+maravilla 
+            
+señor padre cuidado majada oveja pretexto hombre hombre vache pobre 
+            
+hora siesta calor sol canto chicharra cosa cardal tronco vapor campo batallón fantasma hora fastidio sillón corredor puesto corcho suelo caja bala hora patio vez vista 
+            
+bala baquía tino aplicación caso ocasión 
+            
+rival corcho 
+            
+palabra padrino 
+            
+tarjeta 
+            
+barón vizconde sangre crema 
+            
+mesa luz nombre caballero 
+            
+
+            
+
+            
+crisma rigor basto código conde personal 
+            
+diablo 
+            
+busilis 
+            
+rato homme 
+            
+cónsul 
+            
+cónsul 
+            
+hombre cónsul protegido empleo 
+            
+trompeta 
+            
+amigo 
+            
+trompeta 
+            
+hijo 
+            
+
+            
+parte bulto 
+            
+
+            
+
+            
+mesa ruleta prójimo peso pieza 
+            
+
+            
+
+            
+empleado carta cancha policía 
+            
+salto cama almuerzo 
+            
+todo andar 
+            
+cosa zapato 
+            
+pollero cosa 
+            
+
+            
+credo padre contrario 
+            
+terreno asunto duelo duelo 
+            
+duelo 
+            
+pablo 
+            
+respuesta hombre salida gallo incógnita problema problema mujer mujer 
+            
+lanceta estudio mata sangre marido zanja mujer 
+            
+negocio cosa fondo pelo tonto 
+            
+golpe corazón conde muerte condesa brazo 
+            
+negocio 
+            
+momento 
+            
+hombre agitación expiación castigo remedio 
+            
+pasado vez vez madre vez entraña 
+            
+blasfemia nalga 
+            
+colmo exaltación delirio misericordia mentira 
+            
+vidrio ojo fiebre mirada reto cielo pañuelo diente dedo espasmo imagen dolor 
+            
+
+            
+exceso combustible cilindro válvula escape 
+            
+turno dulzura mano cintura silla aflojamiento ser molicie miembro 
+            
+queja 
+            
+modo 
+            
+
+            
+sonrisa ojo frente caída aliento boca sobresalto azote dolor 
+            
+beso 
+            
+silencio ruido cubierto comedor eco canto rana 
+            
+contemplación ser ojo criatura recelo abandono hijo brazo padre 
+            
+remolino suelo tormenta presencia mujer contacto roce cuerpo cuerpo estallido sensualismo 
+            
+vértigo marco borrachera 
+            
+ola sangre sien velo ojo nube tiniebla lealtad conciencia amistad deber edificio suelo 
+            
+materia carne hembra pie ruina 
+            
+grito pesar esfuerzo 
+            
+colmo asombro sueño 
+            
+tiempo hijo indio puerta 
+            
+calle tristeza infamia idea 
+            
+mujer mujer 
+            
+vez camino vez gesto manjar 
+            
+orgullo soberbia sentimiento menosprecio encierro círculo elegido afección afinidad alma concha tosco 
+            
+
+            
+mano abrazo 
+            
+pillo traición amistad fe hombre arranque pasión mujer fuego sentimiento ojo virtud 
+            
+escape razón fuerza desilusión circunstancia 
+            
+pablo amigo vínculo relación mundo azar sol viaje 
+            
+escrúpulo hojarasca polvareda 
+            
+degradado canalla mujer 
+            
+pieza 
+            
+estado escena desesperación llanto farsa comedia 
+            
+colmo estupidez ridículo cuerda vaina 
+            
+freno gana 
+            
+pureza acto delicadeza dignidad respeto 
+            
+conciencia palabra perro guardia oreja 
+            
+fin viento caballo campo 
+            
+hombre 
+            
+señor cónsul conde vizconde barón sustancia 
+            
+palabra reparación terreno ofensa amigo cliente hecho discusión comentario cuestión terreno honor duelo derecho conde florete arbitrio día hora lugar 
+            
+acto deferencia política libertad observación detalle 
+            
+ofensa cuestión paz duelo derecho conde florete 
+            
+
+            
+cosa 
+            
+comitente casa señor amigo marido señor duda carácter escena pugilato portero escena hombre cuna puerta regla urbanidad crianza mujer manera 
+            
+proceder calificación violación domicilio circunstancia vía hecho golpe herida insulto persona propietario casa señor cuestión hecho salvaguardia protección 
+            
+antecedente contrario mira satisfacción atropello escusa reparación arma caso carácter derecho elección arma determinación condición lance 
+            
+embargo cosa deber humanidad medio conciliación alcance 
+            
+honor carta escusa poderdante agresor 
+            
+giro cuestión aspecto coro protesta cambio palabra peligro seriedad debate solemnidad acto 
+            
+titeo mujer marido cita amante aplomo audacia 
+            
+pst 
+            
+prima humor pulga 
+            
+grano 
+            
+fuerza convicción pulmón condesa gato picardía 
+            
+amigo marido servicio paso amigo mujer amigo 
+            
+casa rincón mantel 
+            
+tiempo aire circunstancia hora mesa hambre 
+            
+
+            
+soit conde fe rey_e confianza esposo persona parecer 
+            
+condesa 
+            
+contrincante cuarta necesidad punto andar parte 
+            
+conde inocencia mujer mayoría colega gana duelo duelo outrance 
+            
+clavo terreno fuerza arroba 
+            
+debate acuerdo ajuste tenor 
+            
+duelo pistola adversario pie paso distancia fuego segundo señal juicio miseria 
+            
+día jardín 
+            
+triunfo hincapié cábula recuerdo mujer vista teatro suceso rabia marido carne 
+            
+barrera púrpura muro palacio hada horizonte espejo mar pico gigante sudario rojo reflejo incendio mundo 
+            
+manto suelo pájaro estribillo canción alegría inocencia 
+            
+flor seno acceso luz 
+            
+soplo brisa aleteo agua arena playa onda tripe césped 
+            
+naturaleza sueño tiniebla grito sol 
+            
+hombre hombre blandura aire guarida 
+            
+paso calle habríase dedo destino anhelo sueño párpado contemplación obra obra hora compensación pérdida vida 
+            
+cónsul coche 
+            
+puerta casa criado testigo recelo terror 
+            
+hombre llave cerradura sepulcro 
+            
+pasadizo habitación jardín aire cementerio aldea cerco pared cono pino aprensión 
+            
+presentimiento certeza intuición desenlace 
+            
+hombre muerte cómplice atentado crimen 
+            
+inquietud preocupación espíritu plomo conciencia 
+            
+conde vagón vuelta loma diablo 
+            
+cuestión nudo revés 
+            
+amigo respeto consideración cosa nobleza remedio trucha baño asiento 
+            
+contrario modo francés carcajada cosa 
+            
+papel padrino forma drama farsa 
+            
+chambón responsabilidad sangre causa 
+            
+corriente obsesión remordimiento cabeza aproximación punto analogía contacto magnitud culpa 
+            
+hombre brazo resorte cuchilla aparato cabeza hombre embargo ejecutor verdugo verdugo ley oficio maldición desprecio humanidad 
+            
+cosa verdugo espada pistola oficio árbitro vida hombre 
+            
+verdugo verdugo honor verdugo honor contrabando sanción monstruosidad hijo miseria prostitución dique torrente podredumbre 
+            
+duelo razón lupanar moral impuesto cara hereje necesidad sociedad cárcel cadalso desgraciado bolsa vida esplendor palacio ladrón 
+            
+lógica monómanos resorte neurosis nervio reloj péndulo comedor degradado cónsul botella cognac luna infierno parte golpe puerta calle orden cumplimiento deber momento 
+            
+caballero médico 
+            
+sala momento colega 
+            
+cónsul arreglo 
+            
+suerte barón lance prioridad tiro lerdo paja 
+            
+aviso presagio suerte 
+            
+idea vuelo imaginación tiempo suelo pecho balazo 
+            
+embargo pistola barón palabra honor conde paso recinto jardín combatiente 
+            
+conde cara ojo nuca entereza merced imperio 
+            
+vergüenza rabia venganza amor celo batalla alma pedazo 
+            
+bribón contracción labio cara 
+            
+broma cuerpo 
+            
+punta francés 
+            
+vaca toro duda copa pajarete 
+            
+ojo mirada criollo cigarrillo cachaza 
+            
+barón caballo etiqueta tratado código duelo luz fecha actitud acta condición encuentro proclama campeón honor conde suerte derecho fuego 
+            
+ojo ahijado alma 
+            
+muchacho especie orgullo adentros pesar ascendiente valor 
+            
+instante gigante sombra árbol rayo sol ocaso 
+            
+tendencia instinto derroche vida ausencia sentimiento falta corazón altura raquitismo suma deformidad alma molde vulgo embargo reforma merced acción voluntad deformidad cuerpo miembro fierro aparato ciencia 
+            
+recuerdo acción bofetón rostro mujer memoria atracción valor impavidez muerte 
+            
+embargo momento 
+            
+cuchillo filo voz sitio costado brazo aguante chubasco 
+            
+cuidado fu_lo miedo 
+            
+punto tabla segundo 
+            
+hombre pie asiento piedra pared puesto intento extremidad jardín momento efecto reo banquillo 
+            
+barón 
+            
+respuesta adversario fuego 
+            
+conde pistola gatillo 
+            
+puñado polvo pared altura cabeza espejo puñado humo fogonazo 
+            
+cara lado 
+            
+eco detonación mancha camisa conde región brazo 
+            
+
+            
+señor 
+            
+señor padrino deber testigo caso 
+            
+tiempo gesto brazo rasguño dolor molestia obstáculo combate 
+            
+embargo responsabilidad resolución fin médico 
+            
+parte calor médico marido cosa medio 
+            
+embargo huésped 
+            
+herida bala nacimiento brazo clavícula órgano 
+            
+libertad movimiento acción duelo deber médico facultativo caballero lesión razón lance 
+            
+maldición boca 
+            
+
+            
+fuego adversario vez tirón músculo labio esfuerzo aliento hombre fijeza obstinación rabia fin 
+            
+peso materia trozo pared ventarrón conde boca 
+            
+
+            
+desgarro aire explosión alma dolor arranque madre grito amante alarido mujer rugido hembra oído 
+            
+puerta jardín pared eje brazo tronco árbol plomo adversario 
+            
+vez cónsul cama 
+            
+médico principio curación bala cuadril herida sangre pierna calzoncillo 
+            
+instante 
+            
+movimiento médico 
+            
+
+            
+fuerza vista cuadro 
+            
+tema mujer valor 
+            
+médico 
+            
+doctor voz 
+            
+
+            
+colega muerto alma 
+            
+
+            
+cadáver conde banco jardín rostro pañuelo 
+            
+
+            
+señor alma desenlace disposición 
+            
+cuerpo desgraciado muerte 
+            
+deferencia barón ahijado 
+            
+mañana 
+            
+papel conde 
+            
+
+            
+deuda honor resolución 
+            
+cadáver casa esposo dolor vista 
+            
+pulso 
+            
+diablo hombre muerto 
+            
+servicio cuerpo entrada noche señor barón colega resto amigo sitio alrededor fábula suicidio sospecha 
+            
+
+            
+condesa idea situación infeliz mujer fin 
+            
+señor condesa cuenta conciencia 
+            
+embargo conde 
+            
+conde pliego esfuerzo deseo causa encuentro ultraje honor 
+            
+respecto señor sufra obligación memoria hombre silencio hecho desgracia parte 
+            
+recuerdo deber 
+            
+intervención testigo aparición sorpresa razón 
+            
+justicia amigo presencia mujer manera 
+            
+aire 
+            
+parte conde presencia escena momento 
+            
+secreto adversario culpa 
+            
+caso acto vida norma deber materia honor conciencia recibo lección 
+            
+conforme vez cuerpo sala asunto 
+            
+herida vendaje médico instrucción dieta trago agua poción caso fiebre 
+            
+tarde 
+            
+pedido enfermo 
+            
+sueño especie letargo párpado golpe ser 
+            
+postigo cuarto oscuridad manto lecho velo tiniebla sepulcro 
+            
+aire olor botica mesa luz frasco arma guerra mal silencio tic-tac reloj rincón penumbra rayo sol filo daga lucha vida muerte luz entraña sombra 
+            
+parada cama cabeza pecho ojo lágrima mejilla 
+            
+pie cruz 
+            
+
+            
+
+            
+signo cabeza 
+            
+expresión rostro 
+            
+suerte bala 
+            
+fortuna médico 
+            
+
+            
+valor cuestión cuidado paciencia 
+            
+mano agarrada padrino conde 
+            
+
+            
+invasión mañana hijo tono broma bomba fiesta práctica mujer 
+            
+mauvaise cómplice baignoire fin espectáculo 
+            
+diablo 
+            
+puerta calle llegada conde testigo 
+            
+puerta dinero 
+            
+
+            
+alba hôtel cama vez 
+            
+salvación mano voz instinto voz 
+            
+hora peligro 
+            
+recurso esfuerzo inspiración milagro 
+            
+pie conde miserable infame mujer condesa celo rodilla escudo cuerpo pecho plomo enemigo 
+            
+idea muerte promesa bienestar suerte sacrificio felicidad abandono vida amor 
+            
+quimera mundo combate hombre 
+            
+embargo vez huella pisada esquina pared vehemencia andar distancia momento presa agitación 
+            
+
+            
+obsesión idea vuelta perro casa puerta entrada descuido ventana balcón pared 
+            
+tiempo 
+            
+hombre hombre criado 
+            
+vez desconfianza 
+            
+
+            
+señor derecho pregunta 
+            
+rodeo 
+            
+
+            
+palabra 
+            
+hora casa 
+            
+señor mañana 
+            
+llave 
+            
+señor patrón 
+            
+
+            
+
+            
+entrega dinero caso calle patrón 
+            
+fin llave sangre puerta corazón seno oído silencio hueco desierto cuarto 
+            
+pie precaución ruido voz 
+            
+puerta 
+            
+escena vista terror voz fuerza pesadilla asesino fantasma monstruo escalera zanja barrera torpor sentido aliento pulmón vigor músculo tierra pie punto apoyo peligro 
+            
+momento realidad 
+            
+ojo sangre cabeza fuego garganta latido pecho dardo sien presa desesperanza vista cuadro poder avidez fiebre detalle sitio mano fierro baldosa zaguán 
+            
+fin vuelta colmo dolor ser crujido masa piedra altura hueso 
+            
+aliento fuerza 
+            
+recuerdo loco cuerpo brazo 
+            
+momento silencio cuello abatimiento ojo suelo instante segundo 
+            
+movimiento cabeza rendija puerta cónsul comedor párrafo 
+            
+duda pena cara cangrejo ojo mirada aflojamiento mano mano botella aguardiente relación duelo 
+            
+
+            
+historia herencia cadena sufrimiento vida visión muerte presencia tumba borde pozo maleza tierra fin olvido grandeza miseria hombre mundo recuerdo procesión montón espejo memoria vapor cognac boca balcón día golpe crudo luz cuerpo sapo sol 
+            
+irritación 
+            
+comparsa verdad papel bulto gente 
+            
+placer día 
+            
+talento habilidad pescuezo maestro 
+            
+momento ascenso mérito servicio favor influencia acción escenario promoción centro capital 
+            
+falta 
+            
+coche 
+            
+coche risa pesar razón 
+            
+luis 
+            
+serie quebranto agonía muerte cabecera enfermo 
+            
+día expectativa progreso mal visita médico apóstol saber sacerdocio objeto escarnio rumor amenaza distancia tiempo mirada libro sibil_a arcano futuro omnisciencia mente obsesión peligro 
+            
+noche velada zozobra tacto piel fiebre torrente fuego sangre redoble arteria pulso vez hora lentitud esfera reloj postración miembro torpor sentido brazo cabeza sueño vigilia visión miraje fantasía 
+            
+sobresalto conciencia tiempo vista cuadrante consigna ciencia prescripción fórmula 
+            
+ida venida pie desliz fantasma abstracción alma congoja aprehensión cansancio lucha instante enemigo 
+            
+martirio abnegación amor prójimo martirio criatura martirio fondo tortura esperanza halago promesa fe 
+            
+médico tarde 
+            
+pablo estupor momento dolor región movimiento pierna 
+            
+color sangre boca contorno herida 
+            
+mañana indicación sonda médico voz bala hueso muslo articulación desviación choque parte fuerza tejido parte parte 
+            
+exploración temor enfermo momento cuestión 
+            
+carne dirección proyectil momento investigación 
+            
+gesto satisfacción prominencia ingle coloración piel boca herida 
+            
+instrumento cartera incisión bala choque hueso 
+            
+señor herida tiempo cama 
+            
+momento hombre momento prueba 
+            
+resignación paciencia inmovilidad quietud condición caso 
+            
+precio curación 
+            
+lágrima alegría ojo parada 
+            
+frío médico aplicación hielo abertura herida 
+            
+palabra duda 
+            
+pavo ignorancia profano herida ingle arañazo chichón 
+            
+caso doctor salida palabra mentira médico 
+            
+enfermo ruego verdad 
+            
+bala red tejido función mecanismo cuerpo caso señor herida 
+            
+enfermo seguridad embargo confianza éxito 
+            
+bala través incisión asa frecuencia caso intestino suerte color hemorragia arteria 
+            
+amigo parte constitución 
+            
+complicación orilla 
+            
+señor estado enfermo cuidado fatiga asistencia 
+            
+momento doctor 
+            
+fiebre acceso delirio parte noche explosión momento postración vida soplo 
+            
+calma noche tormenta estallido trueno silencio naturaleza fiebre 
+            
+hecho surco existencia hombre prisma imaginación tropel cabeza 
+            
+cuerpo adúltero beso seno pulpa labio perfume leche boca cuerpo cuerda brazo espasmo 
+            
+marido brazo salto tigre figura conde tapa sepulcro rigidez muerto lecho ojo fuego vida mirada tumba 
+            
+mancha mancha rojo cuello camisa suelo vapor sangre 
+            
+voz instinto homicidio sacrificio vida vida grito conciencia tumulto perturbación alma 
+            
+fondo caos idea idea llama volcán arrebato delirio instante tregua intervalo razón imperio traición sentimiento aversión rencor 
+            
+causa autor desgracia 
+            
+perverso infame 
+            
+especie 
+            
+ojo 
+            
+amor virtud moral prenda alarde aire mosca comedia farsa soga 
+            
+apego agradecimiento picota alma conde boca lágrima silencio 
+            
+modo cariño mujer hombre sacrificio amor 
+            
+presa fondo saco instinto rabia venganza desahogo alma 
+            
+fin conde precio traición 
+            
+
+            
+amor condesa 
+            
+lástima amor hombre pasión voluntad lágrima amante 
+            
+pesar causa comunidad vida costumbre gratitud afecto vínculo hijo 
+            
+voz sangre infeliz zonzera origen infamia madre 
+            
+suerte venda ojo 
+            
+uña gato talento tino papel fin genio 
+            
+pintada vez camino ojo podredumbre parte padre 
+            
+camino deber caballero 
+            
+vez 
+            
+interés móvil 
+            
+porvenir vida amante marido suerte 
+            
+idea posesión condesa vez mente imagen vaivén recuerdo nube puesta sol superficie agua 
+            
+terror aparición muerto sangre herida ruido fuelle lluvia ascua fragua carne cuerpo sensación ardor quemadura 
+            
+calofrío pánico opresión mano pescuezo dedo fierro garganta vena 
+            
+ronquido estertor resuello inacción músculo parálisis pierna lecho cuerpo retortijón serpiente cabeza 
+            
+embargo silencio flujo palabra retahíla hueco pieza letanía iglesia toque oración arranque delirio quietud brazo cabeza sueño 
+            
+momento 
+            
+vez sobresalto cabeza derredor mirada conciencia hecho presencia cuarto cama cuadro esfuerzo mente vuelta realidad 
+            
+abatimiento párpado peso pesar postración 
+            
+instante tiesura cuello montón tierra nido hormiga pierna tronco mata paja 
+            
+ardor infierno hormiga carne hueso 
+            
+brazo movimiento accidente herida 
+            
+vista rayo razón 
+            
+bicho pierna sangre duda agujero 
+            
+cabeza lado 
+            
+contracción frente ojo resplandor rostro expresión crueldad 
+            
+
+            
+
+            
+
+            
+seña instante 
+            
+vez fuí dulzura sentimiento afecto alma bondad compasión corazón lástima mujer víctima extravío 
+            
+tiempo 
+            
+fiebre día estado mejoría médico inquietud 
+            
+naturaleza trabajo reconstrucción expulsión tejido cloaca humor fin fondo bienhechor organismo hueco mal 
+            
+vano 
+            
+supuración boca herida hinchada llaga lomo caballo 
+            
+proceso esfuerzo naturaleza fuente materia 
+            
+tratamiento sistema frío medio inflamación séquito accidente aplicación compresa agua alcohol 
+            
+médico calor ayuda medio cambio obra regeneración acción frío 
+            
+
+            
+cuadro síntoma carcoma pus labio pared herida constancia agua borde corriente 
+            
+asistencia hombre olor cuerpo envenenamiento atmósfera manoseo llaga cura violencia repulsión sentido esfuerzo voluntad estómago ansia asco ojo horror vista día noche sueño descanso cuerpo alma deseo fin fin cuadro muerte lucha ahínco vida fin etalaje miseria caridad mujer fuente cariño 
+            
+momento 
+            
+indicación médico persona hermano caridad mujer casa enfermo 
+            
+
+            
+fuerza deber fatiga 
+            
+resto vida átomo aliento vigor amante lado 
+            
+mano alivio mal 
+            
+egoísmo pasión gratitud egoísmo amor grandeza 
+            
+servicio 
+            
+mesa luz vaso botella zarzaparrilla 
+            
+puerta comedor mesa pino nogal frasco fila etiqueta vuelta ángulo pared receta concha caracol 
+            
+lado puerta rincón ventana lavatorio jarra palangana pedazo tela cantidad paño compresa 
+            
+cama estado limpieza mueble sofá sillón silla cretona arabesco 
+            
+grado fin termómetro pared chimenea copa reloj grupo amor zinc bronce máquina aguardiente 
+            
+médico infeliz día escena conde viaje botica servicio puerta 
+            
+visita médico 
+            
+borde cama palangana agua 
+            
+instante tela compresa esponja herida 
+            
+vuelta esponja dedo carne agua 
+            
+mano montón materia delicadeza abanico pluma epidermis 
+            
+contracción gesto disgusto tarea rostro solicitud bien 
+            
+complimientos mano 
+            
+lección 
+            
+paso 
+            
+razón calor mujer ángel 
+            
+cabeza 
+            
+sombra pestaña luz día brillo raso pupila boca curva labio brazo cuerpo amante sorpresa 
+            
+palabra sarcasmo rostro afrenta vez cintarazo látigo carne recrudescencia brusca fiebre cambio trasformación 
+            
+revuelo idea acento sentimiento justicia gratitud fin palabra 
+            
+silencio 
+            
+paso 
+            
+caso 
+            
+pablo humor herida 
+            
+médico parte atención 
+            
+lavaje 
+            
+mal carácter aspecto herida boca contorno ahogado flujo secreción 
+            
+llaga base aureola color jamón forma borde 
+            
+fondo pus montón pellejo piel foco organismo energía destrucción 
+            
+médico 
+            
+comedor 
+            
+
+            
+gracia historia cuerpo salpicadura enfermedad 
+            
+mal médico caso 
+            
+
+            
+
+            
+favor vuelco 
+            
+diablo repertorio dicterio lengua amén diccionario sapo culebra sopetón agua ángel 
+            
+
+            
+remedio mujer corazón loma 
+            
+
+            
+necesidad vida lado frío vacío instante minuto eternidad 
+            
+grosero prueba interés compañía enfermo preso pared cristiano lengua 
+            
+sociedad embargo 
+            
+vez 
+            
+sillón remedio parada lado cama parte 
+            
+
+            
+sofá colchón noche infeliz cuarto falta punta noche vela 
+            
+almohadilla pluma mano vez posición consideración caja 
+            
+animal médico herida mano carne perro hospital violencia guante 
+            
+fin amigo vejez viruela mal vez herida 
+            
+muchacho madre cariño 
+            
+mujer hombre presencia olor marea contacto 
+            
+cama cuerpo ecce hombre grito carne momento grito dolor violencia hambre mujer ardor sentido posesión fuente delicia ansia placer 
+            
+viruela 
+            
+idea pasado mundo mano codo ración bodrio puerta convento 
+            
+celo celo tropa amante celo 
+            
+ojo secreto virginidad cáliz cuerpo mujer aire planta invernáculo flor mano dueño 
+            
+tira cajón basura 
+            
+amor enamorado amigo 
+            
+vejez viruela nana vez balazo 
+            
+embargo 
+            
+período enfermedad incubación tiempo ojo signo síntoma mal presencia 
+            
+corte indiferencia aire alfonso aburrimiento lado vida razón escapada país naranjo gasto haber_laja escepticismo descreído desamor cinismo hijo forro convencimiento fin grito ombligo hombre 
+            
+trabajo colmo deseo mujer hombre abandono cuerpo alma saciedad disgusto 
+            
+falta conciencia sentimiento ignorancia amor presente suerte forma capricho pasajero corazón pie fuego 
+            
+
+            
+querido campana dulce fidelidad belleza bondad ojo halago horizonte vida sueño realidad ficción mente entrevista través polvo oro ilusión puerta condesa 
+            
+jugador lotería número suerte 
+            
+disparate amigo amor suerte delicia goce goce encanto arcano farsa mentira invención lirismo do pecho tenor sentimiento achaque amor música melodía órgano 
+            
+situación 
+            
+siglo día día hora hora cabecera cama vera belleza pureza forma t_añada savia afecto 
+            
+dieta ejercicio aire gratitud sobretodo vista manjar resto hambre amor 
+            
+historia 
+            
+
+            
+momento silencio palabra idea alambre fluido red pensamiento 
+            
+condesa 
+            
+ala señor madre 
+            
+marido 
+            
+marido 
+            
+dolor uña 
+            
+instante mejorcito verdad verdad estado posición 
+            
+conde bala corazón pata mundo 
+            
+
+            
+
+            
+cadáver noche padrino hora terreno 
+            
+día noticia señor tiro acto voluntad papel bolsillo 
+            
+papel 
+            
+prevención padrino 
+            
+
+            
+mundo amigo derecho 
+            
+fin sentimiento pecho 
+            
+hombre cuerno palo suma cuenta mujer cajero capital marido fatalidad 
+            
+amigo paciente 
+            
+desgracia tanto 
+            
+detalle comentario conde colación diario asunto tiempo bolsillo 
+            
+tormenta tormenta electricidad ilusión verano invierno 
+            
+ola mar hervidero plomo nube látigo viento tumulto pelotón soldado polvo derrota 
+            
+distancia montaña estorbo camino tiempo arranque salto 
+            
+desgarro sombra sol asomo crepúsculo vez instante claridad relámpago fuego 
+            
+resplandor árbol intento espalda viento chiquito chubasco trueno hueco hueco roca vez fin silencio espacio eco tormenta silencio tiempo 
+            
+parada ventana comedor mirada infinito través millón vaguedad informe sangre retina aire frente vidrio golpe lluvia ruido tambor 
+            
+forma cuerpo sombra luz relámpago momento mente recuerdo imagen mármol entrevista reflejo nácar luna claustro cementerio 
+            
+ilusión instante 
+            
+
+            
+cabeza 
+            
+
+            
+
+            
+paso dormitorio 
+            
+hijo paz 
+            
+noche perro pie coche hambre 
+            
+pedazo pan queso despensa 
+            
+momento mesa tasa pollo camembert detalle botella recuerdo condesa resago campaña reliquia esplendor 
+            
+lado 
+            
+noticia 
+            
+
+            
+
+            
+hombro gesto impaciencia taza caldo 
+            
+farsa boca 
+            
+
+            
+conducta respecto odio mano fin lado 
+            
+palabra maldición cielo oído 
+            
+evocación recuerdo animación 
+            
+amor amor exceso afecto pecho cariño 
+            
+presencia tiempo cuidado fin corazón conciencia 
+            
+pasión infamia fin conde infortunio mujer delito duda sufrimiento amante fin mundo peso remordimiento 
+            
+destino suerte falta abnegación constancia sinceridad arrepentimiento 
+            
+perdón 
+            
+fondo lástima ojo amistad 
+            
+asomo esperanza sombra futuro 
+            
+visión mente novela drama lleno aventura cosa odio amor 
+            
+
+            
+pensamiento rostro 
+            
+ridículo boca sarcasmo amenaza palabra 
+            
+locura dicha corazón resistencia muralla hielo 
+            
+deber sentimiento delicadeza altura albedrío sacrificio parte cadena amor yugo afecto 
+            
+vez dignidad orgullo mujer idea bajeza 
+            
+miserable mujer cuerpo tráfico abyección sentimiento gratitud amante hidalguía pago 
+            
+carga pureza afecto pacto 
+            
+vez amor vida tormento hostia sagrario pasión ser 
+            
+parte suerte hombre amor mundo 
+            
+mujer caída fantasma vida lado parte sombra cuerpo 
+            
+vano falta expiación recuerdo refugiado virtud 
+            
+arrepentimiento comedia enmienda hipocresía cálculo conveniencia vida acto conducta remedio dardo maledicencia risa brillo riqueza desprecio saya percal cuerpo 
+            
+marca origen mujer querido muro casa torbellino mundo fulano prostituta pluma 
+            
+amante valor burla menosprecio cuenta porvenir vida nombre 
+            
+justicia pena mundo mujer delito contacto sarnoso 
+            
+vínculo familia hogar refugio afecto unión existencia 
+            
+suerte vida vida palabra mirada caricia amante 
+            
+pablo 
+            
+vez fuerza anhelo amor desprendimiento obsesión sacrificio 
+            
+mujer vida pena lágrima 
+            
+abyección 
+            
+corazón cuerpo vez mano hombre 
+            
+herencia miseria audacia concubinato camino vida 
+            
+temeridad crimen 
+            
+bendición cielo 
+            
+misión bien felicidad mujer 
+            
+pablo condesa amante marido acento verdad pasión labio alucinación delirio 
+            
+razón causa pérdida 
+            
+parte felicidad 
+            
+amor posición nombre dote condesa falta 
+            
+idea amor goce vida elemento dominio vez capricho voluntad derecho sociedad ira mujer 
+            
+dueño defensa instinto sexo ejemplo día fin brazo hombre juego poder seducción astucia fuerza mundo conducta reconquista derecho mujer olvido deber título cariño gratitud amante 
+            
+condesa sentimiento estorbo 
+            
+fin tarea cuidado estado salud auxilio mano cabecera cama 
+            
+valor sacrificio corazón pedazo caudal amor fuerza brazo rival 
+            
+necesidad fiebre abnegación 
+            
+idea sed amor labio hombre amante deleite contacto cuerpo brazo vez desnudez mujer frenesí sentido avaro vista ladrón mano talega ser arrebato alma grito rabia protesta 
+            
+
+            
+estado atención hijo calma bocado camembert 
+            
+despropósito cosa abnegación sacrificio desatino tiesto concordancia índole afición momento cabeza 
+            
+suerte final cuento 
+            
+arranque rabia protesta enamorado 
+            
+
+            
+hijo 
+            
+vuelco parte quema 
+            
+entusiasmo 
+            
+vaina 
+            
+estado amor amante regalo rival 
+            
+
+            
+fin muchacho cría 
+            
+corriente 
+            
+café 
+            
+herida 
+            
+cambio erupción especialidad tronco cuerpo 
+            
+aspecto piel mancha color orden parte agrupación memoria recuerdo picadura cuerpo indio 
+            
+boca mancha principio tejido tinte color plomo cáscara huevo pato 
+            
+paladar encía lengua 
+            
+faz labio ulceración arco círculo fragmento línea borde líquido ropa serosidad festón costra 
+            
+garganta foco fondo lesión hipertrofia amígdala deglución alimento 
+            
+pablo dolor puntada oreja pescuezo lado altura mandíbula 
+            
+aliento sobretodo fetidez 
+            
+médico 
+            
+diablo hombre 
+            
+gesto experto error herida bala barro polvo amigo sangre vena virus sífilis 
+            
+
+            
+semblante sorpresa palabra 
+            
+verdad individuo 
+            
+exterior error apariencia fuerza vigor salud hombre exceso plétora vida tiempo resistencia constitución fierro planta savia corteza filo hacha parte corazón bicho 
+            
+taladro gusano sífilis 
+            
+caso joven enfermedad trabajo zapa organismo 
+            
+herida explosión desorden humor superficie agitación agua barro fondo 
+            
+parte mujer peligro 
+            
+accidente lesión boca garganta agente infección vergonzoso matrimonio 
+            
+efecto contacto descuido objeto persona vaso aplicación labio enfermo resto líquido 
+            
+momento enfermedad naturaleza terreno edad sexo temperamento 
+            
+carácter médico deber caso cosa verdad riesgo señor fin inteligencia precaución 
+            
+sorpresa momento médico 
+            
+reliquia tiempo recuerdo edad 
+            
+solaz juventud calle academia ópera café e_d sitti memoria 
+            
+
+            
+ignorancia cuarentena deber conciencia 
+            
+mensaje 
+            
+cosa instinto varón 
+            
+señor médico 
+            
+palabra 
+            
+objeción 
+            
+punto delicadeza finura materia 
+            
+ojo tamaño médico punto i 
+            
+día mañana barba golpe puerta cuarto 
+            
+portero carta 
+            
+
+            
+médico 
+            
+
+            
+gente prójimo rabia navaja 
+            
+cara médico casualidad puerta casa 
+            
+puerta calle grito condenado presa dolor 
+            
+pierna gesto crimen presencia desgracia causa 
+            
+hombre muerte 
+            
+palidez enfermedad tez facción ojo mirada llevábase mano cabeza mechón pelo dedo 
+            
+asco lástima tiempo 
+            
+brazo comedor médico cuidado 
+            
+calma 
+            
+
+            
+principio palabra 
+            
+ruego gesto rato silencio soplo resuello 
+            
+puerta 
+            
+violencia crisis abatimiento 
+            
+espalda pelo ojo techo seno vestido pierna brazo cama habríase víctima drama amor eco quejido garganta sacudimiento miembro 
+            
+
+            
+
+            
+
+            
+
+            
+momento 
+            
+
+            
+dolor momento 
+            
+
+            
+
+            
+historia 
+            
+sofá cuarto día vez 
+            
+balcón 
+            
+nube tristeza rostro brillo dicha vida belleza cambio vez semblante sombra melancolía mujer encanto naturaleza noche luna fuerza amor magnetismo carne atracción mujer chispa incendio 
+            
+vista 
+            
+cabeza pecho ojo media párpado deseo delicia fin abandono boca beso redondez seno ritmo respiración pie chico pedazo pollero nacimiento pierna 
+            
+mirada través ropa amante 
+            
+color carne mate damasco pulpa muslo contorno flanco curva vientre 
+            
+calor fuego bocanada horno cara sangre cabeza sien ojo oído vibración nervio idea insensa 
+            
+
+            
+
+            
+cuerpo cuerpo querido vida dominio parte deleite 
+            
+emoción nudo garganta pierna temblor 
+            
+
+            
+amante 
+            
+vez 
+            
+temor sobresalto agitación 
+            
+estrago mal ser sombra hombre amor ser terror adolescente presencia mujer 
+            
+orgullo hombre timidez niño esfuerzo 
+            
+lado fin voz 
+            
+
+            
+
+            
+cara beso 
+            
+cabeza cintura brazo 
+            
+hijo boca lengua 
+            
+gesto disgusto expresión interés semblante 
+            
+lucha pugilato 
+            
+concupiscencia resistencia audacia aplomo hombre embriaguez olor contacto cuerpo mujer vapor sangre ardor pelea coraje cobarde 
+            
+
+            
+aprensión alejamiento retracción caricia amante sentimiento repulsión horror empuje instinto hombre víbora cuerpo diente 
+            
+momento resistencia sofá 
+            
+tregua 
+            
+pablo cansancio vez ojo lujuria 
+            
+roce boca contacto baba pulpo labio grito asco garganta convulsión mosca tela araña golpe lado puerta 
+            
+picaporte 
+            
+lucha 
+            
+aliento torrente vida pasión instante fuerza fiebre fin cintura querido 
+            
+filo colchón cama rueda espalda suelo golpe peso cuerpo amante 
+            
+ruido estertor 
+            
+embargo acto violencia terror apetito cuerpo cadáver 
+            
+dolor grito auxilio voz portero cama cara pañuelo vinagre 
+            
+mot fin 
+            
+momento médico puerta comedor manga camisa sangre 
+            
+
+            
+madre 
+            
+fecha amigo 
+            
+
+            
+soplo pasión alma dolor labra huella frente 
+            
+quebranto flor planta tallo efluvio aroma 
+            
+hijo défraîchie carruaje 
+            
+movimiento hombro 
+            
+hombre mal 
+            
+
+            
+amor conserva 
+            
+vida 
+            
+
+            
+manera vida amante amigo 
+            
+amigo amante 
+            
+amante amigo ser vínculo 
+            
+
+            
+pariente difunto capa tierra cuerpo olvido alma 
+            
+amor cosa 
+            
+au besoin epitafio indigestión 
+            
+tierra sepulcro gordo podredumbre planta fresco sombra sepultura amor paz amistad 
+            
+hijo amigo querido 
+            
+labio palabra cambio tiempo lacra vista cuadro miseria cosa placer vida pájaro fruto volidos 
+            
+amor carne sensualismo vida 
+            
+poeta atrevimiento leproso brujo celo 
+            
+saciedad disgusto hambre 
+            
+ave paso corazón golondrina calor ilusión frío desencanto 
+            
+
+            
+amor niño muchacho alma pie hombre desgraciado lástima 
+            
+crimen cosa cuestión sentimiento estómago tuya culpa padre mundo aparato 
+            
+caso plus lâcher señor tabla vuelta calle medio 
+            
+conciencia 
+            
+prójimo aprecio fibra corazón pecho paño amigo esquina hijo mundo canalla 
+            
+beso frente 
+            
+
+            
+trago 
+            
+pelo pescuezo piel respiración mirada rostro mano vez huella enfermedad año mes vida hombre 
+            
+
+            
+encuentro caldito 
+            
+contrario cara mano hum sangre 
+            
+golpe chico broma balazo 
+            
+cosa mano tiempo tiempo 
+            
+paciencia baraja orilla fin 
+            
+comida hôtel enfermo casa 
+            
+appartement casa altura 
+            
+gobierno aire parque paseo puchero falta vez mozo 
+            
+día 
+            
+idea 
+            
+diablo casa 
+            
+
+            
+consejo mes 
+            
+dolor desgarro frente nariz mejilla puntada globo ojo rueda cabeza 
+            
+vez oscuridad grito ventana 
+            
+embargo dolor pupila 
+            
+tregua mejoría tos tos momento contacto pila 
+            
+chucho calor sed 
+            
+síntoma estado tiempo día noche reposo sueño apetito estómago alimento vómito calambre 
+            
+agua agua 
+            
+consunción 
+            
+fiebre frío hora contacto cadáver 
+            
+dolor cabeza eco región cuerpo 
+            
+ceguera vez tiniebla vista vidrio pupila 
+            
+marasmo cuerpo tinte cantidad petequia marca piel picadura pulga párpado tapa cajón plomo cadáver ojo pulso hipo agonía 
+            
+veneno tarea montón materia fin 
+            
+
+            
+época parte humor 
+            
+tiempo ojo sol tierra aguacero revista batallón horizontal marca 
+            
+vez año día difunto cementerio sepultura recuerdo alma rincón visita 
+            
