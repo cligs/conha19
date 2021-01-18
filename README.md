@@ -91,7 +91,7 @@ According to the German copyright law, some of the works that are part of the fu
 
 ### Citation suggestion for the corpus ###
 
-Corpus de novelas hispanoamericanas del siglo XIX (conha19), edited by Ulrike Henny-Krahmer. Version X.X.X, June 2020. Github.com. URL: https://github.com/cligs/conha19, DOI: XXX.
+Corpus de novelas hispanoamericanas del siglo XIX (conha19), edited by Ulrike Henny-Krahmer. Version 1.0.0, January 2021. Github.com. URL: https://github.com/cligs/conha19, DOI: XXX.
 
 
 ### Citation suggestion for the reference publication ###
