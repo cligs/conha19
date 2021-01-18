@@ -2,7 +2,7 @@
 
 This repository contains the corpus of novels accompanying the dissertation "Genre analysis and corpus design: 19th century Spanish American novels (1830-1910)" by Ulrike Henny-Krahmer. The corpus was prepared in the context of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and realized at the University of Würzburg between 2015 and 2020.
 
-The whole corpus consists of 256 novels written by Argentine, Cuban, and Mexican authors or published in the respective countries between 1830 and 1910. Of these novels, 234 are published here, as they are in the public domain.
+The whole corpus consists of 256 novels written by Argentine, Cuban, and Mexican authors or published in the respective countries between 1830 and 1910. Of these novels, 234 are published here, as they are in the public domain. The entire corpus has been archived on Zenodo (see http://doi.org/10.5281/zenodo.4447468) with restricted access.
 
 Some background information concerning the sources and preparation of the corpus is given in this README file. For further information see the reference publication indicated below.
 
