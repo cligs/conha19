@@ -9,9 +9,6 @@ annotated_temp
 # Oxygen project file
 *.xpr
 
-# Scripts
-check_wellformedness.py
-
 # corpus files in copyright
 tei/nh0003.xml
 tei/nh0019.xml
