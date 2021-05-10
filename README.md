@@ -1,6 +1,6 @@
 # Corpus de novelas hispanoamericanas del siglo XIX (conha19)
 
-This repository contains the corpus of novels accompanying the dissertation "Genre analysis and corpus design: 19th century Spanish American novels (1830-1910)" by Ulrike Henny-Krahmer. The corpus was prepared in the context of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and realized at the University of Würzburg between 2015 and 2020.
+This repository contains the corpus of novels accompanying the dissertation "Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)" by Ulrike Henny-Krahmer. The corpus was prepared in the context of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and realized at the University of Würzburg between 2015 and 2020.
 
 The whole corpus consists of 256 novels written by Argentine, Cuban, and Mexican authors or published in the respective countries between 1830 and 1910. Of these novels, 234 are published here, as they are in the public domain. The entire corpus has been archived on Zenodo (see http://doi.org/10.5281/zenodo.4447468) with restricted access.
 
@@ -91,12 +91,12 @@ According to the German copyright law, some of the works that are part of the fu
 
 ### Citation suggestion for the corpus ###
 
-Corpus de novelas hispanoamericanas del siglo XIX (conha19), edited by Ulrike Henny-Krahmer. Version 1.0.0, January 2021. Github.com. URL: https://github.com/cligs/conha19, DOI: XXX.
+Henny-Krahmer, Ulrike (ed.) (2021). _Corpus de novelas hispanoamericanas del siglo XIX (conha19)_. Version 1.0.0. Github.com. URL: https://github.com/cligs/conha19.
 
 
 ### Citation suggestion for the reference publication ###
 
-Ulrike Henny-Krahmer (XXX). Genre analysis and corpus design: 19th century Spanish American novels (1830-1910). etc.
+Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
 
 
 ### Contact ###

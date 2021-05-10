@@ -5,6 +5,7 @@
 *.DS_Store
 tei-checked/*.xml
 annotated_temp
+heideltime
 
 # Oxygen project file
 *.xpr
