@@ -18,11 +18,13 @@ The corpus has been prepared primarily to allow for the analysis of subgenres, e
 
 ## Overview of the novels in the corpus
 
-The overviews given here apply to all 256 novels (including the ones which still are under copyright). In total, the texts amount to 18.3 million tokens. There are 108 Mexican, 99 Argentine, and 49 Cuban novels. The following two figures show the distribution of novels per decade and subgenre, first for thematic subgenres and then for literary currents.
+The overviews given here apply to all 256 novels (including the ones which still are under copyright). In total, the texts amount to 18.3 million tokens. There are 108 Mexican, 99 Argentine, and 49 Cuban novels. The following figures show the distribution of novels per decade, first by country, then by thematic subgenre, and thirdly by literary current.
 
-![Novels by decade and subgenre](https://github.com/cligs/conha19/blob/main/plots/bar_subgenres-by-decade_subgenre-theme.png)
+![Novels by decade and country](https://github.com/cligs/conha19/blob/main/plots/bar_novels-by-decade_country.png)
 
-![Novels by decade and current](https://github.com/cligs/conha19/blob/main/plots/bar_subgenres-by-decade_subgenre-current.png)
+![Novels by decade and thematic subgenre](https://github.com/cligs/conha19/blob/main/plots/bar_novels-by-decade_subgenre-theme.png)
+
+![Novels by decade and literary current](https://github.com/cligs/conha19/blob/main/plots/bar_novels-by-decade_literary-current.png)
 
 The novels were written by 121 different authors. Authors who are represented with 5 or more works
 are listed below:
