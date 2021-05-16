@@ -4,7 +4,7 @@ The corpus __conha19__ consists of 256 novels written by Argentine, Cuban, and M
 
 Conha19 was prepared for the dissertation "Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)", written by Ulrike Henny-Krahmer. The dissertation project was realized as part of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and hosted at the University of Würzburg between 2015 and 2020.
 
-Some background information concerning the sources and preparation of the corpus is given in this README file. For further information see the list of [related publications](#publications).
+The corpus has been prepared primarily to allow for the analysis of subgenres, especially thematic subgenres (historical novel, sentimental novel, etc.) and literary currents (such as romantic, realist, and naturalistic novels). Some background information about the contents and preparation of the corpus is given in this README file. For further information see the list of [related publications](#publications).
 
 * [Overview of the novels in the corpus](#overview-of-the-novels-in-the-corpus)
 * [Structure and contents of the repository](#structure-and-contents-of-the-repository)
