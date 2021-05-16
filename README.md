@@ -1,10 +1,10 @@
 # Corpus de novelas hispanoamericanas del siglo XIX (conha19)
 
-This repository contains the corpus of novels accompanying the dissertation "Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)" by Ulrike Henny-Krahmer. The corpus was prepared in the context of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and realized at the University of Würzburg between 2015 and 2020.
+The corpus __conha19__ consists of 256 novels written by Argentine, Cuban, and Mexican authors or published in the respective countries between 1830 and 1910. Of these novels, 234 are published in this repository, as they are in the public domain.
 
-The whole corpus consists of 256 novels written by Argentine, Cuban, and Mexican authors or published in the respective countries between 1830 and 1910. Of these novels, 234 are published here, as they are in the public domain.
+Conha19 was prepared for the dissertation "Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)", written by Ulrike Henny-Krahmer. The dissertation project was realized as part of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and hosted at the University of Würzburg between 2015 and 2020.
 
-Some background information concerning the sources and preparation of the corpus is given in this README file. For further information see the reference publication indicated below.
+Some background information concerning the sources and preparation of the corpus is given in this README file. For further information see the list of related publications.
 
 * [Overview of the novels in the corpus](#overview-of-the-novels-in-the-corpus)
 * [Structure and contents of the repository](#structure-and-contents-of-the-repository)
@@ -90,7 +90,7 @@ __data-nh__ holds research data that resulted from applying the scripts of scrip
 
 ## Related publications
 
-This corpus or parts of it have been described or used for analyses in the following publications:
+This corpus or parts of it have been described and/or used for analyses in the following publications:
 
 Reference publication:
 
