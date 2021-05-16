@@ -4,18 +4,19 @@ The corpus __conha19__ consists of 256 novels written by Argentine, Cuban, and M
 
 Conha19 was prepared for the dissertation "Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)", written by Ulrike Henny-Krahmer. The dissertation project was realized as part of the junior research group ["Computational Literary Genres Stylistics" (CLiGS)](http://cligs.hypotheses.org), a project funded by the German Federal Ministry of Education and Research (BMBF) and hosted at the University of Würzburg between 2015 and 2020.
 
-Some background information concerning the sources and preparation of the corpus is given in this README file. For further information see the list of related publications.
+Some background information concerning the sources and preparation of the corpus is given in this README file. For further information see the list of [related publications](#publications).
 
 * [Overview of the novels in the corpus](#overview-of-the-novels-in-the-corpus)
 * [Structure and contents of the repository](#structure-and-contents-of-the-repository)
-* [Related repositories](#related-repositories)
-* [Related publications](#related-publications)
+* [Related resources](#related-resources)
+  * [Repositories](#repositories)
+  * [Publications](#publications)
 * [Rights and citation suggestions](#rights-and-citation-suggestions)
   * [Handling of works protected by copyright](#handling-of-works-protected-by-copyright)
   * [Citation suggestions](#citation-suggestions)
 * [Contact](#contact)
 
-## Overview of the novels in the corpus ##
+## Overview of the novels in the corpus
 
 The overviews given here apply to all 256 novels (including the ones which still are under copyright). In total, the texts amount to 18.3 million tokens. There are 108 Mexican, 99 Argentine, and 49 Cuban novels. The following two figures show the distribution of novels per decade and subgenre, first for thematic subgenres and then for literary currents.
 
@@ -42,7 +43,7 @@ are listed below:
 |Villaverde, Cirilo            |Cuba     |                             5|
 
 
-## Structure and contents of the repository ##
+## Structure and contents of the repository
 
 In the following, the kind of data which is contained in this repository is listed. Three __main formats__ of the novels are included: TEI, plain text, and linguistically annotated files:
 
@@ -74,7 +75,10 @@ Besides, there are __further formats__ that were derived from the three main for
 * [txt_annotated_stop](txt_annotated_stop): plain text files derived from txt_annotated_corr; stop words are removed
 
 
-## Related repositories
+## Related resources
+
+### Repositories
+
 This repository is related to three other GitHub repositories:
 
 * [Bib-ACMé: Bibliografía digital de novelas argentinas, cubanas y mexicanas (1830-1910)](https://github.com/cligs/bibacme)
@@ -88,7 +92,7 @@ __scripts-nh__ contains XSLT- and Python scripts which were used for the creatio
 __data-nh__ holds research data that resulted from applying the scripts of scripts-nh to the corpus files.
 
 
-## Related publications
+### Publications
 
 This corpus or parts of it have been described and/or used for analyses in the following publications:
 
@@ -114,14 +118,14 @@ Other publications:
 The works contained in this public corpus are in the public domain. They are provided here with the [Public Domain Mark Declaration](https://creativecommons.org/publicdomain/mark/1.0/deed.de) and can be re-used without restrictions. The XML-TEI markup is also considered to be free of any copyright and is provided with the same declaration. If you use texts from this collection for your research or teaching, we kindly ask you to reference this repository using the citation suggestion below and/or cite the reference publication indicated below.
 
 
-### Handling of works protected by copyright ###
+### Handling of works protected by copyright
 
 According to the German copyright law, some of the works that are part of the full corpus accompanying the dissertation are still under general copyright because the authors died less than 70 years ago. Furthermore, some of the source editions used are protected by the ancillary copyright because they were published less than 25 years ago and copyright was claimed for them by the editors. This applies to 22 texts.
 
 The corpus files for these works will be added to the public corpus as soon as the copyright expires. A table summarizing information that is relevant for the copyright status of all the files in the corpus, including the ones that are not published in this repository yet, can be viewed [here](https://github.com/cligs/data-nh/blob/master/corpus/metadata_copyright.csv). The entire corpus has been archived on Zenodo (see http://doi.org/10.5281/zenodo.4447468) with restricted access.
 
 
-### Citation suggestions ###
+### Citation suggestions
 
 If you use this corpus, I kindly ask you to cite it either directly or by indicating the reference publication, as suggested below.
 
@@ -134,7 +138,7 @@ Citation suggestion for the reference publication:
 Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
 
 
-## Contact ##
+## Contact
 If you have any comments or suggestions on the corpus or would like to contribute to it, please leave an issue or contact:
 
 Ulrike Henny-Krahmer, ulrike.henny@web.de
