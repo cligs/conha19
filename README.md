@@ -1,4 +1,5 @@
 # Corpus de novelas hispanoamericanas del siglo XIX (conha19)
+[![DOI](https://zenodo.org/badge/321333076.svg)](https://zenodo.org/badge/latestdoi/321333076)
 
 The corpus __conha19__ consists of 256 novels written by Argentine, Cuban, and Mexican authors or published in the respective countries between 1830 and 1910. Of these novels, 234 are published in this repository, as they are in the public domain.
 
@@ -133,7 +134,7 @@ If you use this corpus, I kindly ask you to cite it either directly or by indica
 
 Citation suggestion for the corpus:
 
-Henny-Krahmer, Ulrike (ed.) (2021). _Corpus de novelas hispanoamericanas del siglo XIX (conha19)_. Version 1.0.0. Github.com. URL: https://github.com/cligs/conha19.
+Henny-Krahmer, Ulrike (ed.) (2021). _Corpus de novelas hispanoamericanas del siglo XIX (conha19)_. Version 1.0.1. Github.com. URL: https://github.com/cligs/conha19. DOI: https://doi.org/10.5281/zenodo.4766987.
 
 Citation suggestion for the reference publication:
 
