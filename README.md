@@ -57,7 +57,8 @@ In the following, the kind of data which is contained in this repository is list
 
 There is __additional material__ accompanying the novels' files:
 
-* [metadata.csv](metadata.csv): basic metadata about the novels in tabular format, including for example the CLiGS identifiers, shortcuts for authors and titles, publication years, and information about the subgenres of the texts
+* [metadata_free.csv](metadata_free.csv): basic metadata about the 234 novels which are in the public domain and which are published here, in tabular format, including for example the CLiGS identifiers, shortcuts for authors and titles, publication years, and information about the subgenres of the texts
+* [metadata_all.csv](metadata_all.csv): basic metadata for all the 256 novels, including the ones which are not in the public domain yet
 * [schema](schema): a folder containing an external TEI keywords file and a schematron file, which serve to control the metadata keywords used in the text classification section of the TEI header. The TEI schemas for the basic and the linguistically annotated TEI files in turn are not given here because correspond to the general CLiGS schemas, which are available in the CLiGS [reference repository](https://github.com/cligs/reference)
 * [bib/biblibography.xml](bib/bibliography.xml): bibliography file (in TEI), holding full bibliographic references of literary historical works cited in the corpus files
 * [spellcheck](spellcheck): lists with exception words and results of the spell check in CSV format, for the whole corpus and per novel
