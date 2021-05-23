@@ -11,6 +11,7 @@ The corpus has been prepared primarily to allow for the analysis of subgenres, e
 * [Structure and contents of the repository](#structure-and-contents-of-the-repository)
 * [Related resources](#related-resources)
   * [Repositories](#repositories)
+  * [Datasets](#datasets)
   * [Publications](#publications)
 * [Rights and citation suggestions](#rights-and-citation-suggestions)
   * [Handling of works protected by copyright](#handling-of-works-protected-by-copyright)
@@ -95,6 +96,11 @@ __scripts-nh__ contains XSLT- and Python scripts which were used for the creatio
 
 __data-nh__ holds research data that resulted from applying the scripts of scripts-nh to the corpus files.
 
+### Datasets
+
+Here, links to the corpus in other formats (published elsewhere and not as part of this repository) are given.
+
+* [TXM corpus](http://doi.org/10.5281/zenodo.4781947): Conha19 in a binary format suitable for the text analysis tool TXM (see http://textometrie.ens-lyon.fr/).
 
 ### Publications
 
