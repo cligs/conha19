@@ -65,7 +65,7 @@ def plot_novels_by_decade_country(wdir, md_file, outpath):
 	
 	# settings for the figure
 	outfile = "bar_novels-by-decade_country"
-	fig.update_layout(barmode="stack", autosize=False, width=800, height=600, title="Novels by decade and country")
+	fig.update_layout(barmode="stack", autosize=False, width=800, height=600, title="Novels by decade and country", legend=dict(orientation="h",font=dict(size=16)), font=dict(size=14))
 	fig.update_xaxes(title="decade", type="category")
 	fig.update_yaxes(title="number of novels")
 	fig.write_image(join(wdir, outpath, outfile + ".png")) # scale=2 (increase physical resolution)
@@ -166,9 +166,9 @@ def list_top_authors(wdir, md_file):
 wdir = "/home/ulrike/Git/conha19"
 
 
-#plot_novels_by_decade_country(wdir, "metadata.csv", "plots")
+plot_novels_by_decade_country(wdir, "metadata_all.csv", "plots")
 
-plot_novels_by_decade_subgenre(wdir, "metadata.csv", "subgenre-theme", "plots")
-plot_novels_by_decade_subgenre(wdir, "metadata.csv", "subgenre-current", "plots")
+#plot_novels_by_decade_subgenre(wdir, "metadata.csv", "subgenre-theme", "plots")
+#plot_novels_by_decade_subgenre(wdir, "metadata.csv", "subgenre-current", "plots")
 
 #list_top_authors(wdir, "metadata.csv")

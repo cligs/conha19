@@ -162,6 +162,7 @@
                     <term type="text.title" n="1901">Narraciones mexicanas. El Señor Gobernador.
                         Breves apuntamientos sobre cosas nacionales del siglo pasado</term>
                     <term type="text.genre.subgenre.title.explicit">narraciones mexicanas</term>
+                    <term type="text.genre.subgenre.title.explicit">cosas nacionales</term>
                     <term type="text.genre.subgenre.title.implicit" resp="#uhk">novela
                         política</term>
                     <term type="text.genre.subgenre.paratext.explicit">cuadro completo de costumbres
@@ -180,6 +181,8 @@
                         >narración</term>
                     <term type="text.genre.subgenre.historical.explicit.norm" resp="#uhk">novela
                         mexicana</term>
+                    <term type="text.genre.subgenre.historical.explicit.norm" resp="#uhk">novela
+                        nacional</term>
                     <term type="text.genre.subgenre.historical.explicit.norm" resp="#uhk"
                         >cuadros</term>
                     <term type="text.genre.subgenre.historical.explicit.norm" resp="#uhk">novela de
@@ -204,6 +207,8 @@
                         >narración</term>
                     <term type="text.genre.subgenre.summary.signal.explicit" resp="#uhk">novela
                         mexicana</term>
+                    <term type="text.genre.subgenre.summary.signal.explicit" resp="#uhk">novela
+                        nacional</term>
                     <term type="text.genre.subgenre.summary.signal.explicit" resp="#uhk"
                         >cuadros</term>
                     <term type="text.genre.subgenre.summary.signal.implicit" resp="#uhk">novela
@@ -218,6 +223,8 @@
                         realista</term>
                     <term type="text.genre.subgenre.summary.identity.explicit" resp="#uhk">novela
                         mexicana</term>
+                    <term type="text.genre.subgenre.summary.identity.explicit" resp="#uhk">novela
+                        nacional</term>
                     <term type="text.genre.subgenre.summary.mode.attitude.implicit" resp="#uhk"
                         >novela política</term>
                     <term type="text.genre.subgenre.summary.mode.attitude.litHist" resp="#uhk"
