@@ -108,13 +108,14 @@ This corpus or parts of it have been described and/or used for analyses in the f
 
 Reference publication:
 
-* Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
+* Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
 
 Other publications:
 
 * Calvo Tello, José, Ulrike Henny-Krahmer, and Christof Schöch (2018): "Textbox: análisis del léxico mediante corpus literarios". In _Historia del léxico español y Humanidades digitales._ Edited by Dolores Corbella, Alejandro Fajardo, and Jutta Langenbacher. Berlin: Peter Lang, 225-253. https://dialnet.unirioja.es/servlet/articulo?codigo=7081640.
 * Calvo Tello, José, Daniel Schlör, Ulrike Henny-Krahmer, and Christof Schöch (2017): "Neutralising the Authorial Signal in Delta by Penalization: Stylometric Clustering of Genre in Spanish Novels". In _Digital Humanities 2017. Conference Abstracts._ Montréal: McGill University & Université de Montréal, 181-184. https://dh2017.adho.org/abstracts/037/037.pdf.
 * Henny-Krahmer, Ulrike (forthcoming): "Family Resemblance in Genre Stylistics: A Case Study with 19th Century Spanish American Novels." In _Digital Stylistics in Romance Studies and Beyond._ Edited by Robert Hesselbach, José Calvo Tello, Ulrike Henny-Krahmer, Daniel Schlör, and Christof Schöch. Heidelberg: heiUP.
+* ___ (2022): "Novelas originales y americanas. A Digital Analysis of References to Identity in Subtitles of Spanish American 19th Century Novels." _apropos [Perspektiven auf die Romania]_ 9: 14-36. https://doi.org/10.15460/apropos.9.1893.
 * ___ (2021): "Time for Genre. Temporal Expressions as Features for the Classification of Literary Subgenres." _EADH2021._ https://eadh2021.culintec.de/HENNY_KRAHMER_Ulrike_Time_for_Genre__Temporal_Expressions_as.html.
 * ___ (2018): "Exploration of Sentiments and Genre in Spanish American Novels." In _Digital Humanities 2018. Puentes–Bridges. Book of Abstracts._ Ciudad de México: Red de Humanidades Digitales, 399-403. https://dh2018.adho.org/exploration-of-sentiments-and-genre-in-spanish-american-novels/.
 * Henny-Krahmer, Ulrike, Katrin Betz, Daniel Schlör, and Andreas Hotho (2018): "Alternative Gattungstheorien. Das Prototypenmodell am Beispiel hispanoamerikanischer Romane." In _DHd 2018. Kritik der digitalen Vernunft. Konferenzabstracts._ Köln: Universität zu Köln, 105-112. http://doi.org/10.5281/zenodo.4622413.
