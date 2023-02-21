@@ -146,7 +146,7 @@ Henny-Krahmer, Ulrike (ed.) (2021). _Corpus de novelas hispanoamericanas del sig
 
 Citation suggestion for the reference publication:
 
-Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: 19th Century Spanish American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
+Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
 
 
 ## Contact
