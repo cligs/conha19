@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">María Luisa</title>
+                <title type="sub">-</title>
+                <title type="short">MariaLuisa</title>
+                <title type="idno">
+                    <idno type="viaf">-</idno>
+                    <idno type="bibacme">W1213</idno>
+                </title>
+                <author>
+                    <name type="full">Azuela, Mariano</name>
+                    <name type="short">AzuelaM</name>
+                    <idno type="viaf">22181589</idno>
+                    <idno type="bibacme">A456</idno>
+                </author>
+                <principal xml:id="uhk">Ulrike Henny-Krahmer</principal>
+            </titleStmt>
+            <extent>
+                <measure unit="words">23358</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+                </publisher>
+                <availability status="free">
+                    <p>This work is in the public domain. It is provided here with the <ref
+                            target="https://creativecommons.org/publicdomain/mark/1.0/deed.de"
+                            >Public Domain Mark Declaration</ref> and can be re-used without
+                        restrictions. The XML-TEI markup is also considered to be free of any
+                        copyright and is provided with the same declaration.</p>
+                </availability>
+                <date>2020</date>
+                <idno type="cligs">nh0136</idno>
+                <idno type="url">https://github.com/cligs/conha19/blob/master/tei/nh0136.xml</idno>
+            </publicationStmt>
+            <sourceDesc
+                xml:base="https://raw.githubusercontent.com/cligs/bibacme/master/app/data/editions.xml">
+                <bibl type="digital-source" xml:id="DS"> Azuela, Mariano. "María Luisa." <seg
+                        rend="italic">Colección Digital UANL</seg>, Mexico, <date when="2015"
+                        >2015</date>. <ref target="http://cd.dgb.uanl.mx/handle/201504211/9723"
+                        >http://cd.dgb.uanl.mx/handle/201504211/9723</ref>. </bibl>
+                <bibl type="print-source" xml:id="PS" corresp="#E1713"> Azuela, Mariano. <seg
+                        rend="italic">María Luisa.</seg> Lagos de Moreno (Jal.): Imp. López Arce,
+                        <date when="1907">1907</date>. </bibl>
+                <bibl type="edition-first" xml:id="E1" corresp="#E1713"> Azuela, Mariano. <seg
+                        rend="italic">María Luisa.</seg> Lagos de Moreno (Jal.): Imp. López Arce,
+                        <date when="1907">1907</date>. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>The source image files were processed with OCR. The software used was ABBYY
+                Finereader 12 Professional, with Spanish as recognition language. The result of the
+                OCR process was checked, but due to temporal restrictions, corrections were only
+                made in a rough manner and remaining errors cannot be excluded.</p>
+            <p>The spelling was checked and corrected where appropriate.</p>
+            <p>The following phenomena were marked up: front matter (where available, e.g. title
+                page, dedication, preface, introduction), part and chapter divisions, headings,
+                paragraphs, inserted texts (e.g. letters or newspaper articles), verse lines,
+                dramatic text, quotations (e.g. epigraphs), notes by the author, and gaps.</p>
+        </encodingDesc>
+        <profileDesc>
+            <abstract source="#Brushwood_1966">
+                <p>
+                    <quote> The first novel, <seg rend="italic">María Luisa</seg> (1907), deserves
+                        mention only because it is the first novel of a great writer. It was written
+                        ten or twelve years before it was published, when Azuela was a medical
+                        student. He was impressed by a clinical case and composed a novel around it.
+                        It is a fairly standard story of a student's mistress who suffers illness,
+                        desertion, and death. <seg rend="italic">María Luisa</seg> is obviously a
+                        first novel, and probably should never have been published, since it was one
+                        of Azuela's earliest attempts at prose fiction. When he wrote the novel, he
+                        had not mastered style or structure, nor had he cultivated his ability to
+                        observe society. What little he does show us of his world is similar to what
+                        we find in many novels of the mid-1890's. It is somewhat like the world of
+                        Heriberto Frías, but Azuela's concern does not go beyond the tragedy of the
+                        young girl. His sympathy for her is apparent, but her tragedy is in no way
+                        related to Azuela's understanding of the social reality or of his own reason
+                        for being. </quote>
+                    <bibl> Brushwood, John S. <seg rend="italic">Mexico in its novel. A Nation's
+                            Search for Identity.</seg> Austin: University of Texas Press, <date
+                            when="1966">1966</date>, p. 167. </bibl>
+                </p>
+            </abstract>
+            <abstract source="#Fernandez-Arias-Campoamor_1952">
+                <p>
+                    <quote>Su primera novela es <seg rend="italic">María Luisa</seg> (1907), en la
+                        que relata la vida provincial de Guadalajara con aciertos parciales, sin
+                        dejar de continuar siendo un balbuceo literario por su falta de trabazón
+                        lógica y lo vacilante y esfumado de muchos de sus tipos.</quote>
+                    <bibl>Fernández-Arias Campoamor, José. <seg rend="italic">Novelistas de Mejico:
+                            esquema de la historia de la novela mejicana (de Lizardi al 1950).</seg>
+                        Madrid: Ediciones Cultura Hispánica, 1952, p. 109.</bibl>
+                </p>
+            </abstract>
+            <textClass>
+                <keywords scheme="../schema/keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.country.birth">Mexico</term>
+                    <term type="author.country.death">Mexico</term>
+                    <term type="author.country.nationality">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.source.medium">digital</term>
+                    <term type="text.source.filetype">image</term>
+                    <term type="text.source.institution">Colección Digital UANL</term>
+                    <term type="text.source.edition">first</term>
+                    <term type="text.publication.first.country">Mexico</term>
+                    <term type="text.publication.first.medium" cert="medium">book</term>
+                    <term type="text.publication.first.type" cert="medium">independent</term>
+                    <term type="text.publication.type.independent">yes</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.title" n="1907">María Luisa</term>
+                    <term type="text.genre.subgenre.title.explicit">-</term>
+                    <term type="text.genre.subgenre.title.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.paratext.explicit">-</term>
+                    <term type="text.genre.subgenre.paratext.implicit" resp="#uhk">-</term>
+                    <term type="text.genre.subgenre.opening.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.historical.explicit">-</term>
+                    <term type="text.genre.subgenre.historical.explicit.norm" resp="#uhk">-</term>
+                    <term type="text.genre.subgenre.historical.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.litHist" resp="#Schlickers_2003">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.litHist" resp="#Fernandez-Arias-Campoamor_1952"
+                        >Segunda época realista</term>
+                    <term type="text.genre.subgenre.litHist.interp" resp="#uhk">novela
+                        naturalista</term>
+                    <term type="text.genre.subgenre.litHist.interp" resp="#uhk">novela
+                        realista</term>
+                    <term type="text.genre.subgenre.summary.signal.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.summary.theme.implicit" resp="#uhk">novela
+                        sentimental</term>
+                    <term type="text.genre.subgenre.summary.current.litHist" resp="#uhk"
+                        cligs:importance="2">novela naturalista</term>
+                    <term type="text.genre.subgenre.summary.current.litHist" resp="#uhk">novela
+                        realista</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.narration.narrator.person">third person</term>
+                    <term type="text.speech.sign">—</term>
+                    <term type="text.speech.sign.type">single</term>
+                    <term type="text.setting.continent" cert="medium">America</term>
+                    <term type="text.setting.country" cert="medium">Mexico</term>
+                    <term type="text.time.period">unknown</term>
+                    <term type="text.time.period.author">contemporary</term>
+                    <term type="text.time.period.publication">contemporary</term>
+                    <term type="text.prestige">high</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-01-21" who="#uhk">Initial TEI version.</change>
+            <change when="2023-06-10" who="#uhk">Changed the availability status from "restricted"
+                to "free" because the copyright expired.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div source="#E1" n="1907">
+                <div type="titlepage">
+                    <ab>Mariano Azuela.</ab>
+                    <ab>María Luisa.</ab>
+                    <ab>Lagos de Moreno.</ab>
+                    <ab>Imprenta Lopez Arce. Avenida Judrez, 3.</ab>
+                    <ab>1907.</ab>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="chapter">
+                <head>I.</head>
+                <p>Después de la cena, los abonados a una casa de asistencia de la calle de Belén,
+                    solían con frecuencia seguir conversando hasta las diez o doce de la noche en el
+                    destartalado comedor, que de tal servía un corredorcito a la entrada de la casa;
+                    y no pocas ocasiones sucedió que la luz del nuevo día sorprendiera las caras
+                    pálidas, ojerosas, febricitantes de los que con una baraja, se arrancaban hasta
+                    el último centavo; o bien a borrachínes clavados de codos sobre la desvencijada
+                    mesa, entre despojos de cervezas y <seg rend="italic">Viuda de Martínez.</seg> Y
+                    era que siendo estudiantes los más, como dignos, mataban el tiempo
+                    alegremente.</p>
+                <p>Esa noche reinaba la más franca y cordial alegría: el Chato había recibido la
+                    mesada, y naturalmente no escaseaba el vino. Ramón descolgó la guitarra; y
+                    sonoros acordes exaltaron el entusiasmo. Hasta se improvisó un monte de cinco
+                    pesos en centavos alineados en filas de veinticinco, con el que el astuto Chato
+                    se resarcía con creces de los gastos de la francachela.</p>
+                <p>En torno de la mesa, aun cubierta con mugriento mantel, sin más vajilla que dos
+                    colorados botellones de barro, media docena de copas, y varias botellas, se
+                    agrupaban los humildes devotos de Birján; y el Chato, siempre el dueño del
+                    monte, corría un sucio y apergaminado naipe entre sus flacuchos y nudosos dedos.
+                    Cómodamente sentados ensillas reclinadas sobre la pared, las patas delanteras al
+                    aire, algunos conversaban animosamente; en tanto que Ramón, un joven bajito, de
+                    cabellos rizados, castaña a la Rubens, con cierto aire de afeminamiento, cantaba
+                    una romanza con todos los refinados de un aspirante a corista del teatro de
+                    Apolo.</p>
+                <p>Un triste aparato de petroleo, de los llamados de media luz, y menos que media
+                    luz, pues que esta se amortiguaba por un remiendo de papel azul en un boquete de
+                    la bombilla, era lo que alumbraba a aquella alegre juventud.</p>
+                <p>Cuando el reloj de la catedral dio las diez, las campanadas se perdieron entre la
+                    algarabía y el más completo desbarajuste. Todos hablaban calurosamente, los
+                    tapones saltaban, lanzados por las efervescentes botellas; los vasos, en
+                    argentinas vibraciones, chocaban; se oía el chorrear del espumoso líquido, y los
+                    brillantes arpegios y llenos acordes de la guitarra surgían apasionadamente en
+                    medio de aquel bullicio loco.</p>
+                <p>De repente, el apolillado cancel se abrió, y un joven, con la familiaridad de un
+                    compañero de casa, se coló sin saludar siquiera, y acomodóse entre los que
+                    apostaban.</p>
+                <p>—¿Cual está saliendo?—preguntó al oído de su vecino. </p>
+                <p>—El caballo;—contestó este maquinalmente, y sin quitar la vista del naipe, del
+                    que esperaba, con ansia, una carta. </p>
+                <p>El Chato deslizó sobre la mesa dos cartas, anunciando:—Tres de bastos, caballo de
+                    espadas.....</p>
+                <p>Sobre el caballo menudearon centavos y hasta un décimo.</p>
+                <p>—No apuestan más?—murmuró el Chato. —Corre! as.....cuatro.... rey.... sota.... </p>
+                <p>—¡Caballo!—exclamaron a una voz los jugadores; y con gran alboroto, desapareció
+                    instantáneamente el monte de centavos. </p>
+                <p>Sin inmutarse, el Chato sacó, con toda calma, cinco pesos de plata, y los puso
+                    sobre la mesa; y barajando con habilidad de gente que lo entiende, dijo:</p>
+                <p>—Ahora gánenme estos otros cinco. </p>
+                <p>—Yo tapo;—exclamó altivamente Pancho, que así se llamaba el recién llegado. </p>
+                <p>—Quién, ¿usted?—replicó el Chato dejando asomar una sonrisilla burlona y
+                    despreciativa que le era habitual—Yaya primero a pedir permiso a mamá. </p>
+                <p>Era el Chato un estudiante de medicina rezagado en el tercer año a fuerza de
+                    reprobadas, dado al vino, a las hembras bravias, y más que a todo, al juego; del
+                    qué, era fama, sacaba abundante cosecha: circunstancia única que podía explicar
+                    las frecuentes orgías en que a cada paso se engolfaba, y el qué a diferencia de
+                    sus compañeros, no tuviera el penosísimo hábito de llevar los bolsillos
+                    eternamente vacíos. Tipo de esos repugnantes parásitos de los colegios, no solo
+                    esto lo hacía antipático, cuanto su repugnante figura. Flacuchón y contrahecho,
+                    de cara alargada y dura como pergamino, con los párpados siempre hinchados y
+                    rojizos por la crápula; una sonrisilla presuntuosa que quisiera ostentar cierto
+                    aire socarrón de superioridad, y que en realidad no era más que un chispazo de
+                    malignidad en el abismo de su estupidez. Pero lo que sobre todo resaltaba en su
+                    semblante, eran unas narices levantadas de alas siempre palpitantes y que
+                    revelaban un sensualismo refinado.</p>
+                <p>El Chato creyó indudablemente una fanfarronada el desafío de Pancho; de aquel
+                    chico que bebía poco, jugaba menos, embelesado siempre en hacer el amor a las
+                        <seg rend="italic">catrinas</seg> de barrio. Tomó pues, con desenfado, la
+                    baraja tirando en seguida dos cartas.</p>
+                <p>—Cinco......rey...... </p>
+                <p>Nadie apostaba.</p>
+                <p>—Tres......caballo...... </p>
+                <p>—Tapo el monte,—repitió decidido Pancho, y volteó la carta colocando sobre ella
+                    cinco duros, que debieron haber hecho retintín en el codicioso corazón del
+                    Chato. Pero éste todavía vacilaba y preguntó: </p>
+                <p>—¿De veras los juega? </p>
+                <p>—Pues es claro, <seg rend="italic">mio caro,</seg> ¿no lo ve? </p>
+                <p>Cinco pesos jugados así, de un golpe, entre aquellos descamisados que con diez
+                    duros cubrían los gastos mensuales de comida y ropa limpia, era el gran
+                    disloque. Ante tan emocional apuesta, todos se levantaron de sus asientos; y al
+                    barullo, sucedió el más profundo silencio. A la débil y azulada luz del
+                    petróleo, aparecían los semblantes, presa de gran emoción: la cara regordeta y
+                    simpática de Pancho se veía pálida y sacudida por ligeros estremecimientos
+                    nerviosos, en tanto, que la dura faz del Chato permanecía impasible e inmutable
+                    como un palo.</p>
+                <p>—La baraja—dijo Pancho. </p>
+                <p>—Ahí la tiene—respondió el Chato, tirándola desdeñosamente sobre la mesa. </p>
+                <p>Con mano torpe, Pancho descubría una carta tras otra. Sucesivamente aparecieron
+                    seis cartas, y por fin la ambicionada.—¡Caballo!—exclamó con emoción, sintiendo
+                    su pecho dilatarse como si hubiera acabado de pasar por un gran peligro; tomó el
+                    dinero y, sonriente, se levantó.—Gracias, gracias, mis buenos amigos; necesitaba
+                    diez pesos con urgencia, que no es para contada. Magnánimos amigos, gracias, y
+                        <seg rend="italic">«au revoir.</seg>»</p>
+                <p>—Oiga, espérese, ajuste los veinte; mire, aun queda todavía. </p>
+                <p>—Que le aprovechen <seg rend="italic">mio caríssimo</seg>; yo no juego más.—Lleno
+                    de ira, aquel se mordía los labios procurando disimular, mientras Pancho
+                    desapareció por un obscuro pasadizo que conducía a su habitación. </p>
+                <p>Los grupos volvieron a formarse, y las apuestas reanudáronse con entusiasmo
+                    creciente.</p>
+                <p>En el pasillo, Pancho encontró a María Luisa, la guapa hija de la casera, y
+                    emocionado, con voz turbarla, le dijo muy quedo:</p>
+                <p>—Conque resueltamente Lisa? Mañana en la tarde, ¿eh? </p>
+                <p>—Sí—respondió ella con voz apagada. </p>
+                <p>Pancho entró a su cuarto y apresuradamente, amontonó en una desvencijada
+                    petaquilla, la ropa descolgada de un clavijero de pared; enrolló su colchón y
+                    desarmó el catrecito de fierro.</p>
+                <p>Un cargador se presentó a la puerta.</p>
+                <p>—Conque ya ves—dijo Pancho—tres bultos y nada más. ¿Cuánto? </p>
+                <p>—Pos serán cuatro reales. </p>
+                <p>—No, hombre, no la atrases, doce centas. </p>
+                <p>—No, amo,.... hasta la alameda y a estas horas </p>
+                <p>—La verdá, la verdá, es que mejor sería mañana. Me topa un cuico y no me conoce,
+                    y a dormir a la comisaría. Será la peseta si quiere, y eso sólo por ser a su
+                    mercé. </p>
+                <p>—¡Zas! pero que sea luego. </p>
+                <p>El cambio intempestivo de Pancho asombró a sus compañeros que atónitos le
+                    interrogaban sobre la ocurrencia de largarse a tales horas. El, con un gesto les
+                    indicó que ya les contaría</p>
+                <p>—Jesús, dispensa. Con permiso de los señores. </p>
+                <p>Uno de los admiradores de Ramón se levantó al llamado de Pancho, y lo tomó de un
+                    brazo amistosamente; separándose hacia una habitación donde se metieron. Era
+                    Jesús; el rico de la casa; el único que se permitía tener piesa para él solo, y
+                    con balcón a la calle.</p>
+                <p>—Qué hay pues?—preguntó—por lo visto ya está arreglado todo. </p>
+                <p>—Ven por acá—respondió Pancho, llevándoselo al balcón.—¡Figúrate! a duras penas
+                    conseguí cinco pesos con Dona Paca la frutera de ahí abajo; después, tú lo has
+                    visto, los arriesgué, y de pura chiripa pude doblarlos; ¿pero qué diablos voy a
+                    hacer con esto? </p>
+                <p>—No seas cobarde! te ofrecí veinte pesos y mañana los tienes. Es cuestión de
+                    pedirlos en el escritorio, y en el acto están listos. Lo fino sería que la
+                    prenda se te escapara de entre las manos y te dejara con los gastos hechos.
+                    Ja.... ja.... ja.... ¡caramba! que si a mí me tocara una pollita o....
+                    gallinita, ¡qué diablo!; pero así de guapa y tan ardorosa, y con ese salero, y
+                    con esos ojos.....¡por vida de mil....! que dejaría en el monte de piedad hasta
+                    la camisa! </p>
+                <p>Pancho no replicó; permanecía con la mirada perdida en el espacio, absorto en mil
+                    pensamientos, retorciendo entre sus dedos un bozo naciente.</p>
+                <p>—¡Pero te habrás vuelto un bruto!—dijo desús con impaciencia.—¡Pásamela al costo! </p>
+                <p>—¡Oh!, tú cuentas con tu sueldo, con la mesada que te mandan de tu casa; pero
+                    yo.... Tengo recomendación para el director del hospital; ¿y de qué me sirve?
+                    El, bien me conoce entre los más pinteros. </p>
+                <p>El foco de luz eléctrica en medio de la bocacalle derramaba deslumbrantes rayos
+                    como de platino en ignición, que reverberaban blancos hasta en el empedrado.
+                    Como globos do fuego, aparecían, de dos en dos cuadras, los demás focos,
+                    aproximándose más y más, a medida que más lejos se veían; dejando una franja
+                    luminosa en cada boca calle, hasta perderse, al sur, en la fuerte curva de la
+                    calle, y al norte, en la impenetrable obscuridad de remoto barrio.</p>
+                <p>Pancho tendió la mano a Jesús, y sin articular palabra, se retiró, pasando
+                    desapercibido por entre la tumultuosa turba de estudiantes en plena
+                    ebriedad.</p>
+                <p>Cuando se encontró en medio de la calle, sintió bienestar; la soledad le era
+                    grata. Vagó sin rumbo fijo, dando rienda suelta a sus pensamientos, que en
+                    tumulto se agolpaban a su cerebro. ¡Qué calaverada aquella! María Luisa le
+                    prometió esa misma tarde, que se escaparía con él al día siguiente; y con voz
+                    tan extraña, con miradas tan ardientes, que no dudó ni por un momento, que la
+                    resolución de su novia fuera verdadera. Si, ciertamente, muchas veces le había
+                    dicho entre broma y seriedad: «Lisa, si viviéramos juntos tú y yo, los dos
+                    solitos, ¡qué felices seríamos!» Y Lisa reía con burla siempre, y siempre
+                    acababa por decir horrores de los hombres.</p>
+                <p>Fue por tanto una sorpresa el ver cambiados los papeles cuando menos lo esperaba.
+                    El iba diariamente en pos de Lisa, ya a la caída de la tarde, a la hora en que
+                    ella salía del taller; y ambos se encontraban en la Alameda y metíanse en un
+                    rincón, predilecto por su exorbitante follaje, desde donde veían crepúsculos que
+                    les arrebataban en los más bellos ensueños de su amor. Y ahí, esa misma tarde,
+                    Lisa, presa de emoción profunda, temblorosas las manos, enrojecidas las
+                    mejillas, la frente ardiente y sudorosa, convulsos los labios, le repitió mil y
+                    mil veces que le adoraba, que le amaba con toda su alma, que quería ser suya,
+                    suya eternamente. En verdad, que a él no le repugnaría vivir con su novia, la
+                    amaba, si; pero no tanto que pudiera cegarse y desconocer la locura de la pobre
+                    muchacha. El la quería suya, pero sin dificultades ni compromisos para el
+                    porvenir. Y si en un acceso de entusiasmo voluptuoso quería convencerse de que
+                    aquello no era nada, una ligereza como a diario se cometen; la explosión de
+                    ciertos restos de su antigua educación hacía que en su conciencia apareciera
+                    nítida, con irritante deslumbramiento, la idea de que iba a cometer un crimen,
+                    lanzando a aquella desdichada a la miseria y peor todavía, quizá a la
+                    prostitución. Pero su orgullo de tenorio en ciernes se levantaba con inaudita
+                    altivez, y le hacía desechar, con indignación, semejante idea; y pensó que sería
+                    preferible romperse la crisma, a darla de casto José.</p>
+                <p>Automáticamente había llegado a una esquina donde, noche a noche, esperaba a
+                    Jesús para volverse juntos a su casa. Una ventana se entreabrió, apareciendo
+                    Esther la novia de Jesús.</p>
+                <p>—¿Qué es de Jesús?—preguntó a Pancho que familiarmente se dirigió a saludarla. </p>
+                <p>—Se encuentra un poco acatarrado y entiendo que no vendrá ahora. </p>
+                <p>—¿Acatarrado? qué sé yo en donde se habrá metido; y usted quiere también
+                    «taparle.» </p>
+                <p>Al tomar la fina y delicada mano de Esther, Pancho involuntariamente la comparó
+                    con María Luisa; pero sintiendo molesta aquella idea, la desechó luego, por un
+                    esfuerzo de su imaginación, pensando: aquella es mucho mejor.</p>
+                <p>—La veo a Ud. muy mejorada, Esther. Parece que los paseos matinales le prueban
+                    bien. </p>
+                <p>—¡Admirablemente!, Pancho, viera Ud. He aumentado dos kilos en menos de quince
+                    días. El Doctor Aguirre, me dice que el baño y el ejercicio me dejarán buena; y
+                    por esto nos encuentra usted todas las mañanas. Vamos a las «Barranquitas»,
+                    Mamá, Jesús y yo. </p>
+                <p>—Pues mire, que a Jesús le va a probar mejor la medicina que a Ud. </p>
+                <p>—Ande! ¡Qué bromista!—replicó ella con una sonrisilla y con una entonación de voz
+                    un poco pronunciada, habitual en la linda chihuahuense. </p>
+                <p>—Pancho se despidió después de haber recibido el encargo de hacer todas las
+                    recriminaciones posibles al pillo de Jesús que tenía a su novia, hasta esas
+                    horas esperándolo. </p>
+                <p>Se dirigió a su nuevo hogar en la calle de la Alameda, presa de la gran exitación
+                    que lo alejaba imperiosamente a la soledad. Sus pasos resonaron en el inmenso
+                    silencio de las calles. Cuando pasó frente a la catedral, sonaron las doce, y
+                    por un momento se ahuyentaron las aves nocturnas que revoloteaban en torno de
+                    las blancas torres, de las canteras piramidales: agujas enormes clavadas en el
+                    espacio. La plaza de armas se inundaba en la brillante claridad de los focos
+                    eléctricos que con su chisporroteo intermitente parecían los vigías en alerta,
+                    velando el sueño de la ciudad, de la casta doncella tranquila y apacible, aun no
+                    profanada por el noctivaguismo de las grandes capitales.</p>
+            </div>
+            <div type="chapter">
+                <head>II.</head>
+                <p>María Luisa disimulaba tan bien sus veinticinco años, que sólo un atrevido
+                    estudiante que la había visto salir del baño, conocía y guardaba el secreto de
+                    unas arrugas nacientes en la conmisura de los párpados. ¡Sombría fatalidad que
+                    no respetaba aquella tez morena y apiñonada; aquellos ojos flameantes,
+                    imposibles para la indiferencia, nacidos para amarse o para detestarse; y
+                    aquella boquita de fresa roja, pequeña y húmeda!</p>
+                <p>Lisa era de esas mujeres que saben honrar el arte de los afeites, y explotar toda
+                    clase de artificios, sin mengua de la belleza. Si sus risas, impregnadas de
+                    dulzura y amabilidad, de nadie las aprendió, sí era una actriz consumada cuando,
+                    con tanto tino como exquisitez, usaba de los polvos y de la ere-ina. Nadie le
+                    enseñó su andar de tapatía fogosa, ni a dar movimiento ondulante a sus caderas,
+                    y airoso balanceo a sus hombros; pero sí aprendió a dar a la lela más humilde un
+                    corte correcto, gracioso y elegante. Adivinó el secreto para hacer destacar,
+                    bajo la entallada falda, <seg rend="italic">la escultura triunfal de su
+                        cadera</seg>, que, naciendo en una cintura diminuta, se deslizaba, atrevida,
+                    sobre un muslo lleno y arrogante. Y luego, ¡qué delicadeza en la elección del
+                    calzado! No ignoraba Lisa que tenía un pie admirablemente pequeño, y nunca
+                    hubiera tolerado las raspaduras grises ni los desviados tacones que llevaban sus
+                    pobres compañeras del taller de medias, donde trabajaba. Al cruzar por las
+                    calles, era entre una lluvia de flores de los transeúntes, y de tal cual florón
+                    que la hacía ruborizar.</p>
+                <p>Que ¿quién era María Luisa?.... ¡Una de tantas flores abiertas en el estercolero;
+                    que se levantan esbeltas, húmedas y perfumadas; que parecen lanzarse al cielo, y
+                    que en breve se tuercen a los ardorosos rayos del eterno sol de la vida,
+                    arrojando sus mustios pétalos y su semilla sobre el mismo estercolero que la
+                    miró nacer! María Luisa fue hija de la casualidad. Era la época de la
+                    revolución, cuando los soldados venían a los pueblos, cubiertos con la sangre de
+                    sus hermanos; el poderoso instinto tomaba la revancha: llegaban sedientos de
+                    placeres, y después del cansancio de la muerte querían el cansancio de la vida.
+                    Y la vida se reproducía prodigiosamente. María Luisa tenía tres años cuando
+                    saltaba de las rodillas de un estudiante a los brazos de otro, de las caricias
+                    de uno a los besos de otro. Nació entre estudiantes, se crió entre ellos; su
+                    medio de educación e instrucción fueron ellos. Fue, por tanto, su crecimiento en
+                    medio de aquel alegre barullo, que hacía olvidar las penalidades de la vida.
+                    Cuando Lisa fue una mujer, conocía a los estudiantes como si fueran sus
+                    hermanos. Conocíalos en sus locos entusiasmos, en su incorregible inconstancia,
+                    en sus turbulentas alegrías y en sus desfallecimientos fugaces. Así es que no le
+                    pareció extraño que uno de los asistidos, un mocozuelo que le hizo la corte a
+                    los diez años, la hubiera olvidado el día que se separó de su casa. Después otro
+                    la había dejado por la cocinera. Ella, por su parte, estaba siempre por el más
+                    guapo o por el más ricachón; y cuando pensaba acabar con alguno, ya tenía
+                    preparado el candidato sucesor. En realidad, a nadie había amado; los quería a
+                    todos, sabía ser amable y tener frases para cada uno, y, por consiguiente,
+                    sacaba todo el partido apetecible.</p>
+                <p>Deslizada hasta entonces su vida entre entusiasmos y alegrías, riendo siempre,
+                    ignorante del inmenso peligro del amor, fue para ella un despertar el día que
+                    sintió dolor porque Pancho no durmió en casa, y se fue con amigos a la calle,
+                    o.... sabe Dios a donde. ¿Por qué había tenido noches de insomnio, perseguida
+                    hasta el fastidio por el recuerdo de Pancho? Lo que le había dicho, alguna frase
+                    que no había entendido claramente, y de la que se empeñaba en desentrañar
+                    raudales de pasión. Si Pancho tenía la piel fina; si la había mirado un momento
+                    con cansancio; si le había dado algún beso desabrido; si en fin, fueron cuatro o
+                    cinco las veces que la había estrechado contra su corazón. Y Pancho ahí, siempre
+                    ahí; sin dejar un momento a su sueño venir apasible como antes. ¿Qué vida nueva
+                    se le revelaba desde que sintió ese amor entrañable para aquel muchacho
+                    estudiante de medicina, que seguramente no se casaría con ella? ¿Por qué se
+                    había enamorado, y perdidamente de él? Ella no lo había intentado, y, contra su
+                    deseo, resultaba vencida en la terrible lucha por arrancarlo de su corazón.
+                    ¿Era, acaso, que necesitaba resistencia y dolor para amar? Ninguno, antes de
+                    Pancho, la había hecho sufrir. La inconstancia de éste, la oposición decidida de
+                    su madre, las continuas molestias con que la atormentaba su vieja tía por su
+                    noviazgo, ¡todo la atormentaba! ¿Sería ese el aguijón que transformaba un cariño
+                    fugaz en el más ardiente amor? ¿Sería que Lisa sentía que sus encantos, aves
+                    viajeras, empezaban a escapársele; que sus nidos de ensueños quedaban vacíos;
+                    que la juventud se iba y el invierno helado la sorprendía allí, siempre
+                    asistiendo estudiantes para tener que comer; siempre trabajando en el taller,
+                    para tener que vestir?.... ¡Oh, el horror al soplo helado de los años, que
+                    petrifica el corazón, convirtiendo en tumba lo que fue nidero de anhelos y
+                    pasiones! ¿O sería, por fin, el eterno triunfo de la Naturaleza, de aquel
+                    muchacho coloradote, de sonrosados carrillos, negras pestañas y grandes ojos; el
+                    robusto hijo de la aldea, que llevaba la vida de sus campiñas, al llegar a la
+                    capital; soñador en pleno florecimiento de juventud, y contrastando
+                    sensiblemente con aquellos compañeros de estudio, endebles y marchitos por el
+                    vino, el amor venal, y por todos los excesos de una juventud tan entusiasta como
+                    irreflexiva?</p>
+                <p>Ella había sentido extraños estremecimientos apoderarse muchas veces de su
+                    organismo; y en las noches, cuando el sueño se ahuyentaba, pensaba cosas que la
+                    enloquecían. Fue una de esas noches cuando una funesta idea, como negra
+                    mariposa, revoloteó un instante en su mente, siendo desechada luego con horror:
+                    Lisa pensó en entregarse a Pancho, para luego unirse con él. Y la idea volvió; y
+                    volvió tantas veces, que, empezando por hacerse tolerable, acabó por hacerse
+                    amar. Y no fue ya solo por la noche, sino a la luz del día, que Lisa se dejara
+                    dominar imperiosamente por ella. Pues ¿qué el placer del amor no lo habían
+                    apurado su madre, su tía, sus amigas del taller, y todas así, como un fuego
+                    fugaz? ¿Dejaría morir en el cansancio del trabajo, su belleza, para mendigar
+                    después lo que ahora podía exigir? Y si un soplo de dignidad se levantaba, y
+                    crecía y crecía hasta convertirse en huracán que arrastraba y barría semejantes
+                    ideas, apenas llegaba la tarde, apenas se encontraban Pancho y ella otra vez, la
+                    maldita idea volvía de nuevo, y, como una mole inmensa, aplastaba su cerebro,
+                    anonadaba sus facultades, y las resistencias desaparecían. Así llegó el día en
+                    que Lisa no pudo más... ¡La mujer se levantaba impetuosa, irresistible!... ¡El
+                    sexo estallaba, como majestad triunfante, irradiando en las fulguraciones del
+                    amor y de la belleza!... ¡Quiero ser tuya!....—dijo transfigurada.—Y Lisa
+                    triunfó.... era fuerte, porque era bella!.... Y Pancho triunfó.... ¡era bello,
+                    porque era fuerte!....</p>
+            </div>
+            <div type="chapter">
+                <head>III.</head>
+                <p>Era la una de la tarde. Un estrépito de sillas, de cucharas y de platos, en medio
+                    de vivas conversaciones, se oía en el comedor. En la cocina, Doña Cuca, la dueña
+                    de la casa, y su prima Juana, disponían la comida para los asistidos.</p>
+                <p>—Tú, muchacho,—dijo Juana, una vieja desdentada y andrajosa, con voz imperativa,
+                    traeme platos limpios, y lleva el cocido.— Luego, dirigiéndose a Doña
+                    Cuca:—Mira, Refugio ¡qué asco de vasos!;.... te lo digo: este es un indecente
+                    que solo habrá servido de caballerizo..... </p>
+                <p>—Pos siñora si no le cuadra el fuste.... pagúeme los ocho días que me debe y me
+                    largo.—replicó el criado con altanería. </p>
+                <p>—¡Cállate, malcriado!.... Educación es la que te falta...... </p>
+                <p>Y seguía la vieja hablando y regañando, sin quien pudiera poner dique a su
+                    insoportable locuacidad; y hablaba aprisa, atropellando las palabras que,
+                    maltrechas, salían de entre sus feroces colmillos: únicos restos de su
+                    dentadura. Con su cabeza, de cabellos enredados en borrasca encuadrando una tez
+                    tostada, parecía la legendaria ogresa.</p>
+                <p>Era el revés de Juana, la buena de su prima, Doña Cuca, una viejecita simpática,
+                    de mirada dulce y complaciente, muy medida en el hacer; aunque, por desgracia,
+                    no tanto en el decir; pues si hay que dar justicia, perplejo se quedaría
+                    cualquiera en preferir entre la prima Juana que se descubría a primera vista en
+                    toda su horripilancia física y moral, y la excelente señora doña Cuca que
+                    platicaba con la monotonía más desesperante, interminable como una rueca en
+                    movimiento indefinido, cosa que era mala; pero lo peor de todo, que en
+                    ausencias, sin perder su proverbial mansedumbre, se las pintaba para dar
+                    venenoso mordisco, lo mismo al más calavera de sus asistidos, que a la más
+                    recatada de sus vecinas: ¡lengüetilla viperina tanto más peligrosa, cuanto que
+                    siempre atacaba en la sombra!</p>
+                <p>—¿Oyes el cuarto, Refugio? y María Lui-sa no parece. ¡Esa muchacha! ¡esa
+                    muchacha....! Tú te haces la desentendida, confías demasiado en ella; y ya verás
+                    que dolores de cabeza te ha de costar! A ver, ¿dime?, es la una y cuarto ya, y,
+                    de ella, ni sus luces. ¿Qué sabes tú a donde se habrá metido? Muchacho, dame los
+                    rábanos. </p>
+                <p>En el comal de hierro chirriaba la manteca, desprendiendo burbujitas ardientes.
+                    Doña Cuca tendía una tortilla colorada que, chisporroteando ruidosamente entre
+                    las papas y las cebollas rebanadas en redondos anillos vitreos, caía
+                    desprendiendo un olor que despertaba el más rehacio apetito.</p>
+                <p>—¡Cállate, cállate,—replicó sin alterarse doña Cuca, volteando con la punta de
+                    los dedos la dorada enchilada,—María Luisa sabe cuidarse, y si se ha dilatado,
+                    es que más trabajo habrá en el taller. Dame el queso. </p>
+                <p>—Pues lo que yo te digo, es que te vayas con tiento,—dijo la prima, sacando los
+                    brazos empapados en la turbia agua de un apaste donde lavaba los vasos; y dando
+                    a doña Cuca, una vieja caja de sardinas colmada de queso en polvo;—y que si no
+                    le haces romper con ese haragán del Francisco, la muchacha hace una tontería que
+                    te ha de quitar el sueño. Ese, es un perdido capaz de todo; y por más que tú,
+                    hagas la desentendida, bien has visto, que a María Luisa se le ha chiflado la
+                    mollera. </p>
+                <p>—¿Con quién? ¡ja.... ja.... ja.... ja... ¿con Pancho?, ¿con ese pobrecito alma de
+                    Dios, que se fue por que no tuvo con que pagar la mesada? ¡Ja... ja... ja!—La
+                    voz de Doña Cuca se hacía fina y penetrante como la hoja de un puñal.—Ya se vé,
+                    ¡alma mía dé él! no va a tener para que le sirvan en los agachaos; pero para
+                    otras maldituras no ha de faltar quien le dé. ¡Pobrecito! ¡Había de volar a Lisa
+                    ese infeliz chamagoso! Apenas serviría para una de esas de las calle.... Ahí si,
+                    ahí encontrará su centro. Es tan flojo, tan pelado y tan chocante, que sólo una
+                    de tantas estará buena para ese lindo haragán. Ahí le mantendrán sus vicios.
+                    ¡Criatura del Señor! No, no tengas cuidado,—añadía acentuando la bondad de sus
+                    palabras,—Lisa los ha tenido, y buenos; ¿y si? ¿cómo se han quedado......? </p>
+                <p>La prima Juana, en incesante movimiento, ya con las tenazas removiendo los
+                    carbones encendidos, ya soplando desaforadamente la lumbre, ya enjugando
+                    trastos, tarde se le hacía que Doña Cuca acabara de hablar.</p>
+                <p>—Pues tú dirás lo que quieras; pero mira, ahora mismo, al dejar la sopa en el
+                    comedor, oí que hablaban Pedro y el Chato; y luego que me vieron, cambiaron de
+                    color y se quedaron callados como unos muertos. Alguna cosa decían de Pancho y
+                    de Lisa; y el descarado ese del Chato me miró, y con su risa maldecida algo malo
+                    me dió a entender. </p>
+                <p>—Tú, y el Chato, y Pedro, y todos juntos, no son más que unos lindos boquiflojos:
+                    como viven juzgan.... </p>
+                <p>—La boquifloja lo serás tú, vieja tapadera, que me quieres embarrar en tus
+                    disimulos.... </p>
+                <p>—¡Juana, cállate!,—respondió doña Cuca, colocándose en amenazadora actitud. </p>
+                <p>Los tacones de Lisa golpeando sonoramente el suelo, y el crujir de la almidonada
+                    falda, se oyeron; o interrumpióse la disputa. Lisa entró sudorosa y fatigada; y
+                    caliendo luego con gran desaliento sobre una silla, dijo:</p>
+                <p>—¡Ay, mamá, ¡qué calor!..... no tengo naditita de hambre, dame un pedazo de <seg
+                        rend="italic">bisté,</seg> y ya. </p>
+                <p>—Porqué te tardas tanto, hija? </p>
+                <p>—¡Uf, Dios mío! Hay un mundo de quehacer, y hasta ahorita nos dejaron salir. </p>
+                <p>Doña Cuca puso sobre un plato cuatro anchas lechugas frescas de un verde claro, y
+                    sobre ellas un palpitante trozo de lomo vir-tiendo su jugo, y luego rebanadas de
+                    papas amarillentas obscuras, doradas y vaporizantes.</p>
+                <p>—¡Ay, Dios mío, qué humo! Apaga ese leño.... </p>
+                <p>—¡Cuánta delicadeza tú! Juan, ¿qué es de los chiles en vinagre? Anda
+                    prontito...... </p>
+                <p>Mira, María Luisa, dice Refugio que ya puedes írtelas componiendo con
+                    Francisco.... Nos choca y nos rete choca tu tal novio....</p>
+                <p>—¡Bah! ¿ya empiezas? Ya me canso de decirte, que a ti nada te va de mis cosas.
+                    Hazme favor de no volver a molestarme... Gracias a Dios de que para nada te
+                    necesito, y de que aun tengo madre. </p>
+                <p>—Si,—replicó ésta,—tienes madre, y tu madre te prohibe terminantemente esas
+                    relaciones. Juana dice bien; y no debes olvidar que es tu tía y es tu mayor a
+                    quien debes respetar. </p>
+                <p>—¡Tú, también, mamá?.... </p>
+                <p>—¡Yo, también!....¿A mí me quieres gritar como a tu criada? </p>
+                <p>Lisa hizo un mohín de disgusto y con enojo dejó el platillo apenas comenzado,
+                    levantándose.</p>
+                <p>—No puede uno estar tranquila ni un momento. Ya me voy.... </p>
+                <p>—Lisa, Lisa, ven acá ¿A dónde vas? </p>
+                <p>—Para qué me quieres, mamá? ¿para regañarme? Estoy fastidiada, me tienen hasta
+                    aquí,—dijo poniéndose los dedos sobre la nariz.—Trabaja uno todo el día y para
+                    qué? para que lo atornillen hasta que les dé la gana, cuando uno viene a
+                    descansar. </p>
+                <p>—Eso es, sigue, castigo de mis pecados, eso era lo que me faltaba,—añadió
+                    sollozando doña Cuca,—somos las viejas molestas, y necias, e insoportables.... </p>
+                <p>—Si, prosiguió Juana, ese es el pago que te da. Bien dice el refrán: «cría
+                    cuervos.....» somos las viejas gruñonas que se sacrifican para que la señorita
+                    tenga hasta tápalo de burato. Pero la culpa no la tienes tú, mi alma, la tiene
+                    la babieca de tu madre que esa educación te ha dado. </p>
+                <p>Entre sollozos y lloriqueos, doña Cuca pidió el vinagre.</p>
+                <p>—Toma, Juan, lleva las enchiladas. </p>
+                <p>—No está Juan,—replicó la prima—lo despaché a traer azúcar. </p>
+                <p>Lisa permanecía parada en el dintel, la vista baja, y en actitud humilde,
+                    arrepentida quizá, de dejar llorando a su madre, la última vez que comía en su
+                    casa. Esto fue, también, lo que hizo que sus ojos se llenaran de lágrimas.
+                    Porque aquella escena se repetía todos los días. El ave negra de la discordia
+                    era aquella vieja prima recogida por dona Cuca, desde pequeña. Solterona
+                    empedernida; su vida se había pasado de extravagancia en extravagancia. Vieja
+                    neurótica, digna del manicomio, caminaba sembrando siempre la discordia entre
+                    los estudiantes, entre sus amigos, entre sus parientes, y entre cuantos tenían
+                    necesidad de tratarla. De muchacha había sido insoportable clerófoba, quizá por
+                    haber servido en la casa de un razón encopelado; ahora se había entregado al
+                    fanatismo religioso, y no salía de las iglesias. Si mortificaba a Lisa en sus
+                    relaciones con Pancho, no era por otra cosa, que por babease empeñado en meter
+                    dentro del corazón de la muchacha, a un seminarista estúpido con quien comentaba
+                    los sermones y la Biblia y todo lo que no podían entender. En cambio, a Pancho
+                    lo detestaba desde que le causó la gravísima injuria de burlarse de ella, poique
+                    había contado con gran énfasis, que tenía relaciones con las criadas de su
+                    Señoría Ilustrísima. Peor aún, el día que Pancho, conociendo las flaquezas de la
+                    vieja, socarronamente le pidió recomendación para las consabidas criadas, pues
+                    que pretendía nada menos que llegar a canónigo; cierto de que le acomodaría
+                    grandemente la vida de tan dichosos mortales.</p>
+                <p>Si María Luisa odió toda su vida a Juana, ahora sentía ansia loca, deseo
+                    ardentísimo, de vengarse de ella en una vez, injuriarla, decirle cuanto se le
+                    viniera a la boca; al cabo era la última ocasión que se veían; pero el respeto a
+                    su madre la detuvo, y ahogó su rabia.</p>
+                <p>—¿Qué hace ese holgazán? Los platillos se enfrían.... </p>
+                <p>—Dámelos, mamá,—dijo humildemente Lisa,—yo los llevaré.. </p>
+                <p>—¿Tú?—se interpuso Juana—no, ¡imposible! vas a manchar tu traje; y luego, tus
+                    criadas, ¿para qué las tienes? </p>
+                <p>—Eres desvergonzada, Juana, no te contentas con el platillo que te damos de
+                    limosna.... No has de ser, tú más, la que me humille, ¡te lo juro! </p>
+                <p>—¿Oyes a tu hija, Refugio? Si; si la oyes; pero como eres lo mismo, ¡qué la vas a
+                    regañar! Ahora, dale un palo, y échenme a la calle como a un perro. No te
+                    asustes, tú la has enseñado; no una sino multitud de veces, me has dicho lo
+                    mismo. Cual es la madre, tal es la hija. </p>
+                <p>—Pues si, Lisa dice bien: eres una perra malagradecida, que no sé por qué castigo
+                    de Dios te he tenido siempre en mi casa....... </p>
+                <p>—¡Ah.. .¿conque esas tenemos? Tú, también me corres. Si; en el momento me voy de
+                    aquí. ¡Soy una mendiga, verdad! Si, toma; aqui están tus platos y tu comida.
+                    ¿Con que no soy tu prima, verdad, eh? Soy una perra.....¡ja.... ja... ja! ¿Qué
+                    no seré siquiera tu criada? Pues a los criados no se les paga con frijoles. ¿Con
+                    qué me pagas? ja... ja... ja! ¿Con qué me pagas limosnera!! </p>
+                <p>Las viejas se lanzaron cogiéndose de los cabellos, se dieron cachetes, mordiscos,
+                    y rodaron por el suelo. Lisa sintió sólo el pesar de dejar ahí a su madre,
+                    cuando abandonaba para siempre su hogar.</p>
+                <p>Al pasar por el comedor, como siempre, saludó cariñosamente a los muchachos que
+                    la cubrieron de flores, a las que ella estaba acostumbrada, y que contestaba con
+                    miradas que valían un cielo.</p>
+            </div>
+            <div type="chapter">
+                <head>IV.</head>
+                <p>Pancho entró a su casita de la de la Alameda, el cargador, un paisano suyo,
+                    roncaba dormido en un rincón. Una vela de sebo en un ladrillo, apenas alumbraba,
+                    con parpadeos de mortecina luz, las miserables paredes negruzcas de descuido e
+                    inmundicia habituales en los inquilinos del barrio. La cama estaba ya arreglada,
+                    y Pancho se metió en ella intentando dormir y dar un momento de tregua al
+                    espasmo moral que todo el día le había agobiado. ¡Imposible! Mi riadas de
+                    recuerdos como insectos zumbadores, tornaron en su mente ardorosa. Y pensó en
+                    sus padres.</p>
+                <p>Hacía seis años de su primera salida del terruño. Allá había estudiado con el
+                    cura del poblacho algo de latín, de física, de gramática, y otras materias que
+                    el buen anciano recordaba, y que, con entusiasmo paternal, transmitía a los
+                    muchachos que querían hacer carrera.</p>
+                <p>¡Oh! el recuerdo de la primera salida! su madre empapada en lágrimas, colmándole
+                    de bendiciones, dándole mil consejos, en medio de ternezas que le partían el
+                    alma; después, él desprendiéndose de sus brazos amorosos, de su caliente pecho,
+                    para ir a caer por allá muy lejos: tan lejos que su corazón se transformaría por
+                    la indiferencia al hogar. Su padre, severo, dándole un abrazo, diciéndole adiós
+                    sin poder articular una sola palabra; para poder ocultar la suprema angustia: la
+                    angustia del deber cumplido con el sacrificio del más grande y poderoso de los
+                    egoísmos. Sus hermanos pequeños abriendo desmesuradamente los ojos, asorados y
+                    sin comprender la escena de ternura y de dolor. Y luego el tren: llanuras,
+                    cerros, polvo; todo ensombrecido por la tristeza de la partida. Cuando llegó a
+                    la capital, ni la decantada alegría, ni las famosas bellezas; mucha gente,
+                    muchas casas, muchos jardines, mucho ruido; pero grande, infinitamente grande,
+                    era la soledad que acompañaba su alma entristecida. Y pasó un mes, y luego otro,
+                    y un año; y, sin sentirlo, su vida se deslizaba tranquila en una casa de
+                    asistencia para seminaristas, al lado de su viejo paisano don Homobono, sin
+                    darse cuenta del inmenso fastidio que se cernía sobre aquella casa monacal donde
+                    a todos se les sometía a un régimen inflexible. A las cinco de la mañana, todo
+                    el mundo en pie, en seguida, a la misa le Santa Mónica, luego a desayunarse,
+                    después a estudiar. A la una en punto la mesa estaba servida. De siete a ocho de
+                    la noche, todos juntos a darse una vueltecita por el Portal, o a sentarse en el
+                    atrio del Sagrario si había serenata; y luego a dormir. Allí no se conversaba
+                    más que sobre los sermones de <seg rend="italic">mi maistro</seg> Fulano o de
+                        <seg rend="italic">mi maistro</seg> Zutano; se discutían los errores del día
+                    desmenuzándolos con citas de los Santos Padres y de las Escrituras Sagradas;
+                    todo espolvoreado con la sal de los chistes que don Homobono menudeaba y que,
+                    con calor, aplaudía su esposa doña Resurrección: aguda hembra que terciaba
+                    valientemente en la más empingorotada de las discusiones.</p>
+                <p>Qué tipos tan repelentes le parecían aquellos cuervos, siempre adorando a Dios y
+                    siempre comiendo, caritativamente, masones, protestantes y herejes, cuando
+                    volvió, después de sus primeras vacaciones, con la alegría fresca de la vida al
+                    aire libre, después de dos meses de placeres, con el recuerdo vivo de sus paseos
+                    campestres, mimado de sus padres, agasajado por sus guapas amigas, y con los
+                    ojos, clavados en el corazón, de una coquetuela que le había enloquecido con sus
+                    encantos. Hasta entonces sintió la insoportable rutina de la casa. Era
+                    invariablemente la misma conversación a la hora de comer: como siempre, a la
+                    cabecera, se sentaba el obeso D. Homobono, rasurado como fraile y de riguroso
+                    traje negro, en el extremo opuesto, doña Resurrección, delgada y tiesa como
+                    cuerda de contrabajo, la faz ajada y marchita, las lineas bruscas y duras de un
+                    indeciso sexo. Aquel matrimonio estéril, gracias a la comunión de ideas,
+                    mantenía fresco el amor y devoción de sus primeros días, y se refugiaba, al
+                    rigor de un acetismo más neurótico que piadoso, después de treinta años de
+                    esperar bajo el más ingrato fastidio. A los lados, y por orden de superioridad
+                    en el colegio, se sentaban los demás seminaristas: abotagados de teología, que
+                    veían con desdén compasivo a aquel chicuelo estudiante del Liceo de Varones. No
+                    había más de un toque de luz en aquel cuadro sombrío: Marcelina, una chica
+                    rolliza y encarnada como una manzana, frizando en los dieciséis; huérfana
+                    recogida desde pequeña y que formaba toda la servidumbre. Se servía el caldo;
+                    don Homobono se levantaba gravemente de su asiento y en humilde actitud bendecía
+                    la mesa; empezaba un mascullar velado y triste; a poco un seminarista se animaba
+                    al calor de la sopa vaporizante y la conversación encarnaba la forma difusa e
+                    ininteligible de sus cuestiones metafísicas: ¡valientes cerebros si se
+                    entendieran a sí propios! En tanto Pancho se fastidiaba. Lo peor fue el día que
+                    descubrió las presuntuosidades y la inaudita facilidad para tergiversar hechos y
+                    formar opiniones tonantes como un anatema: asentar conclusiones sobre un dechado
+                    de mentirijillas. Acababa de leer un hecho histórico que, más o menos, debió
+                    profundizar, encargado como fue de presentar disertación sobre aquel punto, y
+                    quiso la casualidad, que se tocara, incidentalmente traído a conversación. Oyólo
+                    tan falazmente relatado, con tan odiosa malicia desfigurado, que al concepto de
+                    presuntuosos que tenía de aquellos grajos, le agregó el de ignorantes y
+                    malévolos. Empezó por odiar y, y más tarde por despreciar, a aquellos pompas de
+                    presunción y de ciencia, a aquellos hipócritas que alababan a Dios a cada
+                    instante para devorar al prójimo santamente. Llegó un día en que no pudo tolerar
+                    más y escribió a su padre, rogándole que lo sacara de aquella casa. El anciano,
+                    prudentemente lo detenía, pensando en los graves peligros que corre la juventud
+                    inexperta sin la vigilancia directa de persona de conciencia y seso; pero un
+                    acontecimiento imprevisto vino a determinar la realización de los deseos del
+                    estudiante. Cada mes, indefectiblemente, debían concurrir todos los varones de
+                    la casa al retiro de Analco: un día consagrado a la oración. Y fue necesaria
+                    toda la astucia de Pancho para conseguir que aquella vez se le eximiera, aunque
+                    muy a regañadientes, de hacerlo; bajo el pretexto de que había reconocimientos
+                    en el Liceo y porque de no concurrir a ellos perdería el año de estudios. La
+                    verdad, era que se había prendado de la muchacha y que habían concertado verse
+                    ese día a la hora en que doña Resurrección se fuera a la visita del Santísimo.
+                    La vieja habría dejado de ser doña Resurrección, si se le hubieran escapado las
+                    platónicas ternezas de los chicos; y aun es de creerse que aprovechaba la
+                    ocasión de tener el gran pretexto para lanzar de su casa a aquel estudiante
+                    antipático, como que no era del seminario y que, al decir de ella, pronto sería
+                    un masón que es en lo que viene a parar toda la juventud educada en esos
+                    malditos establecimientos del Gobierno! Sea de ello lo que fuere, a la hora
+                    acostumbrada, la sombra de doña Resurrección dejó la casa. Pancho atizbaba desde
+                    el tendajón de la esquina, y no bien dobló callé su casera, cuando él, ansioso,
+                    se coló a la casa.</p>
+                <p>Los chicos se besaban lindamente y gorjeaban, alegres y parlanchines, como
+                    pájaros escapados de la jaula, no sintiendo, en su natural imprevisión, al gato
+                    que les acechaba..... Temblorosa, trágicamente airada, presentóse de improviso
+                    la híbrida figura de la señora......</p>
+                <p>Esa misma noche, D. Homobono escribía al padre de Pancho larga carta en que
+                    vertía todo un tratado de moral, materia en que el pupilo no parecía muy
+                    aprovechado: <floatingText type="letter">
+                        <body>
+                            <div>
+                                <p> «No puedo continuar, por consecuencia lógicamente sacada de mis
+                                    anteriores premisas, dando alojamiento al joven D. Francisco.
+                                    Item más: desde hace algún tiempo he observado (en cumplimiento
+                                    de los sagrados deberes impuestos por nuestra Santa Religión)
+                                    que empieza a extraviarse con las funestas ideas del siglo. ¡Qué
+                                    tristeza, mi señor! ¡Qué tristeza para un padre que ha puesto
+                                    todo su amor en un hijo a quien de nada le serviría conquistar
+                                    los tesoros y reinos todos del mundo si pierde la fe! ¡Qué
+                                    amargura! Añada Ud. esto al escándalo con que de repente nos
+                                    suelta sus blasfemias! ¡El escándalo, señor! ¡el escándalo que
+                                    es el mayor de los pecados! El Espíritu Santo ha dicho:
+                                            <quote><seg rend="italic" type="foreign" xml:lang="la"
+                                            >«Et quisquís scandalisaverit unum exhis pusellis
+                                            credentibus in me, bonum est ei magis circundaretur
+                                            viola asinaria eolio ejus et in mare
+                                        miseretur.»</seg></quote>
+                                </p>
+                                <p>«Verá por tanto, señor mío, que no carecía de razón cuando me
+                                    negaba a recibir al señor su hijo; pues aunque la penuria de mis
+                                    recursos me obliga a asistir estudiantes, siempre han sido mis
+                                    predilecciones por los de Sagrada Teología, con los cuales,
+                                    gracias sean dadas a su Divina Majestad, siempre estoy muy
+                                    contento......»</p>
+                            </div>
+                        </body>
+                    </floatingText>
+                </p>
+                <p>El pobre padre de Pancho se entristeció más que con la conducta del chico, que
+                    encontraba menos mala de lo que al intransigente don Homobono le parecía, por
+                    tener que colocarlo en alguna casa peligrosa, tal vez todas lo eran; pero ya un
+                    joven médico recientemente llegado al lugar, le había recomendado la casa de
+                    asistencia de donde él acababa de salir. ¡Oh! no se apure Ud., le había dicho,
+                    mande al joven a la casa de Cuca Sama niego. ¿Cree Ud. que porque son beatos
+                    cuidan de la educación? ¡Bah! si Ud. supiera los vicios que en esos centros
+                    dominan, so espantaría! ¡Es la peor gente que hay en el mundo! Mándelo Ud. allá;
+                    yo no le garantizo que el chico resulte un ángel, pero tampoco será un
+                    gazmoño.</p>
+                <p>Entonces, Pancho cayó en un medio enteramente diverso; aquel si que fue su
+                    centro. La casa de doña Cuca era la antítesis de la de D. Homobono. A nadie se
+                    le preguntaba de donde venía ni a donde iba. La mesada puntual y haga Ud. lo que
+                    se le ocurra.</p>
+                <p>El día en que se presentó Pancho con una carta para la siñora doña Refugio
+                    Samaniego, una joven guapa, de ojos y cabellos negros, de piel apiñonada, lo
+                    recibió pasándolo a la sala. Vestía una falda negra primorosamente ajustada,
+                    espumosa blusa de gasa, en blancos torbellinos se levantaba del cinturón hacia
+                    un cuello redondo y terso como un pétalo de rosa-thé. Sobre el pecho llevaba
+                    prendido un pensamiento morado. Pancho se volvió un estúpido y no supo ni
+                    hablar; María Luisa pensó: «este es de los míos.»</p>
+                <p>Y María Luisa empezó, o más bien dicho, continuó el divertido juego de tener
+                    novio para caer de improviso cogida en la red. Y Pancho empezó a amar con un
+                    amor frenético, para acabar en el juego divertido de tener novia........</p>
+                <p>Y se debatía sudoroso, ardiendo entre las sábanas, presa de la excitación
+                    nerviosa llevada a su más alto grado, por la evocación de todos los recuerdos de
+                    su vida de estudiante; hasta que agotado cayó dormido, inerte como una piedra,
+                    bajo la depresión umbrosa de un día tormentoso, y de una noche de insomnio.</p>
+                <p>Cuando despertó, eran las diez de la mañana.</p>
+                <p>Menuda llovizna había humedecido la atmósfera, y aquella tarde de junio resultaba
+                    peor de pesada y sofocante. Al entrar a las callejuelas de la Alameda, se sentía
+                    un bienestar inmenso. Como si se saliera de una hornaza, así se abandonaba el
+                    hálito abrazador de las calles; y a medida que se penetraba más y más entre los
+                    añosos árboles, ricos de follaje y de sombra, la frescura del césped, de los
+                    arbustos, y del viento embalsamado de aromas, se infiltraban produciendo una
+                    voluptuosa languidez. Al borde de los prados convertidos en montículos de
+                    flores, se levantaban corpulentos fresnos; y una corriente de agua turbia se
+                    desparramaba por sobre el zacate, bañando los tallos de las plantas. Un soplo de
+                    aire fresco se desprendía de todas partes: de los rosa-continuó el divertido
+                    juego de tener novio para caer de improviso cogida en la red. Y Pancho empezó a
+                    amar con un amor frenético, para acabar en el juego divertido de tener
+                    novia........</p>
+                <p>Y se debatía sudoroso, ardiendo entre las sábanas, presa de la excitación
+                    nerviosa llevada a su más alto grado, por la evocación de todos los recuerdos de
+                    su vida de estudiante; hasta que agotado cayó dormido, inerte como una piedra,
+                    bajo la depresión umbrosa de un día tormentoso, y de una noche de insomnio.</p>
+                <p>Cuando despertó, eran las diez de la mañana.</p>
+            </div>
+            <div type="chapter">
+                <head>V.</head>
+                <p>Menuda llovizna había humedecido la atmósfera, y aquella tarde de junio resultaba
+                    peor de pesada y sofocante. Al entrar a las callejuelas de la Alameda, se sentía
+                    un bienestar inmenso. Como si se saliera de una hornaza, así se abandonaba el
+                    hálito abrazador de las calles; y a medida que se penetraba más y más entre los
+                    añosos árboles, ricos de follaje y de sombra, la frescura del césped, de los
+                    arbustos, y del viento embalsamado de aromas, se infiltraban produciendo una
+                    voluptuosa languidez. Al borde de los prados convertidos en montículos de
+                    flores, se levantaban corpulentos fresnos; y una corriente de agua turbia se
+                    desparramaba por sobre el zacate, bañando los tallos de las plantas. Un soplo de
+                    aire fresco se desprendía de todas partes: de los rosales de castilla, de las
+                    violetas, de los aromageles, de los zacatales: todo un perfume enervante de
+                    hierba y de tierra mojada. Y la frescura era mayor a medida que se internaba
+                    más, los árboles más grandes, el follaje más nutrido.</p>
+                <p>Hacia el oriente, está limitada la Alameda por un sucio canalón de aguas
+                    negruzcas, que corren ocultándose entre algas y bajo encorbados eucaliptos. Más
+                    allá, se ven terrenos grises, cenicientos, de tierra abierta y removida para la
+                    próxima siembra. Destácase no lejos, una fábrica de cerveza, con sus paredes
+                    acanteradas, sus altas chimeneas y sus pararrayos deslumbrantes; y allá,
+                    remotamente, en el fondo azulado de los cerros, blanquean humildes casuchas.</p>
+                <p>Hacia el ángulo noroeste, cerca de unas, paredes terrosas sobre las que asoman
+                    las copas de los árboles de una quinta, el follaje es de incomparable
+                    exhuberancia; y ahí es donde, tarde por tarde, se encuentran como perdidas,
+                    parejas de enamorados que huyen de la curiosidad de los transeúntes.</p>
+                <p>Eran las seis de la tarde. Multitud de elegantes carruajes rodaban por la ancha
+                    calle que circunda la Alameda; bicicletistas intrépidos se lanzan por las
+                    callejuelas, descri-hiendo curvas rápidas, y sonando hasta el fastidio el
+                    timbre; las muchachas, a hurtadillas, cortaban los floripondios de invertidas
+                    corolas aceradas; chiquitines retozando alegremente corrían tras las mariposas,
+                    que parpadeaban sobre los rosales, sobre los belenes, y como manchas de morado
+                    terciopelo, sobre el césped esmeralda.</p>
+                <p>Lisa, con paso rápido atravesó la glorieta central, mirando a todas partes, y
+                    presa de agitación muy viva siguió por una callejuela recta, hasta perderse
+                    hacia el ángulo noroeste, entre la apretada fila de árboles. Ya en la soledad,
+                    su paso fue más seguro, se dirigió a un rincón donde la yerba le cubría la mitad
+                    de la falda, paróse y volvió la cabeza en distintas direcciones como buscando a
+                    alguien. No tardó mucho en descubrir a Pancho que, no lejos de ella, se
+                    levantaba a su encuentro Cuando le vio, la opresión de su pecho fue intensa; con
+                    su cerebro abrumado, sus piernas vacilantes, no pudo sostenerse más, y ahí mismo
+                    cayó en los brazos de su amante.</p>
+                <p>La emoción de ambos era tan grande que, largos minutos, permanecieron mudos,
+                    cojidos estrechamente de las manos.</p>
+                <p>Lisa, al fin, interrumpió aquel silencio embriagador, y con voz casi ahogada
+                    exclamó:</p>
+                <p>—Tengo miedo..... Me vio Juana.... </p>
+                <p>—Y eso ¿qué importa?—replicó sorprendido Pancho—No eres acaso mía y sólo mía,
+                    ¿Qué se nos da entonces con que ella y todo el mundo te vea? </p>
+                <p>—Si, pero........ </p>
+                <p>—¿Pero qué?.... No me vas a cumplir tu palabra? </p>
+                <p>—¡Oh! ¡no seas cruel! Bien sabes que te amo con toda mi alma. </p>
+                <p>Cruzáronse una mirada rápida y ardiente; del momento supremo de mutua enagenación
+                    en que de antemano sus almas se habían fundido en una sola. Ella bajó los ojos
+                    avergonzada, él la veía transfigurada o irradiante de belleza; ¡más hermosa que
+                    nunca! Momento supremo y único de aquel amor: jamás la adoraría como en ese
+                    supremo instante de su vida.</p>
+                <p>El sol se ocultaba por la arboleda hacia el poniente y, sólo allá en lo alto de
+                    la fábrica de cerveza, aparecía avivando el color acanterado de las paredes, y
+                    tiñendo como lengüetas de lumbre las vidrieras de las ventanillas. En las
+                    cumbres de los cerros, aparecía todavía blanqueando los contornos on-dulosos;
+                    mientras que la tierra arada volvíase más plomiza, más oscura y más triste.
+                    Blancas nubecillas revolvíanse en un cielo azul pálido. Del suelo se desprendía
+                    un olor de frescura y de fecundidad......</p>
+                <p>Y pasó la tarde, y cesó en los árboles el salto continuo o incesante parloteo de
+                    los avichuelos buscando albergue; las luciérnagas empezaron a brillar como
+                    chispas diamantinas......</p>
+                <p>La gris melancolía se fundió en la oscuridad solemne.......</p>
+                <p>—Nos vamos ya, Luisa, — dijo Pancho, intentando levantarla cariñosamente. </p>
+                <p>—¡Oh no!... hay mucha luz todavía.... no... nos ven.... ¡Por Dios, Pancho!,
+                    ¡tengo miedo! </p>
+                <p>—No temas Lisa mía, mira, aquí es muy cerca.... nuestra casita.... ¡Oh! un nidito
+                    delicioso............ </p>
+                <p>Lisa temblaba; y un calosfrío recorría todo su cuerpo. Se colgó del brazo de
+                    Pancho automáticamente y le siguió; pero cuando él abría la puerta de su nueva
+                    casa, ella se trasformaba en un inesperado rapto de voluntad y de energía, y,
+                    súbitamente, se desprendió del brazo de Pancho, y rechazándolo, exclamó:</p>
+                <p>—¡Yo no entro! —Y como quien huye de un gran peligro, rápida escapó........... </p>
+                <p>Pancho, que no esperaba semejante desenlace, quedóse alelado viendo aquel bulto
+                    que se perdía luego en la obscuridad.</p>
+                <p>¡Valiente aventura!, se dijo mordiéndose los labios y lleno de ira, sintiéndose
+                    en el colmo del ridículo, ahí parado esperando a nadie. Con paso pesado e
+                    indecizo, por fin, se retiró de ahí.</p>
+                <p>De pronto se encontró en el barrio turbulento de San Juan de Dios. ¡Valiente
+                    hazaña!, repetía, ¡me he lucido! Dos mesadas adelantadas por el cuartucho aquel,
+                    en medio de la más repugnante vecindad: sucias molenderas, mujeres sospechosas,
+                    clandestinas toleradas, rateros turbulentos, y en fin: todo un mundo de rapiña,
+                    de ebriedad, y de inmundicia. Y aquello no tenía remedio. A la fondera de la
+                    esquina le adelantó el valor de comida, para dos personas, por dos meses: lo
+                    demás lo había gastado en unas cuantas sillas, trastos de cocina y
+                    minuciosidades absolutamente necesarias para levantar su rudimentario hogar.</p>
+                <p>Furioso, moviendo nerviosamente las manos y la cara, pronunciando las más feroces
+                    palabrotas que le venían a mientes, atravesó calles que jamás había pisado.</p>
+                <p>Sonaron las doce, y él, aun no cesaba de andar sin salir del barrio
+                    escandaloso.</p>
+                <p>A la luz de los focos eléctricos, aparecían las casas de asignación profusamente
+                    iluminadas; vistosos cortinajes, muebles presuntuosos, enormes espejos, vestidos
+                    vaporosos y alegres, muchachas rozagantes y frescas, caras de falso color
+                    desvanecido por el alumbrado artificial y entre ellas, elegantes abotagados,
+                    rojos de alcohol y de excesos, levitas manchadas de tierra y de vino. Y todo
+                    aquel hacinamiento de mercancía palpitante, con sus pretensiones de refinado
+                    gusto, de elegancia, de placer desbordante, no podía menos de hacer resaltar las
+                    casuchas nauseabundas de la vecindad; como el olor aguardentoso no podía
+                    extinguirse con el de los perfumes exitantes.</p>
+                <p>Después se metió en callejones obscuros donde, entre confusión de gritos y
+                    carcajadas, en medio de canciones populares de roncas gargantas averiadas, se
+                    oía la desesperante monotonía de los «<seg rend="italic">cilindros</seg>.» Ahí
+                    le asaltaban mujeres ebrias ofreciéndole amor a cambio de cualquier moneda.</p>
+                <p>Y cuando, por fin, se resignó a volver a su albergue, pues que no le quedaba ni
+                    un centavo para ir a dormir a otra parte, lie-vaba en la cabeza el barullo
+                    abrumador de aquel barrio, respiradero ruidoso e incesante del vicio. Su corazón
+                    sintióse aligerado, cuando pensó que si lo hubiera seguido María Luisa, tarde o
+                    temprano la infortunada habría ido a caer allí.</p>
+                <p>Ya llegando se buscó la llave de la puerta, y, ¡oh sorpresa y gran desgracia!, no
+                    llevaba nada. Y registró con ansiedad un bolsillo, y otro, y otro, y los volvió
+                    al revez.... No había duda, la llave se había perdido.</p>
+                <p>¡Qué fatalidad!, pensó. Indudablemente la he tirado de la bolsa. Y qué hacer?
+                    echarse a buscarla y a esas horas, por las calles por donde había vagado la
+                    mitad de la noche? ¡Aquello sí que era el colmo de la desgracia! Y quiso
+                    arrancarse los cabellos, en su desesperante situación. Eso era lo que le faltaba
+                    para completar la feliz y deliciosa noche que había soñado, nada más que ahora
+                    su cama tornábase por el césped fresco de la Alameda, y su techo por la
+                    hermosísima bóveda celeste de aquella noche primaveral. Tuvo un acceso de ira,
+                    y, por un momento, sintió sus mejillas bañadas de lágrimas. Y pensó entonces en
+                    los olvidados consejos de su madre; sintió cenizas que se removían y que le
+                    caldeaban el alma ¡qué! ¿era, pues, cierto que Dios castiga las malas obras y
+                    los malos pensamientos?........</p>
+                <p>Al llegar a su casa dio un paso atrás, estupefacto: había luz dentro. ¿Quién
+                    podía ser? Perplejo y asustado iba a optar por el camino más prudente: retirarse
+                    y volver hasta otro día. Quizá algunos cacos, de los mismos vecinos,
+                    aprovechaban la facilísima oportunidad de proveerse de algunos objetos de
+                    menaje. Y ya había vuelto la espalda, cuando oyó que abrían la puerta. Volvió la
+                    cara automáticamente, y su sorpresa fue mayor aún, cuando vio a María Luisa
+                    salir y dirigirse a él. Se echaron, sin explicaciones, en brazos una del otro, y
+                    entre caricias efusivas penetraron al cuarto.</p>
+                <p>María Luisa llevaba los ojos llenos de lágrimas y un pañuelo en la cabeza
+                    manchado de sangre húmeda.</p>
+            </div>
+            <div type="chapter">
+                <head>VI.</head>
+                <p>En momento en que Pancho puso la llave sobre la cerradura, Lisa sintió la más
+                    violenta impresión; en ese instante, con la rapidez de un sueño y con la
+                    claridad de un relámpago, apareció en su conciencia, lúcida, la imagen de su
+                    madre, de la pobre viejecita abandonada por su hija, por el único ser en el
+                    mundo que podría tenderle la mano en su senectud; ya cuando le faltaban las
+                    fuerzas para seguir trabajando; arrojada quizás a un hospital a extinguirse en
+                    la tristeza de los olvidados. Y huyendo del hombre adorado como corza asustadiza
+                    corrió, corrió hasta encontrar el calor del hogar: el único calor que no hace
+                    daño.</p>
+                <p>Mas habíase olvidado de que la tía Juana la encontró a buena distancia para
+                    reconocerla, y no pensó en que su madre pudiera saber ya su falta.</p>
+                <p>En efecto, la tía en sus callejeos de loca incansable, creyó reconocer a Lisa, a
+                    una hora ya mucho después de la de entrada al taller, pero dudando de sus
+                    propios ojos para serciorarse plenamente, so pretexto de comprar unos
+                    calcetines, entró al establecimiento y no le fue difícil llegar al puesto mismo
+                    donde trabajaba Lisa. Con mucho disimulo, preguntó si ese día no había
+                    concurrido su sobrina, y cuando estuvo segura de ello, apresuradamente se volvió
+                    a su casa.</p>
+                <p>Anhelante, dando grandes saneadas, mostrando destapados los cortes de los gruesos
+                    zapatos, desechos de los estudiantes, y dejando ver las más inmundas uñas, se
+                    lanzó frenética a su casa, dichosa de poder aplastar a doña Cuca una vez más;
+                    ahogándose, subió la escalera, y comiéndose la mitad de las palabras, la frente
+                    chorreante de sudor, los cabellos más desordenados que nunca, enredada en el
+                    verdoso tápalo, entró gritando:</p>
+                <p>—¡Ya ves Cuca!, ¡ya ves!: lo que yo te decía: ¡María Luisa no va al taller!,
+                    ¡María Luisa no esta allí...... De allí vengo, he ido a comprarle unos
+                    calcetines al padre Torres, se me ocurre preguntar por ella y me dicen que aun
+                    no llega. Y ¿tú crees vieja imbécil, que es la primera que hace? ¡Te lo dije!,
+                    ¡te lo dije!: tu hija te deshonra, y tú ¡animal! muy confiada en ella. Pero que
+                    te estoy diciendo. Si tu hija vale mucho más que la necia de tu prima. </p>
+                <p>—¿Cómo? ¿MaríaLuisa no ha ido al taller? </p>
+                <p>La pobre mujer no podía hablar anonadada, no podía preguntar más.</p>
+                <p>La antigua soldadera, mientras tanto, estaba radiante de felicidad y se
+                    desbordaba en un torrente de injurias escapadas a borbotones de su boca
+                    inmunda.</p>
+                <p>Doña Refugio cayó convulsivamente en una silla, presa de un acceso histérico.</p>
+                <p>Cuando dieron las ocho entró Lisa. Doña Cuca se quedó atónita por un momento,
+                    pero la indignación nubló sus ojos, y sin esperar explicaciones, sin oír una
+                    palabra, creyendo ya pública la deshonra de su hija, y a ella en el más indigno
+                    puesto, sin que le importara la presencia de los estudiantes que cenaban, se
+                    levantó y tiró a Lisa de un golpe terrible. La muchacha cayó sobre una silla que
+                    le abrió la frente. Indignada, pero sin proferir una queja ni una exclamación,
+                    se levantó. Su cara se empurpuraba más que por la sangre que escurría de la
+                    herida por la vergüenza y el escarnio; y, con los sollozos ahogados en el
+                    corazón, salió entre las maldiciones de su madre y la estupefacción de sus
+                    amigos.</p>
+                <p>Lisa iba resuelta; ya no lloró. El dolor que la había hecho escapar de los brazos
+                    de su amante no existía ya; el remordimiento de haber abandonado a su madre
+                    acababa de extinguirse; le había pegado, le había herido, le había maldecido, la
+                    manchó prematuramente. Y salió con el corazón desahogado; la sangre que se
+                    escapaba de su cuerpo, aligeraba su alma. En los brazos de Pancho estaba la
+                    realización del amor único de su vida. En la fidelidad al hogar la amargura de
+                    una existencia envenenada ya para siempre.</p>
+                <p>Y Lisa cayó hermosa y grande: en plena lucha y con el corazón partido.</p>
+            </div>
+            <div type="chapter">
+                <head>VII.</head>
+                <p>Jesús se acercó cautelosamente a la ventana, dio tres golpecitos y tosió. La luz
+                    que a través de las rendijas se veía, extinguióse en el mismo momento en que él
+                    se asomaba.</p>
+                <p>—Quizá no haya sido ella—se dijo; y pausadamente con toda tranquilidad, encendió
+                    un cigarro y se puso a dar vueltas frente a la casa de su novia, esperando que
+                    abriera, pues eran las nueve: hora de <seg rend="italic">reja.</seg>
+                </p>
+                <p>Dieron el cuarto, y la casa permanecía sin ruido alguno, la alcoba silenciosa y
+                    obscura. Volvió otra vez a la ventana, y repitió la tocesilla lo mismo que los
+                    golpes ligeros.</p>
+                <p>—Es raro,—pensó—es más puntual que yo: más me dilato en dar la señal que ella en
+                    abrir. Debe haber ocurrido algo. </p>
+                <p>A medida que transcurrían los minutos sus pasos volvíanse irregulares,
+                    descompasados y nerviosos. Cuando dio la media su faz se ensombreció perdiendo
+                    en un instante su habitual humor bello y alegre.</p>
+                <p>¡Oh! era necesario dar una lección a esa niña que por primera vez se permitía
+                    darle un <seg rend="italic">plantón.</seg> Si él lo toleraba ahora, ya tendría
+                    para divertirse en lo sucesivo. ¡Bah! como si no supiera quienes son las
+                    mujeres!</p>
+                <p>Y le vino una idea: retirarse de allí, no volver en dos días, en cuatro días, o
+                    en una semana ¡caramba! ¡Que ella sienta todo el peso de su falta y no le quede
+                    más gana de repetirla!</p>
+                <p>Pero en lugar de llevar a cabo tan feliz determinación, el buen chico como buen
+                    enamorado pensaba una cosa y hacía la contraria, no se movió de su sitio y como
+                    esculpido en la pared permaneció con los ojos fijos en la ventana, esperando a
+                    cada instante verla abierta. Bien es cierto, que una corriente inversa de nuevas
+                    reflexiones convertíalo en prudente. ¿No era en efecto violentarse demasiado,
+                    cortando así de repente con su novia, en vez de esperar a que la niña saliera a
+                    la hora que se le antojara, y entonces hechas las explicaciones del caso, si a
+                    ello se veía obligado, decirle <seg rend="italic">cuantas son cinco</seg>.</p>
+                <p>Porque bien vistas las cosas, era posible que alguna visita, ocupación urgente,
+                    asunto grave de familia, etc. la retuviera. Sin embargo, no se explicaba muy
+                    claro aquello de que en el momento en que él llegó o hizo la señal, como por
+                    encanto la luz de la alcoba se extinguió. ¡Ah! no era posible engañarse. Esther
+                    lo tenía allí plantado con toda una maligna intención. De no ser así, aun sin
+                    abrir la ventana, ella que indiscutiblemente estaba en su pieza cuando él llegó,
+                    pudo haberle dicho «espera un momento.»</p>
+                <p>Jesús se irguió soberbio, arregló su sombrero, se abotonó el saco y.....tampoco
+                    en esta vez se marchó; no parecía sino que la esquina lo atraía con fuerza
+                    irresistible y lo clavaba como un poste.</p>
+                <p>Jesús era un muchacho pálido, de mejillas marchitas, mirada lánguida y de
+                    constitución endeble. No correspondía su físico a su espíritu ardiente y
+                    exaltado. De carácter franco, alegre y bromista, corazón siempre abierto,
+                    conservaba un dejo en el gesto, que hacía recordar las maneras de su pueblo en
+                    la costa; era bien querido de los estudiantes, y siempre había vivido entre
+                    ellos en casas de asistencia. Simpatizaba cordialmente, con Pancho sobre todo,
+                    dadas sus mutuas afinidades de ideales y su entusiasmo por el sexo débil. Ligero
+                    y veleidoso, en un rapto de entusiasmo, se había prendado de Esther, una joven
+                    chihuahuense recientemente llegada a la ciudad. Esas relaciones se habían
+                    efectuado de la manera más sencilla y rápida. Una tarde calurosa de abril, Jesús
+                    se paseaba por su habitación, huyendo al peligro inminente de tirarse en la cama
+                    y quedarse dormido sin concurrir a la oficina donde trabajaba como ayudante del
+                    tenedor de libros, encorbado diariamente frente a un escritorio, abriendo amplio
+                    camino a una tuberculosis prematura. Una pesada y ruidosa <seg rend="italic"
+                        >diligencia</seg> se detuvo frente a la casa. Jesús corrió al balcón.
+                    Descendía una señora de edad madura, simpática y elegante, tras ella saltaron
+                    ligeras tres jóvenes, la más chica ya casadera, y la mayor muy confortable aún;
+                    después bajaron a un rollizo chiquitín profundamente dormido.</p>
+                <p>—¡Qué guapas!—se dijo Jesús, sintiendo su pecho dilatarse con alborozo, en
+                    previsión de próximas conquistas—¡Ah! ¡qué vecinitas tan lindas voy a
+                    tener!—repetía regocijado. </p>
+                <p>Y no fue de en valde tan anticipado entusiasmo; una de las niñas, la más alta,
+                    aprisionada en largo saco de holanda que ocultaba su esbeltez, apenas hubo
+                    entrado a la casa, abrió una ventana, y con aire vivaracho empezó a reconocer el
+                    vecindario. En tal situación se encontraron los ojos de la niña con los de Jesús
+                    que ya palpitaba de tierna emoción.</p>
+                <p>Y ¡vaya si estaba graciosa la nueva vecinita!: sus cabellos rubios un poco
+                    desordenados en la frente, se apretaban en grueso y flojo nudo en una nuca
+                    delgada y nerviosa; sus ojos de un café claro eran una caricia. Sin una linea
+                    sola que turbara la pureza del perfil, sin una sombra que alterara la blancura
+                    nácar de su frente y de sus frescos carrillos, parecía una virgen bisantina.</p>
+                <p>No se encontraron mal sus miradas, pues a la primera pronto siguió la segunda, y
+                    después de esta fueron incontables. Esther, que era la joven recién llegada,
+                    salía bajo el más fútil pretexto a la puerta, ya se asomaba a una ventana, ya a
+                    la otra; y con el aire más natural del mundo, a los pocos minuto?, ya sin
+                    ambajes ni rodeos, fulminaba con sus ojos al infeliz de Jesús que se había
+                    vuelto un bloque en el balcón, recibiendo la ardiente reverberación de un sol
+                    que derretía.</p>
+                <p>Así se pasó la tarde sin acordarse del escritorio, ni de él mismo. Cuando
+                    obscureció y que ya era indispensable retirarse de ahí, despertó como del más
+                    hermoso sueño y con la convicción profunda de que ni él había nacido para amar
+                    sino a su recién llegada novia, ni ella podría amar a otro que a él. Y cuando
+                    Pancho llegó, le contó las grandes novedades, con alegría rayana en locura; y
+                    habría brincado, bailado y maromeado, si el estrecho local se lo hubiera
+                    permitido.</p>
+                <p>Al día siguiente, los muchachos se entendieron, y las ilusiones tornáronse en
+                    vías de hecho. Sin gran trabajo consiguió entrar a la casa de su vecinita. La
+                    mamá era la más amabilísima suegra que se puede imaginar: en cuanto se había
+                    impuesto de que el oportuno pretendiente no era estudiante y de que además del
+                    empleo, con sueldo regular, poseía algunos bienes de fortuna, convirtióse en un
+                    ángel de bondad auténtico. ¡Magnífica mamá que llevaba consigo un pilluelo de
+                    tres años, atrapado por una de las niñas, sabe Dios en donde!</p>
+                <p>Como es de suponerse pronto las mesadas de Jesús se invirtieron en obsequios a
+                    tan cariñosa familia. Esther, con el corazón en libertad, un corazoncito que la
+                    nieve del norte había congelado, se dejaba amar, contenta y satisfecha de que a
+                    su novio le extasiaran sus ojos claros, sus menudos y blancos dientecillos, su
+                    nariz afilada de serafín y su color acerado y transparente. Por otra parte, para
+                    Esther el amor de Jesús tenía un encanto: la novedad. Nacido en el fondo de las
+                    vírgenes florestas de la costa, algo llevaba en su alma de los ardores del
+                    trópico; era impetuoso y tenía momentos de entusiasmo loco, no obstante su
+                    engañador aspecto de linfático. Algunas veces tenía arrebatos que causaban
+                    miedo. La tomaba estrechamente entre sus brazos y frenético la besaba hasta
+                    causarle dolor. A esos raptos amorosos seguíales periodos largos de tal
+                    depresión y desencanto, que Esther temió que su novio descubriera al fin, que
+                    era un impotente para fundirla a ella: un bibelot de mármol.</p>
+                <p>Dos meses llevaban las chihuahuenses en su nuevo domicilio. Habíase tornado el
+                    humilde local de la calle de Belén por una bonita casa en la del Carmen, gracias
+                    a la repentina protección de un don Pedro, viejo comerciante en ropa, dueño de
+                    casa en los Portales, solterón empedernido, mujeriego impenitente y de
+                    reputación no muy limpia. Y era esta la razón principal por la que Jesús había
+                    preferido venir a platicar con su novia por la ventana, evitándose así el
+                    encuentro con el viejo que ya se había convertido en miembro de la familia, que
+                    lo veía con el más alto desdén y que, por de contauo, le era profundamente
+                    antipático. Lo peor de todo era que Jesús había dado y tomado en que don Pedro,
+                    a quien pretendía, era a Esther. Y con tal motivo no eran pocos los altercados a
+                    últimas fechas; por más que Esther hacía prodigios do elocuencia para convencer
+                    a aquel chico testarudo, de que la conducta de mamá e hijas con tan distinguido
+                    personaje no podía ser otra que la que la decencia y buenas maneras imponen en
+                    la vida de la sociedad.</p>
+                <p>El amor propio de Jesús estaba, pues, grandemente interesado. Y era suficiente la
+                    sospecha de que el viejo, silo por rico, pudiera quitarle la novia a él joven y
+                    guapo, disputado no poco por las muchachas—al menos él lo creía — para que
+                    hubiera esperado no una hora sino días enteros hasta obtener la explicación
+                    ansiosamente deseada.</p>
+                <p>Al fin se abrió la ventana, y Jesús, como movido por un resorte, se disparó sobre
+                    ella ciego de ira.</p>
+                <p>Esther aparecía envuelta en un ancho chal de lana azul que hacía resaltar la
+                    blanca palidez de su cara. Una sonrisa bondadosa y la tranquilidad de su
+                    semblante la tornaban en un ángel de inocencia. Ingenuamente tendió sus blancos
+                    y delgados dedos a Jesús que, áspero, se negó a tomarlos.</p>
+                <p>—¡Qué bien lo has hecho!—dijo con voz apagada y trémula— ¡Admirablemente!
+                    Cuentas, sin duda, con que tienes un mentecato a quien puedes hacer rabiar a tu
+                    gusto. ¿Verdad? Y bien, no quiero explicaciones: tus hechos me bastan. Soy un
+                    necio y un fastidioso; te estoy dando la <seg rend="italic">gran lata</seg>,
+                    verdad? Pues entonces ¿a qué vienen estos rodeos?; ¿por que no me hablas claro?
+                    Estorbo, ya lo he visto. </p>
+                <p>—¡Válgame! .Jesús, ¿qué te pasa? vienes hecho una fiera. Lindo, ¡por Dios!, me
+                    das miedo con esos modos, te lo aseguro. </p>
+                <p>—Acabemos de una vez, Esther. Te suplico...... </p>
+                <p>—Pero si ni ha sido tanto lo que me he dilatado. </p>
+                <p>—No, no ha sido tanto, mira, apenas las diez y media...... cualquier cosa para un
+                    mansurrón que sabe aguantarse ¿verdad?— replicó mostrándole el reloj a la luz
+                    del foco eléctrico. </p>
+                <p>—Calla, Jesusito. Fue cualquier cosa; una fórmula social.. ...nada serio. </p>
+                <p>—Ignoro que objeto te propones humillándome de esta manera. </p>
+                <p>—Pero si yo no..... </p>
+                <p>—No me creas tan imbécil. Si no te conviene.... digo si ya no quieres.... pues
+                    clarito, hablando se entiendan las cosas. Te aseguro que ni el mundo tiembla ni
+                    resucitan los muertos. Conque tú lo sabes. </p>
+                <p>La inalterabilidad de Esther contrastaba con la tremenda exitación de Jesús; y
+                    mientras aquella se gozaba en su maligna broma, éste se ardía y estaba a punto
+                    de descender a la grosería. En el semblante de Esther no se había descompuesto
+                    una sola de sus lineas suaves; sus ojos claros, con igual expresión a la que, en
+                    ocasiones distintas, conservaban al recibir el torrente de miradas ardientemente
+                    apasionadas.</p>
+                <p>—Te digo que te estás haciendo muy tonto. ¡Por Dios!, niño, que no ha sido masque
+                    una ocupación cualquiera. </p>
+                <p>—Bien, terminemos de una vez, ¿qué fue lo que te ha obligado a burlarte de mí. </p>
+                <p>—¡Y dale, Chulo! Ve moderándote. ¡Dios mío!, con ese genio salvaje nadie te va a
+                    aguantar. Eso no está bien, Jesús. Tú, un muchacho de educación. Ya te lo digo,
+                    fue cualquier cosa, casi nada. </p>
+                <p>—Peor está tu disculpa, porque si eso no fue nada, y valía más que yo...... </p>
+                <p>—Una fórmula social, te lo repito. </p>
+                <p>—No te entiendo. </p>
+                <p>—Pues vienes muy torpe. </p>
+                <p>—Tan torpe que me voy en el acto. Te suplico me envíes mis cosas con la persona
+                    que mañana mismo te traerá lo tuyo. </p>
+                <p>—¡Bah! espera primero que te diga en qué me entretuve: más has de prometerme ser
+                    un muchacho juicioso. </p>
+                <p>Esther permanecía impasible, en su mirada no había ni una nube: pura y
+                    transparente como un lago.</p>
+                <p>—Dímelo, si gustas, pero te ruego que sea pronto. </p>
+                <p>—Bien, pero primero prométeme quietud. </p>
+                <p>—Esther, yo no soy burla de nadie. </p>
+                <p>La mirada de Jesús fue tan intensa como una brasa, y apenas si, en ese instante,
+                    una momentánea turbación hizo extremecer a Esther. La muchacha tragó saliva y,
+                    valiente, le espetó lo mejor que le tenía.</p>
+                <p>—¡Oh, hijo! si me burlara de ti ya te habría tomado la palabra. Me has dado
+                    calabazas, pero no te las recibo porque en este momento tú te has vuelto más
+                    calabaza aún. Conque mira, me entretuve porque D. Pedro estaba en la sala. Mamá
+                    ni las muchachas están en casa; comprende que habría sido una falta
+                    incalificable haberlo dejado solo. </p>
+                <p>Jesús sintió estallar el corazón, pero una sonora risa de Esther, que ahora le
+                    tomaba con fuerza las manos impidiéndole desprenderse, lo desconcertó al
+                    principio, haciéndole comprender al fin, que todo no era más que una broma.</p>
+                <p>—De todos modos,—dijo,—tú te has burlado de mí. </p>
+                <p>—Si, ¿verdad? ¿verdad que es muy desagradable que le den a uno un plantón de dos
+                    horas como el que anoche me dio usted, señor pillo, indecente, desmemoriado; y
+                    todo por preferencia a sus reuniones con amigos borrachínes? ¿Eso si está
+                    admirablemente hecho? </p>
+                <p>Y ahí quedó todo, al repiqueteo de sonoros besos, a los que los curiosos de la
+                    vecindad estaban acostumbrados, se celebraron las paces, y los novios siguieron
+                    contentísimos.</p>
+                <p>¿Sabes la gran novedad?—dijo Jesús—Lisa se ha escapado hoy con Pancho,</p>
+                <p>—Lisa, ¿cómo? ¿cuando? </p>
+                <p>Esther sintió su corazón rebozante de júbilo. Detestaba a su antigua vecina por
+                    un desaire que les había hecho a ella y a toda su familia. Recientemente
+                    llegadas a la ciudad, les pareció conveniente enviar reca-dos ofreciendo su
+                    amistad a algunos vecinos y entre estos a la casa de Lisa. Y, ¡vaya con la
+                    majadera! Si al menos lo que pensaba se lo hubiera comido, nada importaría: se
+                    pagarían en la misma moneda; pero decir delante de su mismo criado: «para mí las
+                    chihuahuenses no son más de unas de tantas» era una cobardía y una infamia.</p>
+                <p>Esther regocijada profundamente, se despidió de Jesús, y se metió pensando en una
+                    venganza.</p>
+                <p>Apagó la vela, entrecerró los ojos, hundiendo su rubia cabecita entre las blandas
+                    almohadas.</p>
+                <p>«Conque Lisa se ha huido con el novio. ¡Bah! y esa es la mogigata que se burló de
+                    nosotras. Merecido lo tuvimos por tontas al no haber descubierto desde luego la
+                    clase de gentecilla que son. María Luisa ha dicho que somos unas de tantas; pero
+                    María Luisa no es todo el mundo, y todo el mundo si dice:</p>
+                <p>María Luisa es una medierilla.....una medierilla que se ha escapado con un
+                    zascandil, ja... ja... ja.... ja. Ahora verás como me vengo. Tú has conquistado
+                    a Pancho, y no es él, sino tú quien ha hecho ese rapto. Eso es claro como la
+                    luz. Estás vieja y tienes miedo que se te pase la edad sin tener un barbilindo.
+                    Vas a aburrirlo en un momento. Yo esperaré la oportunidad: te quito el amante y,
+                    cuando hayas rabiado entonces a él también lo despacho en hora mala. Los dos
+                    sois iguales y para ambos tengo igual desprecio.»</p>
+                <p>Y así, poco a poco sus pensamientos se fueron apagando en un sueño tranquilo y
+                    reposado.</p>
+                <p>A poder ver en aquel momento su semblante, habríase uno admirado de aquellas
+                    lineas correctas e inmutables, de aquella faz angelical y pura de una virgen de
+                    Boticelli.</p>
+            </div>
+            <div type="chapter">
+                <head>VIII.</head>
+                <p>Después de una mañana brumosa, de incesante lluvia, de fastidio infinito, la
+                    tarde se abría diáfana, bajo un cielo transparente y sereno, bañada por un sol
+                    tibio e impregnada de frescos aromas estivales. La gente anciosa de luz y de
+                    calor, atraída por aquella esplendidez, se desparramaba por las avenidas hacia
+                    los paseos públicos, en el bullanguero y alegre alboroto de los días festivos.
+                    En la plaza de armas, una multitud disímbola, en desorden indescriptible,
+                    asaltaba los asientos de los tranvías de «El Agua Azul», precipitándose dentro
+                    de ellos, en loca confusión.</p>
+                <p>Nueve coches apretados de gente, tambaleábanse y partían en medio del desconsuelo
+                    y algazara do los que no habían alcanzado sitio.</p>
+                <p>En aquella aglomeración, encontráronse en asientos de frente, Lisa y Pancho en
+                    una cabecera del tranvía, y Esther y Jesús en la opuesta. Aunque no era la
+                    primera vez que las dos parejas se veían, Lisa sintió vergüenza, y bastante
+                    cortada saludó tímidamente a su ex vecina. Esta, apenas si se dignó contestar
+                    con imperceptible inclinación de cabeza; pero no disimuló una cariñosa mirada
+                    para Pancho. Lisa se empurpuró al desdén de la otra chica que, a mayor
+                    abundamiento, iba muy guapa, y elegante.</p>
+                <p>—¡Uf!—dijo al oído de Pancho,—¡qué orgullosa! ¡Al menos que no se supiera de
+                    donde le vienen sus catrinerías! Y, qué lástima de foular tan precioso!, ¡qué
+                    desgracia de encajes!: todo para una pobre tabla. </p>
+                <p>La airada muchacha asestaba el golpe sobre el defecto capital de la espiritual
+                    chihuahuense. Pero era necesario toda la perspicacia de una mujer, y todo el
+                    odio de una mujer humillada, para adivinar aquella pobreza de morbideces. Esther
+                    sabía llevar el traje más elegante con todo el chic de la que de verdad lo es, y
+                    ese era su crimen; con la agravante de poseer una maravillosa habilidad para
+                    esconder su delgado busto entre los pliegues flotantes de su blusa, entre co-pos
+                    de gasa y encajes, que le acrecentaban su arrogancia,</p>
+                <p>Con el más alto desdén, Esther fingía haberse olvidado de Lisa, o indiferente,
+                    perdía sus miradas a lo lejos, allá sobre las llanuras enverdecidas, sobre los
+                    árboles bruñidos por la lluvia, sobre las acanteradas torrecillas de San Pedro
+                    surgiendo entre un verdor variado. En tanto Lisa le criticaba con saña, desde
+                    los choclos que coquetamente dejaba asomar a la orilla de su falda, hasta el
+                    sombrero lila, triste prenda <seg rend="italic">sin compañero</seg> al decir de
+                    la airada muchacha.</p>
+                <p>Como por casualidad, Esther paseó su mirada por entre la multitud, deteniéndola
+                    un momento sobre Lisa, el tiempo precisamente indispensable para examinarla de
+                    los pies a la cabeza. Lisa se irguió entonces amenazadora mostrando su cuello
+                    moreno, pero lleno y redondo, su pecho estallando de vida y de odio.</p>
+                <p>El coche se inclinó sobre una curva pronunciada de la vía y llegó a la estación
+                    de parada. Como un rocío de frescos colores, el césped esmeralda ostentaba los
+                    más variados trajes: gasas claras y espumosas, vestidos de alegres luces, ya
+                    diseminados como un puñado de confetti, ya en grupos pintorescos a la sombra de
+                    los olmos, ya desfilando, como hormigas multicolores, al borde la presa.</p>
+                <p>Al detenerse los tranvías, la confusión se reprodujo: las muchachas saltaban con
+                    desenvoltura, y al descuido descubrían diminutos y elegantes calzados; alguna
+                    humilde en el vestir, se resignaba a virtuoso recogimiento, lanzándose al suelo
+                    cual pesado saco de arena. Matronas venerables mostraban sin empacho
+                    pantorrillas como botas de vino. Elegantes sin educación habríanse campo a
+                    fuerza de codos, y mutuamente se obstruían el paso los que llegaban y los que
+                    volvían. Y en medio de la algarabía, del desorden alegre, se percibían apenas
+                    los desabridos lamentos de una banda que, en el portalito ejecutaba el miserere
+                    del Trovador.</p>
+                <p>Lisa esperó tranquilamente a que bajara Esther primero. La desprevenida niña
+                    saludó con sequedad, pero más seca fue la contestación de Lisa que, con profundo
+                    desprecio, sólo levantó la cabeza para clavarle una mirada penetrante y llena de
+                    soberbia. Tomó luego el brazo de Pancho, y, ligera, en un brinco se puso en el
+                    suelo, contenta ya y satisfecha de su venganza.</p>
+                <p>Pancho, que había perdido esta escena, y que pensaba en cosas muy distantes
+                    cuando</p>
+                <p>Lisa se encarnizaba en su crítica maligna, dijo con ingenuidad:</p>
+                <p>—Qué simpática es Esther ¿verdad? </p>
+                <p>Lisa se sorprendió,—¿Cómo? ¿simpática? No lo digas, Pancho: Es una coqueta de
+                    marca. Me admira que el pobre de Jesús ¡tan bueno que es! se halla dejado
+                    atrapar por esa.....</p>
+                <p>—Cállate, no digas nada, tú quieres juzgar por las hablillas...... </p>
+                <p>—Pero, mi vida, ¿qué no ves el tipo? ¡bah! si no quieres creérmelo a mí,
+                    pregúntaselo a Juana. Ella sabrá contarte quien es la prenda. </p>
+                <p>—¡Tu tía! ¡Cómo si la infeliz fuera capaz de hablar bien de alguien! Fue
+                    soldadera.....lo es y lo será mientras viva.... </p>
+                <p>—¡Pancho!—exclamó Lisa con voz débil. Quiso hablar más, pero no pudo; abrirse
+                    otra vez la herida dolorosa que tanto la había hecho sufrir. ¡Oh! si, pensó, ¡no
+                    me ama, no me ama ya! Su amante no era aquel exquisito de ingenuidad
+                    encantadora, delicado hasta en los más insignificantes detalles, que le velaba
+                    el pensamiento, pronto a satisfacerle cuanto capricho se le ocurriera; incapaz
+                    de cometer la más ligera falta. Ya era un gruñón como cualquier marido tosco y
+                    vulgar. </p>
+                <p>Poco se le daba hacerla enrojecer a cada instante, ya señalándole algún defecto
+                    de ella o de sus parientes, ya recordándole su impuro origen.</p>
+                <p>Tomada del brazo de él, atravesaba entre la multitud sin darse cuenta de la
+                    belleza de la tarde. Sobre el lago irradiante en destellos argentados, se
+                    tendían flotantes algas de un verde cobrizo, los nenúfares en apretados grupos
+                    se levantaban en sus combos tallos; un beso de purpúrea luz palpitaba en las
+                    ondas temblorosas.</p>
+                <p>En un recodo de espesura de álamos y sauces se encontraron de nuevo con Jesús y
+                    Esther. Lisa se sintió presa de un desfallecimiento, sus piernas flaquearon
+                    vacilantes, sus fuerzas la abandonaban, cuando sorprendió una mirada lujuriosa y
+                    cínica, que en su misma cara, Esther lanzara a Pancho.</p>
+                <p>Cuando se repuso de la inesperada y dolorosa impresión, creyó haber descubierto
+                    el origen de sus males, el secreto de su desgracia, y respiró como si el deseo
+                    infinito de venganza la hiciera feliz en su dolor supremo. Mas una reflexión
+                    apagó su ira, que se tornó en angustia más grande: aquel desafío que le arrojaba
+                    la odiada chihuahuense, no era leal; era un latigazo a mansalva y en su rostro
+                    indefenso, Lisa no podía ahora entrar en lucha abierta con su rival; era una
+                    derrotada de antemano, puesto que su influencia sobre Pancho se había reducido a
+                    la nada.</p>
+                <p>Y sólo el miedo a la última desilución, bastaría para detenerla en una prueba
+                    aventurada, casi fatal para ella. Y a su dolor añadía otro mayor: el veneno de
+                    los celos se infiltró en su organismo todo nervios, y la sacudió despiadado,
+                    como el huracán a un tierno arbusto. El llanto se ahogaba en su pecho, el
+                    corazón se debatía fatigado y herido de muerte.</p>
+                <p>Volvieron a la plaza. Lisa no pronunciaba una palabra, temiendo descubrir la
+                    tempestad en que se debatía su alma abandonada. Pancho estuvo entonces tan
+                    atento, de tan bello humor, que Lisa acabó de confirmarse en su idea. Sí, así
+                    era de impresionable, de alegre y de parlanchín, cuando conquistó su amor. No lo
+                    podía dudar: Pancho amaba otra vez, pero no era a ella. Y en la negrura de su
+                    dolor, volvió a centellar el deseo de su venganza.</p>
+            </div>
+            <div type="chapter">
+                <head>IX.</head>
+                <p>Tres meses de vida en común habían sido suficientes a aquella pareja, en que la
+                    mujer amaba y el hombre tan solo saciaba su sensualismo, para que la débil
+                    cadena que los unía cayera rota al primer impulso. Lisa había comprendido su
+                    locura de amor al disiparse las primeras sombras de su embriaguez. Su negro
+                    destino la había arrastrado hacia aquel ideal de realización imposible!</p>
+                <p>Y el contraste de sus temperamentos y de sus energías la empujaba con más fuerza
+                    a una ruptura violenta. La fatiga del macho era el aguijón punzante que mantenía
+                    en tensión invensible a la hembra. Y a medida que él pugnaba por separarse más y
+                    más lejos de aquella mujercilla nerviosa,que le empalagaba hasta el hastío, ella
+                    no perdía medio alguno de seducción por conservar aquella ilusión única de su
+                    vida.</p>
+                <p>Y llegó el día en que pudo ver claro que Pancho no la amaba más.</p>
+                <p>Pancho dejó de ir un día y una noche enteros. Lisa estaba desesperada. ¿Qué
+                    hacer? ¿En dónde encontrarlo? Le iría a buscar al Hospital; con seguridad que
+                    ahí estaría. ¡Oh no! aquello era una locura, una cosa inaudita, imposible para
+                    ella. Primero morir de dolor en la soledad y el abandono, que exhibir su
+                    vergüenza a los estudiantes; todos conocidos; los más, amigos. ¡No, aquello no,
+                    nunca! Y por primera vez se retorció en el dolor de la desesperación.</p>
+                <p>Cuando Pancho se presentó, no obstante que su amor infinito la hacía débil, de él
+                    mismo sacó fuerzas e hizo el sacrificio de callar. Lo recibió triste, pero tan
+                    cariñosa como siempre, sin una queja, sin un reproche.</p>
+                <p>Pancho quedó encantado de la cordura de su amante.</p>
+                <p>—Ahora sí, veo que te estás haciendo ya una mujer seria. Sí, hija, hay que
+                    pensarlo: la vida no ha de ser de eternas mieles. Me encanta que seas tan
+                    prudente. Así, así es como te quiero. ¡Qué ridículo y qué tonto hacerlo
+                    eternamente de enamorados de novela! Bien, pues ahora te voy a dar una agradable
+                    noticia. Ya soy empleado en el Hos-pital; la recomendación <seg rend="italic"
+                        >dio chispa.</seg> Con los quince pesos de allá y los de mi casa, ¡oh! <seg
+                        rend="italic">la gloire sur la terre!</seg>
+                </p>
+                <p>Pancho, en efecto, no era un mal chico. Su sinceridad se traducía en sus ojos
+                    hermosamente ingenuos y en su acento de franqueza. Pero, por desgracia de Lisa,
+                    todas aquellas bellezas de carácter le hacían amarlo con mayor entrañamiento; y,
+                    escasa de energía para contener los impulsos de un sensualismo patológico, caía
+                    como una debastación sobre el infortunado muchacho, incapaz de resistir el
+                    huracán.</p>
+                <p>Así llegó el día en que Pancho se escapó por toda una semana. Cuando al cabo de
+                    los ocho días volvió, quedó sorprendido de la demacración que se pintaba en el
+                    semblante de Lisa: dos surcos había dejado el llanto en sus carrillos pálidos;
+                    sus ojos estaban enrojecidos. Lisa no pudo dominarse más, y se desató en un
+                    torrente de lágrimas, balbuceando en sílabas entrecortadas los lamentos de su
+                    desgracia. El se empeñaba en convencerla de que un servicio urgente en el
+                    Hospital lo había retirado de su lado; el director era muy exigente con los
+                    internos, los servicios imprevistos y de inmediata urgencia se presentaban a
+                    cada momento. Había que conservar el empleo a toda costa. Ahí estaba su vida y
+                    la vida de su amor. Sin dinero no hay amor.</p>
+                <p>Lisa no oía nada, y en medio de sollozos exclamó:</p>
+                <p>—No, Pancho, tú no me amas ya, esa es la verdad...... Confiésamelo.... ¡Para qué
+                    me engañas fingiéndome un amor que no me tienes? </p>
+                <p>Y aquellas palabras abrieron todo su corazón, que lejos de conmover a Pancho lo
+                    amohinaban más.</p>
+                <p>—Lo que me fastidia—dijo en tono agrio y seco—es que seas tan desconfiada; si en
+                    otra parte hubiera estado, creo que no tendría dificultad en decírtelo. </p>
+                <p>Y Lisa que apremiaba a su amante para arrancarle la confesión de una verdad que
+                    ella mejor que él conocía, quedó espantada al sólo acento de sus palabras. Las
+                    lágrimas seguían afluyendo abundantemente a sus ojos y no pudo balbucear ni una
+                    palabra. Con sus manos trémulas ocultó su semblante.</p>
+                <p>Pancho se dirigió a su mesa de estudio y empezó a hojear papeles, por hacer
+                    algo.</p>
+                <p>Después de largos minutos de embarazoso silencio, Lisa interrumpió
+                    tímidamente:</p>
+                <p>—Pancho.... </p>
+                <p>—¿Qué quieres? </p>
+                <p>—¿Te enojaste? </p>
+                <p>—Me disgusta que seas tonta. </p>
+                <p>—¡Oh! te quiero mucho—añadía bajando la voz y aproximándose lentamente—¿Qué lees,
+                    eh? </p>
+                <p>—No.... nada.... ya lo ves.... </p>
+                <p>—¿Me quieres? dime...... ¿me quieres como antes?.... dímelo y te prometo no
+                    volver a disgustarte.—Y su voz se hacía tan débil y tan dulce como un arrullo.
+                    Era una humilde súplica de amor. Se había colocado a espaldas de Pancho, e
+                    inclinaba su cuello sobre el hombro de aquel, y ensortijando sus cabellos en sus
+                    dedos temblorosos, le acariciaba la cabeza. </p>
+                <p>El seguía silencioso, y con semblante adusto.</p>
+                <p>—Ya estás contento ¿verdad?,—continuaba Lisa, acercando su rostro hasta tocarse
+                    mutuamente sus mejillas. Insensiblemente Pancho le abandonaba sus manos, rodeado
+                    de aquella atmósfera de voluptuosidad irresistible; a poco se esfumaba un beso,
+                    y luego otro más.... y por fin una avalancha de caricias en que la
+                    reconciliación pasajera, fingía el amor de los primeros días. </p>
+                <p>Mas Lisa ya no podía ilusionarse. Si Pancho seguía unos días constante a su lado,
+                    se hacía áspero y la retiraba con abierta repugnancia. Si se ausentaba, volvía
+                    siempre más afable, pero ella había sufrido mucho durante su ausencia.
+                    Comprendía que su dominio no existía más que en los momentos fugitivos de mutuo
+                    abandono. Y ante el tremendo hundimiento de aquel amor que se apoyaba en tan
+                    débiles bases, sufría un sacudimiento de todos sus nervios, y sentíase pequeña,
+                    insignificante, para luchar abandonada a sus solas fuerzas. Ella, que amada por
+                    Pancho, sería capaz de todo lo bueno, de todo lo grande, lo mismo que de todo lo
+                    malo; sin él sentíase anonadada, y desde luego la ahogaba la asfixia de la
+                    miseria y de la ignominia, que era el sombrío horizonte que a su frente se
+                    presentaba. Porque sabía cual fue su fuerza y su valor antes de haberse
+                    entregado a su amante, conocía también la ignominia social donde había
+                    parado.</p>
+                <p>En tal estado de espíritu se encontraba cuando el nuevo dolor había venido a dar
+                    el fatal golpe. Pancho, pues, tenía otro amor.</p>
+                <p>A su vuelta de la plaza de armas, Pancho se había ausentado en el acto, y ya sin
+                    dar explicación alguna.</p>
+                <p>Lisa había callado: el miedo espantoso de</p>
+                <p>la decepción final que preveía la obligaba a una resignación violenta.</p>
+            </div>
+            <div type="chapter">
+                <head>X.</head>
+                <p>Lisa oyó pasos y, esperando que de casualidad fuese Pancho, asomóse a la
+                    puerta.</p>
+                <p>—Adiós Lisa. </p>
+                <p>—Buenas noches Chato. </p>
+                <p>—¿Qué milagro que se le ve a usted? </p>
+                <p>—Milagro sería que hubiera amigos que se acordaran de mí. </p>
+                <p>—¡Oh! Lisa! es usted de las personas que se ven para no olvidarse nunca. </p>
+                <p>—Pues ya lo veo..... Pase Chato. </p>
+                <p>—¡Oh! es que si no la visitamos, usted tiene la culpa:—dijo el Chato penetrando
+                    tras de Lisa.—Se ha hecho tan orgullosa. ¡Ya no nos saluda siquiera! </p>
+                <p>—¡Orgullosa! ¡Ojalá! ¡Cuánto más valdría eso! muchas veces con un sentimiento se
+                    ocultan otros. Y cuando la desgracia llega ¿cómo va a ser uno lo mismo? </p>
+                <p>—¿Desgracia? ¿usted tan guapa, tan joven, tan linda, hablando de desgracia?....
+                    Esa no lo conocemos más que los infortunados que nunca hemos obtenido ni una
+                    mirada de esos ojos! </p>
+                <p>—Cállese, vamos platicando un rato y deje para otra ocasión su galantería. </p>
+                <p>—Así es que ustedes ya tronaron. ¡Brava pareja! ¡Ni tres meses van! ¡Cuánto amor,
+                    carambolas! </p>
+                <p>—Y qué le extraña? Lo raro sería que no fueran así todos: unos canallas. </p>
+                <p>—Gracias por la lisonja, pero creo que aun no tiene usted la experiencia
+                    suficiente para generalizar así tan de plano. </p>
+                <p>—La experiencia no se adquiere en cabeza ajena, y por eso, porque yo la he
+                    sufrido en la propia, por eso lo digo. Por lo demás las mujeres somos también
+                    todas iguales: unas imbéciles dignas de ustedes. </p>
+                <p>—Yo no la encuentro a usted igual a nadie. Para mí es el tipo excepcional, por su
+                    talento, por su hermosura y.... por esos ojos. ¡Oh! ¡esos ojos! </p>
+                <p>Y como el Chato hubiera encontrado la acogida más inesperada, él, que atisbaba a
+                    Lisa desde su escapatoria con Pancho, esperando alcanzar su correspondiente
+                    parte de amor, creyó que había llegado su hora y presuroso le pidió permiso de
+                    salir a la esquina a traer unas cervecitas que ahuyentaran un poco las
+                    penas.</p>
+                <p>Lisa se encontraba en uno de esos momentos en que la necesidad de expansión se
+                    impone. En las intensas alegrías como en los más grandes dolores, el imperio de
+                    una confidencia domina, el corazón se siente incapaz de contener, sólo, el peso
+                    de una gran emoción. Llorar, y que el polvo recoja las lágrimas, es una
+                    desgracia inmensa; verter el llanto sobre un pecho hermano o amigo, es una
+                    dicha.</p>
+                <p>El Chato volvió con los bolsillos atesta los de botellas, y probablemente con
+                    aguardientes en el estómago: su faz coriácea se animaba, brillaban sus ojos
+                    rojizos, y su cuerpo endeble y descarna lo se movía con ligereza.</p>
+                <p>—Pues la felicito, si es eso, Lisa, porque en lugar de tristeza, debería usted
+                    estar rebozante de alegría. </p>
+                <p>—No lo comprendo. </p>
+                <p>Pues es claro. Rompiendo con Pancho se ha sacado el premio gordo, usted tan
+                    hermosa, tan joven, tan guapa, con ese que sólo un cuartucho miserable como éste
+                    le puede dar, a usted que ni un palacio sería digno......</p>
+                <p>—Le suplico, Chato, que de Pancho no di-ga usted nada; vale mucho más, mil veces
+                    más que todos Udes. juntos. </p>
+                <p>—Eso es lo malo, ahí precisamente está lo grave. Enamorada aún?—¡negocio perdido! </p>
+                <p>—Lisa suspiró, sin replicar una palabra. El Chato destapó una botella y luego
+                    alargó a Lisa un vaso derramándose de espumosa cerveza, y dijo: </p>
+                <p>—Mire Lisa, para todo mal.... mezcal, y para todo bien.... también. </p>
+                <p>Inconcientemente Lisa apuró el líquido, hondamente preocupada al despertar de sus
+                    recuerdos Veía en aquel momento en el Chato, no al estudiante degenera lo y
+                    repulsivo, arrastrándose siempre abyecto por el placer; sino a sus fieles
+                    amigos, a sus queridos estudiantes, a sus adoradores, su familia, su hogar, su
+                    pasado: toda, toda su vida. Y era ese el sentimiento que la hacía tornarse de
+                    áspera, en afable y hasta cariñosa.</p>
+                <p>Y vino el desbordamiento de las confidencias que llegaban a los detalles más
+                    íntimos de su vida dolorosa. El Chato la oía sin comprenderla, en su
+                    aturdimiento por el vino y por el deseo.</p>
+                <p>Y era un contraste extraño el que hacían aquellas dos caras que la pálida luz de
+                    la vela alumbraba sobre el fondo obscuro de la habitación inmediata. De frente,
+                    la faz de Lisa empurpurada suavemente, sus bellísimos ojos de largas pestañas
+                    abiertos a la inmensidad de sus recuerdos tristes, cintilando en sus pupilas el
+                    fuego de sus pensamientos, encuadrada su cara oval por rizos destorcidos de un
+                    negro intensísimo, su boca plegada por una línea que el dolor dejaba como huella
+                    indeleble. El Chato, de perfil, con los párpados ribeteados de escrófula, los
+                    ojos como una brasa, la nariz remangada y abierta, los gruesos labios
+                    palpitantes de deseo.</p>
+                <p>Y cuando en la conversación descendían a detalles de la vida íntima y el Chato
+                    creyó su conquista realizada, fiándose en aquellas confidencias, empezó a tener
+                    sus deslices....</p>
+                <p>Lisa pareció despertar de un sueño: sus energías y habitudes de defensa
+                    prodigiosamente desarrolladas, se levantaron y, en un momento, con la facilidad
+                    de una costumbre arraigada, se deshizo del osado que se atrevía a tocarla, y, a
+                    empellones, lo arrojó a la calle.</p>
+                <p>Lisa despertó asombrada, muy entrado el día; había dormido como nunca. Y un
+                    calosfrío recorrió todo su cuerpo cuando la funesta idea vino a revelarle el
+                    descanso a sus dolores. «¡Oh!.... ¡el vino!.... ¡el vino!» ex-clamó espantada y
+                    presa ya del terror que produce la atracción del abismo.</p>
+                <p>Aquel fue el primer eslabón de la cadena que serviría para suspenderla en el
+                    vacío. Así como al despertar de su sensualismo, no había podido resistir a la
+                    influencia de su raza degenerada, entorpecida hasta entonces por artificios de
+                    su educación; así el encontraren el alcohol el alivio a sus males, dado el
+                    primer paso no podría detenerse y el peso atávico la hundiría para siempre.</p>
+                <p>Su voluntad magnífica de hembra valiente y noble en los tormentos de la vida,
+                    cayó rendida al primer golpe asestado por un sentimiento netamente humano;
+                    después el golpe de maza de su amor infortunado le arrancaba la última
+                    resistencia. Y, como pluma flotante, seguía los impulsos del huracán.</p>
+            </div>
+            <div type="chapter">
+                <head>XI.</head>
+                <p>So pretexto del cumpleaños de María de la Luz, hermana menor de Esther, se daba
+                    en su casa esa noche un baile; gran baile, como que eran ocho los de orquesta, y
+                    hasta se preveía el ambigú.</p>
+                <p>El gran patio ostentaba, fresquecitas aún, las estrellas de tierra roja sobre el
+                    enladrillado flamante. Desaparecían las paredes tras un tapiz de verdura, de
+                    festones, coronas, farolillos venecianos; no faltando, como es natural, ni las
+                    consabidas banderitas tricolores, ni el ancho pabellón de papel de china que se
+                    desprendía del centro, en lo alto, para caer en gajos abiertos, y rematar sobre
+                    coronas de flores en caprichosa moña. Mas si un algo tenía de tosco y vulgar
+                    dicho adorno olvidábasele en cuanto la mirada se detenía en el estrado: un
+                    primor de bellísimos trajes vaporosos, caras frescas y sonrosadas, bocas de
+                    fuego y ojos relampagueantes. Sentíase un perfume embriagador surgiendo de aquel
+                    reguero de hermosas flores emanando veneno. Se oían risas argentinas, vocecillas
+                    sonoras y precipitadas, toses fingidas, y todo un murmullo de entusiasmo y
+                    alegría.</p>
+                <p>Esther, con elegante traje blanco dibujado de largas hojas de lirio de un verde
+                    resedá, aparecía profundamente sugestiva; su palidez de linda anémica de
+                    dieciocho años se diluía bajo los ensortijados bucles de su pelo rubio, abierto
+                    en dos gruesas matas flojas y ondulosas de uno y otro lado de la frente. El
+                    cuello desnudo, blanco y flexible, erguíase derecho como el tallo de un nardo;
+                    sus ojos claros animábanse por el deseo de complacer. Una sonrisa graciosa
+                    levantaba levemente la delicada línea de su boca. Toda ella, en fin, era un
+                    conjunto de grandes atractivos.</p>
+                <p>Mira, ahí está Pancho—dijo a Jesús, su novio, que se encontraba a un lado de
+                    ella.</p>
+                <p>—¡Pancho! es verdad. ¡Qué raro! Se había hecho tan retraído, que es la primera
+                    vez que le veo en una reunión desde la aventuri11a aquella.... pero míralo que
+                    cortado.... ¡Pobre!, voy a llamarlo. </p>
+                <p>—No, deja,—replicó Esther,—ya nos verá </p>
+                <p>Levántate, dame el brazo, vamos a bailar; esta pieza me encanta.</p>
+                <p>Jesús dio el brazo a su novia, y ambos se lanzaron en el torbellino de faldas
+                    multicolores.</p>
+                <p>El baile alcanzaba su apogeo; la orquesta arrebataba las parejas de amantes en un
+                    wals voluptuoso y carnal. Era un incesante mareo de trajes negros entre las
+                    hirvientes olas de espuma, que finguían las tenues gasas, de peinados
+                    brillantes, de nucas blancas, de carrillos empurpurados. Un perfume abrumador de
+                    languidez impregnaba el aire. Ambiente de voluptuosidad respirado por aquellos
+                    pechos palpitando de ensueño, en el arrebato de la ilusión fomentada por un
+                    clima cálido propicio al amor.</p>
+                <p>De pronto se encontraron Pancho y Esther.</p>
+                <p>Al saludarse, ella le dio un apretoncito de mano, que le hizo dar un vuelco a su
+                    corazón.</p>
+                <p>Y en verdad que era muy alarmante, por que Esther, de ordinario, sólo tendía con
+                    frialdad sus delgados dedos. Y no fue su turbación, por un exceso de amor, sino
+                    que las cosas caminaban con violencia mayor de la que él quería. Cierto que
+                    Esther, según una expresión muy usada por él, «le llenaba el ojo»; pero para
+                    llegar a ella había que empezar por</p>
+                <p>no hacer traición al amigo íntimo: a Jesús.</p>
+                <p>—¿Invitaste a Pancho al paseo de mañana?— dijo ella dirigiéndose a su novio. </p>
+                <p>—No, como éste se ha convertido en cartujo, no le había vuelto a ver.... </p>
+                <p>—¿Conque usted se olvida hasta de sus mejores amigos? ¡Oh!, pero es una
+                    injusticia hacerle tal reproche: tendría grandes ocupaciones, mucho trabajo en
+                    el hospital, tantos libros que estudiar—replicó Esther con aire de burla. </p>
+                <p>La turbación de Pancho llegó al colmo, y el pobre no sabía que contestar. Ella
+                    que no intentaba más que reconocer el terreno, convencida ya de que era lo más
+                    propicio para sus deseos, cambió en el acto de conversación, añadiendo:</p>
+                <p>—Mañana nos va a acompañar a un paseo que don Pedro dará en la Barranca. Tanto
+                    Jesús como yo, tendremos un gran placer en verlo otra vez como amigo. </p>
+                <p>Jesús asintió con una inclinación ceremoniosa.</p>
+                <p>—Esther—dijo Pancho—quizá no pueda concurrir: mañana es día de guardia para mí en
+                    el hospital y.... </p>
+                <p>—Y algún compañero se la va a hacer. </p>
+                <p>—Pero, ¿si el director no me da el permiso? </p>
+                <p>—Pues entonces.... también va—replicó ella, fijando en Jesús sus hermosos ojos, y
+                    sonriendo; pero con acento imperioso que no daba lugar a réplica. </p>
+                <p>—Bien, iré, Esther. </p>
+                <p>Pancho se despidió y los novios se perdieron entre la multitud de parejas.</p>
+                <p>—Bueno—dijo Jesiís—y el zoquete ese de don Pedro que hace que aun no viene....
+                    ojalá y jamás volviera. </p>
+                <p>—En nombrando al rey de Roma,...... míralo,—contestó Esther. </p>
+                <p>En ese momento se presentó un señor gordo, bajito, vestido de negro y chaleco
+                    claro, haciendo gala de despreocupación; pues que la pechera se escapaba por
+                    entre el desabrochado chaleco al impulso de la barriga más formidable. Daba
+                    vueltas entre las manos a un viejo fieltro, y con la mayor frescura recorría con
+                    sus ojillos vivarachos lo más granado de la concurrencia. Verlo la señora mamá
+                    de las niñas y lanzarse a su encuentro fue cosa de un instante. Haciendo alarde
+                    de esa bondad de que todo el mundo se hacía lenguas, y dando todos los honores
+                    que se deben a un distinguido amigo, le condujo al sitio de honor; ahí donde se
+                    encontraba la ancianidad respetable; más el viejo no era lerdo en achaques
+                    tales, dio las gracias galantemente y, manifestando la pena de abandonar a tan
+                    grata compañía, pidió permiso para ir a saludar a las señoritas, añadiendo como
+                    excusa y con el gracejo que le era habitual, que él estaba siempre fiel a
+                    aquello de que «a gato viejo ratoncito tierno.» Y sin más preámbulos se dirigió
+                    al sitio en donde había descubierto a Esther.</p>
+                <p>—Esthercito, usted tan hermosa como siempre! ¡Oh! ¡vive Dios! es usted la reina
+                    de la fiesta: entre tanto primor no he visto una que siquiera se acerque a
+                    usted...... ¡Bravo! sí; ¡muy bien! ese peinado le cae divinamente. </p>
+                <p>Esther fingía indiferencia y desabridamente le tendió la mano. Don Pedro que no
+                    había reparado, o se hizo el desentendido, se sentó en el asiento do Jesús, del
+                    desventurado que a pesar de su contrariedad se levantó al encuentro de su aquel
+                    malhadado viejo.</p>
+                <p>—¡Ah! ¡y qué traje más hermoso! ¡todo lo que se acerca a usted con eso sólo se
+                    embellece! </p>
+                <p>Todas las miradas se concentraron en aquel grupo. Don Pedro era de esos mortales
+                    que como el fango, cuanto tocan manchan; y la virtud de Esther daba al traste en
+                    esos momentos, en la boca precisamente de aquellas que, llenas de envidia,
+                    ambicionaban fortuna igual. Pero él que más triste papel hacía, era el humillado
+                    novio que, aturdido, con los carrillos plomizos de ira y de vergüenza,
+                    permanecía parado, sin saber que hacer. Afortunadamente, Pancho, que se había
+                    apercibido del caso, tuvo una idea y lo sacó de tan ridicula posición.</p>
+                <p>—Perdone usted caballero: la señora desea hablarle y lo suplica se sirva
+                    dispensarla un momento. </p>
+                <p>—Con muchísimo gusto—respondió el vejete levantándose inmediatamente, muy ajeno
+                    al bromazo. Entonces Pancho, Esther y Jesús se escaparon por una puerta con
+                    acceso a las habitaciones. </p>
+            </div>
+            <div type="chapter">
+                <head>XII.</head>
+                <p>El corredor estrecho y obscuro de tan largo, se prolongaba desde la gran puerta
+                    de la cocina que daba paso a una bocanada de luz, hasta la minúscula de la
+                    carpintería en el extremo opuesto. Un olor a yodorfomo, ácido fénico y demás
+                    drogas desinfectantes hacía pesada la atmósfera. De un lado se alargaban los
+                    cuartos numerados de los practicantes y enfermos distinguidos, y del otro las
+                    gruesas columnas del corredor abierto hacia los prados confinando con las salas
+                    de «Dios Padre» y «Jesús María».</p>
+                <p>Pancho que había adquirido la costumbre de levantarse temprano más que por
+                    presteza, por la repugnancia irresistible de que era víctima al lado de Lisa y
+                    que se acrecentaba cada dia más, se paseaba pensativo; de un extremo al otro del
+                    corredor, en espera del interno de «San Pedro» que aun dormía, y a quien él
+                    ayudaba diariamente en las curaciones.</p>
+                <p>La mañana era bellísima; la noche había sido de lluvia y en el follaje empapado,
+                    cintilaban las gotas irisadas. Un girón de azul purísimo asomaba tras las tapias
+                    del jardín.</p>
+                <p>¡Oh, las lluvias! ¡las últimas lluvias, la despedida del estío!, los tibios días
+                    de octubre. ¡Qué amores los suyos tan fugaces!, pensaba Pancho. La primavera se
+                    había abierto con su corazón entonces ardoroso, pleno de vida y de amor; ahora
+                    el estío se iba y él se quedaba con puras cenizas, amarga decepción, fastidio
+                    infinito, y marchita el alma. ¡Qué distinta era esta mañana de las primeras de
+                    amor! En su imaginación resplandeció el recuerdo, y el tormento exacervó su
+                    dolor. Fue una mañana, a los pocos días de su escapada con Lisa, y fue en la
+                    Alameda. Eran las cinco: un despertar de flores, de aves, de campanarios, de
+                    alegría y de vida. La ancha calle de la Alameda se estiraba recta como una cinta
+                    gris de tierra empapada por la lluvia y orlada de fresca yerba. La doble linea
+                    de árboles se prolongaba en la misma rectitud, ostentando las copas de un verde
+                    obscuro y lustroso que contrastaba con el claro del follaje. Todo palpitando en
+                    gotas de agua que como maripositas diamantinas y temblorosas se suspendían
+                    oscilantes en las hojas. Los focos eléctricos encendidos aún, pero sus rayos
+                    opacados por la luz que se infiltraba a través de un cielo borroso de gris,
+                    aparecían como globos de lumbre rojiza casi en extinción. La opacidad del cielo
+                    diluíase en la niebla que cubría el horizonte y sólo en el oriente, los rayos
+                    anaranjados del sol empezando a salir, rompían aquel tono de blancura homogénea.
+                    Los objetos lejanos perdíanse en la opacidad y los más inmediatos tansformábanse
+                    en siluetas blancas, pálidas y vaporosas: El negro humo, que a borbotones se
+                    escapaba del chacuaco de la fábrica de cervezas, a poca altura se desvanecía.
+                    Era la primera mañana de estío, alegre y bulliciosa, con la alegría de los
+                    bronces sonoros de los campanarios llamando a misa, con el jugueteo de los
+                    gorriones que saltan por los prados picoteando y sacando granos de entre el
+                    zacate; con el perfume de los ramajes en donde se entreabren los botones en
+                    frescas flores. Aquella hermosa mañana, los dos se habían levantado temprano, y,
+                    como siempre, fieles a su cómplice la Alameda, se iban a perder en las
+                    callejuelas inundadas de aire saturado de fecundidad y de vida. Ella reclinaba
+                    lánguidamente su cabeza, sobre el hombro de Pancho, con los cabellos sueltos
+                    aún, marchitas las mejillas, y débil el cuerpo, presa de una inmensa laxitud. El
+                    le rodeaba el talle con su brazo, estrechándola tiernamente. Envolvíalos un
+                    tibio vapor de tierra húmeda impregnada de perfumes estivales.</p>
+                <p>—¿Estás triste, Lisa?—dijo Pancho. </p>
+                <p>—¡Oh, no!—replicó ella,—¡soy tan dichosa contigo!, ¡nunca creí serlo tanto!—Un
+                    profundo suspiro se escapó de su pecho y añadió: </p>
+                <p>—Y tú, ¿me quieres aún? </p>
+                <p>—¡Oh Lisa!, ¡qué preguntas! </p>
+                <p>—Perdóname: te amo tanto que a mi pesar la duda me asalta y algunas veces me hace
+                    sufrir. </p>
+                <p>—¡Loquilla! ¿no sabes que por ti haré lo que tú quieras?, ¡mi porvenir, mi
+                    juventud, mi vida entera, daría sólo por un beso tuyo! ¡Oh, tus besos valen un
+                    cielo! </p>
+                <p>Ella volvió la cara, y sus bocas se encontraron sonoramen te.</p>
+                <p>—¡Dios mío!—interrumpió Lisa,—nos ha visto el de la bicicleta .... </p>
+                <p>—¡Qué importa! no te acuerdas cuantas veces, hemos visto lo mismo?. Ahora que nos
+                    toca, tomemos la revancha..... Toma..... toma. </p>
+                <p>Lisa no pudo, por fin, resistir a la belleza de la mañana, a la maravillosa
+                    vitalidad que en bocanadas se desprendía a sus pies. En su rostro pálido
+                    apareció un color sonrosado, y las líneas obscuras, hundidas bajo sus párpados,
+                    empezaron a borrarse.</p>
+                <p>—Lisa, ahí viene Jesús con su novia. Vamos tomando otra callejuela. </p>
+                <p>—Si, anda, pero pronto, me daría mucha vergüenza.... </p>
+                <p>Como si igual reflexión se hubiera hecho la temida pareja, unos y otros
+                    torcieron, con tan mala fortuna, que por igual callejón se metieron; y ya cerca
+                    y de frente no era posible evitar el encuentro.</p>
+                <p>La situación era embarazosa para las muchachas, pero no lo fné para Pancho que a
+                    todo su sabor pudo comparar a las dos chicas, frente a frente, cediendo por fin
+                    a la necesidad de hacerlo, y que tantas veces le había perseguido como la más
+                    ruda obsesión. Esther, la chihuahuense, blanca como una gardenia, Lisa, moerna,
+                    radiante como un aterciopelado pensamiento. ¿Cuál es la más bella?, se preguntó.
+                    ¡Oh! dijo para sí: Esther es el champagne; Lisa es el ajenjo. Y a su pesar, allí
+                    mismo, en aquel momento en que creía amar a Lisa con toda su alma, reflexionó en
+                    que el ajenjo era muy fuerte y lastimaba a los novicios, mientras que el
+                    champagne es exquisito; y sin duda a un muchacho inexperimentado como él, le
+                    caería como una bendición del cielo. Y al separarse las muchachas, después de un
+                    momento de obligada conversación, Pancho las comparó otra vez: Lisa como una
+                    luciérnaga fulgurante, Esther como una mariposa blanca, y sintió la dolo-rosa
+                    sorpresa de un naciente deseo de deshacerse de una mujer, demasiado mujer para
+                    un chico de dieciocho años lleno de ilusiones y de entusiasmo........</p>
+                <p>Ahora caía bajo el peso de la inexorable ley de las compensaciones. Los momentos
+                    de placer debía pagarlos con largas horas de fastidio. Porque una noche
+                    sorprendió el desastre: Lisa se había quedado tirada, ebria, a un lado de la
+                    puerta. Un huracán de sentimientos se levantó en su pecho, y comprendió que sólo
+                    un esfuerzo personal, y el sacrificio en aras de su deber, podían salvar a la
+                    muchacha. Y así llevaba un mes de fingir, por detener la caída irremediable.
+                    Pero si el sufrimiento se ahondaba en su corazón, era porque, sin confesarlo,
+                    veía claro que no tenía la fuerza suficiente para continuar indefiniblemente
+                    aquella obra; para seguir siempre al lado de una mujer a quien no amaba; que con
+                    sus mieles y remilgos de enamorada sin remedio, cada vez le empujaba más lejos
+                    de ella.</p>
+                <p>Tres campanadas sonaron en la portería, despertando a Pancho de aquella
+                    abrumadora pesadilla. Se dirigió luego a la entrada del Hospital. Aquellos
+                    toques eran para llamar al practicante de guardia, que lo era precisamente
+                    González, a quien él esperaba y que dormía aún.</p>
+                <p>Cuatro gendarmes dejaron caer pesadamente una camilla, en tanto que el cabo
+                    presentaba la boleta de remisión.</p>
+                <p>—Cuanto le agradecería, Sr. Ramírez—dijo el comisario dirigiéndose a Pancho,—que
+                    me indicara a qué sala deberá ser enviado este enfermo. Los de guardia se la
+                    pusieron anoche y no los despierto ni con las de Catedral. Pancho se aproximó a
+                    la camilla, entreabrió las sucias cubiertas de lona y descubriendo la faz del
+                    enfermo, le preguntó a gritos: </p>
+                <p>—¿De qué vienes a curarte? ¿Qué tanto tienes de malo? ¿qué te duele? </p>
+                <p>El infeliz apenas podía hablar con voz apagada y triste.</p>
+                <p>—A San Pedro,—dijo Pancho. </p>
+                <p>—A San Pedro número 34.—añadió el comisario, indicando a los mozos que levantaran
+                    la camilla, la que, en breve desapareció hacia el repartidor. </p>
+                <p>Cuando volvió a los cuartos de los internos éstos empezaban a levantarse.
+                    González entreabrió la puerta, apareciendo con una cubeta de agua derramando
+                    espumoso jabón, el pecho y los brazos desnudos y la cabeza empapada.</p>
+                <p>—¡Diantre!, ¡qué bomba se han puesto ustedes!: son las siete y ya el director
+                    está en la clínica. </p>
+                <p>—¡Patriarcal, chico!: fue la de Dios y Cristo.... </p>
+                <p>—Pues ya lo voy viendo—dijo Pancho entrando a la pieza, en tanto que Jesús tiraba
+                    el agua al jardín. </p>
+                <p>Otro de los estudiantes, en paños menores todavía, examinaba cuidadosamente a la
+                    luz de la puerta, su sobretodo abierto y suspendido por los hombros, y después
+                    de haberse cerciorado de que había salido ileso de la francachela lo abrazó
+                    cariñosamente, cantando con una formidable voz de bajo profundo el <seg
+                        rend="italic">Vecchia simarra sentí</seg> de «Bohemia.»</p>
+                <p>Algunos de los que aun dormían, de a dos y hasta de a tres en las heroicas camas
+                    de tijera, despertaron echando pestes contra el improvisado Collin.</p>
+                <p>En las mesas que decoraban el cuarto se veían en confusión revueltos los cráneos
+                    y canillas con pedazos de pan, latas vacías, hojas de tamales, láminas de dudosa
+                    castidad, libros abiertos, botellas con heces de vino y todo lo que podía dar fe
+                    de un apetito formidable, honra de los futuros galenos.</p>
+                <p>—González, quiero que hoy me hagas la guardia. </p>
+                <p>—¡Cómo! ¿chorchita tenemos? </p>
+                <p>—Estoy invitado a la Barranca. </p>
+                <p>—Lo cual quiere decir que tiras por fin el aparejo. </p>
+                <p>—No, es que fue un compromiso. </p>
+                <p>—O que la chica te está cargando. </p>
+                <p>—Lo que tú quieras, ¿me haces la guardia? </p>
+                <p>—<seg rend="italic">Non posumus</seg> amigo. Mira.... me está llevando <seg
+                        rend="italic">fra diábolo.</seg> Ve como me tiemblan las manos. </p>
+                <p>—Con una copa estás bueno dentro de cinco minutos. </p>
+                <p>—Te juro que no tolero ni una gota de vino; ya van tres, noches seguidas. </p>
+                <p>—Sr. González,—interrumpió uno de los estudiantes después de un largo bostezo y
+                    de estirar cansadamente los brazos:—generalmente hablando—siguió con voz hueca y
+                    grave, queriendo remedar al director,—no son borrachos los que beben vino y....
+                    lo demás: borrachos son los que amanecen crudos y......etc. Es usted un niño
+                    aún. </p>
+                <p>—Sí, tonel amigo, no tengo el honor de compararme contigo. </p>
+                <p>En ese momento Pancho le presentó una copita de tequila que sin gran resistencia
+                    apuró.</p>
+                <p>—Ninguno, ningún punto de comparación, mi querido cartujo, ya me lo has
+                    demostrado superabundantemente. </p>
+                <p>—Con que me haces la guardia ¿eh?—repitió Pancho. </p>
+                <p>—Bien—dijo González, ya reanimado,— bajo una condición, que el domingo me la
+                    pagues. </p>
+                <p>—Te tomo la palabra. </p>
+                <p>Y violento se escapó a la calle.</p>
+            </div>
+            <div type="chapter">
+                <head>XIII.</head>
+                <p>A la sombra de los platanares de la Barranca, se tendían una multitud de jóvenes
+                    de ambos sexos, fatigados un poco por el hálito sofocante del medio día, por el
+                    incisivo aroma de los plátanos en flor, y más quizá por los «espirituosos» que
+                    se les habían subido a la cabeza. Alguna obesa señora roncaba estrepitosamente
+                    con gran contentamiento de las niñas confiadas a su guarda que flirteaban con
+                    sus amigos o novios.</p>
+                <p>Pancho, sentado en una roca cerca de Esther, le cogía a sus anchas una mano que
+                    ella abandonó sin resistencia, como inconsciente, en medio del aletargamiento,
+                    con los ojos cerrados a la vivida claridad de un cielo deslumbrante que hería la
+                    vista.</p>
+                <p>Cada vez más animado por la benévola acogida, que en verdad ya se esperaba, se
+                    resolvió por fin, y le espetó la consabida de-claración. Todo lo que Pancho
+                    tenía de atrayente cuando era ingenuo y hablaba con franqueza natural, perdíalo,
+                    en cambio de un amaneramiento chocante, cuando, por una de tantas aberraciones,
+                    se empeñaba en hacerla de tenorio. Escaso de imaginación y de palabras, para sus
+                    conquistas de ocasión tenía siempre dispuesta una declaración de amor, que si en
+                    muchas le dio éxitos, con las ninas que no pertenecían al género cursi le daba
+                    puros fracasos.</p>
+                <p>Cayó por tanto muy mal a Esther que con todo y su inalterable frialdad tenía sus
+                    visos de talento. Y des le luego se desistió de su idea de venganza, propuesta
+                    ya sólo a pasar un rato en guasa.</p>
+                <p>—Bien, y María Luisa? </p>
+                <p>—¡Oh! no, María Luisa no ha sido más que un yerro: los dos nos habíamos engañado.
+                    Ella no ha hecho sino obedecer los ímpetus de sus mal contenidas pasiones; en
+                    cuanto a mí, ¡oh! yo le juro a usted que jamás la he amado; ha sido una
+                    llamarada que me abrazó por un momento, pero que después no me ha dejado más que
+                    un frío horrible y un mortal hastío. </p>
+                <p>—¡Admirable!—replicó Esther, reanimándose:—pero parece que no le ha desagradado
+                    la prueba; pues no es remoto que un día se le vuelvan a ocurrir que otra
+                    llamarada le abrase para sentir después un frío horrible y un mortal hastío....
+                    ja.... ja.... ja. ¡Qué chistoso es usted Pancho!—La muchacha acentuó con toda
+                    intención el tono peculiar de su voz, convirtiendo sus palabras en una ironía
+                    que era una bofetada. </p>
+                <p>La caía de Pancho se cubrió de rojo por la vergüenza, no tanto de lo que había
+                    dicho, sino del poco talento con que lo había espetado. Lo cual no era sino un
+                    aguijón hundido en su amor propio.</p>
+                <p>—¡Oh!, Esther, no vuelva a repetirme esas palabras; me ha lastimado en lo más
+                    íntimo de mi alma, La adoración que guardo por usted desde el feliz momento.... </p>
+                <p>—¡Silencio!—exclamó Esther retirando su mano con rapidez de entre las manos de
+                    Pancho—allí viene Jesús. </p>
+                <p>Pancho se levantó en el acto, mal disimulando la emoción que se traducía en su
+                    faz roja y trémula. Jesús estaba muy lejos de sospechar de su mejor amigo, y
+                    todo pasó desapercibido.</p>
+                <p>—¡Caramba!—dijo Jesús, dejando la escopeta recargada en una peña—a esta hora es
+                    imposible atrapar ni una huilota—Luego se dirigió a su novia dándole un furtivo
+                    beso. Esther fingió despertar y, como bajo encantadora sorpresa, sonrió
+                    abrazando con su mirada al buen chico que se sentó cerca de ella, caliente,
+                    agitado, pero sin una gota de sudor en la cara, que aparecía más plomiza con dos
+                    ojeras profundas y chapas sobre los carrillos. </p>
+                <p>Tras de Jesús llegó don Pedro con el más grande alboroso, y haciéndola de hombre
+                    oportuno y de chispa, exclamaba:</p>
+                <p>—Arriba perezosos ¡Valiente paseo está éste! </p>
+                <p>Pues qué ¿hemos venido a dormir?</p>
+                <p>Y aquí tira a una de la oreja, más allá cosquillea la nuca de la otra, aquí
+                    acaricia una mejilla: siempre por de contado a las niñas de buenas prendas.</p>
+                <p>Las muchachas empezaron a incorporarse perezosas y sonrientes, invadidas por el
+                    letargo general, por el calor sofocante, en el silencio sólo interrumpido por el
+                    zumbar de los mosquitos o por el sonoro y agudo silbido de la extraviada
+                    calandria.</p>
+                <p>—Paz,—dijo don Pedro—sírvase tomar la guitarra y ayúdeme a desperezar esta gente. </p>
+                <p>La canción brotó, pero no resultaba en la pesadez de aquel día cálido y
+                    abrumador.</p>
+                <p>Puesto que se había prestado la ocasión y que ya se había metido, Pancho pensó
+                    que no quedaba más camino: o el de hundirse en el atolladero, o avanzar hasta
+                    salir airosamente de él. Así es que en la vuelta procuró venirse cerca de
+                    Esther, lo que consiguió sin dificultad; pero con tan mala fortuna que más le
+                    hubiera valido contentarse con su primera intentona.</p>
+                <p>—Conque, ¿qué me dice Esther? </p>
+                <p>—Decía usted? replicó ella como distraída. </p>
+                <p>—Que ¿qué me contesta usted? </p>
+                <p>—No he oído que me haya preguntado algo. </p>
+                <p>—¡Oh! no se burle usted. </p>
+                <p>—¡Burlarme! añadió ella en tono de sorpresa—no lo entiendo. </p>
+                <p>—No me haga desesperar: es pues que debo rechazar todo esperanza? Es que mis ojos
+                    no han encontrado acogida? No tendré al menos una palabra tan solo de consuelo?
+                    Me condena a ser el más infeliz de los mortales!!! </p>
+                <p>—¡Dios mió! ¿Pancho, qué le pasa? Allá arriba creí que era efecto de las copitas:
+                    ¿Qué ha vuelto a tomar? Calle, no sea tonto, María Luisa lo adora, y es usted un
+                    ingrato. </p>
+                <p>Estas últimas palabras congelaron el entusiasmo, y desbarataron todos los
+                    argumentos que Pancho se había forjado para convencerla de su amor. Pero terco,
+                    como buen tenorio, siguió insistiendo hasta que la muchacha bastante
+                    displicente, profundamente deprimida por un paseo que no había resultado,
+                    después de una mañana de alegría, de gritos, de carreras, de una pesada
+                    digestión, de algunas copillas; y decepcionada de Pancho, a quien esperaba menos
+                    vulgar, ya sin importarle un bledo que a María Luisa le fuera bien o mal, cortó
+                    por lo sano diciendo:</p>
+                <p>—Pancho, perdóneme; pero viene pesado y fastidioso como nunca. </p>
+                <p>Pancho sintió un golpe de maza en medio de su vanidad. No replicó una palabra, y
+                    con el mayor disimulo posible se fue retirando de ella hasta mezclarse con los
+                    demás grupos, apareciendo entre ellos alegre y decidor, para ocultar su gran
+                    fracaso, quizá también contento en el fondo, por no haber tenido que traicionar
+                    abiertamente a su amigo. En realidad la muchacha lo había inducido, y su pasión
+                    fue algodón pólvora que al arder ni le había tocado. El despecho era tan sólo
+                    por sus pretenciones de guapo.</p>
+            </div>
+            <div type="chapter">
+                <head>XIV.</head>
+                <p>Lisa despertó, incorporóse perezosamente, bostezando y tendiendo con muestras de
+                    laxitud sus brazos desnudos, mórbidos y suaves. Largos rizos destorcidos caían
+                    al descuido sobre su frente. A través del transparente camizón, se descubría la
+                    redondez de su busto, de sus curvas arrogantes: una riqueza de proporciones en
+                    la forma, de color y de vida en plena madurez.</p>
+                <p>Largos minutos permaneció sentada, con sus ojos abiertos, absorta y perdida en
+                    sus pensamientos, frente a un pedazo de cielo que aparecía por la ventanita
+                    medio entornada. Con infinita tristeza, pensó en el mismo desengaño que la había
+                    obligado a embriagarse otra vez. Pancho no volvía desde la víspera. Ahora se le
+                    presentaba claro el sentimiento que lo había vuelto otra vez a sus brazos. ¡Oh,
+                    aquello era horrible! Pancho volvía a brindarle caridad de amor: pura compasión.
+                    Pancho podía ser un heroe entonces; mas ya no era un amante. Y recordó, una vez
+                    más, sus primeros días de mujer escapada del hogar. Un mes de locos placeres, de
+                    amor volcánico, luego un despertar doloroso: el cansancio del amante y su
+                    fastidio mal reprimido, y, entonces, apenas, cuando ella le adoraba hasta el
+                    frenesí, él, herido mortalmente en la plenitud de su potencia, se doblegaba y
+                    rehuía sus caricias abrasadoras. Ella triunfaba y él no podía ya contestar al
+                    desafío: él un muchacho robusto de nuca palpitante de sangre y de fuerza hasta
+                    para rendirse. En la terrible lucha de dos temperamentos el triunfo se declaraba
+                    por aquella mujercilla nerviosa de ojos negros y centellantes de aquel magnífico
+                    cuerpo de tapatía ardiente; triunfo triste que significaba toda una derrota.</p>
+                <p>—¡Oh! —se dijo—y reprochar a tantos desgraciados que tomen vino! ¡Cuantas
+                    injusticias se cometen cuando se desconoce el infortunio! </p>
+                <p>Se aproximó a su buró y tomando un vaso vació dentro, el contenido de una
+                    botella, bebiendo luego con sed ardiente.</p>
+                <p>En ese momento se oyó ruido de ebrios insolentes, y carcajadas; luego golpearon
+                    estrepitosamente la puerta. Al empellón, Lisa se metió asustada entre las
+                    sábanas.</p>
+                <p>—Abre.... abre, Lisa. </p>
+                <p>En la voz conoció a Pancho.</p>
+                <p>—Espera un momento, voy a vestirme. </p>
+                <p>Rápidamente se puso su ropa y abrió la puerta. Pancho solía tomar con los amigos,
+                    de vez en cuando, pero Lisa nunca lo había visto en estado semejante: cubierto
+                    de lodo de los pies a la cabeza, los caballos enmarañados, enrojecidos los ojos,
+                    y tambaleándose pesadamente del brazo de Jesús tan borracho como él. Así
+                    entraron riendo y hablando con gran estrépito.</p>
+                <p>Pancho, cae que no cae, se dirigió a Lisa y tomándola por la cintura quiso
+                    levantarla al aire; mas no pudo y se contentó con darle un beso ruidoso.</p>
+                <p>—Mira Jesús—dijo balbuciendo las palabras—esta linda morena sí me quiere: me es
+                    fiel y me adora con el alma, y no me engaña como a ti la chihuahuense. ¿Verdad,
+                    mi encanto? Un torrente de palabras menudeadas de insolencias, siguió en la
+                    conversación. Jesús llevaba un chichón como resultado de una cariñosa bofetada
+                    que Pancho acababa de darle, y que ahora comentaban a grandes risotadas,
+                    abrazándose con entusiasmo hasta quedarse dormidos en la cama aun deshecha de
+                    Lisa. </p>
+                <p>Ella se había retirado a cocinar, profundamente preocupada, con sospechas nuevas,
+                    y con asalto de celos otra vez. No esperaba a Pancho a esa hora, porque siempre
+                    se iba al hospital muy temprano. Si se embriagó, era que alguna nueva
+                    pasioncilla venía a turbarle; luego sus alusiones a un paseo en la barranca, a
+                    Esther que engañaba a Jesús. Bien podía entrever que alguna decepción era lo que
+                    lo había lanzado a pescar semejante borrachera. No tardó mucho en asegurarse de
+                    sus sospechas.</p>
+                <p>Eran las dos de la tardo cuando despertaron, y ella estaba en el lavadero. Desde
+                    ahí se dio cuenta de la conversación.</p>
+                <p>De vuelta de la barranca, Pancho y Jesús, ya llegando a la ciudad, corrieron una
+                    broma más que pesada al insoportable don Pedro, que como mosca no se despegaba
+                    de Esther, desde que el tenorio la dejó sola, y con gran disgusto de Jesús que
+                    se ardía. Era ya obscureciendo. Tomaron un lazo de sus extremos, y lanzando al
+                    galope sus cabalgaduras cojieron en medio al buen viejo que dio el más
+                    formidable porrazo. Esther los colmó de improperios, mas don Pedro parecía tomar
+                    la cosa a la broma y reía sin dejar asomar su indignación; pero apenas entraron
+                    a un barrio, presuroso el viejo llamó al primer gendarme que se presentó y mandó
+                    a los chicos a la comisaría, no obstante las súplicas de Esther que ahora se
+                    llenaba de compasión. Por su buena suerte, el practicante de guardia, era amigo
+                    de Jesús y, previa somera explicación con el comisario, en vista de que todo no
+                    valía un comino, quedaron en libertad; y para reponerse del sustazo tuvieron que
+                    aceptar las copas llenas de poción de Todd que su salvador les brindara. Y ahí
+                    empezó la borrasca. Pancho se hizo más comunicativo que nunca, y vació el saco
+                    do los secretos que guardaba al amigo íntimo. Este se enfureció en cuanto aquel
+                    le contaba su aventura con Esther. El gran sentimiento se comentó dentro de una
+                    cantina, de la que salieron a darse bofetadas, pero como eran buenos amigos la
+                    sangre no corrió; al primer golpe duro la conciliación se hizo. Decidieron, por
+                    fin, pasar la noche en una casucha inmunda de San Juan de Dios, en bacanal con
+                    mujeres monstruos; tampoco ahí acabó la frasca, pues cuando ellas notaron que
+                    los chicos se bebían el vino y no lo pagaban, a empellones los tiraron a la
+                    calle. Y de allí cayendo y levantando llegaron muy entrado el día a la casa de
+                    Lisa a dormir en paz.</p>
+                <p>—Hoy le pido mis cartas—decía Jesús— ¡Malvada!, hipócrita!, te dijo que no, pero
+                    es porque quiere que te rindas más.... La conozco ¡coqueta! </p>
+                <p>—¡Cállate, te oye Lisa. </p>
+                <p>Cuando se levantaron, Lisa les puso una mesita con una blanca servilleta muy
+                    limpia, y sobre ella platillos con huevos crudos, dos tazas de té hirviente y
+                    una botellita de <seg rend="italic">pechuga.</seg>
+                </p>
+                <p>Jesús después de la sabrosa <seg rend="italic">cura</seg> se despidió un tanto
+                    avergonzado con Lisa.</p>
+                <p>Pancho quedó sólo con ella.</p>
+                <p>—¿Nadie ha venido a buscarme? </p>
+                <p>—No, nadie. Ah sí, ayer vino un mozo del hospital, pero como estabas de guardia,
+                    creo que sería una equivocación de él. </p>
+                <p>—¡Ah! ¿vinieron del hospital?—replicó Pancho pensativo; e intentando salir, tomó
+                    el cepillo, y arregló su ropa. </p>
+                <p>—¡Cómo! Ya te vas?—dijo Lisa, con desconsuelo. </p>
+                <p>—Sí, tengo un asunto urgentísimo. </p>
+                <p>—No, no te vayas tan pronto. </p>
+                <p>—Palabra de honor! </p>
+                <p>—Mentira, mentira que tienes que hacer: es un pretexto—anadió tomándole una
+                    mano—Pancho, tú no me quieres, balbuceó, desbordándose en llanto y oprimiendo
+                    entre sus manos la de él. Repetía una de tantas escenas de amor con que multitud
+                    de voces había conseguido detenerlo; mas Pancho no podría enternecerse, dado el
+                    estado de laxitud en que en ese momento se encontraba. Lisa, víctima de su
+                    pasión ardiente, no podía ver las cosas por claras que fuesen, y cada vez, ella
+                    misma so arrastraba al borde del abismo. Con sus hermosos ojos llenos de
+                    lágrimas, con sus miradas suplicantes, en la desesperación de su impotencia para
+                    retener aquel ser adorado, se exasperaba y de las caricias descendía a las
+                    súplicas. Rodeando el cuello de Pancho con su brazo desnudo, caliente y suave,
+                    apollando su cabeza sobre el hombro de su amado, le humedecía los carrillos con
+                    su llanto. </p>
+                <p>Pancho hacía el esfuerzo más grande, para ocultar su infinita repugnancia.
+                    Aquella actitud resignada, engañó a Lisa, y tuvo ánimo para decirle muy quedo,
+                    al oído, envolviéndolo en un ambiente de voluptuosidad:</p>
+                <p>—Díme, por qué te gusta más Esther que yo? </p>
+                <p>—¡Ah! eso no es cierto,—exclamó Pancho violentamente y con sorpresa. </p>
+                <p>—Lo he oído todo. </p>
+                <p>Pancho se sintió herido en su soberbia: su amante había descubierto su fracaso
+                    con Esther, y un muchacho que es o quiere ser calavera, todo lo podría tolerar,
+                    pero nunca que la mujer que lo ama sepa que otra se ha burlado de él. Pancho,
+                    por tanto, no pudo contenerse, y se volvió más brutal que nunca. Tomó el
+                    sombrero, después de arrojar a Lisa violentamente de su lado, y ya en la puerta
+                    le dijo:</p>
+                <p>—Lisa, tienes razón, tus mieles me empalagan, y me alegro de que al fin lo hayas
+                    comprendido. Te vengo a ver por que me causas lástima. </p>
+                <p>Lisa sintió algo que le dio vuelta en el cerebro, y cayó en los ladrillos presa
+                    de gran convulsión.</p>
+                <p>Pancho tranquilamente se retiró.</p>
+            </div>
+            <div type="chapter">
+                <head>XV.</head>
+                <p>Lisa lloraba aún, en la cocinita no había señal de que se hubiera hecho fuego, ni
+                    siquiera se habían cambiado de sitio las tasas de té y las copas de tequila que
+                    apuraron Pancho y Jesús a medio día.</p>
+                <p>El golpe, aunque previsto, fue tan terrible, que Lisa estaba estupefacta aún.
+                    Sentada a un lado de la puerta, veía con infinita tristeza la calle solitaria
+                    bajo un cielo encapotado de nubes tempestuosas, oculto el sol, y pareciendo
+                    anochecer cuando apenas eran las cinco. La calle de la Alameda se veía como en
+                    penumbra; el aire incesante removiendo el polvo y arrastrando las hojas secas de
+                    los olmos, zumbaba incesante. Al oriento los relámpagos y el ronco fragor del
+                    trueno, se sucedían sin intervalo. Las nubes se concentraban revueltas, y gotas
+                    gruesas empezaron a salpicar el suelo. Los transeúntes iban a toda prisa y el
+                    gran callejón se quedaba desierto.</p>
+                <p>Pensativa, sus lamentos interiores se ensombrecían ante aquel horizonte de
+                    impenetrable obscuridad y de tristeza.</p>
+                <p>Una voz conocida la sacó de su abstracción, en los momentos en que la lluvia
+                    comenzaba a arreciar, y en que un remolino furioso cerró con estrépito las
+                    puertas.</p>
+                <p>—¿Qué haces Lisa? ¿cómo te va? </p>
+                <p>Tuvo un momento de turbación y vaciló.</p>
+                <p>—¿Cómo te va?, Juana,.....pasa, no te mojes. </p>
+                <p>—Sí, la verdad, quiero entrar por que ya me cogió el aguacero y no quiero
+                    volverme sapo. </p>
+                <p>—¿Qué hace mi mamá?—se atrevió a interrogar tímidamente Lisa. </p>
+                <p>—Como siempre, tú. ¡Sus piernas!; y ahora con las humedades es peor: pero no....
+                    por lo demás está buena. Ya lo creo: los primeros días no hallaba que hacer;
+                    pero yo le dije: ¡Déjala! Ella lo quiere, él lo mismo, pues qué más justo que
+                    vivan contentos. Y ya ves, no hay dolor que al alma llegue que a los tres días
+                    no se acabe. Y ustedes cómo están? </p>
+                <p>—Pues bien.... sí. </p>
+                <p>—Y no creas que es purita casualidad que venga a aquí; si ya hace muchos días que
+                    andaba viniendo; pero que con hoy, que con mañana, así se me pasó el tiempo. Y
+                    ya que toca, te lo diré de una vez, María Luisa, yo creo que no me guardarás
+                    rencor. Tú bien lo sabes que yo ¿meterme en vidas ajenas? ni por pensamiento. Tú
+                    vives a gusto con Pancho y él contigo. Dios te lo dio, San Pedro te lo bendiga.
+                    A mí, qué me importa lo demás!, que por otra parte quien quiera hablar, primero
+                    cuide de no morderse la lengua; pues al fin y al cabo todos somos lo mismo.
+                    Bueno, pues te decía, que si quieres, tengo un negocito en que podemos ganarnos
+                    algunos centavos. Creo que no estarás muy sobrada. </p>
+                <p>—¿Qué negocito.—replicó Lisa con extrañeza y sintiendo removerse en el fondo de
+                    su corazón todo su odio hacia la tía que, escasa de inteligencia, revelaba en el
+                    acto toda su bajeza y toda su maldad. </p>
+                <p>—No me pongas esa cara sobrinita, que no es para tanto. Mira, la cosa no puede
+                    ser más sencilla para ti: es cuestión de que me dejes tu casa un momento, una
+                    hora. </p>
+                <p>A Lisa se llenó de sangre el cerebro ante la complicidad que la malhadada tía la
+                    propuso y que en el acto adivinó; pero se contuvo, esperando que acabara, para
+                    vengarse entonces de aquella pariente a quien aborrecía con toda su alma; para
+                    cantarle su precio y arrojarla de su casa.</p>
+                <p>—Sabes tú muy bien,—continuó la tía, con los ojos brillantes de regocijo, dejando
+                    asomar entre sus labios carnudos, los caninos enormemente desarrollados,—que don
+                    Pedro, el de «La Gran Duquesa», está enamorado de Esther.... y ya me
+                    comprendes.... es un bonito negocio que nos puede dejar algo. </p>
+                <p>—¡Ah!—exclamó Lisa, anonadada por aquellas palabras. Lo había adivinado todo, y
+                    en medio de su tremenda exaltación, apareció nítida, esplendorosa como la luz
+                    del sol, sin venganza. Sus sentimientos cambiaron rápidamente de orientación, y
+                    no vela en ese instante sino a Esther, a la maldecida rival que le había robado
+                    su amante, su dicha, su vida. Ella así lo creía. Y todos sus deseos de arrojarse
+                    sobre su malvada pariente, de escupirle la cara, de vejarla, de maldecirla, de
+                    tirarla a la calle, se apagaron instantáneamente bajo el terrible deseo de tomar
+                    una venganza que la dejaba plenamente satisfecha. Una risa nerviosa agitó las
+                    líneas de su faz, su cuerpo todo se extremecía en el lóbrego placer de la
+                    venganza. ¡Oh dicha que venía a dar una tregua de alivio a su desgracia! ¡Tener
+                    en sus manos a su rival para arrojarla con una sola palabra y en el momento
+                    oportuno a la vergüenza pública! Y convulsa, sentía ya la risa delirante al ver
+                    pasar con un gendarme a la chihuahuense frente a ella. Refrenó toda su exitación
+                    para contestar en trémula voz con sus labios helados.</p>
+                <p>—Sí, tía, lo que tú quieras. ¡Qué bueno! Por fin Esther se ha convencido de que
+                    ese pobre de Jesús no se ha de casar con ella. Don Pedro sí que la haría feliz:
+                    hace muy bien,—dijo Lisa para despistar toda sospecha. </p>
+                <p>La tía, que era el colmo de la estupidez, entendió al pie de la letra las
+                    palabras de Lisa y la felicitó por su cordura; porque eso quería decir claro que
+                    ya el holgazán de Pancho la había fastidiado. Y aquí de los proyectos y consejos
+                    a su sobrina que era joven, guapa y hermosa, y tenía mucho que explotar. Y
+                    descendió la tía, creyendo a Lisa dispuesta ya a asociarse a su comercio
+                    inmundo, a detalles tales de su vida secreta, que el horror y desprecio que
+                    sintió Lisa fue más grande entonces que su deseo de venganza. La injuria a un
+                    sentimiento limpio aun hizo des-portar de nuevo su energía y, aquella magnífica
+                    muchacha de corazón de oro, sintió la indignación más grande de su vida, al
+                    pensar sólo en la bajeza que iba a cometer, descendiendo hasta el rango de su
+                    tía; y, soberbia, no pudiendo detenerse más, se levantó transformada.</p>
+                <p>—¡Ah, tía!: ¿cón que me crees tan canalla y miserable como tú? </p>
+                <p>¡Yete! ¡vete! no me hagas arrojarte a la calle. ¡Maldita! ¡hipócrita! Vete de
+                    aquí.</p>
+                <p>Y el odio contenido por toda su vida, estalló en frases terribles. Apenas podía
+                    contener sus manos para no echarse sobre la asquerosa bruja.</p>
+                <p>Juana se levantó y replicó con sonrisa infernal:</p>
+                <p>—¿Qué? ¿qué dices, Lisa? ¿Estás loca? o qué te pasa, infeliz?.... Pues qué estás
+                    creyendo que eres tú?.... já.... ja.... já. </p>
+                <p>—¡Silencio, Juana! Pasó ya el tiempo en que tú me gritabas. Vete de aquí. </p>
+                <p>Lisa se lanzó sobre ella, y, tomándola de un brazo, en el paroxismo de su rabia,
+                    intentó arrojarla a la calle en donde azotaba el aguacero, la tempestad
+                    desencadenada como una furia; pero Juana estuvo lista a coger a Lisa por la
+                    espalda y la tiró en el suelo. Un esfuerzo tan grande, que sólo su indignación
+                    podía traerle, hizo que Lisa levantara en el aire a su tía; entonces, ella le
+                    clavó los dientes en un brazo, y, al gemido del dolor, siguió un golpe seco
+                    sobre la banqueta.</p>
+                <p>Lisa que había arrojado a la calle a la vieja, cerró estrepitosamente la
+                    puerta.</p>
+                <p>La infeliz se levantó tiritando ya, cubierta de araños y equimosis, empapada, en
+                    sudor, y luego en la lluvia que le heló los huesos. A su paso tropezó con un
+                    gendarme:—Vecinito, le dijo, no se las coma, en los cuartitos de la Alameda está
+                    una; se llama María Luisa.</p>
+                <p>—Gracias, vecinita, ya caerá, se lo aseguro—replicó el gendarme. </p>
+                <p>Cuando llegó a su casa, lo castañeteaban los dientes, la cara le ardía, una
+                    opresión terrible le ahogaba, y tuvo una expectoración de sangre......</p>
+                <p>A la noche siguiente, la tía murió de una pulmonía fulminante a la misma hora en
+                    que Lisa, junta con el Chato, era conducida por el gendarme a la inspección
+                    general.</p>
+            </div>
+            <div type="chapter">
+                <head>XVI.</head>
+                <p>La enferma levantó con dificultad los párpados, extendió su mirada melancólica,
+                    expresiva, sobre la multitud de estudiantes apiñados al derredor de su cama; esa
+                    mujer debió ser hermosa, revelábanlo algunas líneas que permanecían intactas, no
+                    obstante la profunda demacración de su cara, sus ojos ardientes y húmedos bajo
+                    unas cejas enarcadas graciosamente, unas pestañas largas y rizadas, con esa
+                    expresión tan viva y simpática de la mayor parte de los tísicos jóvenes. Sobre
+                    el cuello y pecho descarnados al descubierto tras la tosca camisa de hospital,
+                    rodaban guedejas de negro e irsuto cabello, un brazo delgado y amarillento
+                    surgía de entre las sábanas.</p>
+                <p>El profesor se acercó a ella y le hizo sentar; luego percutió, y auscultó
+                    cuidadosamente el pecho y la espalda; le hizo algunas preguntas, a las que ella
+                    contestaba con voz débil, pero con vivacidad.</p>
+                <p>—¿Usted toma vino, señora? </p>
+                <p>Un ligero carmín subió a sus pálidos carrillos. vaciló unos instantes, y, luego,
+                    con ligera inclinación de cabeza, contestó afirmativamente.</p>
+                <p>—He aquí, sen ores, un caso diferente de los que venimos estudiando. Hecho do la
+                    más alta importancia, porque tendrán ocasión de observarlo a cada paso en su
+                    práctica: Tuberculosis, alcoholismo, y ¡la debacle! neumonía. </p>
+                <p>Diserta largamente sobre el asunto, su voz es clara, amplia, de gran
+                    flexibilidad, el gesto natural y oportuno, su palabra corre fácil y sonora, como
+                    un raudal; sus ideas adquieren al calor de la peroración, una fuerza
+                    eminentemente sugestiva que se impone poderosa sobre la voluntad, hecha una, de
+                    todo el auditorio pendiente de sus labios.</p>
+                <p>Mientras tanto, la enferma deja caer pesadamente la cabeza sobre el pecho, y
+                    cierra los ojos. Parecería que la fiebre no la dejaría oír; pero sus nervios
+                    funcionaban bien. Oye la voz del profesor, la oye monótona como la voz del que
+                    reza, como el tic-tac de un reloj. Las alegres canciones de los enfer-mos de la
+                    sala del «Corazón», los gritos intempestivos de los enajenados en el manicomio,
+                    el toque incesante de la campana anunciando enfermos que entran, o la llegada de
+                    algún catedrático, todo lo oye y todo la llena de tristeza.</p>
+                <p>El profesor termina la clínica y dirigiéndose al interno del servicio dice: <seg
+                        rend="italic" type="foreign" xml:lang="fr">«Il faut qu’ elle arrange ses
+                        affaires aujourdi meme.</seg> Señor Fernández, estudie usted a esa
+                    enferma.</p>
+                <p>Profesor y alumnos pasan a la cama siguiente. Uno sólo quedó con ella. La ayudó a
+                    acostarse, la cubrió muy bien y en seguida sentóse a un lado de la cabecera,
+                    repitió el interrogatorio, tomando nota en un papel: desde cuando estaba mala,
+                    como había empezado su padecimiento, era casada, soltera, que oficio tenía, en
+                    fin que vida llevaba. Luego seguía pidiendo los antecedentes de familia. Ella
+                    respondía con voz apagada, entrecortada por una respiración violenta. El
+                    estudiante la hizo sentar de nuevo, examinó el pecho, la espalda, vio el esputo
+                    y se retiró después de contestar con palabras ambiguas a la pobre mujer que, con
+                    una mirada angustiosa, y llena de terror, le preguntó como la veía.</p>
+                <p>El practicante se retiró, incorporándose con los demás compañeros que habían
+                    pasado a la sala opuesta. Ella quedó sumergida en un mar de recuerdos que
+                    acababan de evocarse en su memoria. Su vida de alegría en medio de los
+                    estudiantes que ya ahora no la conocían siquiera ¡tal era su demacración en tres
+                    años de vida vagabunda! Recordó las penalidades de la pobreza llevadas con la
+                    alegría de vivir, todo en broma y con la sonrisa en los labios, ¡la dicha del
+                    hogar!.... después, se abría una cortina, y su vida se perdía en la obscuridad.
+                    El negro horror del placer sensual que calosfriaba su cuerpo extinto, el espanto
+                    de una prostitución brutal, el odio reconcentrado a semejante modo de vivir, y
+                    el alcohol, el alcohol, el salvador de todas sus miserias; porque era el único
+                    que embruteciéndola le traía la calma en el anonadamiento. Por fin, el vicio
+                    arraigado terriblemente, obligándola a rodar de cantina en cantina, solicitando
+                    vino. Y en todo aquel hacinamiento de miseria humana, brillaba aún, como una
+                    chispa ardiente, su amor estúpido de ebrio al mismo que ahí la había arrojado.
+                    En esos mismos instantes, en que el frío de la tumba soplaba sobre sus secas
+                    carnes, habría dado el instante de vida que aun le restaba por ver una vez más a
+                    su adorado.</p>
+                <p>Cuando la enfermera la despertó, para darle una cucharada de vino de quina, sus
+                    ojos estaban llenos de lágrimas.</p>
+                <p>—Casualmente,—dijo a la enfermera—conoce usted a Pancho Ramírez estudiante de
+                    sexto? </p>
+                <p>—Ramírez, ah! sí el Sr. Ramírez, el de la clínica externa. </p>
+                <p>—¡Oh!—exclamó la enferma, con acento dulcísimo y apasionado, —cuánto le
+                    agradecería, le dijera que una antigua amiga suya está en el hospital y desearía
+                    saludarlo. Me llamo María Luisa. </p>
+                <p>—Descuide Vd., se lo diré luego. </p>
+                <milestone unit="section" rend="asterisks"/>
+                <p>Ni la enferma volvió a preguntar por Pancho, arrebatada por la gravedad de su mal
+                    a un estado de indiferencia y agotamiento, ni la enfermera se acordó más, de
+                    cumplir su palabra.</p>
+                <p>—El 36 de San Vicente, Sr. Ramirez. </p>
+                <p>Pancho despertó bastante amohinado, pero cuando a la luz de la farola que llevaba
+                    en la mano la veladora, descubrió el gracioso semblante de la más guapa del
+                    hospital, cambió de humor y, contento ya, se vistió con rapidez. Era esta
+                    muchacha, una primorosa locuela que traía a medio hospital con el casco lleno de
+                    aire, y, por de contado, Pancho figuraba ya entre sus más ardientes adoradores.
+                    Rápidos, veladora y practicante, se dirigieron a la cama que ella le indicó.</p>
+                <p>La enferma se ahogaba en una respiración estertorosa; los ojos inmensamente
+                    abiertos, la nariz afilada, caído el maxilar, hundidos los carrillos. Con la
+                    costumbre prontamente adquirida por los del oficio, Pancho, sin reparar siquiera
+                    en las líneas de la moribunda, le pasó maquinalmente una mano por la frente
+                    húmeda y helada; luego se inclinó y apoyó su cabeza sobre el pecho. En aquel
+                    precioso instante, los latidos del corazón, incontables de precipitados, se
+                    extinguieron. Pancho se levantó y dijo secamente:</p>
+                <p>—Bien muerta. </p>
+                <p>Y como en su proximidad sólo se veían enfermos dormidos o cubiertos con las
+                    blancas sábanas hasta la cabeza, se deslizó como al descuido y le dio un beso en
+                    la nuca a la veladora que, finguiendo un regaño, le rechazó con seño mono y
+                    encantador.</p>
+                <p>María Luisa ya no vio aquello: acababa de expirar en el momento en que debió
+                    haber contemplado una visión divina que, en su angustia mortal, venia a cerrarle
+                    los ojos, a recoger los últimos estremecimientos de su corazón. Quizá al
+                    reconocerlo, la tremenda emoción le había dado la muerte más dulce que pudiera
+                    esperar. La dicha quedó pintada en la última sonrisa, petrificada en su
+                    semblante por la riguidez cadavérica.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

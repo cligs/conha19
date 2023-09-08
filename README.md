@@ -130,7 +130,7 @@ The works contained in this public corpus are in the public domain. They are pro
 
 ### Handling of works protected by copyright
 
-According to the German copyright law, some of the works that are part of the full corpus accompanying the dissertation are still under general copyright because the authors died less than 70 years ago. Furthermore, some of the source editions used are protected by the ancillary copyright because they were published less than 25 years ago and copyright was claimed for them by the editors. This applies to 22 texts.
+According to the German copyright law, some of the works that are part of the full corpus accompanying the dissertation are still under general copyright because the authors died less than 70 years ago. Furthermore, some of the source editions used are protected by the ancillary copyright because they were published less than 25 years ago and copyright was claimed for them by the editors. This applies to 19 texts.
 
 The corpus files for these works will be added to the public corpus as soon as the copyright expires. A table summarizing information that is relevant for the copyright status of all the files in the corpus, including the ones that are not published in this repository yet, can be viewed [here](https://github.com/cligs/data-nh/blob/master/corpus/metadata_copyright.csv). The entire corpus has been archived on Zenodo (see http://doi.org/10.5281/zenodo.4447468) with restricted access.
 
