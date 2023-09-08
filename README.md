@@ -108,7 +108,7 @@ This corpus or parts of it have been described and/or used for analyses in the f
 
 Reference publication:
 
-* Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
+* Henny-Krahmer, Ulrike (2023). _Genre Analysis and Corpus Design: Nineteenth Century Spanish-American Novels (1830–1910)._ Dissertation, Universität Würzburg. https://doi.org/10.25972/OPUS-31999.
 
 Other publications:
 
@@ -146,7 +146,7 @@ Henny-Krahmer, Ulrike (ed.) (2021). _Corpus de novelas hispanoamericanas del sig
 
 Citation suggestion for the reference publication:
 
-Henny-Krahmer, Ulrike (forthcoming). _Genre Analysis and Corpus Design: Nineteenth-Century Spanish-American Novels (1830-1910)_ (Doctoral dissertation, University of Würzburg, Germany).
+Henny-Krahmer, Ulrike (2023). _Genre Analysis and Corpus Design: Nineteenth Century Spanish-American Novels (1830–1910)._ Dissertation, Universität Würzburg. https://doi.org/10.25972/OPUS-31999.
 
 
 ## Contact
